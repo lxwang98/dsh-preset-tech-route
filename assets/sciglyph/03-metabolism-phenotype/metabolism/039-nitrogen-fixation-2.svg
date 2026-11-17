@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100"
+     class="pp-icon pp-metabolism" role="img" aria-labelledby="t-39_nitrogen_fixation d-39_nitrogen_fixation" data-license="CC-BY-4.0" data-copyright="ZengZichao">
+  <title id="t-39_nitrogen_fixation">固氮 / Nitrogen Fixation</title>
+  <desc id="d-39_nitrogen_fixation">固氮酶(NifHDK)。FeMo-co辅因子。N₂+8H⁺+8e⁻+16ATP→2NH₃+H₂。O₂敏感。图中 ATP 数为最低化学计量, 体内实际更高, 属示意值。关键词: nitrogenase, FeMo-co, nif, N2 fixation</desc>
+  <defs>
+    <marker id="pp39__ar" viewBox="0 0 5 5" refX="4" refY="2.5" markerWidth="4" markerHeight="4" orient="auto">
+      <path d="M0,0 L5,2.5 L0,5 z" fill="#1B2733" data-pp="ink"/>
+    </marker>
+    
+  </defs>
+  <g id="layer-body" data-name="body">
+        <circle cx="14" cy="50" r="7.5" fill="#2E86AB" data-pp="bacteria" stroke="#1B2733" stroke-width="1"/>
+    <text x="14" y="36" text-anchor="middle" font-size="7" font-family="Inter,Helvetica,Arial,sans-serif" fill="#1B2733" data-pp="ink">N₂</text>
+        <rect x="32" y="42" width="36" height="16" rx="2" fill="#00857A" data-pp="metabolism" stroke="#1B2733" stroke-width="1"/>
+    <text x="50" y="53" text-anchor="middle" font-size="7" font-family="Inter,Helvetica,Arial,sans-serif" fill="#FFFFFF" data-pp="white">NifHDK</text>
+        <circle cx="86" cy="50" r="7.5" fill="#C42D2D" data-pp="alert" stroke="#1B2733" stroke-width="1"/>
+    <text x="86" y="36" text-anchor="middle" font-size="7" font-family="Inter,Helvetica,Arial,sans-serif" fill="#1B2733" data-pp="ink">2NH₃</text>
+        <circle cx="50" cy="22" r="6" fill="#E8871E" data-pp="mge" stroke="#1B2733" stroke-width="1"/>
+    <line x1="50" y1="28" x2="50" y2="41" stroke="#E8871E" data-pp="mge" stroke-width="0.8"/>
+    <text x="59" y="24" font-size="7" font-family="Inter,Helvetica,Arial,sans-serif" fill="#1B2733" data-pp="ink">FeMo-co</text>
+  </g>
+  <g id="layer-annotation" data-name="annotation">
+        <line x1="21.5" y1="50" x2="32" y2="50" stroke="#1B2733" data-pp="ink" stroke-width="1" marker-end="url(#pp39__ar)"/>
+        <line x1="68" y1="50" x2="78.5" y2="50" stroke="#1B2733" data-pp="ink" stroke-width="1" marker-end="url(#pp39__ar)"/>
+    <text x="50" y="72" text-anchor="middle" font-size="7" font-family="Inter,Helvetica,Arial,sans-serif" fill="#1B2733" data-pp="ink">8e⁻ + 8H⁺ + 16 ATP</text>
+    <text x="50" y="82" text-anchor="middle" font-size="7" font-family="Inter,Helvetica,Arial,sans-serif" fill="#C42D2D" data-pp="alert">strictly O₂-sensitive</text>
+    <text x="50" y="92" text-anchor="middle" font-size="7" font-family="Inter,Helvetica,Arial,sans-serif" fill="#93A0AC" data-pp="muted">N₂ → fixed N</text>
+  </g>
+</svg>

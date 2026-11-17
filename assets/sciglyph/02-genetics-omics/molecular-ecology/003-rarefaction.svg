@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400"
+     class="pp-diagram pp-molecular-ecology" role="img" aria-labelledby="t-rarefaction d-rarefaction" data-license="CC-BY-4.0" data-copyright="ZengZichao">
+<title id="t-rarefaction">稀释曲线 / Rarefaction curve</title>
+<desc id="d-rarefaction">Multiple rarefaction curves per sample with plateau indicator. schematic. 关键词: microbial ecology, rarefaction, plateau, Sequencing, Depth, OTUs, Soil, Water, Sediment</desc>
+<g id="l-rarefaction" data-name="rarefaction">
+<rect x="0.0" y="0.0" width="600.0" height="400.0" fill="#F4F1EA" data-pp="bg"/>
+<text x="300.0" y="28.0" font-size="13" font-family="Inter,Helvetica,Arial,sans-serif" fill="#1B2733" data-pp="ink" text-anchor="middle" font-weight="bold">Rarefaction Curves</text>
+<line x1="80.0" y1="340.0" x2="520.0" y2="340.0" stroke="#1B2733" stroke-width="1.5" data-pp="ink" stroke-linecap="round"/>
+<line x1="80.0" y1="60.0" x2="80.0" y2="340.0" stroke="#1B2733" stroke-width="1.5" data-pp="ink" stroke-linecap="round"/>
+<text x="300.0" y="385.0" font-size="10" font-family="Inter,Helvetica,Arial,sans-serif" fill="#1B2733" data-pp="ink" text-anchor="middle">Sequencing Depth</text>
+<text x="40.0" y="200.0" font-size="10" font-family="Inter,Helvetica,Arial,sans-serif" fill="#1B2733" data-pp="ink" text-anchor="middle" transform="rotate(-90,40.0,200.0)">Observed OTUs</text>
+<line x1="80.0" y1="340.0" x2="80.0" y2="345.0" stroke="#1B2733" stroke-width="1" data-pp="ink" stroke-linecap="round"/>
+<text x="80.0" y="356.0" font-size="9" font-family="Inter,Helvetica,Arial,sans-serif" fill="#93A0AC" data-pp="muted" text-anchor="middle">~0k</text>
+<line x1="168.0" y1="340.0" x2="168.0" y2="345.0" stroke="#1B2733" stroke-width="1" data-pp="ink" stroke-linecap="round"/>
+<text x="168.0" y="356.0" font-size="9" font-family="Inter,Helvetica,Arial,sans-serif" fill="#93A0AC" data-pp="muted" text-anchor="middle">~20k</text>
+<line x1="256.0" y1="340.0" x2="256.0" y2="345.0" stroke="#1B2733" stroke-width="1" data-pp="ink" stroke-linecap="round"/>
+<text x="256.0" y="356.0" font-size="9" font-family="Inter,Helvetica,Arial,sans-serif" fill="#93A0AC" data-pp="muted" text-anchor="middle">~40k</text>
+<line x1="344.0" y1="340.0" x2="344.0" y2="345.0" stroke="#1B2733" stroke-width="1" data-pp="ink" stroke-linecap="round"/>
+<text x="344.0" y="356.0" font-size="9" font-family="Inter,Helvetica,Arial,sans-serif" fill="#93A0AC" data-pp="muted" text-anchor="middle">~60k</text>
+<line x1="432.0" y1="340.0" x2="432.0" y2="345.0" stroke="#1B2733" stroke-width="1" data-pp="ink" stroke-linecap="round"/>
+<text x="432.0" y="356.0" font-size="9" font-family="Inter,Helvetica,Arial,sans-serif" fill="#93A0AC" data-pp="muted" text-anchor="middle">~80k</text>
+<line x1="520.0" y1="340.0" x2="520.0" y2="345.0" stroke="#1B2733" stroke-width="1" data-pp="ink" stroke-linecap="round"/>
+<text x="520.0" y="356.0" font-size="9" font-family="Inter,Helvetica,Arial,sans-serif" fill="#93A0AC" data-pp="muted" text-anchor="middle">~100k</text>
+<line x1="75.0" y1="340.0" x2="80.0" y2="340.0" stroke="#1B2733" stroke-width="1" data-pp="ink" stroke-linecap="round"/>
+<text x="65.0" y="343.0" font-size="9" font-family="Inter,Helvetica,Arial,sans-serif" fill="#93A0AC" data-pp="muted" text-anchor="end">0</text>
+<line x1="75.0" y1="290.0" x2="80.0" y2="290.0" stroke="#1B2733" stroke-width="1" data-pp="ink" stroke-linecap="round"/>
+<text x="65.0" y="293.0" font-size="9" font-family="Inter,Helvetica,Arial,sans-serif" fill="#93A0AC" data-pp="muted" text-anchor="end">200</text>
+<line x1="75.0" y1="240.0" x2="80.0" y2="240.0" stroke="#1B2733" stroke-width="1" data-pp="ink" stroke-linecap="round"/>
+<text x="65.0" y="243.0" font-size="9" font-family="Inter,Helvetica,Arial,sans-serif" fill="#93A0AC" data-pp="muted" text-anchor="end">400</text>
+<line x1="75.0" y1="190.0" x2="80.0" y2="190.0" stroke="#1B2733" stroke-width="1" data-pp="ink" stroke-linecap="round"/>
+<text x="65.0" y="193.0" font-size="9" font-family="Inter,Helvetica,Arial,sans-serif" fill="#93A0AC" data-pp="muted" text-anchor="end">600</text>
+<line x1="75.0" y1="140.0" x2="80.0" y2="140.0" stroke="#1B2733" stroke-width="1" data-pp="ink" stroke-linecap="round"/>
+<text x="65.0" y="143.0" font-size="9" font-family="Inter,Helvetica,Arial,sans-serif" fill="#93A0AC" data-pp="muted" text-anchor="end">800</text>
+<line x1="75.0" y1="90.0" x2="80.0" y2="90.0" stroke="#1B2733" stroke-width="1" data-pp="ink" stroke-linecap="round"/>
+<text x="65.0" y="93.0" font-size="9" font-family="Inter,Helvetica,Arial,sans-serif" fill="#93A0AC" data-pp="muted" text-anchor="end">1000</text>
+<line x1="80.0" y1="90.0" x2="520.0" y2="90.0" stroke="#93A0AC" stroke-width="0.3" data-pp="muted" stroke-linecap="round" stroke-dasharray="2,3"/>
+<line x1="80.0" y1="140.0" x2="520.0" y2="140.0" stroke="#93A0AC" stroke-width="0.3" data-pp="muted" stroke-linecap="round" stroke-dasharray="2,3"/>
+<line x1="80.0" y1="190.0" x2="520.0" y2="190.0" stroke="#93A0AC" stroke-width="0.3" data-pp="muted" stroke-linecap="round" stroke-dasharray="2,3"/>
+<line x1="80.0" y1="240.0" x2="520.0" y2="240.0" stroke="#93A0AC" stroke-width="0.3" data-pp="muted" stroke-linecap="round" stroke-dasharray="2,3"/>
+<line x1="80.0" y1="290.0" x2="520.0" y2="290.0" stroke="#93A0AC" stroke-width="0.3" data-pp="muted" stroke-linecap="round" stroke-dasharray="2,3"/>
+<line x1="80.0" y1="340.0" x2="520.0" y2="340.0" stroke="#93A0AC" stroke-width="0.3" data-pp="muted" stroke-linecap="round" stroke-dasharray="2,3"/>
+<circle cx="100.0" cy="325.5" r="2.5" fill="#2E86AB" data-pp="bacteria" fill-opacity="0.6"/>
+<circle cx="138.0" cy="310.8" r="2.5" fill="#2E86AB" data-pp="bacteria" fill-opacity="0.6"/>
+<circle cx="176.0" cy="288.4" r="2.5" fill="#2E86AB" data-pp="bacteria" fill-opacity="0.6"/>
+<circle cx="214.0" cy="271.6" r="2.5" fill="#2E86AB" data-pp="bacteria" fill-opacity="0.6"/>
+<circle cx="252.0" cy="262.5" r="2.5" fill="#2E86AB" data-pp="bacteria" fill-opacity="0.6"/>
+<circle cx="290.0" cy="248.1" r="2.5" fill="#2E86AB" data-pp="bacteria" fill-opacity="0.6"/>
+<circle cx="328.0" cy="233.6" r="2.5" fill="#2E86AB" data-pp="bacteria" fill-opacity="0.6"/>
+<circle cx="366.0" cy="231.6" r="2.5" fill="#2E86AB" data-pp="bacteria" fill-opacity="0.6"/>
+<circle cx="404.0" cy="216.9" r="2.5" fill="#2E86AB" data-pp="bacteria" fill-opacity="0.6"/>
+<circle cx="442.0" cy="194.3" r="2.5" fill="#2E86AB" data-pp="bacteria" fill-opacity="0.6"/>
+<circle cx="480.0" cy="186.1" r="2.5" fill="#2E86AB" data-pp="bacteria" fill-opacity="0.6"/>
+<circle cx="518.0" cy="168.3" r="2.5" fill="#2E86AB" data-pp="bacteria" fill-opacity="0.6"/>
+<polyline points="100,325 138,311 176,288 214,272 252,263 290,248 328,234 366,232 404,217 442,194 480,186 518,168" fill="none" stroke="#2E86AB" stroke-width="1.5" data-pp="bacteria" stroke-linecap="round"/>
+<circle cx="100.0" cy="329.3" r="2.5" fill="#2E86AB" data-pp="bacteria" fill-opacity="0.6"/>
+<circle cx="138.0" cy="312.6" r="2.5" fill="#2E86AB" data-pp="bacteria" fill-opacity="0.6"/>
+<circle cx="176.0" cy="298.7" r="2.5" fill="#2E86AB" data-pp="bacteria" fill-opacity="0.6"/>
+<circle cx="214.0" cy="290.1" r="2.5" fill="#2E86AB" data-pp="bacteria" fill-opacity="0.6"/>
+<circle cx="252.0" cy="271.7" r="2.5" fill="#2E86AB" data-pp="bacteria" fill-opacity="0.6"/>
+<circle cx="290.0" cy="263.2" r="2.5" fill="#2E86AB" data-pp="bacteria" fill-opacity="0.6"/>
+<circle cx="328.0" cy="254.5" r="2.5" fill="#2E86AB" data-pp="bacteria" fill-opacity="0.6"/>
+<circle cx="366.0" cy="232.9" r="2.5" fill="#2E86AB" data-pp="bacteria" fill-opacity="0.6"/>
+<circle cx="404.0" cy="216.4" r="2.5" fill="#2E86AB" data-pp="bacteria" fill-opacity="0.6"/>
+<circle cx="442.0" cy="215.2" r="2.5" fill="#2E86AB" data-pp="bacteria" fill-opacity="0.6"/>
+<circle cx="480.0" cy="193.8" r="2.5" fill="#2E86AB" data-pp="bacteria" fill-opacity="0.6"/>
+<circle cx="518.0" cy="173.5" r="2.5" fill="#2E86AB" data-pp="bacteria" fill-opacity="0.6"/>
+<polyline points="100,329 138,313 176,299 214,290 252,272 290,263 328,255 366,233 404,216 442,215 480,194 518,173" fill="none" stroke="#2E86AB" stroke-width="1.5" data-pp="bacteria" stroke-linecap="round"/>
+<circle cx="100.0" cy="316.8" r="2.5" fill="#2E86AB" data-pp="bacteria" fill-opacity="0.6"/>
+<circle cx="138.0" cy="291.8" r="2.5" fill="#2E86AB" data-pp="bacteria" fill-opacity="0.6"/>
+<circle cx="176.0" cy="278.3" r="2.5" fill="#2E86AB" data-pp="bacteria" fill-opacity="0.6"/>
+<circle cx="214.0" cy="273.0" r="2.5" fill="#2E86AB" data-pp="bacteria" fill-opacity="0.6"/>
+<circle cx="252.0" cy="258.0" r="2.5" fill="#2E86AB" data-pp="bacteria" fill-opacity="0.6"/>
+<circle cx="290.0" cy="241.0" r="2.5" fill="#2E86AB" data-pp="bacteria" fill-opacity="0.6"/>
+<circle cx="328.0" cy="230.7" r="2.5" fill="#2E86AB" data-pp="bacteria" fill-opacity="0.6"/>
+<circle cx="366.0" cy="215.0" r="2.5" fill="#2E86AB" data-pp="bacteria" fill-opacity="0.6"/>
+<circle cx="404.0" cy="197.9" r="2.5" fill="#2E86AB" data-pp="bacteria" fill-opacity="0.6"/>
+<circle cx="442.0" cy="189.1" r="2.5" fill="#2E86AB" data-pp="bacteria" fill-opacity="0.6"/>
+<circle cx="480.0" cy="181.7" r="2.5" fill="#2E86AB" data-pp="bacteria" fill-opacity="0.6"/>
+<circle cx="518.0" cy="163.9" r="2.5" fill="#2E86AB" data-pp="bacteria" fill-opacity="0.6"/>
+<polyline points="100,317 138,292 176,278 214,273 252,258 290,241 328,231 366,215 404,198 442,189 480,182 518,164" fill="none" stroke="#2E86AB" stroke-width="1.5" data-pp="bacteria" stroke-linecap="round"/>
+<circle cx="100.0" cy="315.9" r="2.5" fill="#2E86AB" data-pp="bacteria" fill-opacity="0.6"/>
+<circle cx="138.0" cy="300.0" r="2.5" fill="#2E86AB" data-pp="bacteria" fill-opacity="0.6"/>
+<circle cx="176.0" cy="282.0" r="2.5" fill="#2E86AB" data-pp="bacteria" fill-opacity="0.6"/>
+<circle cx="214.0" cy="274.3" r="2.5" fill="#2E86AB" data-pp="bacteria" fill-opacity="0.6"/>
+<circle cx="252.0" cy="252.2" r="2.5" fill="#2E86AB" data-pp="bacteria" fill-opacity="0.6"/>
+<circle cx="290.0" cy="243.8" r="2.5" fill="#2E86AB" data-pp="bacteria" fill-opacity="0.6"/>
+<circle cx="328.0" cy="230.4" r="2.5" fill="#2E86AB" data-pp="bacteria" fill-opacity="0.6"/>
+<circle cx="366.0" cy="224.8" r="2.5" fill="#2E86AB" data-pp="bacteria" fill-opacity="0.6"/>
+<circle cx="404.0" cy="209.9" r="2.5" fill="#2E86AB" data-pp="bacteria" fill-opacity="0.6"/>
+<circle cx="442.0" cy="186.5" r="2.5" fill="#2E86AB" data-pp="bacteria" fill-opacity="0.6"/>
+<circle cx="480.0" cy="176.6" r="2.5" fill="#2E86AB" data-pp="bacteria" fill-opacity="0.6"/>
+<circle cx="518.0" cy="157.9" r="2.5" fill="#2E86AB" data-pp="bacteria" fill-opacity="0.6"/>
+<polyline points="100,316 138,300 176,282 214,274 252,252 290,244 328,230 366,225 404,210 442,186 480,177 518,158" fill="none" stroke="#2E86AB" stroke-width="1.5" data-pp="bacteria" stroke-linecap="round"/>
+<circle cx="100.0" cy="252.9" r="2.5" fill="#00857A" data-pp="metabolism" fill-opacity="0.6"/>
+<circle cx="138.0" cy="235.9" r="2.5" fill="#00857A" data-pp="metabolism" fill-opacity="0.6"/>
+<circle cx="176.0" cy="229.0" r="2.5" fill="#00857A" data-pp="metabolism" fill-opacity="0.6"/>
+<circle cx="214.0" cy="218.0" r="2.5" fill="#00857A" data-pp="metabolism" fill-opacity="0.6"/>
+<circle cx="252.0" cy="202.3" r="2.5" fill="#00857A" data-pp="metabolism" fill-opacity="0.6"/>
+<circle cx="290.0" cy="198.3" r="2.5" fill="#00857A" data-pp="metabolism" fill-opacity="0.6"/>
+<circle cx="328.0" cy="185.2" r="2.5" fill="#00857A" data-pp="metabolism" fill-opacity="0.6"/>
+<circle cx="366.0" cy="177.2" r="2.5" fill="#00857A" data-pp="metabolism" fill-opacity="0.6"/>
+<circle cx="404.0" cy="163.7" r="2.5" fill="#00857A" data-pp="metabolism" fill-opacity="0.6"/>
+<circle cx="442.0" cy="147.2" r="2.5" fill="#00857A" data-pp="metabolism" fill-opacity="0.6"/>
+<circle cx="480.0" cy="140.1" r="2.5" fill="#00857A" data-pp="metabolism" fill-opacity="0.6"/>
+<circle cx="518.0" cy="126.1" r="2.5" fill="#00857A" data-pp="metabolism" fill-opacity="0.6"/>
+<polyline points="100,253 138,236 176,229 214,218 252,203 290,198 328,185 366,177 404,164 442,147 480,140 518,126" fill="none" stroke="#00857A" stroke-width="1.5" data-pp="metabolism" stroke-linecap="round"/>
+<circle cx="100.0" cy="258.6" r="2.5" fill="#00857A" data-pp="metabolism" fill-opacity="0.6"/>
+<circle cx="138.0" cy="247.4" r="2.5" fill="#00857A" data-pp="metabolism" fill-opacity="0.6"/>
+<circle cx="176.0" cy="230.9" r="2.5" fill="#00857A" data-pp="metabolism" fill-opacity="0.6"/>
+<circle cx="214.0" cy="217.5" r="2.5" fill="#00857A" data-pp="metabolism" fill-opacity="0.6"/>
+<circle cx="252.0" cy="215.8" r="2.5" fill="#00857A" data-pp="metabolism" fill-opacity="0.6"/>
+<circle cx="290.0" cy="205.9" r="2.5" fill="#00857A" data-pp="metabolism" fill-opacity="0.6"/>
+<circle cx="328.0" cy="185.7" r="2.5" fill="#00857A" data-pp="metabolism" fill-opacity="0.6"/>
+<circle cx="366.0" cy="179.5" r="2.5" fill="#00857A" data-pp="metabolism" fill-opacity="0.6"/>
+<circle cx="404.0" cy="164.2" r="2.5" fill="#00857A" data-pp="metabolism" fill-opacity="0.6"/>
+<circle cx="442.0" cy="161.2" r="2.5" fill="#00857A" data-pp="metabolism" fill-opacity="0.6"/>
+<circle cx="480.0" cy="150.5" r="2.5" fill="#00857A" data-pp="metabolism" fill-opacity="0.6"/>
+<circle cx="518.0" cy="132.8" r="2.5" fill="#00857A" data-pp="metabolism" fill-opacity="0.6"/>
+<polyline points="100,259 138,247 176,231 214,218 252,216 290,206 328,186 366,180 404,164 442,161 480,151 518,133" fill="none" stroke="#00857A" stroke-width="1.5" data-pp="metabolism" stroke-linecap="round"/>
+<circle cx="100.0" cy="262.1" r="2.5" fill="#00857A" data-pp="metabolism" fill-opacity="0.6"/>
+<circle cx="138.0" cy="242.8" r="2.5" fill="#00857A" data-pp="metabolism" fill-opacity="0.6"/>
+<circle cx="176.0" cy="236.1" r="2.5" fill="#00857A" data-pp="metabolism" fill-opacity="0.6"/>
+<circle cx="214.0" cy="226.3" r="2.5" fill="#00857A" data-pp="metabolism" fill-opacity="0.6"/>
+<circle cx="252.0" cy="219.6" r="2.5" fill="#00857A" data-pp="metabolism" fill-opacity="0.6"/>
+<circle cx="290.0" cy="208.5" r="2.5" fill="#00857A" data-pp="metabolism" fill-opacity="0.6"/>
+<circle cx="328.0" cy="195.9" r="2.5" fill="#00857A" data-pp="metabolism" fill-opacity="0.6"/>
+<circle cx="366.0" cy="184.5" r="2.5" fill="#00857A" data-pp="metabolism" fill-opacity="0.6"/>
+<circle cx="404.0" cy="174.1" r="2.5" fill="#00857A" data-pp="metabolism" fill-opacity="0.6"/>
+<circle cx="442.0" cy="159.9" r="2.5" fill="#00857A" data-pp="metabolism" fill-opacity="0.6"/>
+<circle cx="480.0" cy="152.2" r="2.5" fill="#00857A" data-pp="metabolism" fill-opacity="0.6"/>
+<circle cx="518.0" cy="138.3" r="2.5" fill="#00857A" data-pp="metabolism" fill-opacity="0.6"/>
+<polyline points="100,262 138,243 176,236 214,226 252,220 290,209 328,196 366,185 404,174 442,160 480,152 518,138" fill="none" stroke="#00857A" stroke-width="1.5" data-pp="metabolism" stroke-linecap="round"/>
+<circle cx="100.0" cy="257.3" r="2.5" fill="#00857A" data-pp="metabolism" fill-opacity="0.6"/>
+<circle cx="138.0" cy="244.4" r="2.5" fill="#00857A" data-pp="metabolism" fill-opacity="0.6"/>
+<circle cx="176.0" cy="231.7" r="2.5" fill="#00857A" data-pp="metabolism" fill-opacity="0.6"/>
+<circle cx="214.0" cy="220.5" r="2.5" fill="#00857A" data-pp="metabolism" fill-opacity="0.6"/>
+<circle cx="252.0" cy="215.7" r="2.5" fill="#00857A" data-pp="metabolism" fill-opacity="0.6"/>
+<circle cx="290.0" cy="205.4" r="2.5" fill="#00857A" data-pp="metabolism" fill-opacity="0.6"/>
+<circle cx="328.0" cy="188.3" r="2.5" fill="#00857A" data-pp="metabolism" fill-opacity="0.6"/>
+<circle cx="366.0" cy="185.3" r="2.5" fill="#00857A" data-pp="metabolism" fill-opacity="0.6"/>
+<circle cx="404.0" cy="167.5" r="2.5" fill="#00857A" data-pp="metabolism" fill-opacity="0.6"/>
+<circle cx="442.0" cy="156.9" r="2.5" fill="#00857A" data-pp="metabolism" fill-opacity="0.6"/>
+<circle cx="480.0" cy="145.9" r="2.5" fill="#00857A" data-pp="metabolism" fill-opacity="0.6"/>
+<circle cx="518.0" cy="138.5" r="2.5" fill="#00857A" data-pp="metabolism" fill-opacity="0.6"/>
+<polyline points="100,257 138,245 176,232 214,221 252,216 290,205 328,188 366,185 404,167 442,157 480,146 518,138" fill="none" stroke="#00857A" stroke-width="1.5" data-pp="metabolism" stroke-linecap="round"/>
+<circle cx="100.0" cy="232.0" r="2.5" fill="#A2305B" data-pp="archaea" fill-opacity="0.6"/>
+<circle cx="138.0" cy="224.7" r="2.5" fill="#A2305B" data-pp="archaea" fill-opacity="0.6"/>
+<circle cx="176.0" cy="207.6" r="2.5" fill="#A2305B" data-pp="archaea" fill-opacity="0.6"/>
+<circle cx="214.0" cy="194.6" r="2.5" fill="#A2305B" data-pp="archaea" fill-opacity="0.6"/>
+<circle cx="252.0" cy="191.5" r="2.5" fill="#A2305B" data-pp="archaea" fill-opacity="0.6"/>
+<circle cx="290.0" cy="175.4" r="2.5" fill="#A2305B" data-pp="archaea" fill-opacity="0.6"/>
+<circle cx="328.0" cy="162.2" r="2.5" fill="#A2305B" data-pp="archaea" fill-opacity="0.6"/>
+<circle cx="366.0" cy="153.6" r="2.5" fill="#A2305B" data-pp="archaea" fill-opacity="0.6"/>
+<circle cx="404.0" cy="141.8" r="2.5" fill="#A2305B" data-pp="archaea" fill-opacity="0.6"/>
+<circle cx="442.0" cy="122.8" r="2.5" fill="#A2305B" data-pp="archaea" fill-opacity="0.6"/>
+<circle cx="480.0" cy="109.7" r="2.5" fill="#A2305B" data-pp="archaea" fill-opacity="0.6"/>
+<circle cx="518.0" cy="101.4" r="2.5" fill="#A2305B" data-pp="archaea" fill-opacity="0.6"/>
+<polyline points="100,232 138,224 176,208 214,194 252,192 290,176 328,162 366,154 404,142 442,123 480,110 518,101" fill="none" stroke="#A2305B" stroke-width="1.5" data-pp="archaea" stroke-linecap="round"/>
+<circle cx="100.0" cy="231.9" r="2.5" fill="#A2305B" data-pp="archaea" fill-opacity="0.6"/>
+<circle cx="138.0" cy="224.8" r="2.5" fill="#A2305B" data-pp="archaea" fill-opacity="0.6"/>
+<circle cx="176.0" cy="203.7" r="2.5" fill="#A2305B" data-pp="archaea" fill-opacity="0.6"/>
+<circle cx="214.0" cy="198.3" r="2.5" fill="#A2305B" data-pp="archaea" fill-opacity="0.6"/>
+<circle cx="252.0" cy="186.2" r="2.5" fill="#A2305B" data-pp="archaea" fill-opacity="0.6"/>
+<circle cx="290.0" cy="167.6" r="2.5" fill="#A2305B" data-pp="archaea" fill-opacity="0.6"/>
+<circle cx="328.0" cy="163.0" r="2.5" fill="#A2305B" data-pp="archaea" fill-opacity="0.6"/>
+<circle cx="366.0" cy="151.7" r="2.5" fill="#A2305B" data-pp="archaea" fill-opacity="0.6"/>
+<circle cx="404.0" cy="131.9" r="2.5" fill="#A2305B" data-pp="archaea" fill-opacity="0.6"/>
+<circle cx="442.0" cy="120.8" r="2.5" fill="#A2305B" data-pp="archaea" fill-opacity="0.6"/>
+<circle cx="480.0" cy="112.6" r="2.5" fill="#A2305B" data-pp="archaea" fill-opacity="0.6"/>
+<circle cx="518.0" cy="96.0" r="2.5" fill="#A2305B" data-pp="archaea" fill-opacity="0.6"/>
+<polyline points="100,232 138,225 176,204 214,199 252,186 290,168 328,163 366,152 404,132 442,121 480,113 518,96" fill="none" stroke="#A2305B" stroke-width="1.5" data-pp="archaea" stroke-linecap="round"/>
+<circle cx="100.0" cy="224.8" r="2.5" fill="#A2305B" data-pp="archaea" fill-opacity="0.6"/>
+<circle cx="138.0" cy="212.4" r="2.5" fill="#A2305B" data-pp="archaea" fill-opacity="0.6"/>
+<circle cx="176.0" cy="207.8" r="2.5" fill="#A2305B" data-pp="archaea" fill-opacity="0.6"/>
+<circle cx="214.0" cy="190.4" r="2.5" fill="#A2305B" data-pp="archaea" fill-opacity="0.6"/>
+<circle cx="252.0" cy="183.0" r="2.5" fill="#A2305B" data-pp="archaea" fill-opacity="0.6"/>
+<circle cx="290.0" cy="167.4" r="2.5" fill="#A2305B" data-pp="archaea" fill-opacity="0.6"/>
+<circle cx="328.0" cy="149.8" r="2.5" fill="#A2305B" data-pp="archaea" fill-opacity="0.6"/>
+<circle cx="366.0" cy="148.4" r="2.5" fill="#A2305B" data-pp="archaea" fill-opacity="0.6"/>
+<circle cx="404.0" cy="134.4" r="2.5" fill="#A2305B" data-pp="archaea" fill-opacity="0.6"/>
+<circle cx="442.0" cy="123.8" r="2.5" fill="#A2305B" data-pp="archaea" fill-opacity="0.6"/>
+<circle cx="480.0" cy="111.3" r="2.5" fill="#A2305B" data-pp="archaea" fill-opacity="0.6"/>
+<circle cx="518.0" cy="98.4" r="2.5" fill="#A2305B" data-pp="archaea" fill-opacity="0.6"/>
+<polyline points="100,224 138,213 176,208 214,190 252,183 290,167 328,150 366,148 404,134 442,124 480,111 518,99" fill="none" stroke="#A2305B" stroke-width="1.5" data-pp="archaea" stroke-linecap="round"/>
+<circle cx="100.0" cy="226.2" r="2.5" fill="#A2305B" data-pp="archaea" fill-opacity="0.6"/>
+<circle cx="138.0" cy="215.0" r="2.5" fill="#A2305B" data-pp="archaea" fill-opacity="0.6"/>
+<circle cx="176.0" cy="207.2" r="2.5" fill="#A2305B" data-pp="archaea" fill-opacity="0.6"/>
+<circle cx="214.0" cy="195.5" r="2.5" fill="#A2305B" data-pp="archaea" fill-opacity="0.6"/>
+<circle cx="252.0" cy="175.2" r="2.5" fill="#A2305B" data-pp="archaea" fill-opacity="0.6"/>
+<circle cx="290.0" cy="161.4" r="2.5" fill="#A2305B" data-pp="archaea" fill-opacity="0.6"/>
+<circle cx="328.0" cy="153.6" r="2.5" fill="#A2305B" data-pp="archaea" fill-opacity="0.6"/>
+<circle cx="366.0" cy="147.5" r="2.5" fill="#A2305B" data-pp="archaea" fill-opacity="0.6"/>
+<circle cx="404.0" cy="133.9" r="2.5" fill="#A2305B" data-pp="archaea" fill-opacity="0.6"/>
+<circle cx="442.0" cy="116.2" r="2.5" fill="#A2305B" data-pp="archaea" fill-opacity="0.6"/>
+<circle cx="480.0" cy="108.7" r="2.5" fill="#A2305B" data-pp="archaea" fill-opacity="0.6"/>
+<circle cx="518.0" cy="97.1" r="2.5" fill="#A2305B" data-pp="archaea" fill-opacity="0.6"/>
+<polyline points="100,227 138,215 176,207 214,196 252,176 290,162 328,154 366,148 404,134 442,116 480,108 518,97" fill="none" stroke="#A2305B" stroke-width="1.5" data-pp="archaea" stroke-linecap="round"/>
+<line x1="350.0" y1="96.0" x2="520.0" y2="96.0" stroke="#93A0AC" stroke-width="1" data-pp="muted" stroke-linecap="round" stroke-dasharray="4,3"/>
+<text x="526.0" y="93.0" font-size="9" font-family="Inter,Helvetica,Arial,sans-serif" fill="#93A0AC" data-pp="muted" text-anchor="start">approaching</text>
+<text x="526.0" y="104.0" font-size="9" font-family="Inter,Helvetica,Arial,sans-serif" fill="#93A0AC" data-pp="muted" text-anchor="start">plateau</text>
+<circle cx="400.0" cy="380.0" r="4.0" fill="#2E86AB" data-pp="bacteria"/>
+<text x="412.0" y="384.0" font-size="9" font-family="Inter,Helvetica,Arial,sans-serif" fill="#1B2733" data-pp="ink" text-anchor="start">Soil</text>
+<circle cx="470.0" cy="380.0" r="4.0" fill="#00857A" data-pp="metabolism"/>
+<text x="482.0" y="384.0" font-size="9" font-family="Inter,Helvetica,Arial,sans-serif" fill="#1B2733" data-pp="ink" text-anchor="start">Water</text>
+<circle cx="540.0" cy="380.0" r="4.0" fill="#A2305B" data-pp="archaea"/>
+<text x="552.0" y="384.0" font-size="9" font-family="Inter,Helvetica,Arial,sans-serif" fill="#1B2733" data-pp="ink" text-anchor="start">Sediment</text>
+</g>
+</svg>

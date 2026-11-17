@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"
+     role="img" aria-labelledby="t d"
+     data-id="sf-arm-sleeve-shield" data-cat="sf" data-spec="128"
+     data-tags="arm sleeve,shield,protective,foreguard" data-license="CC-BY-4.0" data-copyright="ZengZichao">
+  <title id="t">护臂 / Arm Sleeve Shield</title>
+  <desc id="d">防护护臂，套在前臂上使用，防溅防划。</desc>
+  <g id="body"><path d="M34 18 L94 18 L82 110 Q82 116 76 116 L52 116 Q46 116 46 110 Z" fill="#FFFFFF" stroke="#1F2933" stroke-linejoin="round" stroke-width="2.5" data-ls="fill" data-ls-stroke="stroke"/></g>
+  <g id="detail"><path d="M36 25 L92 25" fill="none" stroke="#5A6B7B" stroke-linecap="round" stroke-width="1.75" data-ls="thin"/>
+     <path d="M37 31 L91 31" fill="none" stroke="#5A6B7B" stroke-linecap="round" stroke-width="1.75" data-ls="thin"/>
+     <path d="M40 60 Q64 67 88 60" fill="none" stroke="#5A6B7B" stroke-linecap="round" stroke-width="1.75" data-ls="thin"/>
+     <path d="M43 84 Q64 90 85 84" fill="none" stroke="#5A6B7B" stroke-linecap="round" stroke-width="1.75" data-ls="thin"/>
+     <path d="M46 104 L82 104" fill="none" stroke="#5A6B7B" stroke-linecap="round" stroke-width="1.75" data-ls="thin"/>
+     <path d="M46 110 L82 110" fill="none" stroke="#5A6B7B" stroke-linecap="round" stroke-width="1.75" data-ls="thin"/></g>
+</svg>

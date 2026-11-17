@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"
+     role="img" aria-labelledby="t d"
+     data-id="gl-pear-flask" data-cat="gl" data-spec="128"
+     data-tags="pear,flask,round,rotavap,evaporation" data-license="CC-BY-4.0" data-copyright="ZengZichao">
+  <title id="t">梨形瓶 / Pear Flask</title>
+  <desc id="d">梨形瓶，圆底渐窄至瓶口，用于旋转蒸发。</desc>
+  <g id="body"><path d="M56 10 L56 32 Q26 40 30 62 L44 94 Q46 112 64 112 Q82 112 84 94 L98 62 Q102 40 72 32 L72 10 Z" fill="#FFFFFF" stroke="#1F2933" stroke-linejoin="round" stroke-width="2.5" data-ls="fill" data-ls-stroke="stroke"/></g>
+  <g id="detail"><path d="M38 80 L44 94 Q46 112 64 112 Q82 112 84 94 L90 80 Z" fill="#BFE0FF" opacity="0.75" stroke="none" data-ls="liquid"/><path d="M38 80 L90 80" fill="none" stroke="#5A6B7B" stroke-linecap="round" stroke-width="1.75" data-ls="thin"/><path d="M56 10 L72 10" fill="none" stroke="#5A6B7B" stroke-linecap="round" stroke-width="1.75" data-ls="thin"/></g>
+  
+</svg>

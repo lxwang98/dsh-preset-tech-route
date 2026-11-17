@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+     role="img" aria-labelledby="t d"
+     data-id="ic-radiation-trefoil" data-cat="ic" data-spec="24"
+     data-tags="icon,radiation,trefoil,nuclear,hazard" data-license="CC-BY-4.0" data-copyright="ZengZichao">
+  <title id="t">辐射三叶图标 / Icon Radiation Trefoil</title>
+  <desc id="d">辐射三叶微型图标。</desc>
+  <g id="body">
+    <circle cx="12" cy="12" r="3" fill="#F5A623" stroke="none" data-ls="warn"/>
+    <path d="M13.8,8.88 L16,5.07 A8,8 0 0 0 8,5.07 L10.2,8.88 A3.6,3.6 0 0 1 13.8,8.88 Z" fill="#F5A623" stroke="none" data-ls="warn"/>
+    <path d="M8.4,12 L4,12 A8,8 0 0 0 8,18.93 L10.2,15.12 A3.6,3.6 0 0 1 8.4,12 Z" fill="#F5A623" stroke="none" data-ls="warn"/>
+    <path d="M13.8,15.12 L16,18.93 A8,8 0 0 0 20,12 L15.6,12 A3.6,3.6 0 0 1 13.8,15.12 Z" fill="#F5A623" stroke="none" data-ls="warn"/>
+  </g>
+</svg>

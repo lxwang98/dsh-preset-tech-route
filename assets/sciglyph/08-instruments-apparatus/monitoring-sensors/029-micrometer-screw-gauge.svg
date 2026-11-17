@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"
+     role="img" aria-labelledby="t d"
+     data-id="mt-micrometer-screw-gauge" data-cat="mt" data-spec="128"
+     data-tags="micrometer,screw,gauge,千分尺" data-license="CC-BY-4.0" data-copyright="ZengZichao">
+  <title id="t">外径千分尺 / Micrometer Screw Gauge</title>
+  <desc id="d">外径千分尺：弓架+测微筒+棘轮。</desc>
+  <g id="body"><path d="M22 50 L22 68 Q22 90 44 90 L58 90 L58 56 L48 56 L48 72 Q48 80 40 80 L36 80 L36 50 Z" fill="#E8EDF2" stroke="#1F2933" stroke-linejoin="round" stroke-width="2.5" data-ls="body" data-ls-stroke="stroke"/>
+    <rect x="22" y="40" width="14" height="12" rx="2" fill="#E8EDF2" stroke="#1F2933" stroke-linejoin="round" stroke-width="2.5" data-ls="body" data-ls-stroke="stroke"/>
+    <rect x="42" y="42" width="14" height="8" fill="#E8EDF2" stroke="#1F2933" stroke-linejoin="round" stroke-width="2.5" data-ls="body" data-ls-stroke="stroke"/>
+    <rect x="54" y="36" width="32" height="20" rx="2" fill="#E8EDF2" stroke="#1F2933" stroke-linejoin="round" stroke-width="2.5" data-ls="body" data-ls-stroke="stroke"/>
+    <rect x="86" y="32" width="14" height="28" rx="3" fill="#E8EDF2" stroke="#1F2933" stroke-linejoin="round" stroke-width="2.5" data-ls="body" data-ls-stroke="stroke"/>
+    <rect x="100" y="38" width="8" height="16" rx="4" fill="#33414F" stroke="#1F2933" stroke-linejoin="round" stroke-width="1.5" data-ls="dark" data-ls-stroke="stroke"/></g>
+  <g id="detail"><rect x="37" y="42" width="4" height="8" fill="#BFE0FF" stroke="#5A6B7B" stroke-linejoin="round" stroke-width="1.5" data-ls="liquid" data-ls-stroke="thin"/>
+    <path d="M56 46 L84 46" fill="none" stroke="#5A6B7B" stroke-linecap="round" stroke-width="1.75" data-ls="thin"/>
+    <path d="M58 46 L58 52 M62 46 L62 52 M66 46 L66 52 M70 46 L70 52 M74 46 L74 52 M78 46 L78 52 M82 46 L82 52" fill="none" stroke="#5A6B7B" stroke-linecap="round" stroke-width="1.5" data-ls="thin"/>
+    <path d="M60 46 L60 42 M64 46 L64 42 M68 46 L68 42 M72 46 L72 42 M76 46 L76 42 M80 46 L80 42" fill="none" opacity="0.7" stroke="#5A6B7B" stroke-linecap="round" stroke-width="1.5" data-ls="thin"/>
+    <path d="M89 36 L97 36 M89 41 L97 41 M89 51 L97 51 M89 56 L97 56" fill="none" stroke="#5A6B7B" stroke-linecap="round" stroke-width="1.5" data-ls="thin"/></g>
+</svg>

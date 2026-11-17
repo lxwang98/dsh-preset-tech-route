@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.cache/
+assets/.cache/
+*.pptx~
+.~*
+Thumbs.db
+.DS_Store

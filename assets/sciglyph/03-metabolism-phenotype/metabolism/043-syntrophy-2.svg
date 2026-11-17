@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100"
+     class="pp-icon pp-metabolism" role="img" aria-labelledby="t-43_syntrophy d-43_syntrophy" data-license="CC-BY-4.0" data-copyright="ZengZichao">
+  <title id="t-43_syntrophy">互营营养 / Syntrophy (Interspecies Transfer)</title>
+  <desc id="d-43_syntrophy">互营营养: H₂/甲酸/直接电子传递。产酸菌+产甲烷菌共生。ΔG>0的反应需伙伴消耗H₂驱动。关键词: syntrophy, interspecies H2 transfer, formate, DIET</desc>
+  <defs>
+    <marker id="pp43__ar" viewBox="0 0 5 5" refX="4" refY="2.5" markerWidth="4" markerHeight="4" orient="auto">
+      <path d="M0,0 L5,2.5 L0,5 z" fill="#1B2733" data-pp="ink"/>
+    </marker>
+    
+  </defs>
+  <g id="layer-body" data-name="body">
+        <circle cx="20" cy="44" r="13" fill="#2E86AB" data-pp="bacteria" stroke="#1B2733" stroke-width="1"/>
+        <circle cx="80" cy="44" r="13" fill="#A2305B" data-pp="archaea" stroke="#1B2733" stroke-width="1"/>
+    <circle cx="50" cy="34" r="2.5" fill="#E8871E" data-pp="mge"/>
+    <circle cx="50" cy="44" r="2.5" fill="#E8871E" data-pp="mge"/>
+    <circle cx="50" cy="54" r="2.5" fill="#E8871E" data-pp="mge"/>
+    <text x="6" y="66" font-size="7" font-family="Inter,Helvetica,Arial,sans-serif" fill="#1B2733" data-pp="ink">Fermenter</text>
+    <text x="52" y="66" font-size="7" font-family="Inter,Helvetica,Arial,sans-serif" fill="#1B2733" data-pp="ink">Methanogen</text>
+  </g>
+  <g id="layer-annotation" data-name="annotation">
+        <line x1="34" y1="34" x2="45" y2="34" stroke="#1B2733" data-pp="ink" stroke-width="1" marker-end="url(#pp43__ar)"/>
+        <line x1="34" y1="44" x2="45" y2="44" stroke="#1B2733" data-pp="ink" stroke-width="1" marker-end="url(#pp43__ar)"/>
+        <line x1="34" y1="54" x2="45" y2="54" stroke="#1B2733" data-pp="ink" stroke-width="1" marker-end="url(#pp43__ar)"/>
+        <line x1="55" y1="34" x2="66" y2="34" stroke="#1B2733" data-pp="ink" stroke-width="1" marker-end="url(#pp43__ar)"/>
+        <line x1="55" y1="44" x2="66" y2="44" stroke="#1B2733" data-pp="ink" stroke-width="1" marker-end="url(#pp43__ar)"/>
+        <line x1="55" y1="54" x2="66" y2="54" stroke="#1B2733" data-pp="ink" stroke-width="1" marker-end="url(#pp43__ar)"/>
+    <text x="50" y="24" text-anchor="middle" font-size="7" font-family="Inter,Helvetica,Arial,sans-serif" fill="#1B2733" data-pp="ink">H₂ / HCOO⁻</text>
+    <text x="50" y="78" text-anchor="middle" font-size="7" font-family="Inter,Helvetica,Arial,sans-serif" fill="#93A0AC" data-pp="muted">low [H₂] keeps ΔG&lt;0</text>
+    <text x="50" y="88" text-anchor="middle" font-size="7" font-family="Inter,Helvetica,Arial,sans-serif" fill="#93A0AC" data-pp="muted">syntrophic consortium</text>
+  </g>
+</svg>

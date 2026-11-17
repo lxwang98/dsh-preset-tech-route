@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400"
+     role="img" aria-labelledby="t-07 d-07" class="pp-diagram pp-trees" data-license="CC-BY-4.0" data-copyright="ZengZichao">
+  <title id="t-07">方框树 / Box Tree with Bootstrap</title>
+  <desc id="d-07">…方框树：虚线框标出命名支(Clade A/B/B1)，节点旁给bootstrap自展值。…</desc>
+  <rect x="0" y="0" width="600" height="400" fill="#F4F1EA" data-pp="bg"/>
+  <g id="pp07__clades" data-name="clade-shading">
+    <rect x="195" y="28" width="305" height="152" fill="#2E86AB" data-pp="bacteria" fill-opacity="0.12" data-name="clade-A"/>
+    <rect x="195" y="204" width="305" height="152" fill="#A2305B" data-pp="archaea" fill-opacity="0.12" data-name="clade-B"/>
+    <rect x="315" y="204" width="185" height="80" fill="#A2305B" data-pp="archaea" fill-opacity="0.12" data-name="clade-B1"/>
+  </g>
+  <g data-name="clade-boxes">
+    <rect x="195" y="28" width="305" height="152" fill="none" stroke="#2E86AB" stroke-width="1.2" stroke-dasharray="5 3" data-pp="bacteria"/>
+    <rect x="195" y="204" width="305" height="152" fill="none" stroke="#A2305B" stroke-width="1.2" stroke-dasharray="5 3" data-pp="archaea"/>
+    <rect x="315" y="204" width="185" height="80" fill="none" stroke="#A2305B" stroke-width="1.2" stroke-dasharray="5 3" data-pp="archaea"/>
+    <text x="504" y="108" font-size="9" font-family="Inter,Helvetica,Arial,sans-serif" fill="#2E86AB" data-pp="bacteria">Clade A</text>
+    <text x="504" y="286" font-size="9" font-family="Inter,Helvetica,Arial,sans-serif" fill="#A2305B" data-pp="archaea">Clade B</text>
+    <text x="504" y="244" font-size="9" font-family="Inter,Helvetica,Arial,sans-serif" fill="#A2305B" data-pp="archaea">Clade B1</text>
+  </g>
+  <g id="pp07__branches" data-name="branches">
+    <line x1="80.0" y1="194.0" x2="80.0" y2="282.0" stroke="#1B2733" stroke-width="1.5" data-pp="ink" stroke-linecap="round"/>
+    <line x1="200.0" y1="62.0" x2="200.0" y2="150.0" stroke="#1B2733" stroke-width="1.5" data-pp="ink" stroke-linecap="round"/>
+    <line x1="200.0" y1="238.0" x2="200.0" y2="326.0" stroke="#1B2733" stroke-width="1.5" data-pp="ink" stroke-linecap="round"/>
+    <line x1="290.0" y1="40.0" x2="290.0" y2="84.0" stroke="#1B2733" stroke-width="1.5" data-pp="ink" stroke-linecap="round"/>
+    <line x1="290.0" y1="128.0" x2="290.0" y2="172.0" stroke="#1B2733" stroke-width="1.5" data-pp="ink" stroke-linecap="round"/>
+    <line x1="290.0" y1="216.0" x2="290.0" y2="260.0" stroke="#1B2733" stroke-width="1.5" data-pp="ink" stroke-linecap="round"/>
+    <line x1="290.0" y1="304.0" x2="290.0" y2="348.0" stroke="#1B2733" stroke-width="1.5" data-pp="ink" stroke-linecap="round"/>
+    <line x1="80.0" y1="194.0" x2="200.0" y2="194.0" stroke="#1B2733" stroke-width="1.5" data-pp="ink" stroke-linecap="round"/>
+    <line x1="80.0" y1="282.0" x2="200.0" y2="282.0" stroke="#1B2733" stroke-width="1.5" data-pp="ink" stroke-linecap="round"/>
+    <line x1="200.0" y1="62.0" x2="290.0" y2="62.0" stroke="#1B2733" stroke-width="1.5" data-pp="ink" stroke-linecap="round"/>
+    <line x1="200.0" y1="150.0" x2="290.0" y2="150.0" stroke="#1B2733" stroke-width="1.5" data-pp="ink" stroke-linecap="round"/>
+    <line x1="200.0" y1="238.0" x2="290.0" y2="238.0" stroke="#1B2733" stroke-width="1.5" data-pp="ink" stroke-linecap="round"/>
+    <line x1="200.0" y1="326.0" x2="290.0" y2="326.0" stroke="#1B2733" stroke-width="1.5" data-pp="ink" stroke-linecap="round"/>
+    <line x1="290.0" y1="40.0" x2="460.0" y2="40.0" stroke="#1B2733" stroke-width="1.5" data-pp="ink" stroke-linecap="round"/>
+    <line x1="290.0" y1="84.0" x2="460.0" y2="84.0" stroke="#1B2733" stroke-width="1.5" data-pp="ink" stroke-linecap="round"/>
+    <line x1="290.0" y1="128.0" x2="460.0" y2="128.0" stroke="#1B2733" stroke-width="1.5" data-pp="ink" stroke-linecap="round"/>
+    <line x1="290.0" y1="172.0" x2="460.0" y2="172.0" stroke="#1B2733" stroke-width="1.5" data-pp="ink" stroke-linecap="round"/>
+    <line x1="290.0" y1="216.0" x2="460.0" y2="216.0" stroke="#1B2733" stroke-width="1.5" data-pp="ink" stroke-linecap="round"/>
+    <line x1="290.0" y1="260.0" x2="460.0" y2="260.0" stroke="#1B2733" stroke-width="1.5" data-pp="ink" stroke-linecap="round"/>
+    <line x1="290.0" y1="304.0" x2="460.0" y2="304.0" stroke="#1B2733" stroke-width="1.5" data-pp="ink" stroke-linecap="round"/>
+    <line x1="290.0" y1="348.0" x2="460.0" y2="348.0" stroke="#1B2733" stroke-width="1.5" data-pp="ink" stroke-linecap="round"/>
+  </g>
+  <g id="pp07__nodes" data-name="nodes">
+    <circle cx="80.0" cy="194.0" r="2.5" fill="#FFFFFF" stroke="#1B2733" stroke-width="1" data-pp="white"/>
+    <text x="76.0" y="187.0" font-size="9" font-family="Inter,Helvetica,Arial,sans-serif" fill="#1B2733" data-pp="ink" text-anchor="end">100</text>
+    <circle cx="200.0" cy="62.0" r="2.5" fill="#FFFFFF" stroke="#1B2733" stroke-width="1" data-pp="white"/>
+    <text x="196.0" y="55.0" font-size="9" font-family="Inter,Helvetica,Arial,sans-serif" fill="#1B2733" data-pp="ink" text-anchor="end">95</text>
+    <circle cx="200.0" cy="282.0" r="2.5" fill="#FFFFFF" stroke="#1B2733" stroke-width="1" data-pp="white"/>
+    <text x="196.0" y="275.0" font-size="9" font-family="Inter,Helvetica,Arial,sans-serif" fill="#1B2733" data-pp="ink" text-anchor="end">87</text>
+    <circle cx="290.0" cy="62.0" r="2.5" fill="#FFFFFF" stroke="#1B2733" stroke-width="1" data-pp="white"/>
+    <text x="286.0" y="55.0" font-size="9" font-family="Inter,Helvetica,Arial,sans-serif" fill="#1B2733" data-pp="ink" text-anchor="end">76</text>
+    <circle cx="290.0" cy="150.0" r="2.5" fill="#FFFFFF" stroke="#1B2733" stroke-width="1" data-pp="white"/>
+    <text x="286.0" y="143.0" font-size="9" font-family="Inter,Helvetica,Arial,sans-serif" fill="#1B2733" data-pp="ink" text-anchor="end">62</text>
+    <circle cx="290.0" cy="238.0" r="2.5" fill="#FFFFFF" stroke="#1B2733" stroke-width="1" data-pp="white"/>
+    <text x="286.0" y="231.0" font-size="9" font-family="Inter,Helvetica,Arial,sans-serif" fill="#1B2733" data-pp="ink" text-anchor="end">95</text>
+    <circle cx="290.0" cy="326.0" r="2.5" fill="#FFFFFF" stroke="#1B2733" stroke-width="1" data-pp="white"/>
+    <text x="286.0" y="319.0" font-size="9" font-family="Inter,Helvetica,Arial,sans-serif" fill="#1B2733" data-pp="ink" text-anchor="end">88</text>
+  </g>
+  <g id="pp07__labels" data-name="tip-labels">
+    <text x="466.0" y="43.0" font-size="10" font-family="Inter,Helvetica,Arial,sans-serif" fill="#1B2733" data-pp="ink">Sp_A</text>
+    <text x="466.0" y="87.0" font-size="10" font-family="Inter,Helvetica,Arial,sans-serif" fill="#1B2733" data-pp="ink">Sp_B</text>
+    <text x="466.0" y="131.0" font-size="10" font-family="Inter,Helvetica,Arial,sans-serif" fill="#1B2733" data-pp="ink">Sp_C</text>
+    <text x="466.0" y="175.0" font-size="10" font-family="Inter,Helvetica,Arial,sans-serif" fill="#1B2733" data-pp="ink">Sp_D</text>
+    <text x="466.0" y="219.0" font-size="10" font-family="Inter,Helvetica,Arial,sans-serif" fill="#1B2733" data-pp="ink">Sp_E</text>
+    <text x="466.0" y="263.0" font-size="10" font-family="Inter,Helvetica,Arial,sans-serif" fill="#1B2733" data-pp="ink">Sp_F</text>
+    <text x="466.0" y="307.0" font-size="10" font-family="Inter,Helvetica,Arial,sans-serif" fill="#1B2733" data-pp="ink">Sp_G</text>
+    <text x="466.0" y="351.0" font-size="10" font-family="Inter,Helvetica,Arial,sans-serif" fill="#1B2733" data-pp="ink">Sp_H</text>
+  </g>
+  <g data-name="scale-bar">
+    <line x1="80" y1="378" x2="190" y2="378" stroke="#1B2733" stroke-width="1.5" data-pp="ink"/>
+    <line x1="80" y1="374" x2="80" y2="382" stroke="#1B2733" stroke-width="1.5" data-pp="ink"/>
+    <line x1="190" y1="374" x2="190" y2="382" stroke="#1B2733" stroke-width="1.5" data-pp="ink"/>
+    <text x="135.0" y="392" font-size="9" font-family="Inter,Helvetica,Arial,sans-serif" fill="#1B2733" data-pp="ink" text-anchor="middle">schematic</text>
+  </g>
+  <g data-name="legend">
+    <text x="210" y="384" font-size="9" font-family="Inter,Helvetica,Arial,sans-serif" fill="#1B2733" data-pp="ink">values at nodes = bootstrap support (%)</text>
+    <text x="210" y="396" font-size="9" font-family="Inter,Helvetica,Arial,sans-serif" fill="#1B2733" data-pp="ink">dashed boxes = named clades</text>
+  </g>
+</svg>

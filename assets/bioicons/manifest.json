@@ -1,0 +1,1712 @@
+{
+ "category": "bioicons",
+ "subdir": "",
+ "name_zh": "Bioicons 生命科学图标",
+ "name_en": "Bioicons life-science icons",
+ "count": 100,
+ "license": "mixed (per item)",
+ "license_uri": "https://bioicons.com",
+ "attribution": "Bioicons contributors, https://bioicons.com",
+ "items": [
+  {
+   "file": "cc-0/Animals/Ben-Murrell/Mouse.svg",
+   "name_en": "Mouse",
+   "name_zh": "",
+   "tags": [
+    "animals",
+    "cc-0",
+    "Mouse"
+   ],
+   "category": "Animals",
+   "subdir": "cc-0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC0-1.0",
+   "license_uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-0/Cell_culture/B--Gideon-Bergheim/Bacteria_colonies.svg",
+   "name_en": "Bacteria colonies",
+   "name_zh": "",
+   "tags": [
+    "cell culture",
+    "cc-0",
+    "Bacteria_colonies"
+   ],
+   "category": "Cell_culture",
+   "subdir": "cc-0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC0-1.0",
+   "license_uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-0/Cell_types/JhonnyXC/cell_group.svg",
+   "name_en": "cell group",
+   "name_zh": "",
+   "tags": [
+    "cell types",
+    "cc-0",
+    "cell_group"
+   ],
+   "category": "Cell_types",
+   "subdir": "cc-0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC0-1.0",
+   "license_uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-0/Chemistry/OpenClipart/round-bottomed-flask-1-1000ml.svg",
+   "name_en": "round bottomed flask 1 1000ml",
+   "name_zh": "",
+   "tags": [
+    "chemistry",
+    "cc-0",
+    "round-bottomed-flask-1-1000ml"
+   ],
+   "category": "Chemistry",
+   "subdir": "cc-0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC0-1.0",
+   "license_uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-0/Chemistry/OpenClipart/round-bottomed-flask-1-100ml.svg",
+   "name_en": "round bottomed flask 1 100ml",
+   "name_zh": "",
+   "tags": [
+    "chemistry",
+    "cc-0",
+    "round-bottomed-flask-1-100ml"
+   ],
+   "category": "Chemistry",
+   "subdir": "cc-0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC0-1.0",
+   "license_uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-0/Chemistry/OpenClipart/round-bottomed-flask-1-2000ml.svg",
+   "name_en": "round bottomed flask 1 2000ml",
+   "name_zh": "",
+   "tags": [
+    "chemistry",
+    "cc-0",
+    "round-bottomed-flask-1-2000ml"
+   ],
+   "category": "Chemistry",
+   "subdir": "cc-0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC0-1.0",
+   "license_uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-0/Chemistry/OpenClipart/round-bottomed-flask-1-250ml.svg",
+   "name_en": "round bottomed flask 1 250ml",
+   "name_zh": "",
+   "tags": [
+    "chemistry",
+    "cc-0",
+    "round-bottomed-flask-1-250ml"
+   ],
+   "category": "Chemistry",
+   "subdir": "cc-0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC0-1.0",
+   "license_uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-0/Chemistry/OpenClipart/round-bottomed-flask-1-500ml.svg",
+   "name_en": "round bottomed flask 1 500ml",
+   "name_zh": "",
+   "tags": [
+    "chemistry",
+    "cc-0",
+    "round-bottomed-flask-1-500ml"
+   ],
+   "category": "Chemistry",
+   "subdir": "cc-0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC0-1.0",
+   "license_uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-0/Chemistry/OpenClipart/round-bottomed-flask-1-50ml.svg",
+   "name_en": "round bottomed flask 1 50ml",
+   "name_zh": "",
+   "tags": [
+    "chemistry",
+    "cc-0",
+    "round-bottomed-flask-1-50ml"
+   ],
+   "category": "Chemistry",
+   "subdir": "cc-0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC0-1.0",
+   "license_uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-0/Chemistry/OpenClipart/round-bottomed-flask-2-1000ml.svg",
+   "name_en": "round bottomed flask 2 1000ml",
+   "name_zh": "",
+   "tags": [
+    "chemistry",
+    "cc-0",
+    "round-bottomed-flask-2-1000ml"
+   ],
+   "category": "Chemistry",
+   "subdir": "cc-0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC0-1.0",
+   "license_uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-0/Chemistry/OpenClipart/round-bottomed-flask-2-100ml.svg",
+   "name_en": "round bottomed flask 2 100ml",
+   "name_zh": "",
+   "tags": [
+    "chemistry",
+    "cc-0",
+    "round-bottomed-flask-2-100ml"
+   ],
+   "category": "Chemistry",
+   "subdir": "cc-0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC0-1.0",
+   "license_uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-0/Chemistry/OpenClipart/round-bottomed-flask-2-250ml.svg",
+   "name_en": "round bottomed flask 2 250ml",
+   "name_zh": "",
+   "tags": [
+    "chemistry",
+    "cc-0",
+    "round-bottomed-flask-2-250ml"
+   ],
+   "category": "Chemistry",
+   "subdir": "cc-0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC0-1.0",
+   "license_uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-0/Chemistry/OpenClipart/round-bottomed-flask-2-500ml.svg",
+   "name_en": "round bottomed flask 2 500ml",
+   "name_zh": "",
+   "tags": [
+    "chemistry",
+    "cc-0",
+    "round-bottomed-flask-2-500ml"
+   ],
+   "category": "Chemistry",
+   "subdir": "cc-0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC0-1.0",
+   "license_uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-0/Genetics/PacBio/img_sequencer_long_read01.svg",
+   "name_en": "img sequencer long read01",
+   "name_zh": "",
+   "tags": [
+    "genetics",
+    "cc-0",
+    "img_sequencer_long_read01"
+   ],
+   "category": "Genetics",
+   "subdir": "cc-0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC0-1.0",
+   "license_uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-0/Genetics/PacBio/img_sequencer_long_read02.svg",
+   "name_en": "img sequencer long read02",
+   "name_zh": "",
+   "tags": [
+    "genetics",
+    "cc-0",
+    "img_sequencer_long_read02"
+   ],
+   "category": "Genetics",
+   "subdir": "cc-0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC0-1.0",
+   "license_uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-0/Genetics/PacBio/img_sequencer_long_read03.svg",
+   "name_en": "img sequencer long read03",
+   "name_zh": "",
+   "tags": [
+    "genetics",
+    "cc-0",
+    "img_sequencer_long_read03"
+   ],
+   "category": "Genetics",
+   "subdir": "cc-0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC0-1.0",
+   "license_uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-0/Genetics/PacBio/img_sequencer_long_read05.svg",
+   "name_en": "img sequencer long read05",
+   "name_zh": "",
+   "tags": [
+    "genetics",
+    "cc-0",
+    "img_sequencer_long_read05"
+   ],
+   "category": "Genetics",
+   "subdir": "cc-0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC0-1.0",
+   "license_uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-0/Genetics/PacBio/img_sequencer_shor_read06.svg",
+   "name_en": "img sequencer shor read06",
+   "name_zh": "",
+   "tags": [
+    "genetics",
+    "cc-0",
+    "img_sequencer_shor_read06"
+   ],
+   "category": "Genetics",
+   "subdir": "cc-0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC0-1.0",
+   "license_uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-0/Genetics/PacBio/img_sequencer_short_read01.svg",
+   "name_en": "img sequencer short read01",
+   "name_zh": "",
+   "tags": [
+    "genetics",
+    "cc-0",
+    "img_sequencer_short_read01"
+   ],
+   "category": "Genetics",
+   "subdir": "cc-0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC0-1.0",
+   "license_uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-0/Genetics/PacBio/img_sequencer_short_read03.svg",
+   "name_en": "img sequencer short read03",
+   "name_zh": "",
+   "tags": [
+    "genetics",
+    "cc-0",
+    "img_sequencer_short_read03"
+   ],
+   "category": "Genetics",
+   "subdir": "cc-0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC0-1.0",
+   "license_uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-0/Genetics/umasstr/6-well_plate_cell_culture.svg",
+   "name_en": "6 well plate cell culture",
+   "name_zh": "",
+   "tags": [
+    "genetics",
+    "cc-0",
+    "6-well_plate_cell_culture"
+   ],
+   "category": "Genetics",
+   "subdir": "cc-0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC0-1.0",
+   "license_uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-0/Human_physiology/Jan-Clusmann/liver_with_hcc.svg",
+   "name_en": "liver with hcc",
+   "name_zh": "",
+   "tags": [
+    "human physiology",
+    "cc-0",
+    "liver_with_hcc"
+   ],
+   "category": "Human_physiology",
+   "subdir": "cc-0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC0-1.0",
+   "license_uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-0/Human_physiology/Marcel_Tisch/patient.svg",
+   "name_en": "patient",
+   "name_zh": "",
+   "tags": [
+    "human physiology",
+    "cc-0",
+    "patient"
+   ],
+   "category": "Human_physiology",
+   "subdir": "cc-0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC0-1.0",
+   "license_uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-0/Human_physiology/Marcel_Tisch/patient_mutant.svg",
+   "name_en": "patient mutant",
+   "name_zh": "",
+   "tags": [
+    "human physiology",
+    "cc-0",
+    "patient_mutant"
+   ],
+   "category": "Human_physiology",
+   "subdir": "cc-0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC0-1.0",
+   "license_uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-0/Human_physiology/va/syringe_with_blood.svg",
+   "name_en": "syringe with blood",
+   "name_zh": "",
+   "tags": [
+    "human physiology",
+    "cc-0",
+    "syringe_with_blood"
+   ],
+   "category": "Human_physiology",
+   "subdir": "cc-0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC0-1.0",
+   "license_uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-0/Lab_apparatus/Derek-Croote/flow-cytometer-cell-sorter.svg",
+   "name_en": "flow cytometer cell sorter",
+   "name_zh": "",
+   "tags": [
+    "lab apparatus",
+    "cc-0",
+    "flow-cytometer-cell-sorter"
+   ],
+   "category": "Lab_apparatus",
+   "subdir": "cc-0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC0-1.0",
+   "license_uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-0/Lab_apparatus/Derek-Croote/round-bottomed-flask-cartoon.svg",
+   "name_en": "round bottomed flask cartoon",
+   "name_zh": "",
+   "tags": [
+    "lab apparatus",
+    "cc-0",
+    "round-bottomed-flask-cartoon"
+   ],
+   "category": "Lab_apparatus",
+   "subdir": "cc-0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC0-1.0",
+   "license_uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-0/Lab_apparatus/Derek-Croote/simple-syringe-cartoon.svg",
+   "name_en": "simple syringe cartoon",
+   "name_zh": "",
+   "tags": [
+    "lab apparatus",
+    "cc-0",
+    "simple-syringe-cartoon"
+   ],
+   "category": "Lab_apparatus",
+   "subdir": "cc-0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC0-1.0",
+   "license_uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-0/Lab_apparatus/Geomicrobio/120ml_Vial.svg",
+   "name_en": "120ml Vial",
+   "name_zh": "",
+   "tags": [
+    "lab apparatus",
+    "cc-0",
+    "120ml_Vial"
+   ],
+   "category": "Lab_apparatus",
+   "subdir": "cc-0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC0-1.0",
+   "license_uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-0/Lab_apparatus/Marcel_Tisch/T75_flask.svg",
+   "name_en": "T75 flask",
+   "name_zh": "",
+   "tags": [
+    "lab apparatus",
+    "cc-0",
+    "T75_flask"
+   ],
+   "category": "Lab_apparatus",
+   "subdir": "cc-0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC0-1.0",
+   "license_uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-0/Lab_apparatus/Marcel_Tisch/recording_pipette.svg",
+   "name_en": "recording pipette",
+   "name_zh": "",
+   "tags": [
+    "lab apparatus",
+    "cc-0",
+    "recording_pipette"
+   ],
+   "category": "Lab_apparatus",
+   "subdir": "cc-0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC0-1.0",
+   "license_uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-0/Lab_apparatus/Xavax/1000_ml_Erlenmeyer_flask.svg",
+   "name_en": "1000 ml Erlenmeyer flask",
+   "name_zh": "",
+   "tags": [
+    "lab apparatus",
+    "cc-0",
+    "1000_ml_Erlenmeyer_flask"
+   ],
+   "category": "Lab_apparatus",
+   "subdir": "cc-0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC0-1.0",
+   "license_uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-0/Microbiology/Pauline_Franz/generic-bacterium.svg",
+   "name_en": "generic bacterium",
+   "name_zh": "",
+   "tags": [
+    "microbiology",
+    "cc-0",
+    "generic-bacterium"
+   ],
+   "category": "Microbiology",
+   "subdir": "cc-0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC0-1.0",
+   "license_uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-0/Plants_Algae/James-Lloyd/TomatoFruit.svg",
+   "name_en": "TomatoFruit",
+   "name_zh": "",
+   "tags": [
+    "plants algae",
+    "cc-0",
+    "TomatoFruit"
+   ],
+   "category": "Plants_Algae",
+   "subdir": "cc-0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC0-1.0",
+   "license_uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-by-3.0/Animals/Servier/mouse-chunky.svg",
+   "name_en": "mouse chunky",
+   "name_zh": "",
+   "tags": [
+    "animals",
+    "cc-by-3.0",
+    "mouse-chunky"
+   ],
+   "category": "Animals",
+   "subdir": "cc-by-3.0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC-BY-3.0",
+   "license_uri": "https://creativecommons.org/licenses/by/3.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-by-3.0/Animals/Servier/mouse-cyan.svg",
+   "name_en": "mouse cyan",
+   "name_zh": "",
+   "tags": [
+    "animals",
+    "cc-by-3.0",
+    "mouse-cyan"
+   ],
+   "category": "Animals",
+   "subdir": "cc-by-3.0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC-BY-3.0",
+   "license_uri": "https://creativecommons.org/licenses/by/3.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-by-3.0/Animals/Servier/mouse-darkgray.svg",
+   "name_en": "mouse darkgray",
+   "name_zh": "",
+   "tags": [
+    "animals",
+    "cc-by-3.0",
+    "mouse-darkgray"
+   ],
+   "category": "Animals",
+   "subdir": "cc-by-3.0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC-BY-3.0",
+   "license_uri": "https://creativecommons.org/licenses/by/3.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-by-3.0/Animals/Servier/mouse-embryoearly.svg",
+   "name_en": "mouse embryoearly",
+   "name_zh": "",
+   "tags": [
+    "animals",
+    "cc-by-3.0",
+    "mouse-embryoearly"
+   ],
+   "category": "Animals",
+   "subdir": "cc-by-3.0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC-BY-3.0",
+   "license_uri": "https://creativecommons.org/licenses/by/3.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-by-3.0/Animals/Servier/mouse-fat.svg",
+   "name_en": "mouse fat",
+   "name_zh": "",
+   "tags": [
+    "animals",
+    "cc-by-3.0",
+    "mouse-fat"
+   ],
+   "category": "Animals",
+   "subdir": "cc-by-3.0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC-BY-3.0",
+   "license_uri": "https://creativecommons.org/licenses/by/3.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-by-3.0/Animals/Servier/mouse-gray.svg",
+   "name_en": "mouse gray",
+   "name_zh": "",
+   "tags": [
+    "animals",
+    "cc-by-3.0",
+    "mouse-gray"
+   ],
+   "category": "Animals",
+   "subdir": "cc-by-3.0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC-BY-3.0",
+   "license_uri": "https://creativecommons.org/licenses/by/3.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-by-3.0/Animals/Servier/mouse-green.svg",
+   "name_en": "mouse green",
+   "name_zh": "",
+   "tags": [
+    "animals",
+    "cc-by-3.0",
+    "mouse-green"
+   ],
+   "category": "Animals",
+   "subdir": "cc-by-3.0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC-BY-3.0",
+   "license_uri": "https://creativecommons.org/licenses/by/3.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-by-3.0/Animals/Servier/mouse-orange.svg",
+   "name_en": "mouse orange",
+   "name_zh": "",
+   "tags": [
+    "animals",
+    "cc-by-3.0",
+    "mouse-orange"
+   ],
+   "category": "Animals",
+   "subdir": "cc-by-3.0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC-BY-3.0",
+   "license_uri": "https://creativecommons.org/licenses/by/3.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-by-3.0/Animals/Servier/mouse-small.svg",
+   "name_en": "mouse small",
+   "name_zh": "",
+   "tags": [
+    "animals",
+    "cc-by-3.0",
+    "mouse-small"
+   ],
+   "category": "Animals",
+   "subdir": "cc-by-3.0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC-BY-3.0",
+   "license_uri": "https://creativecommons.org/licenses/by/3.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-by-3.0/Animals/Servier/mouse-thin.svg",
+   "name_en": "mouse thin",
+   "name_zh": "",
+   "tags": [
+    "animals",
+    "cc-by-3.0",
+    "mouse-thin"
+   ],
+   "category": "Animals",
+   "subdir": "cc-by-3.0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC-BY-3.0",
+   "license_uri": "https://creativecommons.org/licenses/by/3.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-by-3.0/Animals/Servier/mouse-yellow.svg",
+   "name_en": "mouse yellow",
+   "name_zh": "",
+   "tags": [
+    "animals",
+    "cc-by-3.0",
+    "mouse-yellow"
+   ],
+   "category": "Animals",
+   "subdir": "cc-by-3.0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC-BY-3.0",
+   "license_uri": "https://creativecommons.org/licenses/by/3.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-by-3.0/Animals/Servier/rat-embryoearly.svg",
+   "name_en": "rat embryoearly",
+   "name_zh": "",
+   "tags": [
+    "animals",
+    "cc-by-3.0",
+    "rat-embryoearly"
+   ],
+   "category": "Animals",
+   "subdir": "cc-by-3.0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC-BY-3.0",
+   "license_uri": "https://creativecommons.org/licenses/by/3.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-by-3.0/General_items/Servier/Dietetics_17_5.svg",
+   "name_en": "Dietetics 17 5",
+   "name_zh": "",
+   "tags": [
+    "general items",
+    "cc-by-3.0",
+    "Dietetics_17_5"
+   ],
+   "category": "General_items",
+   "subdir": "cc-by-3.0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC-BY-3.0",
+   "license_uri": "https://creativecommons.org/licenses/by/3.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-by-3.0/General_items/Servier/arrow-down-2.svg",
+   "name_en": "arrow down 2",
+   "name_zh": "",
+   "tags": [
+    "general items",
+    "cc-by-3.0",
+    "arrow-down-2"
+   ],
+   "category": "General_items",
+   "subdir": "cc-by-3.0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC-BY-3.0",
+   "license_uri": "https://creativecommons.org/licenses/by/3.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-by-3.0/General_items/Servier/arrow-down.svg",
+   "name_en": "arrow down",
+   "name_zh": "",
+   "tags": [
+    "general items",
+    "cc-by-3.0",
+    "arrow-down"
+   ],
+   "category": "General_items",
+   "subdir": "cc-by-3.0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC-BY-3.0",
+   "license_uri": "https://creativecommons.org/licenses/by/3.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-by-3.0/General_items/Servier/arrow-left-curved-2.svg",
+   "name_en": "arrow left curved 2",
+   "name_zh": "",
+   "tags": [
+    "general items",
+    "cc-by-3.0",
+    "arrow-left-curved-2"
+   ],
+   "category": "General_items",
+   "subdir": "cc-by-3.0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC-BY-3.0",
+   "license_uri": "https://creativecommons.org/licenses/by/3.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-by-3.0/General_items/Servier/arrow-right-short.svg",
+   "name_en": "arrow right short",
+   "name_zh": "",
+   "tags": [
+    "general items",
+    "cc-by-3.0",
+    "arrow-right-short"
+   ],
+   "category": "General_items",
+   "subdir": "cc-by-3.0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC-BY-3.0",
+   "license_uri": "https://creativecommons.org/licenses/by/3.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-by-3.0/General_items/Servier/arrow-right-three-ends.svg",
+   "name_en": "arrow right three ends",
+   "name_zh": "",
+   "tags": [
+    "general items",
+    "cc-by-3.0",
+    "arrow-right-three-ends"
+   ],
+   "category": "General_items",
+   "subdir": "cc-by-3.0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC-BY-3.0",
+   "license_uri": "https://creativecommons.org/licenses/by/3.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-by-3.0/General_items/Servier/arrow-right-three-start.svg",
+   "name_en": "arrow right three start",
+   "name_zh": "",
+   "tags": [
+    "general items",
+    "cc-by-3.0",
+    "arrow-right-three-start"
+   ],
+   "category": "General_items",
+   "subdir": "cc-by-3.0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC-BY-3.0",
+   "license_uri": "https://creativecommons.org/licenses/by/3.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-by-3.0/General_items/Servier/arrow-right-two-ends.svg",
+   "name_en": "arrow right two ends",
+   "name_zh": "",
+   "tags": [
+    "general items",
+    "cc-by-3.0",
+    "arrow-right-two-ends"
+   ],
+   "category": "General_items",
+   "subdir": "cc-by-3.0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC-BY-3.0",
+   "license_uri": "https://creativecommons.org/licenses/by/3.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-by-3.0/General_items/Servier/arrow-right-two-start.svg",
+   "name_en": "arrow right two start",
+   "name_zh": "",
+   "tags": [
+    "general items",
+    "cc-by-3.0",
+    "arrow-right-two-start"
+   ],
+   "category": "General_items",
+   "subdir": "cc-by-3.0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC-BY-3.0",
+   "license_uri": "https://creativecommons.org/licenses/by/3.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-by-3.0/General_items/Servier/arrow-right.svg",
+   "name_en": "arrow right",
+   "name_zh": "",
+   "tags": [
+    "general items",
+    "cc-by-3.0",
+    "arrow-right"
+   ],
+   "category": "General_items",
+   "subdir": "cc-by-3.0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC-BY-3.0",
+   "license_uri": "https://creativecommons.org/licenses/by/3.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-by-3.0/General_items/Servier/arrow-up-long.svg",
+   "name_en": "arrow up long",
+   "name_zh": "",
+   "tags": [
+    "general items",
+    "cc-by-3.0",
+    "arrow-up-long"
+   ],
+   "category": "General_items",
+   "subdir": "cc-by-3.0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC-BY-3.0",
+   "license_uri": "https://creativecommons.org/licenses/by/3.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-by-3.0/General_items/Servier/cereal.svg",
+   "name_en": "cereal",
+   "name_zh": "",
+   "tags": [
+    "general items",
+    "cc-by-3.0",
+    "cereal"
+   ],
+   "category": "General_items",
+   "subdir": "cc-by-3.0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC-BY-3.0",
+   "license_uri": "https://creativecommons.org/licenses/by/3.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-by-3.0/General_items/Servier/kidney-beans.svg",
+   "name_en": "kidney beans",
+   "name_zh": "",
+   "tags": [
+    "general items",
+    "cc-by-3.0",
+    "kidney-beans"
+   ],
+   "category": "General_items",
+   "subdir": "cc-by-3.0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC-BY-3.0",
+   "license_uri": "https://creativecommons.org/licenses/by/3.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-by-3.0/Human_physiology/Servier/brain-1.svg",
+   "name_en": "brain 1",
+   "name_zh": "",
+   "tags": [
+    "human physiology",
+    "cc-by-3.0",
+    "brain-1"
+   ],
+   "category": "Human_physiology",
+   "subdir": "cc-by-3.0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC-BY-3.0",
+   "license_uri": "https://creativecommons.org/licenses/by/3.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-by-3.0/Human_physiology/Servier/colon.svg",
+   "name_en": "colon",
+   "name_zh": "",
+   "tags": [
+    "human physiology",
+    "cc-by-3.0",
+    "colon"
+   ],
+   "category": "Human_physiology",
+   "subdir": "cc-by-3.0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC-BY-3.0",
+   "license_uri": "https://creativecommons.org/licenses/by/3.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-by-3.0/Human_physiology/Servier/heart-cross-section-2.svg",
+   "name_en": "heart cross section 2",
+   "name_zh": "",
+   "tags": [
+    "human physiology",
+    "cc-by-3.0",
+    "heart-cross-section-2"
+   ],
+   "category": "Human_physiology",
+   "subdir": "cc-by-3.0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC-BY-3.0",
+   "license_uri": "https://creativecommons.org/licenses/by/3.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-by-3.0/Human_physiology/Servier/heart-one-color.svg",
+   "name_en": "heart one color",
+   "name_zh": "",
+   "tags": [
+    "human physiology",
+    "cc-by-3.0",
+    "heart-one-color"
+   ],
+   "category": "Human_physiology",
+   "subdir": "cc-by-3.0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC-BY-3.0",
+   "license_uri": "https://creativecommons.org/licenses/by/3.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-by-3.0/Human_physiology/Servier/heart-outline.svg",
+   "name_en": "heart outline",
+   "name_zh": "",
+   "tags": [
+    "human physiology",
+    "cc-by-3.0",
+    "heart-outline"
+   ],
+   "category": "Human_physiology",
+   "subdir": "cc-by-3.0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC-BY-3.0",
+   "license_uri": "https://creativecommons.org/licenses/by/3.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-by-3.0/Human_physiology/Servier/intestine-segmentation- (2).svg",
+   "name_en": "intestine segmentation  (2)",
+   "name_zh": "",
+   "tags": [
+    "human physiology",
+    "cc-by-3.0",
+    "intestine-segmentation- (2)"
+   ],
+   "category": "Human_physiology",
+   "subdir": "cc-by-3.0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC-BY-3.0",
+   "license_uri": "https://creativecommons.org/licenses/by/3.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-by-3.0/Human_physiology/Servier/intestine-segmentation- (3).svg",
+   "name_en": "intestine segmentation  (3)",
+   "name_zh": "",
+   "tags": [
+    "human physiology",
+    "cc-by-3.0",
+    "intestine-segmentation- (3)"
+   ],
+   "category": "Human_physiology",
+   "subdir": "cc-by-3.0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC-BY-3.0",
+   "license_uri": "https://creativecommons.org/licenses/by/3.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-by-3.0/Human_physiology/Servier/intestine.svg",
+   "name_en": "intestine",
+   "name_zh": "",
+   "tags": [
+    "human physiology",
+    "cc-by-3.0",
+    "intestine"
+   ],
+   "category": "Human_physiology",
+   "subdir": "cc-by-3.0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC-BY-3.0",
+   "license_uri": "https://creativecommons.org/licenses/by/3.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-by-3.0/Human_physiology/Servier/kidney-2.svg",
+   "name_en": "kidney 2",
+   "name_zh": "",
+   "tags": [
+    "human physiology",
+    "cc-by-3.0",
+    "kidney-2"
+   ],
+   "category": "Human_physiology",
+   "subdir": "cc-by-3.0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC-BY-3.0",
+   "license_uri": "https://creativecommons.org/licenses/by/3.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-by-3.0/Human_physiology/Servier/langerhans-cell.svg",
+   "name_en": "langerhans cell",
+   "name_zh": "",
+   "tags": [
+    "human physiology",
+    "cc-by-3.0",
+    "langerhans-cell"
+   ],
+   "category": "Human_physiology",
+   "subdir": "cc-by-3.0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC-BY-3.0",
+   "license_uri": "https://creativecommons.org/licenses/by/3.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-by-3.0/Human_physiology/Servier/liver-2.svg",
+   "name_en": "liver 2",
+   "name_zh": "",
+   "tags": [
+    "human physiology",
+    "cc-by-3.0",
+    "liver-2"
+   ],
+   "category": "Human_physiology",
+   "subdir": "cc-by-3.0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC-BY-3.0",
+   "license_uri": "https://creativecommons.org/licenses/by/3.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-by-3.0/Human_physiology/Servier/liver-3d.svg",
+   "name_en": "liver 3d",
+   "name_zh": "",
+   "tags": [
+    "human physiology",
+    "cc-by-3.0",
+    "liver-3d"
+   ],
+   "category": "Human_physiology",
+   "subdir": "cc-by-3.0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC-BY-3.0",
+   "license_uri": "https://creativecommons.org/licenses/by/3.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-by-3.0/Human_physiology/Servier/liver.svg",
+   "name_en": "liver",
+   "name_zh": "",
+   "tags": [
+    "human physiology",
+    "cc-by-3.0",
+    "liver"
+   ],
+   "category": "Human_physiology",
+   "subdir": "cc-by-3.0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC-BY-3.0",
+   "license_uri": "https://creativecommons.org/licenses/by/3.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-by-3.0/Human_physiology/Servier/lung-lobe-1.svg",
+   "name_en": "lung lobe 1",
+   "name_zh": "",
+   "tags": [
+    "human physiology",
+    "cc-by-3.0",
+    "lung-lobe-1"
+   ],
+   "category": "Human_physiology",
+   "subdir": "cc-by-3.0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC-BY-3.0",
+   "license_uri": "https://creativecommons.org/licenses/by/3.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-by-3.0/Human_physiology/Servier/lung-lobe-2.svg",
+   "name_en": "lung lobe 2",
+   "name_zh": "",
+   "tags": [
+    "human physiology",
+    "cc-by-3.0",
+    "lung-lobe-2"
+   ],
+   "category": "Human_physiology",
+   "subdir": "cc-by-3.0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC-BY-3.0",
+   "license_uri": "https://creativecommons.org/licenses/by/3.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-by-3.0/Human_physiology/Servier/main-cell-stomach-wall.svg",
+   "name_en": "main cell stomach wall",
+   "name_zh": "",
+   "tags": [
+    "human physiology",
+    "cc-by-3.0",
+    "main-cell-stomach-wall"
+   ],
+   "category": "Human_physiology",
+   "subdir": "cc-by-3.0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC-BY-3.0",
+   "license_uri": "https://creativecommons.org/licenses/by/3.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-by-3.0/Human_physiology/Servier/pancreas-2.svg",
+   "name_en": "pancreas 2",
+   "name_zh": "",
+   "tags": [
+    "human physiology",
+    "cc-by-3.0",
+    "pancreas-2"
+   ],
+   "category": "Human_physiology",
+   "subdir": "cc-by-3.0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC-BY-3.0",
+   "license_uri": "https://creativecommons.org/licenses/by/3.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-by-3.0/Human_physiology/Servier/pancreas.svg",
+   "name_en": "pancreas",
+   "name_zh": "",
+   "tags": [
+    "human physiology",
+    "cc-by-3.0",
+    "pancreas"
+   ],
+   "category": "Human_physiology",
+   "subdir": "cc-by-3.0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC-BY-3.0",
+   "license_uri": "https://creativecommons.org/licenses/by/3.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-by-3.0/Human_physiology/Servier/small-intestine-2.svg",
+   "name_en": "small intestine 2",
+   "name_zh": "",
+   "tags": [
+    "human physiology",
+    "cc-by-3.0",
+    "small-intestine-2"
+   ],
+   "category": "Human_physiology",
+   "subdir": "cc-by-3.0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC-BY-3.0",
+   "license_uri": "https://creativecommons.org/licenses/by/3.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-by-3.0/Human_physiology/Servier/small-intestine.svg",
+   "name_en": "small intestine",
+   "name_zh": "",
+   "tags": [
+    "human physiology",
+    "cc-by-3.0",
+    "small-intestine"
+   ],
+   "category": "Human_physiology",
+   "subdir": "cc-by-3.0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC-BY-3.0",
+   "license_uri": "https://creativecommons.org/licenses/by/3.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-by-3.0/Human_physiology/Servier/spleen-1.svg",
+   "name_en": "spleen 1",
+   "name_zh": "",
+   "tags": [
+    "human physiology",
+    "cc-by-3.0",
+    "spleen-1"
+   ],
+   "category": "Human_physiology",
+   "subdir": "cc-by-3.0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC-BY-3.0",
+   "license_uri": "https://creativecommons.org/licenses/by/3.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-by-3.0/Human_physiology/Servier/spleen-2.svg",
+   "name_en": "spleen 2",
+   "name_zh": "",
+   "tags": [
+    "human physiology",
+    "cc-by-3.0",
+    "spleen-2"
+   ],
+   "category": "Human_physiology",
+   "subdir": "cc-by-3.0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC-BY-3.0",
+   "license_uri": "https://creativecommons.org/licenses/by/3.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-by-3.0/Human_physiology/Servier/stomach-labeled.svg",
+   "name_en": "stomach labeled",
+   "name_zh": "",
+   "tags": [
+    "human physiology",
+    "cc-by-3.0",
+    "stomach-labeled"
+   ],
+   "category": "Human_physiology",
+   "subdir": "cc-by-3.0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC-BY-3.0",
+   "license_uri": "https://creativecommons.org/licenses/by/3.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-by-3.0/Human_physiology/Servier/stomach-ulcer.svg",
+   "name_en": "stomach ulcer",
+   "name_zh": "",
+   "tags": [
+    "human physiology",
+    "cc-by-3.0",
+    "stomach-ulcer"
+   ],
+   "category": "Human_physiology",
+   "subdir": "cc-by-3.0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC-BY-3.0",
+   "license_uri": "https://creativecommons.org/licenses/by/3.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-by-3.0/Human_physiology/Servier/stomach.svg",
+   "name_en": "stomach",
+   "name_zh": "",
+   "tags": [
+    "human physiology",
+    "cc-by-3.0",
+    "stomach"
+   ],
+   "category": "Human_physiology",
+   "subdir": "cc-by-3.0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC-BY-3.0",
+   "license_uri": "https://creativecommons.org/licenses/by/3.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-by-3.0/Microbiology/Servier/bacterium-interior.svg",
+   "name_en": "bacterium interior",
+   "name_zh": "",
+   "tags": [
+    "microbiology",
+    "cc-by-3.0",
+    "bacterium-interior"
+   ],
+   "category": "Microbiology",
+   "subdir": "cc-by-3.0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC-BY-3.0",
+   "license_uri": "https://creativecommons.org/licenses/by/3.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-by-3.0/Microbiology/Servier/bacterium.svg",
+   "name_en": "bacterium",
+   "name_zh": "",
+   "tags": [
+    "microbiology",
+    "cc-by-3.0",
+    "bacterium"
+   ],
+   "category": "Microbiology",
+   "subdir": "cc-by-3.0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC-BY-3.0",
+   "license_uri": "https://creativecommons.org/licenses/by/3.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-by-4.0/Human_physiology/DBCLS/Human_female.svg",
+   "name_en": "Human female",
+   "name_zh": "",
+   "tags": [
+    "human physiology",
+    "cc-by-4.0",
+    "Human_female"
+   ],
+   "category": "Human_physiology",
+   "subdir": "cc-by-4.0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC-BY-4.0",
+   "license_uri": "https://creativecommons.org/licenses/by/4.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-by-4.0/Human_physiology/DBCLS/Human_male.svg",
+   "name_en": "Human male",
+   "name_zh": "",
+   "tags": [
+    "human physiology",
+    "cc-by-4.0",
+    "Human_male"
+   ],
+   "category": "Human_physiology",
+   "subdir": "cc-by-4.0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC-BY-4.0",
+   "license_uri": "https://creativecommons.org/licenses/by/4.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-by-4.0/Lab_apparatus/DBCLS/Child.svg",
+   "name_en": "Child",
+   "name_zh": "",
+   "tags": [
+    "lab apparatus",
+    "cc-by-4.0",
+    "Child"
+   ],
+   "category": "Lab_apparatus",
+   "subdir": "cc-by-4.0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC-BY-4.0",
+   "license_uri": "https://creativecommons.org/licenses/by/4.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-by-4.0/Neuroscience/Eric-R-Cole/rat_optogenetic_implant.svg",
+   "name_en": "rat optogenetic implant",
+   "name_zh": "",
+   "tags": [
+    "neuroscience",
+    "cc-by-4.0",
+    "rat_optogenetic_implant"
+   ],
+   "category": "Neuroscience",
+   "subdir": "cc-by-4.0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC-BY-4.0",
+   "license_uri": "https://creativecommons.org/licenses/by/4.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-by-4.0/People-Other/DBCLS/Examination_Man.svg",
+   "name_en": "Examination Man",
+   "name_zh": "",
+   "tags": [
+    "people-other",
+    "cc-by-4.0",
+    "Examination_Man"
+   ],
+   "category": "People-Other",
+   "subdir": "cc-by-4.0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC-BY-4.0",
+   "license_uri": "https://creativecommons.org/licenses/by/4.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-by-4.0/People-Other/DBCLS/Examination_Woman.svg",
+   "name_en": "Examination Woman",
+   "name_zh": "",
+   "tags": [
+    "people-other",
+    "cc-by-4.0",
+    "Examination_Woman"
+   ],
+   "category": "People-Other",
+   "subdir": "cc-by-4.0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC-BY-4.0",
+   "license_uri": "https://creativecommons.org/licenses/by/4.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-by-4.0/People-Other/DBCLS/Examination_child.svg",
+   "name_en": "Examination child",
+   "name_zh": "",
+   "tags": [
+    "people-other",
+    "cc-by-4.0",
+    "Examination_child"
+   ],
+   "category": "People-Other",
+   "subdir": "cc-by-4.0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC-BY-4.0",
+   "license_uri": "https://creativecommons.org/licenses/by/4.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-by-4.0/Plants_Algae/DBCLS/Rice.svg",
+   "name_en": "Rice",
+   "name_zh": "",
+   "tags": [
+    "plants algae",
+    "cc-by-4.0",
+    "Rice"
+   ],
+   "category": "Plants_Algae",
+   "subdir": "cc-by-4.0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC-BY-4.0",
+   "license_uri": "https://creativecommons.org/licenses/by/4.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-by-4.0/Plants_Algae/DBCLS/wheat.svg",
+   "name_en": "wheat",
+   "name_zh": "",
+   "tags": [
+    "plants algae",
+    "cc-by-4.0",
+    "wheat"
+   ],
+   "category": "Plants_Algae",
+   "subdir": "cc-by-4.0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC-BY-4.0",
+   "license_uri": "https://creativecommons.org/licenses/by/4.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-by-4.0/Plants_Algae/Daniel_Carvalho/Oat.svg",
+   "name_en": "Oat",
+   "name_zh": "",
+   "tags": [
+    "plants algae",
+    "cc-by-4.0",
+    "Oat"
+   ],
+   "category": "Plants_Algae",
+   "subdir": "cc-by-4.0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC-BY-4.0",
+   "license_uri": "https://creativecommons.org/licenses/by/4.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-by-4.0/Plants_Algae/Erin_Sparks/Rice_Diagram.svg",
+   "name_en": "Rice Diagram",
+   "name_zh": "",
+   "tags": [
+    "plants algae",
+    "cc-by-4.0",
+    "Rice_Diagram"
+   ],
+   "category": "Plants_Algae",
+   "subdir": "cc-by-4.0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC-BY-4.0",
+   "license_uri": "https://creativecommons.org/licenses/by/4.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "cc-by-4.0/Plants_Algae/Erin_Sparks/Rice_Root_Anatomy.svg",
+   "name_en": "Rice Root Anatomy",
+   "name_zh": "",
+   "tags": [
+    "plants algae",
+    "cc-by-4.0",
+    "Rice_Root_Anatomy"
+   ],
+   "category": "Plants_Algae",
+   "subdir": "cc-by-4.0",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "CC-BY-4.0",
+   "license_uri": "https://creativecommons.org/licenses/by/4.0/",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "mit/Scientific_graphs/dbs-sticky/bar-grouped.svg",
+   "name_en": "bar grouped",
+   "name_zh": "",
+   "tags": [
+    "scientific graphs",
+    "mit",
+    "bar-grouped"
+   ],
+   "category": "Scientific_graphs",
+   "subdir": "mit",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "MIT",
+   "license_uri": "https://opensource.org/license/mit",
+   "attribution": "Bioicons (https://bioicons.com)"
+  },
+  {
+   "file": "mit/Scientific_graphs/dbs-sticky/column-grouped.svg",
+   "name_en": "column grouped",
+   "name_zh": "",
+   "tags": [
+    "scientific graphs",
+    "mit",
+    "column-grouped"
+   ],
+   "category": "Scientific_graphs",
+   "subdir": "mit",
+   "series": "bioicons",
+   "format": "illustration",
+   "license": "MIT",
+   "license_uri": "https://opensource.org/license/mit",
+   "attribution": "Bioicons (https://bioicons.com)"
+  }
+ ]
+}

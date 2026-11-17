@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400"
+     role="img" aria-labelledby="t-50 d-50" class="pp-diagram pp-trees" data-license="CC-BY-4.0" data-copyright="ZengZichao">
+  <title id="t-50">三域扇形树 / Three-domain Fan Tree</title>
+  <desc id="d-50">骨架，配合GTDB使用。三域扇形系统发育树(约240°扇区，非整圆)。 关键词: phylogenetic tree, fan three domain, sector, Three-domain, GTDB, skeleton template, phylogenetics</desc>
+  <rect x="0" y="0" width="600" height="400" fill="#F4F1EA" data-pp="bg"/>
+  <g id="pp50__branches" data-name="branches">
+    <path d="M 330 195 L 370 195 M 344.6 157.8 A 40 40 0 0 1 344.6 232.2 M 344.6 157.8 L 361.1 115.9 M 344.6 232.2 L 361.1 274.1"
+          fill="none" stroke="#1B2733" stroke-width="1.5" data-pp="ink" stroke-linecap="round"/>
+    <path d="M 311.1 112.1 A 85 85 0 0 1 400.2 147.1 M 311.1 112.1 L 304.4 82.9 M 400.2 147.1 L 425 130.2 M 272.5 95.4 A 115 115 0 0 1 338.6 80.3 M 272.5 95.4 L 260 73.8 M 338.6 80.3 L 340.5 55.4 M 401.7 105.1 A 115 115 0 0 1 439.9 161.1 M 401.7 105.1 L 417.3 85.5 M 439.9 161.1 L 463.8 153.7"
+          fill="none" stroke="#2E86AB" stroke-width="1.5" data-pp="bacteria" stroke-linecap="round"/>
+    <path d="M 400.2 242.9 A 85 85 0 0 1 311.1 277.9" fill="none" stroke="#1B2733" stroke-width="1.5" data-pp="ink" stroke-linecap="round"/>
+    <path d="M 400.2 242.9 L 425 259.8 M 439.9 228.9 A 115 115 0 0 1 401.7 284.9 M 439.9 228.9 L 463.8 236.3 M 401.7 284.9 L 417.3 304.5"
+          fill="none" stroke="#A2305B" stroke-width="1.5" data-pp="archaea" stroke-linecap="round"/>
+    <path d="M 311.1 277.9 L 304.4 307.1 M 338.6 309.7 A 115 115 0 0 1 272.5 294.6 M 338.6 309.7 L 340.5 334.6 M 272.5 294.6 L 260 316.2"
+          fill="none" stroke="#3F8FBF" stroke-width="1.5" data-pp="eukaryote" stroke-linecap="round"/>
+    <circle cx="330" cy="195" r="2.5" fill="#FFFFFF" stroke="#1B2733" stroke-width="1" data-pp="white"/>
+    <circle cx="361.1" cy="115.9" r="2.5" fill="#FFFFFF" stroke="#1B2733" stroke-width="1" data-pp="white"/>
+    <circle cx="361.1" cy="274.1" r="2.5" fill="#FFFFFF" stroke="#1B2733" stroke-width="1" data-pp="white"/>
+    <circle cx="304.4" cy="82.9" r="2.5" fill="#FFFFFF" stroke="#1B2733" stroke-width="1" data-pp="white"/>
+    <circle cx="425" cy="130.2" r="2.5" fill="#FFFFFF" stroke="#1B2733" stroke-width="1" data-pp="white"/>
+    <circle cx="425" cy="259.8" r="2.5" fill="#FFFFFF" stroke="#1B2733" stroke-width="1" data-pp="white"/>
+    <circle cx="304.4" cy="307.1" r="2.5" fill="#FFFFFF" stroke="#1B2733" stroke-width="1" data-pp="white"/>
+  </g>
+  <g id="pp50__labels" data-name="tip-labels">
+    <text x="256.5" y="67.7" font-size="9" font-family="Inter,Helvetica,Arial,sans-serif" fill="#2E86AB" data-pp="bacteria" text-anchor="end" transform="rotate(60 256.5 67.7)">BacA</text>
+    <text x="341" y="48.4" font-size="9" font-family="Inter,Helvetica,Arial,sans-serif" fill="#2E86AB" data-pp="bacteria" text-anchor="start" transform="rotate(-85.7 341 48.4)">BacB</text>
+    <text x="421.7" y="80.1" font-size="9" font-family="Inter,Helvetica,Arial,sans-serif" fill="#2E86AB" data-pp="bacteria" text-anchor="start" transform="rotate(-51.4 421.7 80.1)">BacC</text>
+    <text x="470.5" y="151.7" font-size="9" font-family="Inter,Helvetica,Arial,sans-serif" fill="#2E86AB" data-pp="bacteria" text-anchor="start" transform="rotate(-17.1 470.5 151.7)">BacD</text>
+    <text x="470.5" y="238.3" font-size="9" font-family="Inter,Helvetica,Arial,sans-serif" fill="#A2305B" data-pp="archaea" text-anchor="start" transform="rotate(17.1 470.5 238.3)">ArcA</text>
+    <text x="421.7" y="309.9" font-size="9" font-family="Inter,Helvetica,Arial,sans-serif" fill="#A2305B" data-pp="archaea" text-anchor="start" transform="rotate(51.4 421.7 309.9)">ArcB</text>
+    <text x="341" y="341.6" font-size="9" font-family="Inter,Helvetica,Arial,sans-serif" fill="#3F8FBF" data-pp="eukaryote" text-anchor="start" transform="rotate(85.7 341 341.6)">EukA</text>
+    <text x="256.5" y="322.3" font-size="9" font-family="Inter,Helvetica,Arial,sans-serif" fill="#3F8FBF" data-pp="eukaryote" text-anchor="end" transform="rotate(-60 256.5 322.3)">EukB</text>
+  </g>
+  <g data-name="domain-legend">
+    <rect x="70" y="168" width="16" height="10" fill="#2E86AB" data-pp="bacteria"/>
+    <text x="94" y="177" font-size="9" font-family="Inter,Helvetica,Arial,sans-serif" fill="#1B2733" data-pp="ink">Bacteria</text>
+    <rect x="70" y="188" width="16" height="10" fill="#A2305B" data-pp="archaea"/>
+    <text x="94" y="197" font-size="9" font-family="Inter,Helvetica,Arial,sans-serif" fill="#1B2733" data-pp="ink">Archaea</text>
+    <rect x="70" y="208" width="16" height="10" fill="#3F8FBF" data-pp="eukaryote"/>
+    <text x="94" y="217" font-size="9" font-family="Inter,Helvetica,Arial,sans-serif" fill="#1B2733" data-pp="ink">Eukaryota</text>
+    <text x="322" y="198" font-size="9" font-family="Inter,Helvetica,Arial,sans-serif" fill="#1B2733" data-pp="ink" text-anchor="end">root</text>
+  </g>
+</svg>

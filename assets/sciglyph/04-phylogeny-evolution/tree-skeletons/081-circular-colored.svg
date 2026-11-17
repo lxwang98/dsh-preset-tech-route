@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400"
+     role="img" aria-labelledby="t-49 d-49" class="pp-diagram pp-trees" data-license="CC-BY-4.0" data-copyright="ZengZichao">
+  <title id="t-49">环形着色树 / Circular Colored Tree</title>
+  <desc id="d-49">骨架，配合iTOL使用。环形树tip按分类群着色。 关键词: phylogenetic tree, circular colored, iTOL, tip, skeleton template</desc>
+  <rect x="0" y="0" width="600" height="400" fill="#F4F1EA" data-pp="bg"/>
+  <g id="pp49__branches" data-name="branches">
+    <path d="M 285 200 L 293.8 244.1 M 285 200 L 263.8 160.3" fill="none" stroke="#1B2733" stroke-width="1.5" data-pp="ink" stroke-linecap="round"/>
+    <path d="M 316.8 231.8 A 45 45 0 0 1 267.8 241.6 M 316.8 231.8 L 348.6 263.6 M 267.8 241.6 L 225.7 343.2 M 368.1 234.4 A 90 90 0 0 1 319.4 283.1 M 368.1 234.4 L 428.2 259.3 M 319.4 283.1 L 344.3 343.2"
+          fill="none" stroke="#2E86AB" stroke-width="1.5" data-pp="bacteria" stroke-linecap="round"/>
+    <path d="M 240 200 A 45 45 0 0 1 310 162.6 M 240 200 L 195 200 M 310 162.6 L 335 125.2" fill="none" stroke="#1B2733" stroke-width="1.5" data-pp="ink" stroke-linecap="round"/>
+    <path d="M 201.9 234.4 A 90 90 0 0 1 201.9 165.6 M 201.9 234.4 L 141.8 259.3 M 201.9 165.6 L 141.8 140.7"
+          fill="none" stroke="#A2305B" stroke-width="1.5" data-pp="archaea" stroke-linecap="round"/>
+    <path d="M 285 110 A 90 90 0 0 1 368.1 165.6 M 285 110 L 285 75 M 368.1 165.6 L 428.2 140.7 M 237.2 84.5 A 125 125 0 0 1 332.8 84.5 M 237.2 84.5 L 225.7 56.8 M 332.8 84.5 L 344.3 56.8"
+          fill="none" stroke="#3F8FBF" stroke-width="1.5" data-pp="eukaryote" stroke-linecap="round"/>
+  </g>
+  <g id="pp49__labels" data-name="tip-labels">
+    <text x="434.7" y="262" font-size="9" font-family="Inter,Helvetica,Arial,sans-serif" fill="#2E86AB" data-pp="bacteria" text-anchor="start" transform="rotate(22.5 434.7 262)">Sp_A</text>
+    <text x="347" y="349.7" font-size="9" font-family="Inter,Helvetica,Arial,sans-serif" fill="#2E86AB" data-pp="bacteria" text-anchor="start" transform="rotate(67.5 347 349.7)">Sp_B</text>
+    <text x="223" y="349.7" font-size="9" font-family="Inter,Helvetica,Arial,sans-serif" fill="#2E86AB" data-pp="bacteria" text-anchor="end" transform="rotate(-67.5 223 349.7)">Sp_C</text>
+    <text x="135.3" y="262" font-size="9" font-family="Inter,Helvetica,Arial,sans-serif" fill="#A2305B" data-pp="archaea" text-anchor="end" transform="rotate(-22.5 135.3 262)">Sp_D</text>
+    <text x="135.3" y="138" font-size="9" font-family="Inter,Helvetica,Arial,sans-serif" fill="#A2305B" data-pp="archaea" text-anchor="end" transform="rotate(22.5 135.3 138)">Sp_E</text>
+    <text x="223" y="50.3" font-size="9" font-family="Inter,Helvetica,Arial,sans-serif" fill="#3F8FBF" data-pp="eukaryote" text-anchor="end" transform="rotate(67.5 223 50.3)">Sp_F</text>
+    <text x="347" y="50.3" font-size="9" font-family="Inter,Helvetica,Arial,sans-serif" fill="#3F8FBF" data-pp="eukaryote" text-anchor="start" transform="rotate(-67.5 347 50.3)">Sp_G</text>
+    <text x="434.7" y="138" font-size="9" font-family="Inter,Helvetica,Arial,sans-serif" fill="#3F8FBF" data-pp="eukaryote" text-anchor="start" transform="rotate(-22.5 434.7 138)">Sp_H</text>
+  </g>
+  <g data-name="domain-legend">
+    <rect x="470" y="172" width="14" height="10" fill="#2E86AB" data-pp="bacteria"/>
+    <text x="492" y="181" font-size="9" font-family="Inter,Helvetica,Arial,sans-serif" fill="#1B2733" data-pp="ink">Bacteria</text>
+    <rect x="470" y="192" width="14" height="10" fill="#A2305B" data-pp="archaea"/>
+    <text x="492" y="201" font-size="9" font-family="Inter,Helvetica,Arial,sans-serif" fill="#1B2733" data-pp="ink">Archaea</text>
+    <rect x="470" y="212" width="14" height="10" fill="#3F8FBF" data-pp="eukaryote"/>
+    <text x="492" y="221" font-size="9" font-family="Inter,Helvetica,Arial,sans-serif" fill="#1B2733" data-pp="ink">Eukaryota</text>
+  </g>
+</svg>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400"
+     role="img" aria-labelledby="t-12 d-12" class="pp-diagram pp-trees" data-license="CC-BY-4.0" data-copyright="ZengZichao">
+  <title id="t-12">三域经典模型 / Three-domains Classical</title>
+  <desc id="d-12">骨架，配合Woese 1990经典三域模型使用。细菌、古菌、真核三域并列。 关键词: phylogenetic tree, three domains classical, Three-domains, Woese, skeleton template</desc>
+  <rect x="0" y="0" width="600" height="400" fill="#F4F1EA" data-pp="bg"/>
+  <g id="pp12__clades" data-name="clade-shading">
+    <rect x="114" y="30" width="348" height="100" fill="#2E86AB" data-pp="bacteria" fill-opacity="0.12" data-name="clade-A"/>
+    <rect x="114" y="146" width="348" height="100" fill="#A2305B" data-pp="archaea" fill-opacity="0.12" data-name="clade-B"/>
+    <rect x="114" y="262" width="348" height="100" fill="#3F8FBF" data-pp="eukaryote" fill-opacity="0.12" data-name="clade-C"/>
+  </g>
+  <g id="pp12__branches" data-name="branches">
+    <line x1="100.0" y1="196.0" x2="200.0" y2="80.0" stroke="#1B2733" stroke-width="1.5" data-pp="ink" stroke-linecap="round"/>
+    <line x1="100.0" y1="196.0" x2="200.0" y2="196.0" stroke="#1B2733" stroke-width="1.5" data-pp="ink" stroke-linecap="round"/>
+    <line x1="100.0" y1="196.0" x2="200.0" y2="312.0" stroke="#1B2733" stroke-width="1.5" data-pp="ink" stroke-linecap="round"/>
+    <line x1="200.0" y1="44.0" x2="200.0" y2="116.0" stroke="#1B2733" stroke-width="1.5" data-pp="ink" stroke-linecap="round"/>
+    <line x1="200.0" y1="160.0" x2="200.0" y2="232.0" stroke="#1B2733" stroke-width="1.5" data-pp="ink" stroke-linecap="round"/>
+    <line x1="200.0" y1="276.0" x2="200.0" y2="348.0" stroke="#1B2733" stroke-width="1.5" data-pp="ink" stroke-linecap="round"/>
+    <line x1="200.0" y1="44.0" x2="460.0" y2="44.0" stroke="#2E86AB" stroke-width="1.5" data-pp="bacteria" stroke-linecap="round"/>
+    <line x1="200.0" y1="116.0" x2="460.0" y2="116.0" stroke="#2E86AB" stroke-width="1.5" data-pp="bacteria" stroke-linecap="round"/>
+    <line x1="200.0" y1="160.0" x2="460.0" y2="160.0" stroke="#A2305B" stroke-width="1.5" data-pp="archaea" stroke-linecap="round"/>
+    <line x1="200.0" y1="232.0" x2="460.0" y2="232.0" stroke="#A2305B" stroke-width="1.5" data-pp="archaea" stroke-linecap="round"/>
+    <line x1="200.0" y1="276.0" x2="460.0" y2="276.0" stroke="#3F8FBF" stroke-width="1.5" data-pp="eukaryote" stroke-linecap="round"/>
+    <line x1="200.0" y1="348.0" x2="460.0" y2="348.0" stroke="#3F8FBF" stroke-width="1.5" data-pp="eukaryote" stroke-linecap="round"/>
+  </g>
+  <g id="pp12__nodes" data-name="nodes">
+    <circle cx="100.0" cy="196.0" r="3.5" fill="#1B2733" stroke="#1B2733" stroke-width="1" data-pp="ink"/>
+    <text x="94.0" y="190.0" font-size="9" font-family="Inter,Helvetica,Arial,sans-serif" fill="#1B2733" data-pp="ink" text-anchor="end">LUCA</text>
+    <circle cx="200.0" cy="80.0" r="2.5" fill="#FFFFFF" stroke="#1B2733" stroke-width="1" data-pp="white"/>
+    <circle cx="200.0" cy="196.0" r="2.5" fill="#FFFFFF" stroke="#1B2733" stroke-width="1" data-pp="white"/>
+    <circle cx="200.0" cy="312.0" r="2.5" fill="#FFFFFF" stroke="#1B2733" stroke-width="1" data-pp="white"/>
+  </g>
+  <g id="pp12__labels" data-name="tip-labels">
+    <text x="466.0" y="47.0" font-size="10" font-family="Inter,Helvetica,Arial,sans-serif" fill="#2E86AB" data-pp="bacteria">BacA</text>
+    <text x="466.0" y="119.0" font-size="10" font-family="Inter,Helvetica,Arial,sans-serif" fill="#2E86AB" data-pp="bacteria">BacB</text>
+    <text x="466.0" y="163.0" font-size="10" font-family="Inter,Helvetica,Arial,sans-serif" fill="#A2305B" data-pp="archaea">ArcA</text>
+    <text x="466.0" y="235.0" font-size="10" font-family="Inter,Helvetica,Arial,sans-serif" fill="#A2305B" data-pp="archaea">ArcB</text>
+    <text x="466.0" y="279.0" font-size="10" font-family="Inter,Helvetica,Arial,sans-serif" fill="#3F8FBF" data-pp="eukaryote">EukA</text>
+    <text x="466.0" y="351.0" font-size="10" font-family="Inter,Helvetica,Arial,sans-serif" fill="#3F8FBF" data-pp="eukaryote">EukB</text>
+  </g>
+  <g data-name="domain-labels">
+    <text x="500.0" y="84.0" font-size="10" font-family="Inter,Helvetica,Arial,sans-serif" fill="#2E86AB" data-pp="bacteria">Bacteria</text>
+    <text x="500.0" y="200.0" font-size="10" font-family="Inter,Helvetica,Arial,sans-serif" fill="#A2305B" data-pp="archaea">Archaea</text>
+    <text x="500.0" y="316.0" font-size="10" font-family="Inter,Helvetica,Arial,sans-serif" fill="#3F8FBF" data-pp="eukaryote">Eukarya</text>
+  </g>
+  <g data-name="legend">
+    <text x="70" y="380" font-size="9" font-family="Inter,Helvetica,Arial,sans-serif" fill="#1B2733" data-pp="ink">three domains radiate from LUCA; no domain is nested in another</text>
+  </g>
+  <g data-name="scale-bar">
+    <line x1="440" y1="378" x2="530" y2="378" stroke="#1B2733" stroke-width="1.5" data-pp="ink"/>
+    <line x1="440" y1="374" x2="440" y2="382" stroke="#1B2733" stroke-width="1.5" data-pp="ink"/>
+    <line x1="530" y1="374" x2="530" y2="382" stroke="#1B2733" stroke-width="1.5" data-pp="ink"/>
+    <text x="485.0" y="392" font-size="9" font-family="Inter,Helvetica,Arial,sans-serif" fill="#1B2733" data-pp="ink" text-anchor="middle">schematic</text>
+  </g>
+</svg>
