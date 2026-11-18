@@ -166,6 +166,10 @@ def scidraw() -> list[dict]:
         "cc-by": ("CC BY 4.0", "https://creativecommons.org/licenses/by/4.0/"),
         "cc0": ("CC0 1.0", "https://creativecommons.org/publicdomain/zero/1.0/"),
     }
+    zh_cat = {
+        "mouse": "小鼠", "rat": "大鼠", "human": "人", "cell": "细胞",
+        "fish": "鱼", "drosophila": "果蝇", "bird": "鸟", "other": "其他",
+    }
     out: list[dict] = []
     for it in meta:
         rel = it.get("local_file")
@@ -183,12 +187,12 @@ def scidraw() -> list[dict]:
         if lic:
             attrib += f", {lic}"
         tags = list(dict.fromkeys(
-            [name.lower(), cat] + zh_for(name + " " + cat)
+            [name.lower(), cat, zh_cat.get(cat, cat)] + zh_for(name + " " + cat)
         ))
         out.append({
             "id": f"scidraw/{cat}/{slug}",
             "svg": rel,
-            "zh": " ".join(zh_for(name + " " + cat))[:40],
+            "zh": " ".join([zh_cat.get(cat, cat)] + zh_for(name + " " + cat))[:40],
             "en": name,
             "tags": tags,
             "cat": cat, "subdir": cat,

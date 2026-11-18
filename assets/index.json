@@ -2068,11 +2068,12 @@
 {
 "id": "scidraw/bird/australian-pied-butcherbird-18b8e829",
 "svg": "custom/scidraw/bird/australian-pied-butcherbird-18b8e829.svg",
-"zh": "",
+"zh": "鸟",
 "en": "Australian pied butcherbird",
 "tags": [
 "australian pied butcherbird",
-"bird"
+"bird",
+"鸟"
 ],
 "cat": "bird",
 "subdir": "bird",
@@ -2085,11 +2086,12 @@
 {
 "id": "scidraw/bird/australian-pied-butcherbird-56843c14",
 "svg": "custom/scidraw/bird/australian-pied-butcherbird-56843c14.svg",
-"zh": "",
+"zh": "鸟",
 "en": "Australian pied butcherbird",
 "tags": [
 "australian pied butcherbird",
-"bird"
+"bird",
+"鸟"
 ],
 "cat": "bird",
 "subdir": "bird",
@@ -2102,11 +2104,12 @@
 {
 "id": "scidraw/bird/bengalese-finch-ddfdfc44",
 "svg": "custom/scidraw/bird/bengalese-finch-ddfdfc44.svg",
-"zh": "",
+"zh": "鸟",
 "en": "Bengalese finch",
 "tags": [
 "bengalese finch",
-"bird"
+"bird",
+"鸟"
 ],
 "cat": "bird",
 "subdir": "bird",
@@ -2119,11 +2122,12 @@
 {
 "id": "scidraw/bird/bird-diving-silhouette-1cf3f5ad",
 "svg": "custom/scidraw/bird/bird-diving-silhouette-1cf3f5ad.svg",
-"zh": "",
+"zh": "鸟",
 "en": "Bird diving silhouette",
 "tags": [
 "bird diving silhouette",
-"bird"
+"bird",
+"鸟"
 ],
 "cat": "bird",
 "subdir": "bird",
@@ -2136,11 +2140,12 @@
 {
 "id": "scidraw/bird/bird-flying-silhouette-c0015319",
 "svg": "custom/scidraw/bird/bird-flying-silhouette-c0015319.svg",
-"zh": "果蝇",
+"zh": "鸟 果蝇",
 "en": "bird flying silhouette",
 "tags": [
 "bird flying silhouette",
 "bird",
+"鸟",
 "果蝇"
 ],
 "cat": "bird",
@@ -2154,11 +2159,12 @@
 {
 "id": "scidraw/bird/bird-silhouette-6a2e0ae2",
 "svg": "custom/scidraw/bird/bird-silhouette-6a2e0ae2.svg",
-"zh": "",
+"zh": "鸟",
 "en": "bird silhouette",
 "tags": [
 "bird silhouette",
-"bird"
+"bird",
+"鸟"
 ],
 "cat": "bird",
 "subdir": "bird",
@@ -2171,11 +2177,12 @@
 {
 "id": "scidraw/bird/bird-silhouette-b98882ac",
 "svg": "custom/scidraw/bird/bird-silhouette-b98882ac.svg",
-"zh": "",
+"zh": "鸟",
 "en": "bird silhouette",
 "tags": [
 "bird silhouette",
-"bird"
+"bird",
+"鸟"
 ],
 "cat": "bird",
 "subdir": "bird",
@@ -2188,11 +2195,12 @@
 {
 "id": "scidraw/bird/bird-silhouette-d6864387",
 "svg": "custom/scidraw/bird/bird-silhouette-d6864387.svg",
-"zh": "",
+"zh": "鸟",
 "en": "bird silhouette",
 "tags": [
 "bird silhouette",
-"bird"
+"bird",
+"鸟"
 ],
 "cat": "bird",
 "subdir": "bird",
@@ -2205,11 +2213,12 @@
 {
 "id": "scidraw/bird/black-redstart-3e232838",
 "svg": "custom/scidraw/bird/black-redstart-3e232838.svg",
-"zh": "",
+"zh": "鸟",
 "en": "Black Redstart",
 "tags": [
 "black redstart",
-"bird"
+"bird",
+"鸟"
 ],
 "cat": "bird",
 "subdir": "bird",
@@ -2222,11 +2231,12 @@
 {
 "id": "scidraw/bird/blue-budgie-e68d1f9b",
 "svg": "custom/scidraw/bird/blue-budgie-e68d1f9b.svg",
-"zh": "",
+"zh": "鸟",
 "en": "Blue Budgie",
 "tags": [
 "blue budgie",
-"bird"
+"bird",
+"鸟"
 ],
 "cat": "bird",
 "subdir": "bird",
@@ -2239,11 +2249,12 @@
 {
 "id": "scidraw/bird/buzzard-ae26ad33",
 "svg": "custom/scidraw/bird/buzzard-ae26ad33.svg",
-"zh": "",
+"zh": "鸟",
 "en": "Buzzard",
 "tags": [
 "buzzard",
-"bird"
+"bird",
+"鸟"
 ],
 "cat": "bird",
 "subdir": "bird",
@@ -2256,11 +2267,12 @@
 {
 "id": "scidraw/bird/california-thrasher-1332c955",
 "svg": "custom/scidraw/bird/california-thrasher-1332c955.svg",
-"zh": "",
+"zh": "鸟",
 "en": "California thrasher",
 "tags": [
 "california thrasher",
-"bird"
+"bird",
+"鸟"
 ],
 "cat": "bird",
 "subdir": "bird",
@@ -2273,11 +2285,12 @@
 {
 "id": "scidraw/bird/cassins-vireo-db0850be",
 "svg": "custom/scidraw/bird/cassins-vireo-db0850be.svg",
-"zh": "",
+"zh": "鸟",
 "en": "Cassin's vireo",
 "tags": [
 "cassin's vireo",
-"bird"
+"bird",
+"鸟"
 ],
 "cat": "bird",
 "subdir": "bird",
@@ -2290,11 +2303,12 @@
 {
 "id": "scidraw/bird/chick-b7b04c23",
 "svg": "custom/scidraw/bird/chick-b7b04c23.svg",
-"zh": "",
+"zh": "鸟",
 "en": "Chick",
 "tags": [
 "chick",
-"bird"
+"bird",
+"鸟"
 ],
 "cat": "bird",
 "subdir": "bird",
@@ -2307,11 +2321,12 @@
 {
 "id": "scidraw/bird/chicken-9cebde98",
 "svg": "custom/scidraw/bird/chicken-9cebde98.png",
-"zh": "鸡",
+"zh": "鸟 鸡",
 "en": "Chicken",
 "tags": [
 "chicken",
 "bird",
+"鸟",
 "鸡"
 ],
 "cat": "bird",
@@ -2325,11 +2340,12 @@
 {
 "id": "scidraw/bird/eagle-674d8643",
 "svg": "custom/scidraw/bird/eagle-674d8643.svg",
-"zh": "",
+"zh": "鸟",
 "en": "Eagle",
 "tags": [
 "eagle",
-"bird"
+"bird",
+"鸟"
 ],
 "cat": "bird",
 "subdir": "bird",
@@ -2342,11 +2358,12 @@
 {
 "id": "scidraw/bird/eagle-a6693d30",
 "svg": "custom/scidraw/bird/eagle-a6693d30.svg",
-"zh": "",
+"zh": "鸟",
 "en": "Eagle",
 "tags": [
 "eagle",
-"bird"
+"bird",
+"鸟"
 ],
 "cat": "bird",
 "subdir": "bird",
@@ -2359,11 +2376,12 @@
 {
 "id": "scidraw/bird/eagle-sitting-ad401364",
 "svg": "custom/scidraw/bird/eagle-sitting-ad401364.svg",
-"zh": "",
+"zh": "鸟",
 "en": "Eagle (sitting)",
 "tags": [
 "eagle (sitting)",
-"bird"
+"bird",
+"鸟"
 ],
 "cat": "bird",
 "subdir": "bird",
@@ -2376,11 +2394,12 @@
 {
 "id": "scidraw/bird/european-starling-operant-conditioning-5d319913",
 "svg": "custom/scidraw/bird/european-starling-operant-conditioning-5d319913.svg",
-"zh": "",
+"zh": "鸟",
 "en": "European starling operant conditioning",
 "tags": [
 "european starling operant conditioning",
-"bird"
+"bird",
+"鸟"
 ],
 "cat": "bird",
 "subdir": "bird",
@@ -2393,11 +2412,12 @@
 {
 "id": "scidraw/bird/gallus-gallus-636dd4a1",
 "svg": "custom/scidraw/bird/gallus-gallus-636dd4a1.png",
-"zh": "",
+"zh": "鸟",
 "en": "Gallus gallus",
 "tags": [
 "gallus gallus",
-"bird"
+"bird",
+"鸟"
 ],
 "cat": "bird",
 "subdir": "bird",
@@ -2410,11 +2430,12 @@
 {
 "id": "scidraw/bird/gallus-gallus-b605382c",
 "svg": "custom/scidraw/bird/gallus-gallus-b605382c.svg",
-"zh": "",
+"zh": "鸟",
 "en": "Gallus gallus",
 "tags": [
 "gallus gallus",
-"bird"
+"bird",
+"鸟"
 ],
 "cat": "bird",
 "subdir": "bird",
@@ -2427,11 +2448,12 @@
 {
 "id": "scidraw/bird/gentoo-penguin-9ff4db48",
 "svg": "custom/scidraw/bird/gentoo-penguin-9ff4db48.svg",
-"zh": "",
+"zh": "鸟",
 "en": "Gentoo Penguin",
 "tags": [
 "gentoo penguin",
-"bird"
+"bird",
+"鸟"
 ],
 "cat": "bird",
 "subdir": "bird",
@@ -2444,11 +2466,12 @@
 {
 "id": "scidraw/bird/interacting-budgies-b6634c4e",
 "svg": "custom/scidraw/bird/interacting-budgies-b6634c4e.svg",
-"zh": "",
+"zh": "鸟",
 "en": "Interacting Budgies",
 "tags": [
 "interacting budgies",
-"bird"
+"bird",
+"鸟"
 ],
 "cat": "bird",
 "subdir": "bird",
@@ -2461,11 +2484,12 @@
 {
 "id": "scidraw/bird/looming-hawk-4c09bb94",
 "svg": "custom/scidraw/bird/looming-hawk-4c09bb94.svg",
-"zh": "",
+"zh": "鸟",
 "en": "looming hawk",
 "tags": [
 "looming hawk",
-"bird"
+"bird",
+"鸟"
 ],
 "cat": "bird",
 "subdir": "bird",
@@ -2478,11 +2502,12 @@
 {
 "id": "scidraw/bird/mute-swan-6b9943a2",
 "svg": "custom/scidraw/bird/mute-swan-6b9943a2.svg",
-"zh": "",
+"zh": "鸟",
 "en": "Mute Swan",
 "tags": [
 "mute swan",
-"bird"
+"bird",
+"鸟"
 ],
 "cat": "bird",
 "subdir": "bird",
@@ -2495,11 +2520,12 @@
 {
 "id": "scidraw/bird/songbird-6e716395",
 "svg": "custom/scidraw/bird/songbird-6e716395.svg",
-"zh": "",
+"zh": "鸟",
 "en": "Songbird",
 "tags": [
 "songbird",
-"bird"
+"bird",
+"鸟"
 ],
 "cat": "bird",
 "subdir": "bird",
@@ -2512,11 +2538,12 @@
 {
 "id": "scidraw/bird/taeniopygia-guttata-30f2d5f0",
 "svg": "custom/scidraw/bird/taeniopygia-guttata-30f2d5f0.png",
-"zh": "肠道",
+"zh": "鸟 肠道",
 "en": "Taeniopygia guttata",
 "tags": [
 "taeniopygia guttata",
 "bird",
+"鸟",
 "肠道"
 ],
 "cat": "bird",
@@ -2530,11 +2557,12 @@
 {
 "id": "scidraw/bird/taeniopygia-guttata-acf0957a",
 "svg": "custom/scidraw/bird/taeniopygia-guttata-acf0957a.svg",
-"zh": "肠道",
+"zh": "鸟 肠道",
 "en": "Taeniopygia guttata",
 "tags": [
 "taeniopygia guttata",
 "bird",
+"鸟",
 "肠道"
 ],
 "cat": "bird",
@@ -2548,11 +2576,12 @@
 {
 "id": "scidraw/bird/yellow-budgie-f27fabce",
 "svg": "custom/scidraw/bird/yellow-budgie-f27fabce.svg",
-"zh": "",
+"zh": "鸟",
 "en": "Yellow Budgie",
 "tags": [
 "yellow budgie",
-"bird"
+"bird",
+"鸟"
 ],
 "cat": "bird",
 "subdir": "bird",
@@ -2565,11 +2594,12 @@
 {
 "id": "scidraw/bird/zebra-finch-7866f2d6",
 "svg": "custom/scidraw/bird/zebra-finch-7866f2d6.svg",
-"zh": "",
+"zh": "鸟",
 "en": "Zebra Finch",
 "tags": [
 "zebra finch",
-"bird"
+"bird",
+"鸟"
 ],
 "cat": "bird",
 "subdir": "bird",
@@ -2582,11 +2612,12 @@
 {
 "id": "scidraw/bird/zebrafinch-head-445b6997",
 "svg": "custom/scidraw/bird/zebrafinch-head-445b6997.svg",
-"zh": "头",
+"zh": "鸟 头",
 "en": "zebrafinch head",
 "tags": [
 "zebrafinch head",
 "bird",
+"鸟",
 "头"
 ],
 "cat": "bird",
@@ -2600,7 +2631,7 @@
 {
 "id": "scidraw/cell/abeoforma-whisleri-52163ea6",
 "svg": "custom/scidraw/cell/abeoforma-whisleri-52163ea6.png",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Abeoforma whisleri",
 "tags": [
 "abeoforma whisleri",
@@ -2618,7 +2649,7 @@
 {
 "id": "scidraw/cell/abeoforma-whisleri-a1093a42",
 "svg": "custom/scidraw/cell/abeoforma-whisleri-a1093a42.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Abeoforma whisleri",
 "tags": [
 "abeoforma whisleri",
@@ -2636,7 +2667,7 @@
 {
 "id": "scidraw/cell/action-potential-7022fae8",
 "svg": "custom/scidraw/cell/action-potential-7022fae8.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Action Potential",
 "tags": [
 "action potential",
@@ -2654,7 +2685,7 @@
 {
 "id": "scidraw/cell/adenovirus-95cd9e35",
 "svg": "custom/scidraw/cell/adenovirus-95cd9e35.svg",
-"zh": "细胞 病毒",
+"zh": "细胞 细胞 病毒",
 "en": "Adenovirus",
 "tags": [
 "adenovirus",
@@ -2673,7 +2704,7 @@
 {
 "id": "scidraw/cell/adipocyte-d3c9113d",
 "svg": "custom/scidraw/cell/adipocyte-d3c9113d.svg",
-"zh": "细胞 脂肪细胞",
+"zh": "细胞 细胞 脂肪细胞",
 "en": "Adipocyte",
 "tags": [
 "adipocyte",
@@ -2692,7 +2723,7 @@
 {
 "id": "scidraw/cell/alternatively-activated-microglia-6d48ab93",
 "svg": "custom/scidraw/cell/alternatively-activated-microglia-6d48ab93.svg",
-"zh": "细胞 RNA",
+"zh": "细胞 细胞 RNA",
 "en": "alternatively activated microglia",
 "tags": [
 "alternatively activated microglia",
@@ -2711,7 +2742,7 @@
 {
 "id": "scidraw/cell/amorphochlora-amoebiformis-1112b35a",
 "svg": "custom/scidraw/cell/amorphochlora-amoebiformis-1112b35a.png",
-"zh": "细胞 pH",
+"zh": "细胞 细胞 pH",
 "en": "Amorphochlora amoebiformis",
 "tags": [
 "amorphochlora amoebiformis",
@@ -2730,7 +2761,7 @@
 {
 "id": "scidraw/cell/amorphochlora-amoebiformis-26f7ff85",
 "svg": "custom/scidraw/cell/amorphochlora-amoebiformis-26f7ff85.svg",
-"zh": "细胞 pH",
+"zh": "细胞 细胞 pH",
 "en": "Amorphochlora amoebiformis",
 "tags": [
 "amorphochlora amoebiformis",
@@ -2749,7 +2780,7 @@
 {
 "id": "scidraw/cell/animal-cell-drawing-10b51f68",
 "svg": "custom/scidraw/cell/animal-cell-drawing-10b51f68.png",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Animal Cell drawing",
 "tags": [
 "animal cell drawing",
@@ -2767,7 +2798,7 @@
 {
 "id": "scidraw/cell/archerfish-retina-3b06943c",
 "svg": "custom/scidraw/cell/archerfish-retina-3b06943c.svg",
-"zh": "细胞 鱼",
+"zh": "细胞 细胞 鱼",
 "en": "Archerfish retina",
 "tags": [
 "archerfish retina",
@@ -2786,7 +2817,7 @@
 {
 "id": "scidraw/cell/astrocyte-4ec4a622",
 "svg": "custom/scidraw/cell/astrocyte-4ec4a622.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Astrocyte",
 "tags": [
 "astrocyte",
@@ -2804,7 +2835,7 @@
 {
 "id": "scidraw/cell/axodendritic-synapse-basic-77c82a9e",
 "svg": "custom/scidraw/cell/axodendritic-synapse-basic-77c82a9e.svg",
-"zh": "细胞 突触",
+"zh": "细胞 细胞 突触",
 "en": "Axodendritic Synapse (Basic)",
 "tags": [
 "axodendritic synapse (basic)",
@@ -2823,7 +2854,7 @@
 {
 "id": "scidraw/cell/basophil-e36e2e92",
 "svg": "custom/scidraw/cell/basophil-e36e2e92.svg",
-"zh": "细胞 pH",
+"zh": "细胞 细胞 pH",
 "en": "Basophil",
 "tags": [
 "basophil",
@@ -2842,7 +2873,7 @@
 {
 "id": "scidraw/cell/bathycoccus-prasinos-44b0c666",
 "svg": "custom/scidraw/cell/bathycoccus-prasinos-44b0c666.png",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Bathycoccus prasinos",
 "tags": [
 "bathycoccus prasinos",
@@ -2860,7 +2891,7 @@
 {
 "id": "scidraw/cell/bathycoccus-prasinos-5a28384c",
 "svg": "custom/scidraw/cell/bathycoccus-prasinos-5a28384c.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Bathycoccus prasinos",
 "tags": [
 "bathycoccus prasinos",
@@ -2878,7 +2909,7 @@
 {
 "id": "scidraw/cell/blue-astrocyte-9214b4f5",
 "svg": "custom/scidraw/cell/blue-astrocyte-9214b4f5.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "blue astrocyte",
 "tags": [
 "blue astrocyte",
@@ -2896,7 +2927,7 @@
 {
 "id": "scidraw/cell/bodo-saltans-6f4ca0c5",
 "svg": "custom/scidraw/cell/bodo-saltans-6f4ca0c5.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Bodo saltans",
 "tags": [
 "bodo saltans",
@@ -2914,7 +2945,7 @@
 {
 "id": "scidraw/cell/bodo-saltans-b06c770d",
 "svg": "custom/scidraw/cell/bodo-saltans-b06c770d.png",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Bodo saltans",
 "tags": [
 "bodo saltans",
@@ -2932,7 +2963,7 @@
 {
 "id": "scidraw/cell/ca1-pyramidal-neuron-fce2a114",
 "svg": "custom/scidraw/cell/ca1-pyramidal-neuron-fce2a114.svg",
-"zh": "细胞 神经元",
+"zh": "细胞 细胞 神经元",
 "en": "CA1 pyramidal neuron",
 "tags": [
 "ca1 pyramidal neuron",
@@ -2951,7 +2982,7 @@
 {
 "id": "scidraw/cell/calcium-imaging-e1369351",
 "svg": "custom/scidraw/cell/calcium-imaging-e1369351.svg",
-"zh": "细胞 衰老",
+"zh": "细胞 细胞 衰老",
 "en": "Calcium imaging",
 "tags": [
 "calcium imaging",
@@ -2970,7 +3001,7 @@
 {
 "id": "scidraw/cell/calcium-store-closed-dbdccc82",
 "svg": "custom/scidraw/cell/calcium-store-closed-dbdccc82.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Calcium store closed",
 "tags": [
 "calcium store closed",
@@ -2988,7 +3019,7 @@
 {
 "id": "scidraw/cell/calcium-store-open-6658c5b2",
 "svg": "custom/scidraw/cell/calcium-store-open-6658c5b2.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Calcium store open",
 "tags": [
 "calcium store open",
@@ -3006,7 +3037,7 @@
 {
 "id": "scidraw/cell/candida-albicans-765b7635",
 "svg": "custom/scidraw/cell/candida-albicans-765b7635.png",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Candida albicans",
 "tags": [
 "candida albicans",
@@ -3024,7 +3055,7 @@
 {
 "id": "scidraw/cell/candida-albicans-92599215",
 "svg": "custom/scidraw/cell/candida-albicans-92599215.png",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Candida albicans",
 "tags": [
 "candida albicans",
@@ -3042,7 +3073,7 @@
 {
 "id": "scidraw/cell/candida-albicans-d8cc9cf1",
 "svg": "custom/scidraw/cell/candida-albicans-d8cc9cf1.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Candida albicans",
 "tags": [
 "candida albicans",
@@ -3060,7 +3091,7 @@
 {
 "id": "scidraw/cell/cell-7d505ae8",
 "svg": "custom/scidraw/cell/cell-7d505ae8.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "cell",
 "tags": [
 "cell",
@@ -3077,7 +3108,7 @@
 {
 "id": "scidraw/cell/cell-c12e983c",
 "svg": "custom/scidraw/cell/cell-c12e983c.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "cell",
 "tags": [
 "cell",
@@ -3094,7 +3125,7 @@
 {
 "id": "scidraw/cell/cerebellar-cortex-scheme-52567171",
 "svg": "custom/scidraw/cell/cerebellar-cortex-scheme-52567171.png",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "cerebellar cortex scheme",
 "tags": [
 "cerebellar cortex scheme",
@@ -3112,7 +3143,7 @@
 {
 "id": "scidraw/cell/chameleon-retina-7d40b63e",
 "svg": "custom/scidraw/cell/chameleon-retina-7d40b63e.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Chameleon retina",
 "tags": [
 "chameleon retina",
@@ -3130,7 +3161,7 @@
 {
 "id": "scidraw/cell/chicken-retina-31afe93f",
 "svg": "custom/scidraw/cell/chicken-retina-31afe93f.svg",
-"zh": "细胞 鸡",
+"zh": "细胞 细胞 鸡",
 "en": "Chicken retina",
 "tags": [
 "chicken retina",
@@ -3149,7 +3180,7 @@
 {
 "id": "scidraw/cell/chlamydomonas-reinhardtii-0bcfa101",
 "svg": "custom/scidraw/cell/chlamydomonas-reinhardtii-0bcfa101.png",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Chlamydomonas reinhardtii",
 "tags": [
 "chlamydomonas reinhardtii",
@@ -3167,7 +3198,7 @@
 {
 "id": "scidraw/cell/chlamydomonas-reinhardtii-8d6c943d",
 "svg": "custom/scidraw/cell/chlamydomonas-reinhardtii-8d6c943d.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Chlamydomonas reinhardtii",
 "tags": [
 "chlamydomonas reinhardtii",
@@ -3185,7 +3216,7 @@
 {
 "id": "scidraw/cell/chlorella-vulgaris-0208f03b",
 "svg": "custom/scidraw/cell/chlorella-vulgaris-0208f03b.png",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Chlorella vulgaris",
 "tags": [
 "chlorella vulgaris",
@@ -3203,7 +3234,7 @@
 {
 "id": "scidraw/cell/chlorella-vulgaris-f637f7e0",
 "svg": "custom/scidraw/cell/chlorella-vulgaris-f637f7e0.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Chlorella vulgaris",
 "tags": [
 "chlorella vulgaris",
@@ -3221,7 +3252,7 @@
 {
 "id": "scidraw/cell/christophe-leterrier-2d640f86",
 "svg": "custom/scidraw/cell/christophe-leterrier-2d640f86.svg",
-"zh": "细胞 pH",
+"zh": "细胞 细胞 pH",
 "en": "Christophe Leterrier",
 "tags": [
 "christophe leterrier",
@@ -3240,7 +3271,7 @@
 {
 "id": "scidraw/cell/cichlid-retina-77fa3863",
 "svg": "custom/scidraw/cell/cichlid-retina-77fa3863.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Cichlid retina",
 "tags": [
 "cichlid retina",
@@ -3258,7 +3289,7 @@
 {
 "id": "scidraw/cell/deapsea-fish-retina-e9cd7d57",
 "svg": "custom/scidraw/cell/deapsea-fish-retina-e9cd7d57.svg",
-"zh": "细胞 鱼",
+"zh": "细胞 细胞 鱼",
 "en": "DeapSea fish retina",
 "tags": [
 "deapsea fish retina",
@@ -3277,7 +3308,7 @@
 {
 "id": "scidraw/cell/diatom-5769626c",
 "svg": "custom/scidraw/cell/diatom-5769626c.svg",
-"zh": "细胞 原子",
+"zh": "细胞 细胞 原子",
 "en": "Diatom",
 "tags": [
 "diatom",
@@ -3296,7 +3327,7 @@
 {
 "id": "scidraw/cell/diatom-6fff10da",
 "svg": "custom/scidraw/cell/diatom-6fff10da.svg",
-"zh": "细胞 原子",
+"zh": "细胞 细胞 原子",
 "en": "Diatom",
 "tags": [
 "diatom",
@@ -3315,7 +3346,7 @@
 {
 "id": "scidraw/cell/dictyostelium-discoideum-51c1087a",
 "svg": "custom/scidraw/cell/dictyostelium-discoideum-51c1087a.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Dictyostelium discoideum",
 "tags": [
 "dictyostelium discoideum",
@@ -3333,7 +3364,7 @@
 {
 "id": "scidraw/cell/dictyostelium-discoideum-fbb04ea8",
 "svg": "custom/scidraw/cell/dictyostelium-discoideum-fbb04ea8.png",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Dictyostelium discoideum",
 "tags": [
 "dictyostelium discoideum",
@@ -3351,7 +3382,7 @@
 {
 "id": "scidraw/cell/diplonema-papillatum-ba735525",
 "svg": "custom/scidraw/cell/diplonema-papillatum-ba735525.png",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Diplonema papillatum",
 "tags": [
 "diplonema papillatum",
@@ -3369,7 +3400,7 @@
 {
 "id": "scidraw/cell/diplonema-papillatum-f0823bbf",
 "svg": "custom/scidraw/cell/diplonema-papillatum-f0823bbf.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Diplonema papillatum",
 "tags": [
 "diplonema papillatum",
@@ -3387,7 +3418,7 @@
 {
 "id": "scidraw/cell/dna-84b2d6ca",
 "svg": "custom/scidraw/cell/dna-84b2d6ca.png",
-"zh": "细胞 DNA",
+"zh": "细胞 细胞 DNA",
 "en": "DNA",
 "tags": [
 "dna",
@@ -3406,7 +3437,7 @@
 {
 "id": "scidraw/cell/dna-8709d1cf",
 "svg": "custom/scidraw/cell/dna-8709d1cf.svg",
-"zh": "细胞 DNA",
+"zh": "细胞 细胞 DNA",
 "en": "DNA",
 "tags": [
 "dna",
@@ -3425,7 +3456,7 @@
 {
 "id": "scidraw/cell/docetaexl-resistant-44044fec",
 "svg": "custom/scidraw/cell/docetaexl-resistant-44044fec.jpg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "docetaexl resistant",
 "tags": [
 "docetaexl resistant",
@@ -3443,7 +3474,7 @@
 {
 "id": "scidraw/cell/docetaexl-resistant-b1583e22",
 "svg": "custom/scidraw/cell/docetaexl-resistant-b1583e22.jpg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "docetaexl resistant",
 "tags": [
 "docetaexl resistant",
@@ -3461,7 +3492,7 @@
 {
 "id": "scidraw/cell/entamoeba-histolytica-a86b9b7f",
 "svg": "custom/scidraw/cell/entamoeba-histolytica-a86b9b7f.png",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Entamoeba histolytica",
 "tags": [
 "entamoeba histolytica",
@@ -3479,7 +3510,7 @@
 {
 "id": "scidraw/cell/entamoeba-histolytica-f1d4a7a2",
 "svg": "custom/scidraw/cell/entamoeba-histolytica-f1d4a7a2.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Entamoeba histolytica",
 "tags": [
 "entamoeba histolytica",
@@ -3497,7 +3528,7 @@
 {
 "id": "scidraw/cell/enterocyte-f515a7aa",
 "svg": "custom/scidraw/cell/enterocyte-f515a7aa.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Enterocyte",
 "tags": [
 "enterocyte",
@@ -3515,7 +3546,7 @@
 {
 "id": "scidraw/cell/eosinophil-39088bfc",
 "svg": "custom/scidraw/cell/eosinophil-39088bfc.svg",
-"zh": "细胞 pH",
+"zh": "细胞 细胞 pH",
 "en": "Eosinophil",
 "tags": [
 "eosinophil",
@@ -3534,7 +3565,7 @@
 {
 "id": "scidraw/cell/ependymal-cell-fdb5fd5e",
 "svg": "custom/scidraw/cell/ependymal-cell-fdb5fd5e.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Ependymal cell",
 "tags": [
 "ependymal cell",
@@ -3552,7 +3583,7 @@
 {
 "id": "scidraw/cell/epithelial-layer-a3a2a6fe",
 "svg": "custom/scidraw/cell/epithelial-layer-a3a2a6fe.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Epithelial layer",
 "tags": [
 "epithelial layer",
@@ -3570,7 +3601,7 @@
 {
 "id": "scidraw/cell/escherichia-coli-3a579799",
 "svg": "custom/scidraw/cell/escherichia-coli-3a579799.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Escherichia coli",
 "tags": [
 "escherichia coli",
@@ -3588,7 +3619,7 @@
 {
 "id": "scidraw/cell/escherichia-coli-eba582d4",
 "svg": "custom/scidraw/cell/escherichia-coli-eba582d4.png",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Escherichia coli",
 "tags": [
 "escherichia coli",
@@ -3606,7 +3637,7 @@
 {
 "id": "scidraw/cell/euglena-gracilis-6f75984d",
 "svg": "custom/scidraw/cell/euglena-gracilis-6f75984d.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Euglena gracilis",
 "tags": [
 "euglena gracilis",
@@ -3624,7 +3655,7 @@
 {
 "id": "scidraw/cell/euglena-gracilis-90de4efa",
 "svg": "custom/scidraw/cell/euglena-gracilis-90de4efa.png",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Euglena gracilis",
 "tags": [
 "euglena gracilis",
@@ -3642,7 +3673,7 @@
 {
 "id": "scidraw/cell/frog-retina-823a7e58",
 "svg": "custom/scidraw/cell/frog-retina-823a7e58.svg",
-"zh": "细胞 蛙",
+"zh": "细胞 细胞 蛙",
 "en": "Frog retina",
 "tags": [
 "frog retina",
@@ -3661,7 +3692,7 @@
 {
 "id": "scidraw/cell/fructose-transporter-a1074be6",
 "svg": "custom/scidraw/cell/fructose-transporter-a1074be6.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Fructose transporter",
 "tags": [
 "fructose transporter",
@@ -3679,7 +3710,7 @@
 {
 "id": "scidraw/cell/giardia-intestinalis-17ed10d3",
 "svg": "custom/scidraw/cell/giardia-intestinalis-17ed10d3.png",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Giardia intestinalis",
 "tags": [
 "giardia intestinalis",
@@ -3697,7 +3728,7 @@
 {
 "id": "scidraw/cell/giardia-intestinalis-a9d7fff1",
 "svg": "custom/scidraw/cell/giardia-intestinalis-a9d7fff1.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Giardia intestinalis",
 "tags": [
 "giardia intestinalis",
@@ -3715,7 +3746,7 @@
 {
 "id": "scidraw/cell/glucose-transporter-04f0a8f0",
 "svg": "custom/scidraw/cell/glucose-transporter-04f0a8f0.svg",
-"zh": "细胞 葡萄糖",
+"zh": "细胞 细胞 葡萄糖",
 "en": "Glucose transporter",
 "tags": [
 "glucose transporter",
@@ -3734,7 +3765,7 @@
 {
 "id": "scidraw/cell/granule-cell-694de370",
 "svg": "custom/scidraw/cell/granule-cell-694de370.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Granule cell",
 "tags": [
 "granule cell",
@@ -3752,7 +3783,7 @@
 {
 "id": "scidraw/cell/ground-squirrel-retina-7e76d3d1",
 "svg": "custom/scidraw/cell/ground-squirrel-retina-7e76d3d1.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Ground squirrel retina",
 "tags": [
 "ground squirrel retina",
@@ -3770,7 +3801,7 @@
 {
 "id": "scidraw/cell/hair-cell-cf68c24f",
 "svg": "custom/scidraw/cell/hair-cell-cf68c24f.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Hair Cell",
 "tags": [
 "hair cell",
@@ -3788,7 +3819,7 @@
 {
 "id": "scidraw/cell/hepatocyte-195592d9",
 "svg": "custom/scidraw/cell/hepatocyte-195592d9.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Hepatocyte",
 "tags": [
 "hepatocyte",
@@ -3806,7 +3837,7 @@
 {
 "id": "scidraw/cell/hepatocyte-99eee670",
 "svg": "custom/scidraw/cell/hepatocyte-99eee670.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Hepatocyte",
 "tags": [
 "hepatocyte",
@@ -3824,7 +3855,7 @@
 {
 "id": "scidraw/cell/hiv-f57a9698",
 "svg": "custom/scidraw/cell/hiv-f57a9698.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "HIV",
 "tags": [
 "hiv",
@@ -3842,7 +3873,7 @@
 {
 "id": "scidraw/cell/ion-channel-42e56ecf",
 "svg": "custom/scidraw/cell/ion-channel-42e56ecf.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Ion channel",
 "tags": [
 "ion channel",
@@ -3860,7 +3891,7 @@
 {
 "id": "scidraw/cell/ion-channel-closed-d8b6fe15",
 "svg": "custom/scidraw/cell/ion-channel-closed-d8b6fe15.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Ion channel closed",
 "tags": [
 "ion channel closed",
@@ -3878,7 +3909,7 @@
 {
 "id": "scidraw/cell/ion-channel-open-57a6cedc",
 "svg": "custom/scidraw/cell/ion-channel-open-57a6cedc.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Ion channel open",
 "tags": [
 "ion channel open",
@@ -3896,7 +3927,7 @@
 {
 "id": "scidraw/cell/ionic-channels-55ff1e1c",
 "svg": "custom/scidraw/cell/ionic-channels-55ff1e1c.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Ionic channels",
 "tags": [
 "ionic channels",
@@ -3914,7 +3945,7 @@
 {
 "id": "scidraw/cell/isochrysis-galbana-8aa3187e",
 "svg": "custom/scidraw/cell/isochrysis-galbana-8aa3187e.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Isochrysis galbana",
 "tags": [
 "isochrysis galbana",
@@ -3932,7 +3963,7 @@
 {
 "id": "scidraw/cell/isochrysis-galbana-910c8e42",
 "svg": "custom/scidraw/cell/isochrysis-galbana-910c8e42.png",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Isochrysis galbana",
 "tags": [
 "isochrysis galbana",
@@ -3950,7 +3981,7 @@
 {
 "id": "scidraw/cell/kinesin-fe237cd5",
 "svg": "custom/scidraw/cell/kinesin-fe237cd5.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Kinesin",
 "tags": [
 "kinesin",
@@ -3968,7 +3999,7 @@
 {
 "id": "scidraw/cell/kinesin-on-microtubule-dca2c46f",
 "svg": "custom/scidraw/cell/kinesin-on-microtubule-dca2c46f.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Kinesin on microtubule",
 "tags": [
 "kinesin on microtubule",
@@ -3986,7 +4017,7 @@
 {
 "id": "scidraw/cell/kinesin-with-cargo-ed49b7a6",
 "svg": "custom/scidraw/cell/kinesin-with-cargo-ed49b7a6.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Kinesin with cargo",
 "tags": [
 "kinesin with cargo",
@@ -4004,7 +4035,7 @@
 {
 "id": "scidraw/cell/lamprey-retina-72b81b85",
 "svg": "custom/scidraw/cell/lamprey-retina-72b81b85.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Lamprey retina",
 "tags": [
 "lamprey retina",
@@ -4022,7 +4053,7 @@
 {
 "id": "scidraw/cell/lipid-bilayer-aab25f0a",
 "svg": "custom/scidraw/cell/lipid-bilayer-aab25f0a.svg",
-"zh": "细胞 脂质",
+"zh": "细胞 细胞 脂质",
 "en": "Lipid bilayer",
 "tags": [
 "lipid bilayer",
@@ -4041,7 +4072,7 @@
 {
 "id": "scidraw/cell/lipid-bilayer-simplified-def118f8",
 "svg": "custom/scidraw/cell/lipid-bilayer-simplified-def118f8.svg",
-"zh": "细胞 脂质",
+"zh": "细胞 细胞 脂质",
 "en": "lipid bilayer simplified",
 "tags": [
 "lipid bilayer simplified",
@@ -4060,7 +4091,7 @@
 {
 "id": "scidraw/cell/lipid-droplet-56f9d09e",
 "svg": "custom/scidraw/cell/lipid-droplet-56f9d09e.svg",
-"zh": "细胞 脂质",
+"zh": "细胞 细胞 脂质",
 "en": "Lipid droplet",
 "tags": [
 "lipid droplet",
@@ -4079,7 +4110,7 @@
 {
 "id": "scidraw/cell/lipid-droplet-no-receptors-cdd8c485",
 "svg": "custom/scidraw/cell/lipid-droplet-no-receptors-cdd8c485.svg",
-"zh": "细胞 脂质",
+"zh": "细胞 细胞 脂质",
 "en": "Lipid droplet no receptors",
 "tags": [
 "lipid droplet no receptors",
@@ -4098,7 +4129,7 @@
 {
 "id": "scidraw/cell/lipid-raft-b8a95b55",
 "svg": "custom/scidraw/cell/lipid-raft-b8a95b55.png",
-"zh": "细胞 脂质",
+"zh": "细胞 细胞 脂质",
 "en": "Lipid raft",
 "tags": [
 "lipid raft",
@@ -4117,7 +4148,7 @@
 {
 "id": "scidraw/cell/macrophage-a2629091",
 "svg": "custom/scidraw/cell/macrophage-a2629091.svg",
-"zh": "细胞 巨噬细胞 噬菌体 pH",
+"zh": "细胞 细胞 巨噬细胞 噬菌体 pH",
 "en": "Macrophage",
 "tags": [
 "macrophage",
@@ -4138,7 +4169,7 @@
 {
 "id": "scidraw/cell/mast-cell-1d6464d4",
 "svg": "custom/scidraw/cell/mast-cell-1d6464d4.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Mast cell",
 "tags": [
 "mast cell",
@@ -4156,7 +4187,7 @@
 {
 "id": "scidraw/cell/mature-oligodendrocyte-17b386e2",
 "svg": "custom/scidraw/cell/mature-oligodendrocyte-17b386e2.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Mature Oligodendrocyte",
 "tags": [
 "mature oligodendrocyte",
@@ -4174,7 +4205,7 @@
 {
 "id": "scidraw/cell/megakaryocyte-37a59ff1",
 "svg": "custom/scidraw/cell/megakaryocyte-37a59ff1.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Megakaryocyte",
 "tags": [
 "megakaryocyte",
@@ -4192,7 +4223,7 @@
 {
 "id": "scidraw/cell/membrane-470c579d",
 "svg": "custom/scidraw/cell/membrane-470c579d.svg",
-"zh": "细胞 膜",
+"zh": "细胞 细胞 膜",
 "en": "membrane",
 "tags": [
 "membrane",
@@ -4211,13 +4242,13 @@
 {
 "id": "scidraw/cell/micelle-vesicle-lipid-bilayer-b71b0dff",
 "svg": "custom/scidraw/cell/micelle-vesicle-lipid-bilayer-b71b0dff.svg",
-"zh": "小鼠 细胞 脂质",
+"zh": "细胞 小鼠 细胞 脂质",
 "en": "Micelle vesicle lipid bilayer",
 "tags": [
 "micelle vesicle lipid bilayer",
 "cell",
-"小鼠",
 "细胞",
+"小鼠",
 "脂质"
 ],
 "cat": "cell",
@@ -4231,7 +4262,7 @@
 {
 "id": "scidraw/cell/microglia-reactive-fadcc7d3",
 "svg": "custom/scidraw/cell/microglia-reactive-fadcc7d3.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Microglia reactive",
 "tags": [
 "microglia reactive",
@@ -4249,7 +4280,7 @@
 {
 "id": "scidraw/cell/microglia-resting-08d0e119",
 "svg": "custom/scidraw/cell/microglia-resting-08d0e119.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Microglia resting",
 "tags": [
 "microglia resting",
@@ -4267,7 +4298,7 @@
 {
 "id": "scidraw/cell/micromonas-commoda-b92e6082",
 "svg": "custom/scidraw/cell/micromonas-commoda-b92e6082.png",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Micromonas commoda",
 "tags": [
 "micromonas commoda",
@@ -4285,7 +4316,7 @@
 {
 "id": "scidraw/cell/micromonas-commoda-c64e7f8e",
 "svg": "custom/scidraw/cell/micromonas-commoda-c64e7f8e.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Micromonas commoda",
 "tags": [
 "micromonas commoda",
@@ -4303,7 +4334,7 @@
 {
 "id": "scidraw/cell/microtubule-4a7cf443",
 "svg": "custom/scidraw/cell/microtubule-4a7cf443.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Microtubule",
 "tags": [
 "microtubule",
@@ -4321,13 +4352,13 @@
 {
 "id": "scidraw/cell/midbrain-neurons-49e54e5b",
 "svg": "custom/scidraw/cell/midbrain-neurons-49e54e5b.svg",
-"zh": "脑 细胞 神经元",
+"zh": "细胞 脑 细胞 神经元",
 "en": "Midbrain Neurons",
 "tags": [
 "midbrain neurons",
 "cell",
-"脑",
 "细胞",
+"脑",
 "神经元"
 ],
 "cat": "cell",
@@ -4341,7 +4372,7 @@
 {
 "id": "scidraw/cell/mitochondria-c74e2336",
 "svg": "custom/scidraw/cell/mitochondria-c74e2336.png",
-"zh": "细胞 线粒体",
+"zh": "细胞 细胞 线粒体",
 "en": "Mitochondria",
 "tags": [
 "mitochondria",
@@ -4360,7 +4391,7 @@
 {
 "id": "scidraw/cell/mitochondrion-8783da75",
 "svg": "custom/scidraw/cell/mitochondrion-8783da75.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Mitochondrion",
 "tags": [
 "mitochondrion",
@@ -4378,7 +4409,7 @@
 {
 "id": "scidraw/cell/monosiga-brevicollis-106c2dcf",
 "svg": "custom/scidraw/cell/monosiga-brevicollis-106c2dcf.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Monosiga brevicollis",
 "tags": [
 "monosiga brevicollis",
@@ -4396,7 +4427,7 @@
 {
 "id": "scidraw/cell/monosiga-brevicollis-e0cc6090",
 "svg": "custom/scidraw/cell/monosiga-brevicollis-e0cc6090.png",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Monosiga brevicollis",
 "tags": [
 "monosiga brevicollis",
@@ -4414,7 +4445,7 @@
 {
 "id": "scidraw/cell/motor-cortex-circuit-scheme-5e086cb6",
 "svg": "custom/scidraw/cell/motor-cortex-circuit-scheme-5e086cb6.png",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "motor cortex circuit scheme",
 "tags": [
 "motor cortex circuit scheme",
@@ -4432,13 +4463,13 @@
 {
 "id": "scidraw/cell/mouse-retina-34522e10",
 "svg": "custom/scidraw/cell/mouse-retina-34522e10.svg",
-"zh": "小鼠 细胞",
+"zh": "细胞 小鼠 细胞",
 "en": "Mouse retina",
 "tags": [
 "mouse retina",
 "cell",
-"小鼠",
-"细胞"
+"细胞",
+"小鼠"
 ],
 "cat": "cell",
 "subdir": "cell",
@@ -4451,7 +4482,7 @@
 {
 "id": "scidraw/cell/myocyte-0f130c6e",
 "svg": "custom/scidraw/cell/myocyte-0f130c6e.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Myocyte",
 "tags": [
 "myocyte",
@@ -4469,7 +4500,7 @@
 {
 "id": "scidraw/cell/myoglobin-42b723de",
 "svg": "custom/scidraw/cell/myoglobin-42b723de.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "myoglobin",
 "tags": [
 "myoglobin",
@@ -4487,7 +4518,7 @@
 {
 "id": "scidraw/cell/naegleria-gruberi-391017ce",
 "svg": "custom/scidraw/cell/naegleria-gruberi-391017ce.png",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Naegleria gruberi",
 "tags": [
 "naegleria gruberi",
@@ -4505,7 +4536,7 @@
 {
 "id": "scidraw/cell/naegleria-gruberi-eb2c775c",
 "svg": "custom/scidraw/cell/naegleria-gruberi-eb2c775c.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Naegleria gruberi",
 "tags": [
 "naegleria gruberi",
@@ -4523,7 +4554,7 @@
 {
 "id": "scidraw/cell/nannochloropsis-sp-ce265ccf",
 "svg": "custom/scidraw/cell/nannochloropsis-sp-ce265ccf.png",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Nannochloropsis sp.",
 "tags": [
 "nannochloropsis sp.",
@@ -4541,7 +4572,7 @@
 {
 "id": "scidraw/cell/nannochloropsis-sp-d460d960",
 "svg": "custom/scidraw/cell/nannochloropsis-sp-d460d960.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Nannochloropsis sp.",
 "tags": [
 "nannochloropsis sp.",
@@ -4559,7 +4590,7 @@
 {
 "id": "scidraw/cell/neural-network-57cbb625",
 "svg": "custom/scidraw/cell/neural-network-57cbb625.png",
-"zh": "细胞 网络",
+"zh": "细胞 细胞 网络",
 "en": "Neural network",
 "tags": [
 "neural network",
@@ -4578,7 +4609,7 @@
 {
 "id": "scidraw/cell/neuron-47c5880b",
 "svg": "custom/scidraw/cell/neuron-47c5880b.png",
-"zh": "细胞 神经元",
+"zh": "细胞 细胞 神经元",
 "en": "neuron",
 "tags": [
 "neuron",
@@ -4597,7 +4628,7 @@
 {
 "id": "scidraw/cell/neuron-55af4954",
 "svg": "custom/scidraw/cell/neuron-55af4954.svg",
-"zh": "细胞 神经元",
+"zh": "细胞 细胞 神经元",
 "en": "Neuron",
 "tags": [
 "neuron",
@@ -4616,7 +4647,7 @@
 {
 "id": "scidraw/cell/neuron-c8da9cd1",
 "svg": "custom/scidraw/cell/neuron-c8da9cd1.svg",
-"zh": "细胞 神经元",
+"zh": "细胞 细胞 神经元",
 "en": "Neuron",
 "tags": [
 "neuron",
@@ -4635,7 +4666,7 @@
 {
 "id": "scidraw/cell/neuron-with-dendritic-spines-f789b26f",
 "svg": "custom/scidraw/cell/neuron-with-dendritic-spines-f789b26f.svg",
-"zh": "细胞 脊柱 神经元",
+"zh": "细胞 细胞 脊柱 神经元",
 "en": "Neuron with dendritic spines",
 "tags": [
 "neuron with dendritic spines",
@@ -4655,7 +4686,7 @@
 {
 "id": "scidraw/cell/neurone-basic-drawing-7c9f744b",
 "svg": "custom/scidraw/cell/neurone-basic-drawing-7c9f744b.png",
-"zh": "细胞 神经元",
+"zh": "细胞 细胞 神经元",
 "en": "Neurone basic drawing",
 "tags": [
 "neurone basic drawing",
@@ -4674,7 +4705,7 @@
 {
 "id": "scidraw/cell/neutrophil-3d89c362",
 "svg": "custom/scidraw/cell/neutrophil-3d89c362.svg",
-"zh": "细胞 中性粒细胞 pH",
+"zh": "细胞 细胞 中性粒细胞 pH",
 "en": "Neutrophil",
 "tags": [
 "neutrophil",
@@ -4694,7 +4725,7 @@
 {
 "id": "scidraw/cell/olfactory-bulb-circuit-e21939a7",
 "svg": "custom/scidraw/cell/olfactory-bulb-circuit-e21939a7.png",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Olfactory bulb circuit",
 "tags": [
 "olfactory bulb circuit",
@@ -4712,7 +4743,7 @@
 {
 "id": "scidraw/cell/oligodendrocyte-1498e64a",
 "svg": "custom/scidraw/cell/oligodendrocyte-1498e64a.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Oligodendrocyte",
 "tags": [
 "oligodendrocyte",
@@ -4730,7 +4761,7 @@
 {
 "id": "scidraw/cell/oligodendrocyte-progenitor-cell-30d962a2",
 "svg": "custom/scidraw/cell/oligodendrocyte-progenitor-cell-30d962a2.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Oligodendrocyte progenitor cell",
 "tags": [
 "oligodendrocyte progenitor cell",
@@ -4748,7 +4779,7 @@
 {
 "id": "scidraw/cell/open-chromatin-structure-27e0692a",
 "svg": "custom/scidraw/cell/open-chromatin-structure-27e0692a.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Open Chromatin structure",
 "tags": [
 "open chromatin structure",
@@ -4766,7 +4797,7 @@
 {
 "id": "scidraw/cell/ostreococcus-tauri-0d6e5eff",
 "svg": "custom/scidraw/cell/ostreococcus-tauri-0d6e5eff.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Ostreococcus tauri",
 "tags": [
 "ostreococcus tauri",
@@ -4784,7 +4815,7 @@
 {
 "id": "scidraw/cell/ostreococcus-tauri-877bd43f",
 "svg": "custom/scidraw/cell/ostreococcus-tauri-877bd43f.png",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Ostreococcus tauri",
 "tags": [
 "ostreococcus tauri",
@@ -4802,7 +4833,7 @@
 {
 "id": "scidraw/cell/ovum-3ca40a81",
 "svg": "custom/scidraw/cell/ovum-3ca40a81.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Ovum",
 "tags": [
 "ovum",
@@ -4820,7 +4851,7 @@
 {
 "id": "scidraw/cell/paramecium-tetraurelia-58e4b8e3",
 "svg": "custom/scidraw/cell/paramecium-tetraurelia-58e4b8e3.png",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Paramecium tetraurelia",
 "tags": [
 "paramecium tetraurelia",
@@ -4838,7 +4869,7 @@
 {
 "id": "scidraw/cell/paramecium-tetraurelia-fe4cb17a",
 "svg": "custom/scidraw/cell/paramecium-tetraurelia-fe4cb17a.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Paramecium tetraurelia",
 "tags": [
 "paramecium tetraurelia",
@@ -4856,7 +4887,7 @@
 {
 "id": "scidraw/cell/patch-clamp-d0701240",
 "svg": "custom/scidraw/cell/patch-clamp-d0701240.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "patch clamp",
 "tags": [
 "patch clamp",
@@ -4874,7 +4905,7 @@
 {
 "id": "scidraw/cell/perfusion-03c10284",
 "svg": "custom/scidraw/cell/perfusion-03c10284.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Perfusion",
 "tags": [
 "perfusion",
@@ -4892,7 +4923,7 @@
 {
 "id": "scidraw/cell/pericyte-9253587a",
 "svg": "custom/scidraw/cell/pericyte-9253587a.png",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Pericyte",
 "tags": [
 "pericyte",
@@ -4910,7 +4941,7 @@
 {
 "id": "scidraw/cell/perkinsus-marinus-4ea80b9b",
 "svg": "custom/scidraw/cell/perkinsus-marinus-4ea80b9b.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Perkinsus marinus",
 "tags": [
 "perkinsus marinus",
@@ -4928,7 +4959,7 @@
 {
 "id": "scidraw/cell/perkinsus-marinus-d6dc6297",
 "svg": "custom/scidraw/cell/perkinsus-marinus-d6dc6297.png",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Perkinsus marinus",
 "tags": [
 "perkinsus marinus",
@@ -4946,7 +4977,7 @@
 {
 "id": "scidraw/cell/phaeodactylum-tricornutum-5636b90f",
 "svg": "custom/scidraw/cell/phaeodactylum-tricornutum-5636b90f.svg",
-"zh": "细胞 pH",
+"zh": "细胞 细胞 pH",
 "en": "Phaeodactylum tricornutum",
 "tags": [
 "phaeodactylum tricornutum",
@@ -4965,7 +4996,7 @@
 {
 "id": "scidraw/cell/phaeodactylum-tricornutum-d5027e7b",
 "svg": "custom/scidraw/cell/phaeodactylum-tricornutum-d5027e7b.png",
-"zh": "细胞 pH",
+"zh": "细胞 细胞 pH",
 "en": "Phaeodactylum tricornutum",
 "tags": [
 "phaeodactylum tricornutum",
@@ -4984,13 +5015,13 @@
 {
 "id": "scidraw/cell/phospholipids-lipisome-micelle-72b2b940",
 "svg": "custom/scidraw/cell/phospholipids-lipisome-micelle-72b2b940.svg",
-"zh": "小鼠 细胞 脂质 pH",
+"zh": "细胞 小鼠 细胞 脂质 pH",
 "en": "phospholipids lipisome micelle",
 "tags": [
 "phospholipids lipisome micelle",
 "cell",
-"小鼠",
 "细胞",
+"小鼠",
 "脂质",
 "pH"
 ],
@@ -5005,13 +5036,13 @@
 {
 "id": "scidraw/cell/pipette-a455329d",
 "svg": "custom/scidraw/cell/pipette-a455329d.svg",
-"zh": "移液器 细胞",
+"zh": "细胞 移液器 细胞",
 "en": "Pipette",
 "tags": [
 "pipette",
 "cell",
-"移液器",
-"细胞"
+"细胞",
+"移液器"
 ],
 "cat": "cell",
 "subdir": "cell",
@@ -5024,7 +5055,7 @@
 {
 "id": "scidraw/cell/plasma-membrane-4cf4bb8c",
 "svg": "custom/scidraw/cell/plasma-membrane-4cf4bb8c.svg",
-"zh": "细胞 血浆 膜",
+"zh": "细胞 细胞 血浆 膜",
 "en": "Plasma Membrane",
 "tags": [
 "plasma membrane",
@@ -5044,7 +5075,7 @@
 {
 "id": "scidraw/cell/plasma-membrane-curved-416337f3",
 "svg": "custom/scidraw/cell/plasma-membrane-curved-416337f3.svg",
-"zh": "细胞 血浆 膜",
+"zh": "细胞 细胞 血浆 膜",
 "en": "Plasma Membrane Curved",
 "tags": [
 "plasma membrane curved",
@@ -5064,7 +5095,7 @@
 {
 "id": "scidraw/cell/plasmodium-falciparum-14204db9",
 "svg": "custom/scidraw/cell/plasmodium-falciparum-14204db9.png",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Plasmodium falciparum",
 "tags": [
 "plasmodium falciparum",
@@ -5082,7 +5113,7 @@
 {
 "id": "scidraw/cell/plasmodium-falciparum-3154baa9",
 "svg": "custom/scidraw/cell/plasmodium-falciparum-3154baa9.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Plasmodium falciparum",
 "tags": [
 "plasmodium falciparum",
@@ -5100,13 +5131,13 @@
 {
 "id": "scidraw/cell/platelet-10a29e69",
 "svg": "custom/scidraw/cell/platelet-10a29e69.svg",
-"zh": "孔板 细胞 血小板",
+"zh": "细胞 孔板 细胞 血小板",
 "en": "Platelet",
 "tags": [
 "platelet",
 "cell",
-"孔板",
 "细胞",
+"孔板",
 "血小板"
 ],
 "cat": "cell",
@@ -5120,7 +5151,7 @@
 {
 "id": "scidraw/cell/porphyra-yezoensis-1f68e498",
 "svg": "custom/scidraw/cell/porphyra-yezoensis-1f68e498.png",
-"zh": "细胞 pH",
+"zh": "细胞 细胞 pH",
 "en": "Porphyra yezoensis",
 "tags": [
 "porphyra yezoensis",
@@ -5139,7 +5170,7 @@
 {
 "id": "scidraw/cell/porphyra-yezoensis-225f8cd7",
 "svg": "custom/scidraw/cell/porphyra-yezoensis-225f8cd7.svg",
-"zh": "细胞 pH",
+"zh": "细胞 细胞 pH",
 "en": "Porphyra yezoensis",
 "tags": [
 "porphyra yezoensis",
@@ -5158,7 +5189,7 @@
 {
 "id": "scidraw/cell/presynaptic-site-2ae4c3f7",
 "svg": "custom/scidraw/cell/presynaptic-site-2ae4c3f7.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Presynaptic site",
 "tags": [
 "presynaptic site",
@@ -5176,7 +5207,7 @@
 {
 "id": "scidraw/cell/primate-retina-5623fa01",
 "svg": "custom/scidraw/cell/primate-retina-5623fa01.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Primate retina",
 "tags": [
 "primate retina",
@@ -5194,7 +5225,7 @@
 {
 "id": "scidraw/cell/progenitors-67f849a7",
 "svg": "custom/scidraw/cell/progenitors-67f849a7.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Progenitors",
 "tags": [
 "progenitors",
@@ -5212,7 +5243,7 @@
 {
 "id": "scidraw/cell/purkinje-cell-8e093fbc",
 "svg": "custom/scidraw/cell/purkinje-cell-8e093fbc.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Purkinje cell",
 "tags": [
 "purkinje cell",
@@ -5230,7 +5261,7 @@
 {
 "id": "scidraw/cell/pyramidal-cell-basic-3f257340",
 "svg": "custom/scidraw/cell/pyramidal-cell-basic-3f257340.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Pyramidal Cell (Basic)",
 "tags": [
 "pyramidal cell (basic)",
@@ -5248,7 +5279,7 @@
 {
 "id": "scidraw/cell/pyramidal-neuron-1-f7a01ec8",
 "svg": "custom/scidraw/cell/pyramidal-neuron-1-f7a01ec8.svg",
-"zh": "细胞 神经元",
+"zh": "细胞 细胞 神经元",
 "en": "Pyramidal neuron 1",
 "tags": [
 "pyramidal neuron 1",
@@ -5267,7 +5298,7 @@
 {
 "id": "scidraw/cell/pyramidal-neuron-2-1c3b09dd",
 "svg": "custom/scidraw/cell/pyramidal-neuron-2-1c3b09dd.svg",
-"zh": "细胞 神经元",
+"zh": "细胞 细胞 神经元",
 "en": "Pyramidal neuron 2",
 "tags": [
 "pyramidal neuron 2",
@@ -5286,7 +5317,7 @@
 {
 "id": "scidraw/cell/pyramidal-neuron-9ce17f31",
 "svg": "custom/scidraw/cell/pyramidal-neuron-9ce17f31.svg",
-"zh": "细胞 神经元",
+"zh": "细胞 细胞 神经元",
 "en": "pyramidal neuron",
 "tags": [
 "pyramidal neuron",
@@ -5305,7 +5336,7 @@
 {
 "id": "scidraw/cell/radial-glia-46b4880e",
 "svg": "custom/scidraw/cell/radial-glia-46b4880e.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Radial glia",
 "tags": [
 "radial glia",
@@ -5323,7 +5354,7 @@
 {
 "id": "scidraw/cell/raptor-retina-fa9ed596",
 "svg": "custom/scidraw/cell/raptor-retina-fa9ed596.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Raptor retina",
 "tags": [
 "raptor retina",
@@ -5341,7 +5372,7 @@
 {
 "id": "scidraw/cell/receptor-bound-off-b3083058",
 "svg": "custom/scidraw/cell/receptor-bound-off-b3083058.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Receptor bound off",
 "tags": [
 "receptor bound off",
@@ -5359,7 +5390,7 @@
 {
 "id": "scidraw/cell/receptor-bound-on-21ca2866",
 "svg": "custom/scidraw/cell/receptor-bound-on-21ca2866.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Receptor bound on",
 "tags": [
 "receptor bound on",
@@ -5377,7 +5408,7 @@
 {
 "id": "scidraw/cell/receptor-unbound-off-110bf5f9",
 "svg": "custom/scidraw/cell/receptor-unbound-off-110bf5f9.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Receptor unbound off",
 "tags": [
 "receptor unbound off",
@@ -5395,7 +5426,7 @@
 {
 "id": "scidraw/cell/receptor-unbound-on-26543083",
 "svg": "custom/scidraw/cell/receptor-unbound-on-26543083.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Receptor unbound on",
 "tags": [
 "receptor unbound on",
@@ -5413,7 +5444,7 @@
 {
 "id": "scidraw/cell/reef-fish-retina-e44ac4f6",
 "svg": "custom/scidraw/cell/reef-fish-retina-e44ac4f6.svg",
-"zh": "细胞 鱼",
+"zh": "细胞 细胞 鱼",
 "en": "Reef fish retina",
 "tags": [
 "reef fish retina",
@@ -5432,7 +5463,7 @@
 {
 "id": "scidraw/cell/retina-circuit-adb56c47",
 "svg": "custom/scidraw/cell/retina-circuit-adb56c47.png",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Retina circuit",
 "tags": [
 "retina circuit",
@@ -5450,7 +5481,7 @@
 {
 "id": "scidraw/cell/retina-triad-0d35ca9a",
 "svg": "custom/scidraw/cell/retina-triad-0d35ca9a.png",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Retina triad",
 "tags": [
 "retina triad",
@@ -5468,7 +5499,7 @@
 {
 "id": "scidraw/cell/ribbon-synapse-7a92af87",
 "svg": "custom/scidraw/cell/ribbon-synapse-7a92af87.svg",
-"zh": "细胞 突触",
+"zh": "细胞 细胞 突触",
 "en": "Ribbon Synapse",
 "tags": [
 "ribbon synapse",
@@ -5487,7 +5518,7 @@
 {
 "id": "scidraw/cell/saccharomyces-cerevisiae-1bc7f05c",
 "svg": "custom/scidraw/cell/saccharomyces-cerevisiae-1bc7f05c.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Saccharomyces cerevisiae",
 "tags": [
 "saccharomyces cerevisiae",
@@ -5505,7 +5536,7 @@
 {
 "id": "scidraw/cell/saccharomyces-cerevisiae-68ed2e16",
 "svg": "custom/scidraw/cell/saccharomyces-cerevisiae-68ed2e16.png",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Saccharomyces cerevisiae",
 "tags": [
 "saccharomyces cerevisiae",
@@ -5523,7 +5554,7 @@
 {
 "id": "scidraw/cell/sad-neuron-534b4ceb",
 "svg": "custom/scidraw/cell/sad-neuron-534b4ceb.svg",
-"zh": "细胞 神经元",
+"zh": "细胞 细胞 神经元",
 "en": "Sad Neuron",
 "tags": [
 "sad neuron",
@@ -5542,7 +5573,7 @@
 {
 "id": "scidraw/cell/salamander-retina-dca12ef8",
 "svg": "custom/scidraw/cell/salamander-retina-dca12ef8.svg",
-"zh": "细胞 男性",
+"zh": "细胞 细胞 男性",
 "en": "Salamander retina",
 "tags": [
 "salamander retina",
@@ -5561,7 +5592,7 @@
 {
 "id": "scidraw/cell/salpingoeca-rosetta-094cace0",
 "svg": "custom/scidraw/cell/salpingoeca-rosetta-094cace0.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Salpingoeca rosetta",
 "tags": [
 "salpingoeca rosetta",
@@ -5579,7 +5610,7 @@
 {
 "id": "scidraw/cell/salpingoeca-rosetta-bd10abae",
 "svg": "custom/scidraw/cell/salpingoeca-rosetta-bd10abae.png",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Salpingoeca rosetta",
 "tags": [
 "salpingoeca rosetta",
@@ -5597,7 +5628,7 @@
 {
 "id": "scidraw/cell/schizosaccharomyces-pombe-0389976b",
 "svg": "custom/scidraw/cell/schizosaccharomyces-pombe-0389976b.png",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Schizosaccharomyces pombe",
 "tags": [
 "schizosaccharomyces pombe",
@@ -5615,7 +5646,7 @@
 {
 "id": "scidraw/cell/schizosaccharomyces-pombe-d53f3bfb",
 "svg": "custom/scidraw/cell/schizosaccharomyces-pombe-d53f3bfb.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Schizosaccharomyces pombe",
 "tags": [
 "schizosaccharomyces pombe",
@@ -5633,7 +5664,7 @@
 {
 "id": "scidraw/cell/schwann-cell-6d53eb93",
 "svg": "custom/scidraw/cell/schwann-cell-6d53eb93.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Schwann cell",
 "tags": [
 "schwann cell",
@@ -5651,7 +5682,7 @@
 {
 "id": "scidraw/cell/shark-retina-af03f37d",
 "svg": "custom/scidraw/cell/shark-retina-af03f37d.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Shark retina",
 "tags": [
 "shark retina",
@@ -5669,7 +5700,7 @@
 {
 "id": "scidraw/cell/simple-pyramidal-neuron-a2bb0b1f",
 "svg": "custom/scidraw/cell/simple-pyramidal-neuron-a2bb0b1f.svg",
-"zh": "细胞 神经元",
+"zh": "细胞 细胞 神经元",
 "en": "Simple pyramidal neuron",
 "tags": [
 "simple pyramidal neuron",
@@ -5688,7 +5719,7 @@
 {
 "id": "scidraw/cell/snake-retina-71457585",
 "svg": "custom/scidraw/cell/snake-retina-71457585.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Snake retina",
 "tags": [
 "snake retina",
@@ -5706,7 +5737,7 @@
 {
 "id": "scidraw/cell/spermatozoa-sperm-cell-fe6316b4",
 "svg": "custom/scidraw/cell/spermatozoa-sperm-cell-fe6316b4.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Spermatozoa Sperm Cell",
 "tags": [
 "spermatozoa sperm cell",
@@ -5724,7 +5755,7 @@
 {
 "id": "scidraw/cell/sphaeroforma-arctica-2be3d655",
 "svg": "custom/scidraw/cell/sphaeroforma-arctica-2be3d655.png",
-"zh": "细胞 pH",
+"zh": "细胞 细胞 pH",
 "en": "Sphaeroforma arctica",
 "tags": [
 "sphaeroforma arctica",
@@ -5743,7 +5774,7 @@
 {
 "id": "scidraw/cell/sphaeroforma-arctica-be289b8c",
 "svg": "custom/scidraw/cell/sphaeroforma-arctica-be289b8c.svg",
-"zh": "细胞 pH",
+"zh": "细胞 细胞 pH",
 "en": "Sphaeroforma arctica",
 "tags": [
 "sphaeroforma arctica",
@@ -5762,7 +5793,7 @@
 {
 "id": "scidraw/cell/spiny-dendrite-basic-494f9dd0",
 "svg": "custom/scidraw/cell/spiny-dendrite-basic-494f9dd0.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Spiny Dendrite (Basic)",
 "tags": [
 "spiny dendrite (basic)",
@@ -5780,7 +5811,7 @@
 {
 "id": "scidraw/cell/symbiodinium-sp-b2d5a54e",
 "svg": "custom/scidraw/cell/symbiodinium-sp-b2d5a54e.png",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Symbiodinium sp.",
 "tags": [
 "symbiodinium sp.",
@@ -5798,7 +5829,7 @@
 {
 "id": "scidraw/cell/symbiodinium-sp-ee3f314d",
 "svg": "custom/scidraw/cell/symbiodinium-sp-ee3f314d.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Symbiodinium sp.",
 "tags": [
 "symbiodinium sp.",
@@ -5816,7 +5847,7 @@
 {
 "id": "scidraw/cell/synapse-61300d92",
 "svg": "custom/scidraw/cell/synapse-61300d92.svg",
-"zh": "细胞 突触",
+"zh": "细胞 细胞 突触",
 "en": "Synapse",
 "tags": [
 "synapse",
@@ -5835,7 +5866,7 @@
 {
 "id": "scidraw/cell/synapse-fae59a48",
 "svg": "custom/scidraw/cell/synapse-fae59a48.svg",
-"zh": "细胞 突触",
+"zh": "细胞 细胞 突触",
 "en": "synapse",
 "tags": [
 "synapse",
@@ -5854,7 +5885,7 @@
 {
 "id": "scidraw/cell/tetrahymena-thermophila-52604330",
 "svg": "custom/scidraw/cell/tetrahymena-thermophila-52604330.svg",
-"zh": "细胞 pH",
+"zh": "细胞 细胞 pH",
 "en": "Tetrahymena thermophila",
 "tags": [
 "tetrahymena thermophila",
@@ -5873,7 +5904,7 @@
 {
 "id": "scidraw/cell/tetrahymena-thermophila-7d43116a",
 "svg": "custom/scidraw/cell/tetrahymena-thermophila-7d43116a.png",
-"zh": "细胞 pH",
+"zh": "细胞 细胞 pH",
 "en": "Tetrahymena thermophila",
 "tags": [
 "tetrahymena thermophila",
@@ -5892,7 +5923,7 @@
 {
 "id": "scidraw/cell/tetraselmis-striata-16f623a5",
 "svg": "custom/scidraw/cell/tetraselmis-striata-16f623a5.png",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Tetraselmis striata",
 "tags": [
 "tetraselmis striata",
@@ -5910,7 +5941,7 @@
 {
 "id": "scidraw/cell/tetraselmis-striata-d49c3c79",
 "svg": "custom/scidraw/cell/tetraselmis-striata-d49c3c79.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Tetraselmis striata",
 "tags": [
 "tetraselmis striata",
@@ -5928,7 +5959,7 @@
 {
 "id": "scidraw/cell/ustilago-maydis-3db6f974",
 "svg": "custom/scidraw/cell/ustilago-maydis-3db6f974.png",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Ustilago maydis",
 "tags": [
 "ustilago maydis",
@@ -5946,7 +5977,7 @@
 {
 "id": "scidraw/cell/ustilago-maydis-cf6f8b4e",
 "svg": "custom/scidraw/cell/ustilago-maydis-cf6f8b4e.svg",
-"zh": "细胞",
+"zh": "细胞 细胞",
 "en": "Ustilago maydis",
 "tags": [
 "ustilago maydis",
@@ -5964,7 +5995,7 @@
 {
 "id": "scidraw/cell/yarrowia-lipolytica-c45d8c39",
 "svg": "custom/scidraw/cell/yarrowia-lipolytica-c45d8c39.png",
-"zh": "细胞 箭头",
+"zh": "细胞 细胞 箭头",
 "en": "Yarrowia lipolytica",
 "tags": [
 "yarrowia lipolytica",
@@ -5983,7 +6014,7 @@
 {
 "id": "scidraw/cell/yarrowia-lipolytica-e036e03d",
 "svg": "custom/scidraw/cell/yarrowia-lipolytica-e036e03d.svg",
-"zh": "细胞 箭头",
+"zh": "细胞 细胞 箭头",
 "en": "Yarrowia lipolytica",
 "tags": [
 "yarrowia lipolytica",
@@ -6002,7 +6033,7 @@
 {
 "id": "scidraw/cell/yeast-b698f279",
 "svg": "custom/scidraw/cell/yeast-b698f279.svg",
-"zh": "细胞 酵母",
+"zh": "细胞 细胞 酵母",
 "en": "yeast",
 "tags": [
 "yeast",
@@ -6021,7 +6052,7 @@
 {
 "id": "scidraw/cell/zebrafish-retina-adult-cf474837",
 "svg": "custom/scidraw/cell/zebrafish-retina-adult-cf474837.svg",
-"zh": "细胞 鱼 斑马鱼",
+"zh": "细胞 细胞 鱼 斑马鱼",
 "en": "Zebrafish retina (adult)",
 "tags": [
 "zebrafish retina (adult)",
@@ -6041,13 +6072,13 @@
 {
 "id": "scidraw/drosophila/activity-monitor-tube-aad8fca7",
 "svg": "custom/scidraw/drosophila/activity-monitor-tube-aad8fca7.svg",
-"zh": "离心管 果蝇 pH",
+"zh": "果蝇 离心管 果蝇 pH",
 "en": "Activity Monitor Tube",
 "tags": [
 "activity monitor tube",
 "drosophila",
-"离心管",
 "果蝇",
+"离心管",
 "pH"
 ],
 "cat": "drosophila",
@@ -6061,7 +6092,7 @@
 {
 "id": "scidraw/drosophila/antenna-bfac4614",
 "svg": "custom/scidraw/drosophila/antenna-bfac4614.svg",
-"zh": "果蝇 pH",
+"zh": "果蝇 果蝇 pH",
 "en": "antenna",
 "tags": [
 "antenna",
@@ -6080,7 +6111,7 @@
 {
 "id": "scidraw/drosophila/antennal-lobe-c4426d7d",
 "svg": "custom/scidraw/drosophila/antennal-lobe-c4426d7d.svg",
-"zh": "果蝇 pH",
+"zh": "果蝇 果蝇 pH",
 "en": "antennal lobe",
 "tags": [
 "antennal lobe",
@@ -6099,13 +6130,13 @@
 {
 "id": "scidraw/drosophila/brain-630bc2a2",
 "svg": "custom/scidraw/drosophila/brain-630bc2a2.svg",
-"zh": "脑 果蝇 pH",
+"zh": "果蝇 脑 果蝇 pH",
 "en": "brain",
 "tags": [
 "brain",
 "drosophila",
-"脑",
 "果蝇",
+"脑",
 "pH"
 ],
 "cat": "drosophila",
@@ -6119,7 +6150,7 @@
 {
 "id": "scidraw/drosophila/drosophila-3a751f82",
 "svg": "custom/scidraw/drosophila/drosophila-3a751f82.svg",
-"zh": "果蝇 pH",
+"zh": "果蝇 果蝇 pH",
 "en": "drosophila",
 "tags": [
 "drosophila",
@@ -6137,7 +6168,7 @@
 {
 "id": "scidraw/drosophila/drosophila-9f1771b6",
 "svg": "custom/scidraw/drosophila/drosophila-9f1771b6.svg",
-"zh": "果蝇 pH",
+"zh": "果蝇 果蝇 pH",
 "en": "Drosophila",
 "tags": [
 "drosophila",
@@ -6155,7 +6186,7 @@
 {
 "id": "scidraw/drosophila/drosophila-antenna-with-arista-644abeb6",
 "svg": "custom/scidraw/drosophila/drosophila-antenna-with-arista-644abeb6.svg",
-"zh": "果蝇 pH",
+"zh": "果蝇 果蝇 pH",
 "en": "Drosophila antenna with arista",
 "tags": [
 "drosophila antenna with arista",
@@ -6174,7 +6205,7 @@
 {
 "id": "scidraw/drosophila/drosophila-bb8d8892",
 "svg": "custom/scidraw/drosophila/drosophila-bb8d8892.svg",
-"zh": "果蝇 pH",
+"zh": "果蝇 果蝇 pH",
 "en": "Drosophila",
 "tags": [
 "drosophila",
@@ -6192,13 +6223,13 @@
 {
 "id": "scidraw/drosophila/drosophila-brain-a59df701",
 "svg": "custom/scidraw/drosophila/drosophila-brain-a59df701.svg",
-"zh": "脑 果蝇 pH",
+"zh": "果蝇 脑 果蝇 pH",
 "en": "Drosophila brain",
 "tags": [
 "drosophila brain",
 "drosophila",
-"脑",
 "果蝇",
+"脑",
 "pH"
 ],
 "cat": "drosophila",
@@ -6212,7 +6243,7 @@
 {
 "id": "scidraw/drosophila/drosophila-cns-a201e09f",
 "svg": "custom/scidraw/drosophila/drosophila-cns-a201e09f.png",
-"zh": "果蝇 pH",
+"zh": "果蝇 果蝇 pH",
 "en": "Drosophila CNS",
 "tags": [
 "drosophila cns",
@@ -6231,7 +6262,7 @@
 {
 "id": "scidraw/drosophila/drosophila-figure-6c22bf4a",
 "svg": "custom/scidraw/drosophila/drosophila-figure-6c22bf4a.png",
-"zh": "果蝇 pH",
+"zh": "果蝇 果蝇 pH",
 "en": "Drosophila Figure",
 "tags": [
 "drosophila figure",
@@ -6250,7 +6281,7 @@
 {
 "id": "scidraw/drosophila/drosophila-fluorescent-mushroom-bodies-cff72f36",
 "svg": "custom/scidraw/drosophila/drosophila-fluorescent-mushroom-bodies-cff72f36.svg",
-"zh": "果蝇 pH",
+"zh": "果蝇 果蝇 pH",
 "en": "Drosophila Fluorescent Mushroom Bodies",
 "tags": [
 "drosophila fluorescent mushroom bodies",
@@ -6269,7 +6300,7 @@
 {
 "id": "scidraw/drosophila/drosophila-head-front-ac092f62",
 "svg": "custom/scidraw/drosophila/drosophila-head-front-ac092f62.svg",
-"zh": "果蝇 头 pH",
+"zh": "果蝇 果蝇 头 pH",
 "en": "Drosophila Head Front",
 "tags": [
 "drosophila head front",
@@ -6289,7 +6320,7 @@
 {
 "id": "scidraw/drosophila/drosophila-melanogaster-1cec3cc9",
 "svg": "custom/scidraw/drosophila/drosophila-melanogaster-1cec3cc9.svg",
-"zh": "果蝇 pH",
+"zh": "果蝇 果蝇 pH",
 "en": "Drosophila melanogaster",
 "tags": [
 "drosophila melanogaster",
@@ -6308,7 +6339,7 @@
 {
 "id": "scidraw/drosophila/drosophila-melanogaster-7e26fc12",
 "svg": "custom/scidraw/drosophila/drosophila-melanogaster-7e26fc12.png",
-"zh": "果蝇 pH",
+"zh": "果蝇 果蝇 pH",
 "en": "Drosophila melanogaster",
 "tags": [
 "drosophila melanogaster",
@@ -6327,7 +6358,7 @@
 {
 "id": "scidraw/drosophila/drosophila-mushroom-body-accessory-calyces-200f6af7",
 "svg": "custom/scidraw/drosophila/drosophila-mushroom-body-accessory-calyces-200f6af7.svg",
-"zh": "果蝇 人体 pH",
+"zh": "果蝇 果蝇 人体 pH",
 "en": "Drosophila Mushroom Body Accessory Calyces",
 "tags": [
 "drosophila mushroom body accessory calyces",
@@ -6347,7 +6378,7 @@
 {
 "id": "scidraw/drosophila/drosophila-side-f34c54f1",
 "svg": "custom/scidraw/drosophila/drosophila-side-f34c54f1.svg",
-"zh": "果蝇 pH",
+"zh": "果蝇 果蝇 pH",
 "en": "Drosophila Side",
 "tags": [
 "drosophila side",
@@ -6366,7 +6397,7 @@
 {
 "id": "scidraw/drosophila/drosophila-silhouette-fbf75954",
 "svg": "custom/scidraw/drosophila/drosophila-silhouette-fbf75954.svg",
-"zh": "果蝇 pH",
+"zh": "果蝇 果蝇 pH",
 "en": "drosophila silhouette",
 "tags": [
 "drosophila silhouette",
@@ -6385,7 +6416,7 @@
 {
 "id": "scidraw/drosophila/flies-mating-dance-7c5629bd",
 "svg": "custom/scidraw/drosophila/flies-mating-dance-7c5629bd.svg",
-"zh": "果蝇 pH",
+"zh": "果蝇 果蝇 pH",
 "en": "Flies mating dance",
 "tags": [
 "flies mating dance",
@@ -6404,7 +6435,7 @@
 {
 "id": "scidraw/drosophila/fly-ba926ee5",
 "svg": "custom/scidraw/drosophila/fly-ba926ee5.svg",
-"zh": "果蝇 pH",
+"zh": "果蝇 果蝇 pH",
 "en": "fly",
 "tags": [
 "fly",
@@ -6423,13 +6454,13 @@
 {
 "id": "scidraw/drosophila/fly-brain-765d814a",
 "svg": "custom/scidraw/drosophila/fly-brain-765d814a.svg",
-"zh": "脑 果蝇 pH",
+"zh": "果蝇 脑 果蝇 pH",
 "en": "Fly brain",
 "tags": [
 "fly brain",
 "drosophila",
-"脑",
 "果蝇",
+"脑",
 "pH"
 ],
 "cat": "drosophila",
@@ -6443,13 +6474,13 @@
 {
 "id": "scidraw/drosophila/fly-brain-adc8e053",
 "svg": "custom/scidraw/drosophila/fly-brain-adc8e053.svg",
-"zh": "脑 果蝇 pH",
+"zh": "果蝇 脑 果蝇 pH",
 "en": "fly brain",
 "tags": [
 "fly brain",
 "drosophila",
-"脑",
 "果蝇",
+"脑",
 "pH"
 ],
 "cat": "drosophila",
@@ -6463,7 +6494,7 @@
 {
 "id": "scidraw/drosophila/fly-olfactory-system-9766b5b7",
 "svg": "custom/scidraw/drosophila/fly-olfactory-system-9766b5b7.svg",
-"zh": "果蝇 干细胞 pH",
+"zh": "果蝇 果蝇 干细胞 pH",
 "en": "Fly Olfactory System",
 "tags": [
 "fly olfactory system",
@@ -6483,7 +6514,7 @@
 {
 "id": "scidraw/drosophila/fly-with-rnn-nervous-system-93d2c8ce",
 "svg": "custom/scidraw/drosophila/fly-with-rnn-nervous-system-93d2c8ce.svg",
-"zh": "果蝇 干细胞 pH",
+"zh": "果蝇 果蝇 干细胞 pH",
 "en": "Fly with RNN nervous system",
 "tags": [
 "fly with rnn nervous system",
@@ -6503,13 +6534,13 @@
 {
 "id": "scidraw/drosophila/flyem-hemibrain-b91a7c18",
 "svg": "custom/scidraw/drosophila/flyem-hemibrain-b91a7c18.svg",
-"zh": "脑 果蝇 pH",
+"zh": "果蝇 脑 果蝇 pH",
 "en": "FlyEM hemibrain",
 "tags": [
 "flyem hemibrain",
 "drosophila",
-"脑",
 "果蝇",
+"脑",
 "pH"
 ],
 "cat": "drosophila",
@@ -6523,13 +6554,13 @@
 {
 "id": "scidraw/drosophila/gut-and-cns-d0576395",
 "svg": "custom/scidraw/drosophila/gut-and-cns-d0576395.png",
-"zh": "肠道 果蝇 pH",
+"zh": "果蝇 肠道 果蝇 pH",
 "en": "Gut and CNS",
 "tags": [
 "gut and cns",
 "drosophila",
-"肠道",
 "果蝇",
+"肠道",
 "pH"
 ],
 "cat": "drosophila",
@@ -6543,7 +6574,7 @@
 {
 "id": "scidraw/drosophila/larva-6342c318",
 "svg": "custom/scidraw/drosophila/larva-6342c318.svg",
-"zh": "果蝇 pH",
+"zh": "果蝇 果蝇 pH",
 "en": "larva",
 "tags": [
 "larva",
@@ -6562,7 +6593,7 @@
 {
 "id": "scidraw/drosophila/lateral-horn-ecae18da",
 "svg": "custom/scidraw/drosophila/lateral-horn-ecae18da.svg",
-"zh": "果蝇 pH",
+"zh": "果蝇 果蝇 pH",
 "en": "lateral horn",
 "tags": [
 "lateral horn",
@@ -6581,7 +6612,7 @@
 {
 "id": "scidraw/drosophila/mushroom-body-compartments-744927b1",
 "svg": "custom/scidraw/drosophila/mushroom-body-compartments-744927b1.svg",
-"zh": "果蝇 人体 pH",
+"zh": "果蝇 果蝇 人体 pH",
 "en": "mushroom body compartments",
 "tags": [
 "mushroom body compartments",
@@ -6601,7 +6632,7 @@
 {
 "id": "scidraw/drosophila/neuron-3b9f5ddc",
 "svg": "custom/scidraw/drosophila/neuron-3b9f5ddc.svg",
-"zh": "果蝇 神经元 pH",
+"zh": "果蝇 果蝇 神经元 pH",
 "en": "neuron",
 "tags": [
 "neuron",
@@ -6621,7 +6652,7 @@
 {
 "id": "scidraw/drosophila/neuron-9dceb4bd",
 "svg": "custom/scidraw/drosophila/neuron-9dceb4bd.svg",
-"zh": "果蝇 神经元 pH",
+"zh": "果蝇 果蝇 神经元 pH",
 "en": "neuron",
 "tags": [
 "neuron",
@@ -6641,7 +6672,7 @@
 {
 "id": "scidraw/drosophila/neuron-a732421d",
 "svg": "custom/scidraw/drosophila/neuron-a732421d.svg",
-"zh": "果蝇 神经元 pH",
+"zh": "果蝇 果蝇 神经元 pH",
 "en": "neuron",
 "tags": [
 "neuron",
@@ -6661,7 +6692,7 @@
 {
 "id": "scidraw/drosophila/neuron-f09cc6e7",
 "svg": "custom/scidraw/drosophila/neuron-f09cc6e7.svg",
-"zh": "果蝇 神经元 pH",
+"zh": "果蝇 果蝇 神经元 pH",
 "en": "neuron",
 "tags": [
 "neuron",
@@ -6681,7 +6712,7 @@
 {
 "id": "scidraw/drosophila/olfactory-system-6e3009d1",
 "svg": "custom/scidraw/drosophila/olfactory-system-6e3009d1.svg",
-"zh": "果蝇 干细胞 pH",
+"zh": "果蝇 果蝇 干细胞 pH",
 "en": "olfactory system",
 "tags": [
 "olfactory system",
@@ -6701,7 +6732,7 @@
 {
 "id": "scidraw/drosophila/ventral-nerve-cord-75de297b",
 "svg": "custom/scidraw/drosophila/ventral-nerve-cord-75de297b.png",
-"zh": "果蝇 pH",
+"zh": "果蝇 果蝇 pH",
 "en": "Ventral Nerve Cord",
 "tags": [
 "ventral nerve cord",
@@ -6720,7 +6751,7 @@
 {
 "id": "scidraw/fish/adult-zebrafish-0e408054",
 "svg": "custom/scidraw/fish/adult-zebrafish-0e408054.svg",
-"zh": "鱼 斑马鱼",
+"zh": "鱼 鱼 斑马鱼",
 "en": "Adult zebrafish",
 "tags": [
 "adult zebrafish",
@@ -6739,7 +6770,7 @@
 {
 "id": "scidraw/fish/adult-zebrafish-7045d93a",
 "svg": "custom/scidraw/fish/adult-zebrafish-7045d93a.svg",
-"zh": "鱼 斑马鱼",
+"zh": "鱼 鱼 斑马鱼",
 "en": "Adult Zebrafish",
 "tags": [
 "adult zebrafish",
@@ -6758,7 +6789,7 @@
 {
 "id": "scidraw/fish/angelfish-4e1ffd18",
 "svg": "custom/scidraw/fish/angelfish-4e1ffd18.svg",
-"zh": "鱼 凝胶",
+"zh": "鱼 鱼 凝胶",
 "en": "Angelfish",
 "tags": [
 "angelfish",
@@ -6777,7 +6808,7 @@
 {
 "id": "scidraw/fish/anglerfish-54afa546",
 "svg": "custom/scidraw/fish/anglerfish-54afa546.svg",
-"zh": "鱼",
+"zh": "鱼 鱼",
 "en": "Anglerfish",
 "tags": [
 "anglerfish",
@@ -6795,7 +6826,7 @@
 {
 "id": "scidraw/fish/archerfish-f8b818f0",
 "svg": "custom/scidraw/fish/archerfish-f8b818f0.svg",
-"zh": "鱼",
+"zh": "鱼 鱼",
 "en": "Archerfish",
 "tags": [
 "archerfish",
@@ -6813,7 +6844,7 @@
 {
 "id": "scidraw/fish/callorhinchus-milii-0dc42189",
 "svg": "custom/scidraw/fish/callorhinchus-milii-0dc42189.svg",
-"zh": "鱼",
+"zh": "鱼 鱼",
 "en": "Callorhinchus milii",
 "tags": [
 "callorhinchus milii",
@@ -6831,7 +6862,7 @@
 {
 "id": "scidraw/fish/callorhinchus-milii-46d36ce8",
 "svg": "custom/scidraw/fish/callorhinchus-milii-46d36ce8.png",
-"zh": "鱼",
+"zh": "鱼 鱼",
 "en": "Callorhinchus milii",
 "tags": [
 "callorhinchus milii",
@@ -6849,7 +6880,7 @@
 {
 "id": "scidraw/fish/cichlid-f0db3f0e",
 "svg": "custom/scidraw/fish/cichlid-f0db3f0e.svg",
-"zh": "鱼",
+"zh": "鱼 鱼",
 "en": "Cichlid",
 "tags": [
 "cichlid",
@@ -6867,7 +6898,7 @@
 {
 "id": "scidraw/fish/danio-rerio-88c2c454",
 "svg": "custom/scidraw/fish/danio-rerio-88c2c454.png",
-"zh": "鱼",
+"zh": "鱼 鱼",
 "en": "Danio rerio",
 "tags": [
 "danio rerio",
@@ -6885,7 +6916,7 @@
 {
 "id": "scidraw/fish/danio-rerio-b12b3961",
 "svg": "custom/scidraw/fish/danio-rerio-b12b3961.svg",
-"zh": "鱼",
+"zh": "鱼 鱼",
 "en": "Danio rerio",
 "tags": [
 "danio rerio",
@@ -6903,7 +6934,7 @@
 {
 "id": "scidraw/fish/fish-hiding-6f53368c",
 "svg": "custom/scidraw/fish/fish-hiding-6f53368c.svg",
-"zh": "鱼",
+"zh": "鱼 鱼",
 "en": "fish hiding",
 "tags": [
 "fish hiding",
@@ -6921,7 +6952,7 @@
 {
 "id": "scidraw/fish/fish-swimming-4a6a8457",
 "svg": "custom/scidraw/fish/fish-swimming-4a6a8457.svg",
-"zh": "鱼",
+"zh": "鱼 鱼",
 "en": "fish swimming",
 "tags": [
 "fish swimming",
@@ -6939,7 +6970,7 @@
 {
 "id": "scidraw/fish/fish-swimming-fast-e54c7ba7",
 "svg": "custom/scidraw/fish/fish-swimming-fast-e54c7ba7.svg",
-"zh": "鱼",
+"zh": "鱼 鱼",
 "en": "fish swimming fast",
 "tags": [
 "fish swimming fast",
@@ -6957,7 +6988,7 @@
 {
 "id": "scidraw/fish/fish-swimming-silhouette-93a0e79a",
 "svg": "custom/scidraw/fish/fish-swimming-silhouette-93a0e79a.svg",
-"zh": "鱼",
+"zh": "鱼 鱼",
 "en": "fish swimming silhouette",
 "tags": [
 "fish swimming silhouette",
@@ -6975,7 +7006,7 @@
 {
 "id": "scidraw/fish/fish-turning-69ab9a16",
 "svg": "custom/scidraw/fish/fish-turning-69ab9a16.svg",
-"zh": "鱼",
+"zh": "鱼 鱼",
 "en": "Fish turning",
 "tags": [
 "fish turning",
@@ -6993,7 +7024,7 @@
 {
 "id": "scidraw/fish/fish-turning-silhouette-89b45a3c",
 "svg": "custom/scidraw/fish/fish-turning-silhouette-89b45a3c.svg",
-"zh": "鱼",
+"zh": "鱼 鱼",
 "en": "Fish turning silhouette",
 "tags": [
 "fish turning silhouette",
@@ -7011,7 +7042,7 @@
 {
 "id": "scidraw/fish/lamprey-b18dfcd2",
 "svg": "custom/scidraw/fish/lamprey-b18dfcd2.svg",
-"zh": "鱼",
+"zh": "鱼 鱼",
 "en": "Lamprey",
 "tags": [
 "lamprey",
@@ -7029,7 +7060,7 @@
 {
 "id": "scidraw/fish/neolamprologus-pulcher-41b0c3ee",
 "svg": "custom/scidraw/fish/neolamprologus-pulcher-41b0c3ee.svg",
-"zh": "鱼",
+"zh": "鱼 鱼",
 "en": "Neolamprologus pulcher",
 "tags": [
 "neolamprologus pulcher",
@@ -7047,7 +7078,7 @@
 {
 "id": "scidraw/fish/petromyzon-marinus-07d49111",
 "svg": "custom/scidraw/fish/petromyzon-marinus-07d49111.svg",
-"zh": "鱼",
+"zh": "鱼 鱼",
 "en": "Petromyzon marinus",
 "tags": [
 "petromyzon marinus",
@@ -7065,7 +7096,7 @@
 {
 "id": "scidraw/fish/petromyzon-marinus-319aac09",
 "svg": "custom/scidraw/fish/petromyzon-marinus-319aac09.png",
-"zh": "鱼",
+"zh": "鱼 鱼",
 "en": "Petromyzon marinus",
 "tags": [
 "petromyzon marinus",
@@ -7083,7 +7114,7 @@
 {
 "id": "scidraw/fish/shark-2-cd7d620f",
 "svg": "custom/scidraw/fish/shark-2-cd7d620f.svg",
-"zh": "鱼",
+"zh": "鱼 鱼",
 "en": "Shark 2",
 "tags": [
 "shark 2",
@@ -7101,7 +7132,7 @@
 {
 "id": "scidraw/fish/shark-c717328b",
 "svg": "custom/scidraw/fish/shark-c717328b.svg",
-"zh": "鱼",
+"zh": "鱼 鱼",
 "en": "Shark",
 "tags": [
 "shark",
@@ -7119,7 +7150,7 @@
 {
 "id": "scidraw/fish/shark-silhouette-04fd56c4",
 "svg": "custom/scidraw/fish/shark-silhouette-04fd56c4.svg",
-"zh": "鱼",
+"zh": "鱼 鱼",
 "en": "Shark silhouette",
 "tags": [
 "shark silhouette",
@@ -7137,7 +7168,7 @@
 {
 "id": "scidraw/fish/zebrafish-63b13fb2",
 "svg": "custom/scidraw/fish/zebrafish-63b13fb2.svg",
-"zh": "鱼 斑马鱼",
+"zh": "鱼 鱼 斑马鱼",
 "en": "zebrafish",
 "tags": [
 "zebrafish",
@@ -7156,7 +7187,7 @@
 {
 "id": "scidraw/fish/zebrafish-7a4a7169",
 "svg": "custom/scidraw/fish/zebrafish-7a4a7169.svg",
-"zh": "鱼 斑马鱼",
+"zh": "鱼 鱼 斑马鱼",
 "en": "Zebrafish",
 "tags": [
 "zebrafish",
@@ -7175,13 +7206,13 @@
 {
 "id": "scidraw/fish/zebrafish-brain-a6591876",
 "svg": "custom/scidraw/fish/zebrafish-brain-a6591876.svg",
-"zh": "脑 鱼 斑马鱼",
+"zh": "鱼 脑 鱼 斑马鱼",
 "en": "Zebrafish Brain",
 "tags": [
 "zebrafish brain",
 "fish",
-"脑",
 "鱼",
+"脑",
 "斑马鱼"
 ],
 "cat": "fish",
@@ -7195,13 +7226,13 @@
 {
 "id": "scidraw/fish/zebrafish-brain-d99d6700",
 "svg": "custom/scidraw/fish/zebrafish-brain-d99d6700.svg",
-"zh": "脑 鱼 斑马鱼",
+"zh": "鱼 脑 鱼 斑马鱼",
 "en": "zebrafish brain",
 "tags": [
 "zebrafish brain",
 "fish",
-"脑",
 "鱼",
+"脑",
 "斑马鱼"
 ],
 "cat": "fish",
@@ -7215,13 +7246,13 @@
 {
 "id": "scidraw/fish/zebrafish-brain-outline-85ce2c1a",
 "svg": "custom/scidraw/fish/zebrafish-brain-outline-85ce2c1a.svg",
-"zh": "脑 鱼 斑马鱼",
+"zh": "鱼 脑 鱼 斑马鱼",
 "en": "Zebrafish brain outline",
 "tags": [
 "zebrafish brain outline",
 "fish",
-"脑",
 "鱼",
+"脑",
 "斑马鱼"
 ],
 "cat": "fish",
@@ -7235,13 +7266,13 @@
 {
 "id": "scidraw/fish/zebrafish-brain-top-view-f37b4b4e",
 "svg": "custom/scidraw/fish/zebrafish-brain-top-view-f37b4b4e.svg",
-"zh": "脑 鱼 斑马鱼",
+"zh": "鱼 脑 鱼 斑马鱼",
 "en": "Zebrafish Brain top view",
 "tags": [
 "zebrafish brain top view",
 "fish",
-"脑",
 "鱼",
+"脑",
 "斑马鱼"
 ],
 "cat": "fish",
@@ -7255,7 +7286,7 @@
 {
 "id": "scidraw/fish/zebrafish-eggs-6754725a",
 "svg": "custom/scidraw/fish/zebrafish-eggs-6754725a.svg",
-"zh": "鱼 斑马鱼",
+"zh": "鱼 鱼 斑马鱼",
 "en": "zebrafish eggs",
 "tags": [
 "zebrafish eggs",
@@ -7274,7 +7305,7 @@
 {
 "id": "scidraw/fish/zebrafish-larva-optic-tectum-91acc14d",
 "svg": "custom/scidraw/fish/zebrafish-larva-optic-tectum-91acc14d.png",
-"zh": "鱼 斑马鱼",
+"zh": "鱼 鱼 斑马鱼",
 "en": "zebrafish larva optic tectum",
 "tags": [
 "zebrafish larva optic tectum",
@@ -7293,7 +7324,7 @@
 {
 "id": "scidraw/fish/zebrafish-larvae-lateral-view-d579d618",
 "svg": "custom/scidraw/fish/zebrafish-larvae-lateral-view-d579d618.svg",
-"zh": "鱼 斑马鱼",
+"zh": "鱼 鱼 斑马鱼",
 "en": "Zebrafish larvae lateral view",
 "tags": [
 "zebrafish larvae lateral view",
@@ -7312,7 +7343,7 @@
 {
 "id": "scidraw/fish/zebrafish-larvae-top-view-262e3702",
 "svg": "custom/scidraw/fish/zebrafish-larvae-top-view-262e3702.svg",
-"zh": "鱼 斑马鱼",
+"zh": "鱼 鱼 斑马鱼",
 "en": "Zebrafish Larvae top view",
 "tags": [
 "zebrafish larvae top view",
@@ -7331,7 +7362,7 @@
 {
 "id": "scidraw/fish/zebrafish-larvae-top-view-c4e92489",
 "svg": "custom/scidraw/fish/zebrafish-larvae-top-view-c4e92489.svg",
-"zh": "鱼 斑马鱼",
+"zh": "鱼 鱼 斑马鱼",
 "en": "Zebrafish Larvae top view",
 "tags": [
 "zebrafish larvae top view",
@@ -7350,7 +7381,7 @@
 {
 "id": "scidraw/fish/zebrafish-silhouette-5025a5a4",
 "svg": "custom/scidraw/fish/zebrafish-silhouette-5025a5a4.svg",
-"zh": "鱼 斑马鱼",
+"zh": "鱼 鱼 斑马鱼",
 "en": "zebrafish silhouette",
 "tags": [
 "zebrafish silhouette",
@@ -7369,7 +7400,7 @@
 {
 "id": "scidraw/fish/zebrafish-w-lateral-line-c87021fd",
 "svg": "custom/scidraw/fish/zebrafish-w-lateral-line-c87021fd.svg",
-"zh": "鱼 斑马鱼",
+"zh": "鱼 鱼 斑马鱼",
 "en": "Zebrafish w/ lateral line",
 "tags": [
 "zebrafish w/ lateral line",
@@ -7388,7 +7419,7 @@
 {
 "id": "scidraw/human/adrenal-gland-9999e96a",
 "svg": "custom/scidraw/human/adrenal-gland-9999e96a.svg",
-"zh": "人 男性",
+"zh": "人 人 男性",
 "en": "Adrenal gland",
 "tags": [
 "adrenal gland",
@@ -7407,7 +7438,7 @@
 {
 "id": "scidraw/human/albert-einstein-d0368319",
 "svg": "custom/scidraw/human/albert-einstein-d0368319.svg",
-"zh": "人 男性",
+"zh": "人 人 男性",
 "en": "Albert Einstein",
 "tags": [
 "albert einstein",
@@ -7426,13 +7457,13 @@
 {
 "id": "scidraw/human/brain-1e02514d",
 "svg": "custom/scidraw/human/brain-1e02514d.svg",
-"zh": "脑 人 男性",
+"zh": "人 脑 人 男性",
 "en": "Brain",
 "tags": [
 "brain",
 "human",
-"脑",
 "人",
+"脑",
 "男性"
 ],
 "cat": "human",
@@ -7446,13 +7477,13 @@
 {
 "id": "scidraw/human/brain-789b2bf4",
 "svg": "custom/scidraw/human/brain-789b2bf4.svg",
-"zh": "脑 人 男性",
+"zh": "人 脑 人 男性",
 "en": "Brain",
 "tags": [
 "brain",
 "human",
-"脑",
 "人",
+"脑",
 "男性"
 ],
 "cat": "human",
@@ -7466,13 +7497,13 @@
 {
 "id": "scidraw/human/brain-and-cognition-4ebb38e7",
 "svg": "custom/scidraw/human/brain-and-cognition-4ebb38e7.svg",
-"zh": "脑 人 男性",
+"zh": "人 脑 人 男性",
 "en": "Brain and Cognition",
 "tags": [
 "brain and cognition",
 "human",
-"脑",
 "人",
+"脑",
 "男性"
 ],
 "cat": "human",
@@ -7486,13 +7517,13 @@
 {
 "id": "scidraw/human/brain-brainstem-445ea035",
 "svg": "custom/scidraw/human/brain-brainstem-445ea035.svg",
-"zh": "脑 人 男性 干细胞",
+"zh": "人 脑 人 男性 干细胞",
 "en": "Brain brainstem",
 "tags": [
 "brain brainstem",
 "human",
-"脑",
 "人",
+"脑",
 "男性",
 "干细胞"
 ],
@@ -7507,13 +7538,13 @@
 {
 "id": "scidraw/human/brain-cerebellum-02b2dc8d",
 "svg": "custom/scidraw/human/brain-cerebellum-02b2dc8d.svg",
-"zh": "脑 人 男性",
+"zh": "人 脑 人 男性",
 "en": "Brain cerebellum",
 "tags": [
 "brain cerebellum",
 "human",
-"脑",
 "人",
+"脑",
 "男性"
 ],
 "cat": "human",
@@ -7527,13 +7558,13 @@
 {
 "id": "scidraw/human/brain-cortex-52b8e2f1",
 "svg": "custom/scidraw/human/brain-cortex-52b8e2f1.svg",
-"zh": "脑 人 男性",
+"zh": "人 脑 人 男性",
 "en": "Brain cortex",
 "tags": [
 "brain cortex",
 "human",
-"脑",
 "人",
+"脑",
 "男性"
 ],
 "cat": "human",
@@ -7547,13 +7578,13 @@
 {
 "id": "scidraw/human/brain-dorsal-view-c2867efe",
 "svg": "custom/scidraw/human/brain-dorsal-view-c2867efe.svg",
-"zh": "脑 人 男性",
+"zh": "人 脑 人 男性",
 "en": "Brain dorsal view",
 "tags": [
 "brain dorsal view",
 "human",
-"脑",
 "人",
+"脑",
 "男性"
 ],
 "cat": "human",
@@ -7567,13 +7598,13 @@
 {
 "id": "scidraw/human/brain-outline-81033fc4",
 "svg": "custom/scidraw/human/brain-outline-81033fc4.svg",
-"zh": "脑 人 男性",
+"zh": "人 脑 人 男性",
 "en": "Brain outline",
 "tags": [
 "brain outline",
 "human",
-"脑",
 "人",
+"脑",
 "男性"
 ],
 "cat": "human",
@@ -7587,13 +7618,13 @@
 {
 "id": "scidraw/human/brain-outline-basic-ea1006dc",
 "svg": "custom/scidraw/human/brain-outline-basic-ea1006dc.svg",
-"zh": "脑 人 男性",
+"zh": "人 脑 人 男性",
 "en": "Brain Outline (Basic)",
 "tags": [
 "brain outline (basic)",
 "human",
-"脑",
 "人",
+"脑",
 "男性"
 ],
 "cat": "human",
@@ -7607,7 +7638,7 @@
 {
 "id": "scidraw/human/car-t-cell-therapy-bb443059",
 "svg": "custom/scidraw/human/car-t-cell-therapy-bb443059.jpg",
-"zh": "人 细胞 男性 T",
+"zh": "人 人 细胞 男性 T",
 "en": "CAR T-cell therapy",
 "tags": [
 "car t-cell therapy",
@@ -7628,7 +7659,7 @@
 {
 "id": "scidraw/human/eeg_10_20-48474e1c",
 "svg": "custom/scidraw/human/eeg_10_20-48474e1c.svg",
-"zh": "人 男性",
+"zh": "人 人 男性",
 "en": "EEG_10_20",
 "tags": [
 "eeg_10_20",
@@ -7647,7 +7678,7 @@
 {
 "id": "scidraw/human/erythrocyte-0e714d8d",
 "svg": "custom/scidraw/human/erythrocyte-0e714d8d.svg",
-"zh": "人 男性 红细胞",
+"zh": "人 人 男性 红细胞",
 "en": "Erythrocyte",
 "tags": [
 "erythrocyte",
@@ -7667,7 +7698,7 @@
 {
 "id": "scidraw/human/eye-1dcceee0",
 "svg": "custom/scidraw/human/eye-1dcceee0.svg",
-"zh": "人 眼 男性",
+"zh": "人 人 眼 男性",
 "en": "Eye",
 "tags": [
 "eye",
@@ -7687,7 +7718,7 @@
 {
 "id": "scidraw/human/finger-touch-111783cf",
 "svg": "custom/scidraw/human/finger-touch-111783cf.svg",
-"zh": "人 男性",
+"zh": "人 人 男性",
 "en": "Finger touch",
 "tags": [
 "finger touch",
@@ -7706,7 +7737,7 @@
 {
 "id": "scidraw/human/fuhong-wang-80d107b4",
 "svg": "custom/scidraw/human/fuhong-wang-80d107b4.jpg",
-"zh": "人 男性",
+"zh": "人 人 男性",
 "en": "fuhong wang",
 "tags": [
 "fuhong wang",
@@ -7725,13 +7756,13 @@
 {
 "id": "scidraw/human/gall-bladder-cc22091f",
 "svg": "custom/scidraw/human/gall-bladder-cc22091f.svg",
-"zh": "膀胱 人 男性",
+"zh": "人 膀胱 人 男性",
 "en": "Gall bladder",
 "tags": [
 "gall bladder",
 "human",
-"膀胱",
 "人",
+"膀胱",
 "男性"
 ],
 "cat": "human",
@@ -7745,7 +7776,7 @@
 {
 "id": "scidraw/human/hand-drawing-2d598b9b",
 "svg": "custom/scidraw/human/hand-drawing-2d598b9b.svg",
-"zh": "人 男性 手",
+"zh": "人 人 男性 手",
 "en": "hand drawing",
 "tags": [
 "hand drawing",
@@ -7765,7 +7796,7 @@
 {
 "id": "scidraw/human/hand-reaching-an-object-2e141984",
 "svg": "custom/scidraw/human/hand-reaching-an-object-2e141984.svg",
-"zh": "人 男性 手",
+"zh": "人 人 男性 手",
 "en": "Hand reaching an object",
 "tags": [
 "hand reaching an object",
@@ -7785,7 +7816,7 @@
 {
 "id": "scidraw/human/head-baf5ecfd",
 "svg": "custom/scidraw/human/head-baf5ecfd.svg",
-"zh": "人 男性 头",
+"zh": "人 人 男性 头",
 "en": "head",
 "tags": [
 "head",
@@ -7805,13 +7836,13 @@
 {
 "id": "scidraw/human/heart-d090dc66",
 "svg": "custom/scidraw/human/heart-d090dc66.svg",
-"zh": "心脏 人 男性 耳",
+"zh": "人 心脏 人 男性 耳",
 "en": "Heart",
 "tags": [
 "heart",
 "human",
-"心脏",
 "人",
+"心脏",
 "男性",
 "耳"
 ],
@@ -7826,13 +7857,13 @@
 {
 "id": "scidraw/human/human-brain-0d36b462",
 "svg": "custom/scidraw/human/human-brain-0d36b462.svg",
-"zh": "脑 人 男性",
+"zh": "人 脑 人 男性",
 "en": "Human Brain",
 "tags": [
 "human brain",
 "human",
-"脑",
 "人",
+"脑",
 "男性"
 ],
 "cat": "human",
@@ -7846,13 +7877,13 @@
 {
 "id": "scidraw/human/human-brain-7e535a33",
 "svg": "custom/scidraw/human/human-brain-7e535a33.svg",
-"zh": "脑 人 男性",
+"zh": "人 脑 人 男性",
 "en": "Human Brain",
 "tags": [
 "human brain",
 "human",
-"脑",
 "人",
+"脑",
 "男性"
 ],
 "cat": "human",
@@ -7866,13 +7897,13 @@
 {
 "id": "scidraw/human/human-brain-b23a1f4c",
 "svg": "custom/scidraw/human/human-brain-b23a1f4c.svg",
-"zh": "脑 人 男性",
+"zh": "人 脑 人 男性",
 "en": "human brain",
 "tags": [
 "human brain",
 "human",
-"脑",
 "人",
+"脑",
 "男性"
 ],
 "cat": "human",
@@ -7886,13 +7917,13 @@
 {
 "id": "scidraw/human/human-brain-basal-ganglia-c39936a4",
 "svg": "custom/scidraw/human/human-brain-basal-ganglia-c39936a4.svg",
-"zh": "脑 人 男性",
+"zh": "人 脑 人 男性",
 "en": "Human brain basal ganglia",
 "tags": [
 "human brain basal ganglia",
 "human",
-"脑",
 "人",
+"脑",
 "男性"
 ],
 "cat": "human",
@@ -7906,13 +7937,13 @@
 {
 "id": "scidraw/human/human-brain-dc9c12b8",
 "svg": "custom/scidraw/human/human-brain-dc9c12b8.svg",
-"zh": "脑 人 男性",
+"zh": "人 脑 人 男性",
 "en": "Human Brain",
 "tags": [
 "human brain",
 "human",
-"脑",
 "人",
+"脑",
 "男性"
 ],
 "cat": "human",
@@ -7926,13 +7957,13 @@
 {
 "id": "scidraw/human/human-brain-sagittal-outline-7f9b0eb1",
 "svg": "custom/scidraw/human/human-brain-sagittal-outline-7f9b0eb1.svg",
-"zh": "脑 人 男性",
+"zh": "人 脑 人 男性",
 "en": "Human brain sagittal outline",
 "tags": [
 "human brain sagittal outline",
 "human",
-"脑",
 "人",
+"脑",
 "男性"
 ],
 "cat": "human",
@@ -7946,13 +7977,13 @@
 {
 "id": "scidraw/human/human-brain-silhouette-444b20e6",
 "svg": "custom/scidraw/human/human-brain-silhouette-444b20e6.svg",
-"zh": "脑 人 男性",
+"zh": "人 脑 人 男性",
 "en": "human brain silhouette",
 "tags": [
 "human brain silhouette",
 "human",
-"脑",
 "人",
+"脑",
 "男性"
 ],
 "cat": "human",
@@ -7966,13 +7997,13 @@
 {
 "id": "scidraw/human/human-brain-with-colorful-neurons-e1a22d61",
 "svg": "custom/scidraw/human/human-brain-with-colorful-neurons-e1a22d61.svg",
-"zh": "脑 人 男性 神经元",
+"zh": "人 脑 人 男性 神经元",
 "en": "Human brain with colorful neurons",
 "tags": [
 "human brain with colorful neurons",
 "human",
-"脑",
 "人",
+"脑",
 "男性",
 "神经元"
 ],
@@ -7987,7 +8018,7 @@
 {
 "id": "scidraw/human/human-cns-e7ed9506",
 "svg": "custom/scidraw/human/human-cns-e7ed9506.png",
-"zh": "人 男性",
+"zh": "人 人 男性",
 "en": "Human CNS",
 "tags": [
 "human cns",
@@ -8006,7 +8037,7 @@
 {
 "id": "scidraw/human/human-eye-schematic-b7ec55b9",
 "svg": "custom/scidraw/human/human-eye-schematic-b7ec55b9.svg",
-"zh": "人 眼 男性",
+"zh": "人 人 眼 男性",
 "en": "Human Eye Schematic",
 "tags": [
 "human eye schematic",
@@ -8026,7 +8057,7 @@
 {
 "id": "scidraw/human/human-nervous-system-8d48be88",
 "svg": "custom/scidraw/human/human-nervous-system-8d48be88.svg",
-"zh": "人 男性 干细胞",
+"zh": "人 人 男性 干细胞",
 "en": "Human Nervous System",
 "tags": [
 "human nervous system",
@@ -8046,7 +8077,7 @@
 {
 "id": "scidraw/human/human-silhouette-a5894ef6",
 "svg": "custom/scidraw/human/human-silhouette-a5894ef6.svg",
-"zh": "人 男性",
+"zh": "人 人 男性",
 "en": "Human silhouette",
 "tags": [
 "human silhouette",
@@ -8065,7 +8096,7 @@
 {
 "id": "scidraw/human/human-skull-430016c8",
 "svg": "custom/scidraw/human/human-skull-430016c8.svg",
-"zh": "人 男性",
+"zh": "人 人 男性",
 "en": "human skull",
 "tags": [
 "human skull",
@@ -8084,13 +8115,13 @@
 {
 "id": "scidraw/human/kidney-ce328e3f",
 "svg": "custom/scidraw/human/kidney-ce328e3f.svg",
-"zh": "肾脏 人 男性",
+"zh": "人 肾脏 人 男性",
 "en": "Kidney",
 "tags": [
 "kidney",
 "human",
-"肾脏",
 "人",
+"肾脏",
 "男性"
 ],
 "cat": "human",
@@ -8104,13 +8135,13 @@
 {
 "id": "scidraw/human/large-intestine-956ebd1a",
 "svg": "custom/scidraw/human/large-intestine-956ebd1a.svg",
-"zh": "肠道 人 男性",
+"zh": "人 肠道 人 男性",
 "en": "Large intestine",
 "tags": [
 "large intestine",
 "human",
-"肠道",
 "人",
+"肠道",
 "男性"
 ],
 "cat": "human",
@@ -8124,13 +8155,13 @@
 {
 "id": "scidraw/human/liver-036050e0",
 "svg": "custom/scidraw/human/liver-036050e0.svg",
-"zh": "肝脏 人 男性",
+"zh": "人 肝脏 人 男性",
 "en": "Liver",
 "tags": [
 "liver",
 "human",
-"肝脏",
 "人",
+"肝脏",
 "男性"
 ],
 "cat": "human",
@@ -8144,13 +8175,13 @@
 {
 "id": "scidraw/human/lungs-2d9124e1",
 "svg": "custom/scidraw/human/lungs-2d9124e1.svg",
-"zh": "肺 人 男性",
+"zh": "人 肺 人 男性",
 "en": "Lungs",
 "tags": [
 "lungs",
 "human",
-"肺",
 "人",
+"肺",
 "男性"
 ],
 "cat": "human",
@@ -8164,7 +8195,7 @@
 {
 "id": "scidraw/human/mouth-taste-3e7177f9",
 "svg": "custom/scidraw/human/mouth-taste-3e7177f9.svg",
-"zh": "人 男性",
+"zh": "人 人 男性",
 "en": "Mouth taste",
 "tags": [
 "mouth taste",
@@ -8183,7 +8214,7 @@
 {
 "id": "scidraw/human/myelencephalon-medulla-oblongata-f9efa420",
 "svg": "custom/scidraw/human/myelencephalon-medulla-oblongata-f9efa420.svg",
-"zh": "人 男性 pH",
+"zh": "人 人 男性 pH",
 "en": "Myelencephalon, medulla oblongata",
 "tags": [
 "myelencephalon, medulla oblongata",
@@ -8203,7 +8234,7 @@
 {
 "id": "scidraw/human/nerve-response-e8d6c644",
 "svg": "custom/scidraw/human/nerve-response-e8d6c644.png",
-"zh": "人 男性",
+"zh": "人 人 男性",
 "en": "Nerve response",
 "tags": [
 "nerve response",
@@ -8222,7 +8253,7 @@
 {
 "id": "scidraw/human/openingfridge-8b88ea83",
 "svg": "custom/scidraw/human/openingfridge-8b88ea83.png",
-"zh": "人 男性",
+"zh": "人 人 男性",
 "en": "OpeningFridge",
 "tags": [
 "openingfridge",
@@ -8241,7 +8272,7 @@
 {
 "id": "scidraw/human/optic-nerve-and-chiasm-83cac469",
 "svg": "custom/scidraw/human/optic-nerve-and-chiasm-83cac469.svg",
-"zh": "人 男性",
+"zh": "人 人 男性",
 "en": "optic nerve and chiasm",
 "tags": [
 "optic nerve and chiasm",
@@ -8260,13 +8291,13 @@
 {
 "id": "scidraw/human/pancreas-e72bdd0a",
 "svg": "custom/scidraw/human/pancreas-e72bdd0a.svg",
-"zh": "胰腺 人 男性",
+"zh": "人 胰腺 人 男性",
 "en": "Pancreas",
 "tags": [
 "pancreas",
 "human",
-"胰腺",
 "人",
+"胰腺",
 "男性"
 ],
 "cat": "human",
@@ -8280,7 +8311,7 @@
 {
 "id": "scidraw/human/placenta-d5568c00",
 "svg": "custom/scidraw/human/placenta-d5568c00.png",
-"zh": "人 男性",
+"zh": "人 人 男性",
 "en": "Placenta",
 "tags": [
 "placenta",
@@ -8299,7 +8330,7 @@
 {
 "id": "scidraw/human/postbiotic-655265e2",
 "svg": "custom/scidraw/human/postbiotic-655265e2.jpg",
-"zh": "人 男性",
+"zh": "人 人 男性",
 "en": "Postbiotic",
 "tags": [
 "postbiotic",
@@ -8318,7 +8349,7 @@
 {
 "id": "scidraw/human/red-blood-cell-df4f18c7",
 "svg": "custom/scidraw/human/red-blood-cell-df4f18c7.png",
-"zh": "人 细胞 血液 男性",
+"zh": "人 人 细胞 血液 男性",
 "en": "Red Blood Cell",
 "tags": [
 "red blood cell",
@@ -8339,7 +8370,7 @@
 {
 "id": "scidraw/human/red-blood-cells-9e39266e",
 "svg": "custom/scidraw/human/red-blood-cells-9e39266e.svg",
-"zh": "人 细胞 血液 男性",
+"zh": "人 人 细胞 血液 男性",
 "en": "Red blood cells",
 "tags": [
 "red blood cells",
@@ -8360,7 +8391,7 @@
 {
 "id": "scidraw/human/schematic-of-a-human-molar-0d0cae6c",
 "svg": "custom/scidraw/human/schematic-of-a-human-molar-0d0cae6c.svg",
-"zh": "人 男性",
+"zh": "人 人 男性",
 "en": "Schematic of a human molar",
 "tags": [
 "schematic of a human molar",
@@ -8379,7 +8410,7 @@
 {
 "id": "scidraw/human/silhouette-a4bb8da4",
 "svg": "custom/scidraw/human/silhouette-a4bb8da4.svg",
-"zh": "人 男性",
+"zh": "人 人 男性",
 "en": "Silhouette",
 "tags": [
 "silhouette",
@@ -8398,13 +8429,13 @@
 {
 "id": "scidraw/human/silhouette-brain-20a710c9",
 "svg": "custom/scidraw/human/silhouette-brain-20a710c9.svg",
-"zh": "脑 人 男性",
+"zh": "人 脑 人 男性",
 "en": "Silhouette Brain",
 "tags": [
 "silhouette brain",
 "human",
-"脑",
 "人",
+"脑",
 "男性"
 ],
 "cat": "human",
@@ -8418,7 +8449,7 @@
 {
 "id": "scidraw/human/silhouette-cns-b9e0991e",
 "svg": "custom/scidraw/human/silhouette-cns-b9e0991e.svg",
-"zh": "人 男性",
+"zh": "人 人 男性",
 "en": "Silhouette CNS",
 "tags": [
 "silhouette cns",
@@ -8437,7 +8468,7 @@
 {
 "id": "scidraw/human/silhouette-cns-muscle-c085401b",
 "svg": "custom/scidraw/human/silhouette-cns-muscle-c085401b.svg",
-"zh": "人 肌肉 男性",
+"zh": "人 人 肌肉 男性",
 "en": "Silhouette CNS Muscle",
 "tags": [
 "silhouette cns muscle",
@@ -8457,7 +8488,7 @@
 {
 "id": "scidraw/human/silhouette-muscle-9faeccb4",
 "svg": "custom/scidraw/human/silhouette-muscle-9faeccb4.svg",
-"zh": "人 肌肉 男性",
+"zh": "人 人 肌肉 男性",
 "en": "Silhouette Muscle",
 "tags": [
 "silhouette muscle",
@@ -8477,7 +8508,7 @@
 {
 "id": "scidraw/human/simple-male-and-female-human-043f3bd9",
 "svg": "custom/scidraw/human/simple-male-and-female-human-043f3bd9.svg",
-"zh": "人 男性 女性",
+"zh": "人 人 男性 女性",
 "en": "Simple Male and Female Human",
 "tags": [
 "simple male and female human",
@@ -8497,7 +8528,7 @@
 {
 "id": "scidraw/human/sleep-07ec5791",
 "svg": "custom/scidraw/human/sleep-07ec5791.svg",
-"zh": "人 男性 睡眠",
+"zh": "人 人 男性 睡眠",
 "en": "Sleep",
 "tags": [
 "sleep",
@@ -8517,7 +8548,7 @@
 {
 "id": "scidraw/human/sleep-ca78c02b",
 "svg": "custom/scidraw/human/sleep-ca78c02b.svg",
-"zh": "人 男性 睡眠",
+"zh": "人 人 男性 睡眠",
 "en": "Sleep",
 "tags": [
 "sleep",
@@ -8537,7 +8568,7 @@
 {
 "id": "scidraw/human/spine-cord-988cb660",
 "svg": "custom/scidraw/human/spine-cord-988cb660.svg",
-"zh": "人 男性 脊柱",
+"zh": "人 人 男性 脊柱",
 "en": "Spine Cord",
 "tags": [
 "spine cord",
@@ -8557,13 +8588,13 @@
 {
 "id": "scidraw/human/spleen-41bb1b59",
 "svg": "custom/scidraw/human/spleen-41bb1b59.svg",
-"zh": "脾脏 人 男性",
+"zh": "人 脾脏 人 男性",
 "en": "Spleen",
 "tags": [
 "spleen",
 "human",
-"脾脏",
 "人",
+"脾脏",
 "男性"
 ],
 "cat": "human",
@@ -8577,13 +8608,13 @@
 {
 "id": "scidraw/human/stomach-77fb3676",
 "svg": "custom/scidraw/human/stomach-77fb3676.svg",
-"zh": "胃 人 男性",
+"zh": "人 胃 人 男性",
 "en": "Stomach",
 "tags": [
 "stomach",
 "human",
-"胃",
 "人",
+"胃",
 "男性"
 ],
 "cat": "human",
@@ -8597,7 +8628,7 @@
 {
 "id": "scidraw/human/triple-negative-breast-cancer-and-natural-killer-cells-07c82cd4",
 "svg": "custom/scidraw/human/triple-negative-breast-cancer-and-natural-killer-cells-07c82cd4.jpg",
-"zh": "人 细胞 男性 癌症",
+"zh": "人 人 细胞 男性 癌症",
 "en": "Triple-negative breast cancer and Natural killer cells",
 "tags": [
 "triple-negative breast cancer and natural killer cells",
@@ -8618,7 +8649,7 @@
 {
 "id": "scidraw/human/triple-negative-breast-cancer-and-natural-killer-cells-e9f5e3fd",
 "svg": "custom/scidraw/human/triple-negative-breast-cancer-and-natural-killer-cells-e9f5e3fd.jpg",
-"zh": "人 细胞 男性 癌症",
+"zh": "人 人 细胞 男性 癌症",
 "en": "Triple-negative breast cancer and Natural killer cells",
 "tags": [
 "triple-negative breast cancer and natural killer cells",
@@ -8639,7 +8670,7 @@
 {
 "id": "scidraw/human/wakingup-af4cb623",
 "svg": "custom/scidraw/human/wakingup-af4cb623.png",
-"zh": "人 男性",
+"zh": "人 人 男性",
 "en": "WakingUp",
 "tags": [
 "wakingup",
@@ -8658,7 +8689,7 @@
 {
 "id": "scidraw/human/walkingup-fb8e7dd2",
 "svg": "custom/scidraw/human/walkingup-fb8e7dd2.png",
-"zh": "人 男性",
+"zh": "人 人 男性",
 "en": "WalkingUp",
 "tags": [
 "walkingup",
@@ -8677,7 +8708,7 @@
 {
 "id": "scidraw/mouse/adult-mouse-284dd297",
 "svg": "custom/scidraw/mouse/adult-mouse-284dd297.svg",
-"zh": "小鼠",
+"zh": "小鼠 小鼠",
 "en": "Adult mouse",
 "tags": [
 "adult mouse",
@@ -8695,7 +8726,7 @@
 {
 "id": "scidraw/mouse/angry-mouse-cb8a5cc5",
 "svg": "custom/scidraw/mouse/angry-mouse-cb8a5cc5.svg",
-"zh": "小鼠",
+"zh": "小鼠 小鼠",
 "en": "Angry mouse",
 "tags": [
 "angry mouse",
@@ -8713,7 +8744,7 @@
 {
 "id": "scidraw/mouse/balbc-5c0cac8c",
 "svg": "custom/scidraw/mouse/balbc-5c0cac8c.png",
-"zh": "小鼠",
+"zh": "小鼠 小鼠",
 "en": "BALBc",
 "tags": [
 "balbc",
@@ -8731,7 +8762,7 @@
 {
 "id": "scidraw/mouse/basic-hippocampus-interneuron-subgroups-diagram-8defdb14",
 "svg": "custom/scidraw/mouse/basic-hippocampus-interneuron-subgroups-diagram-8defdb14.svg",
-"zh": "小鼠 分组 神经元",
+"zh": "小鼠 小鼠 分组 神经元",
 "en": "Basic Hippocampus Interneuron subgroups diagram",
 "tags": [
 "basic hippocampus interneuron subgroups diagram",
@@ -8751,7 +8782,7 @@
 {
 "id": "scidraw/mouse/basic-mouse-cartoon-69997d70",
 "svg": "custom/scidraw/mouse/basic-mouse-cartoon-69997d70.svg",
-"zh": "小鼠",
+"zh": "小鼠 小鼠",
 "en": "Basic mouse cartoon",
 "tags": [
 "basic mouse cartoon",
@@ -8769,7 +8800,7 @@
 {
 "id": "scidraw/mouse/black-mouse-8a34c5d7",
 "svg": "custom/scidraw/mouse/black-mouse-8a34c5d7.svg",
-"zh": "小鼠",
+"zh": "小鼠 小鼠",
 "en": "Black Mouse",
 "tags": [
 "black mouse",
@@ -8787,7 +8818,7 @@
 {
 "id": "scidraw/mouse/c57-83f2002b",
 "svg": "custom/scidraw/mouse/c57-83f2002b.svg",
-"zh": "小鼠",
+"zh": "小鼠 小鼠",
 "en": "C57",
 "tags": [
 "c57",
@@ -8805,7 +8836,7 @@
 {
 "id": "scidraw/mouse/c57-mouse-9ffb76b9",
 "svg": "custom/scidraw/mouse/c57-mouse-9ffb76b9.svg",
-"zh": "小鼠",
+"zh": "小鼠 小鼠",
 "en": "C57 MOUSE",
 "tags": [
 "c57 mouse",
@@ -8823,7 +8854,7 @@
 {
 "id": "scidraw/mouse/c57bl6-mouse-with-headcap-and-fibers-1bb168e6",
 "svg": "custom/scidraw/mouse/c57bl6-mouse-with-headcap-and-fibers-1bb168e6.svg",
-"zh": "小鼠 头",
+"zh": "小鼠 小鼠 头",
 "en": "C57BL6 Mouse with headcap and fibers",
 "tags": [
 "c57bl6 mouse with headcap and fibers",
@@ -8842,7 +8873,7 @@
 {
 "id": "scidraw/mouse/classical-conditioning-mouse-7db9aacd",
 "svg": "custom/scidraw/mouse/classical-conditioning-mouse-7db9aacd.svg",
-"zh": "小鼠",
+"zh": "小鼠 小鼠",
 "en": "Classical Conditioning Mouse",
 "tags": [
 "classical conditioning mouse",
@@ -8860,7 +8891,7 @@
 {
 "id": "scidraw/mouse/cortical-diagram-with-simplistic-interneuron-groups-80abadeb",
 "svg": "custom/scidraw/mouse/cortical-diagram-with-simplistic-interneuron-groups-80abadeb.svg",
-"zh": "小鼠 分组 神经元",
+"zh": "小鼠 小鼠 分组 神经元",
 "en": "Cortical diagram with simplistic interneuron groups",
 "tags": [
 "cortical diagram with simplistic interneuron groups",
@@ -8880,7 +8911,7 @@
 {
 "id": "scidraw/mouse/dorsal-hippocampus-61984da6",
 "svg": "custom/scidraw/mouse/dorsal-hippocampus-61984da6.png",
-"zh": "小鼠",
+"zh": "小鼠 小鼠",
 "en": "Dorsal Hippocampus",
 "tags": [
 "dorsal hippocampus",
@@ -8898,7 +8929,7 @@
 {
 "id": "scidraw/mouse/drinking-mouse-c244f3eb",
 "svg": "custom/scidraw/mouse/drinking-mouse-c244f3eb.svg",
-"zh": "小鼠",
+"zh": "小鼠 小鼠",
 "en": "Drinking Mouse",
 "tags": [
 "drinking mouse",
@@ -8916,7 +8947,7 @@
 {
 "id": "scidraw/mouse/freezing-mouse-ece60a33",
 "svg": "custom/scidraw/mouse/freezing-mouse-ece60a33.svg",
-"zh": "小鼠",
+"zh": "小鼠 小鼠",
 "en": "Freezing mouse",
 "tags": [
 "freezing mouse",
@@ -8934,7 +8965,7 @@
 {
 "id": "scidraw/mouse/hippocampus-atlas-outline-dab22748",
 "svg": "custom/scidraw/mouse/hippocampus-atlas-outline-dab22748.svg",
-"zh": "小鼠",
+"zh": "小鼠 小鼠",
 "en": "Hippocampus atlas outline",
 "tags": [
 "hippocampus atlas outline",
@@ -8952,7 +8983,7 @@
 {
 "id": "scidraw/mouse/hippocampus-coronal-cartoon-0603277d",
 "svg": "custom/scidraw/mouse/hippocampus-coronal-cartoon-0603277d.svg",
-"zh": "小鼠",
+"zh": "小鼠 小鼠",
 "en": "Hippocampus coronal cartoon",
 "tags": [
 "hippocampus coronal cartoon",
@@ -8970,7 +9001,7 @@
 {
 "id": "scidraw/mouse/mice-drawings-8eb3a507",
 "svg": "custom/scidraw/mouse/mice-drawings-8eb3a507.png",
-"zh": "小鼠",
+"zh": "小鼠 小鼠",
 "en": "Mice drawings",
 "tags": [
 "mice drawings",
@@ -8988,7 +9019,7 @@
 {
 "id": "scidraw/mouse/mouse-09d7b739",
 "svg": "custom/scidraw/mouse/mouse-09d7b739.svg",
-"zh": "小鼠",
+"zh": "小鼠 小鼠",
 "en": "Mouse",
 "tags": [
 "mouse",
@@ -9005,7 +9036,7 @@
 {
 "id": "scidraw/mouse/mouse-2902704e",
 "svg": "custom/scidraw/mouse/mouse-2902704e.svg",
-"zh": "小鼠",
+"zh": "小鼠 小鼠",
 "en": "Mouse",
 "tags": [
 "mouse",
@@ -9022,7 +9053,7 @@
 {
 "id": "scidraw/mouse/mouse-alert-1eb33414",
 "svg": "custom/scidraw/mouse/mouse-alert-1eb33414.svg",
-"zh": "小鼠",
+"zh": "小鼠 小鼠",
 "en": "mouse alert",
 "tags": [
 "mouse alert",
@@ -9040,7 +9071,7 @@
 {
 "id": "scidraw/mouse/mouse-at-different-ages-34faa6e2",
 "svg": "custom/scidraw/mouse/mouse-at-different-ages-34faa6e2.svg",
-"zh": "小鼠",
+"zh": "小鼠 小鼠",
 "en": "Mouse at different ages",
 "tags": [
 "mouse at different ages",
@@ -9058,7 +9089,7 @@
 {
 "id": "scidraw/mouse/mouse-at-feeder-882bbe04",
 "svg": "custom/scidraw/mouse/mouse-at-feeder-882bbe04.svg",
-"zh": "小鼠",
+"zh": "小鼠 小鼠",
 "en": "mouse at feeder",
 "tags": [
 "mouse at feeder",
@@ -9076,7 +9107,7 @@
 {
 "id": "scidraw/mouse/mouse-brain-0eb297e7",
 "svg": "custom/scidraw/mouse/mouse-brain-0eb297e7.svg",
-"zh": "小鼠 脑",
+"zh": "小鼠 小鼠 脑",
 "en": "mouse brain",
 "tags": [
 "mouse brain",
@@ -9095,7 +9126,7 @@
 {
 "id": "scidraw/mouse/mouse-brain-above-c9605b51",
 "svg": "custom/scidraw/mouse/mouse-brain-above-c9605b51.svg",
-"zh": "小鼠 脑",
+"zh": "小鼠 小鼠 脑",
 "en": "Mouse Brain Above",
 "tags": [
 "mouse brain above",
@@ -9114,7 +9145,7 @@
 {
 "id": "scidraw/mouse/mouse-brain-above-side-f2636266",
 "svg": "custom/scidraw/mouse/mouse-brain-above-side-f2636266.svg",
-"zh": "小鼠 脑",
+"zh": "小鼠 小鼠 脑",
 "en": "Mouse Brain Above & Side",
 "tags": [
 "mouse brain above & side",
@@ -9133,7 +9164,7 @@
 {
 "id": "scidraw/mouse/mouse-brain-b2fe41d6",
 "svg": "custom/scidraw/mouse/mouse-brain-b2fe41d6.svg",
-"zh": "小鼠 脑",
+"zh": "小鼠 小鼠 脑",
 "en": "mouse brain",
 "tags": [
 "mouse brain",
@@ -9152,7 +9183,7 @@
 {
 "id": "scidraw/mouse/mouse-brain-sagittal-269f88d5",
 "svg": "custom/scidraw/mouse/mouse-brain-sagittal-269f88d5.svg",
-"zh": "小鼠 脑",
+"zh": "小鼠 小鼠 脑",
 "en": "Mouse Brain Sagittal",
 "tags": [
 "mouse brain sagittal",
@@ -9171,7 +9202,7 @@
 {
 "id": "scidraw/mouse/mouse-brain-sagittal-da6cc0f9",
 "svg": "custom/scidraw/mouse/mouse-brain-sagittal-da6cc0f9.png",
-"zh": "小鼠 脑",
+"zh": "小鼠 小鼠 脑",
 "en": "mouse brain sagittal",
 "tags": [
 "mouse brain sagittal",
@@ -9190,7 +9221,7 @@
 {
 "id": "scidraw/mouse/mouse-brain-sagittal-view-white-f13da5ce",
 "svg": "custom/scidraw/mouse/mouse-brain-sagittal-view-white-f13da5ce.svg",
-"zh": "小鼠 脑",
+"zh": "小鼠 小鼠 脑",
 "en": "Mouse Brain Sagittal View - White",
 "tags": [
 "mouse brain sagittal view - white",
@@ -9209,7 +9240,7 @@
 {
 "id": "scidraw/mouse/mouse-brain-silhouette-01e01b74",
 "svg": "custom/scidraw/mouse/mouse-brain-silhouette-01e01b74.svg",
-"zh": "小鼠 脑",
+"zh": "小鼠 小鼠 脑",
 "en": "mouse brain silhouette",
 "tags": [
 "mouse brain silhouette",
@@ -9228,7 +9259,7 @@
 {
 "id": "scidraw/mouse/mouse-brain-slices-1-2624af4f",
 "svg": "custom/scidraw/mouse/mouse-brain-slices-1-2624af4f.svg",
-"zh": "小鼠 脑",
+"zh": "小鼠 小鼠 脑",
 "en": "mouse brain slices 1",
 "tags": [
 "mouse brain slices 1",
@@ -9247,7 +9278,7 @@
 {
 "id": "scidraw/mouse/mouse-brain-slices-part-2-bb92b6ba",
 "svg": "custom/scidraw/mouse/mouse-brain-slices-part-2-bb92b6ba.svg",
-"zh": "小鼠 脑",
+"zh": "小鼠 小鼠 脑",
 "en": "Mouse brain slices part 2",
 "tags": [
 "mouse brain slices part 2",
@@ -9266,7 +9297,7 @@
 {
 "id": "scidraw/mouse/mouse-cns-efa922a0",
 "svg": "custom/scidraw/mouse/mouse-cns-efa922a0.svg",
-"zh": "小鼠",
+"zh": "小鼠 小鼠",
 "en": "Mouse CNS",
 "tags": [
 "mouse cns",
@@ -9284,7 +9315,7 @@
 {
 "id": "scidraw/mouse/mouse-ded16e1d",
 "svg": "custom/scidraw/mouse/mouse-ded16e1d.svg",
-"zh": "小鼠",
+"zh": "小鼠 小鼠",
 "en": "mouse",
 "tags": [
 "mouse",
@@ -9301,7 +9332,7 @@
 {
 "id": "scidraw/mouse/mouse-drinking-684af523",
 "svg": "custom/scidraw/mouse/mouse-drinking-684af523.svg",
-"zh": "小鼠",
+"zh": "小鼠 小鼠",
 "en": "mouse drinking",
 "tags": [
 "mouse drinking",
@@ -9319,7 +9350,7 @@
 {
 "id": "scidraw/mouse/mouse-eating-24fbb188",
 "svg": "custom/scidraw/mouse/mouse-eating-24fbb188.svg",
-"zh": "小鼠",
+"zh": "小鼠 小鼠",
 "en": "mouse eating",
 "tags": [
 "mouse eating",
@@ -9337,7 +9368,7 @@
 {
 "id": "scidraw/mouse/mouse-eating-fibre-69c8751e",
 "svg": "custom/scidraw/mouse/mouse-eating-fibre-69c8751e.svg",
-"zh": "小鼠",
+"zh": "小鼠 小鼠",
 "en": "mouse eating fibre",
 "tags": [
 "mouse eating fibre",
@@ -9355,7 +9386,7 @@
 {
 "id": "scidraw/mouse/mouse-eating-fibre-e968a2b3",
 "svg": "custom/scidraw/mouse/mouse-eating-fibre-e968a2b3.svg",
-"zh": "小鼠",
+"zh": "小鼠 小鼠",
 "en": "mouse eating fibre",
 "tags": [
 "mouse eating fibre",
@@ -9373,7 +9404,7 @@
 {
 "id": "scidraw/mouse/mouse-embryos-in-utero-72c46fda",
 "svg": "custom/scidraw/mouse/mouse-embryos-in-utero-72c46fda.png",
-"zh": "小鼠",
+"zh": "小鼠 小鼠",
 "en": "mouse embryos in utero",
 "tags": [
 "mouse embryos in utero",
@@ -9391,7 +9422,7 @@
 {
 "id": "scidraw/mouse/mouse-grooming-dc2dcd0a",
 "svg": "custom/scidraw/mouse/mouse-grooming-dc2dcd0a.svg",
-"zh": "小鼠",
+"zh": "小鼠 小鼠",
 "en": "mouse grooming",
 "tags": [
 "mouse grooming",
@@ -9409,7 +9440,7 @@
 {
 "id": "scidraw/mouse/mouse-head-484e7d49",
 "svg": "custom/scidraw/mouse/mouse-head-484e7d49.svg",
-"zh": "小鼠 头",
+"zh": "小鼠 小鼠 头",
 "en": "mouse head",
 "tags": [
 "mouse head",
@@ -9428,7 +9459,7 @@
 {
 "id": "scidraw/mouse/mouse-head-49b5b618",
 "svg": "custom/scidraw/mouse/mouse-head-49b5b618.svg",
-"zh": "小鼠 头",
+"zh": "小鼠 小鼠 头",
 "en": "Mouse Head",
 "tags": [
 "mouse head",
@@ -9447,7 +9478,7 @@
 {
 "id": "scidraw/mouse/mouse-head-a822ea31",
 "svg": "custom/scidraw/mouse/mouse-head-a822ea31.svg",
-"zh": "小鼠 头",
+"zh": "小鼠 小鼠 头",
 "en": "mouse head",
 "tags": [
 "mouse head",
@@ -9466,7 +9497,7 @@
 {
 "id": "scidraw/mouse/mouse-head-brain-fd44b544",
 "svg": "custom/scidraw/mouse/mouse-head-brain-fd44b544.png",
-"zh": "小鼠 脑 头",
+"zh": "小鼠 小鼠 脑 头",
 "en": "mouse head brain",
 "tags": [
 "mouse head brain",
@@ -9486,7 +9517,7 @@
 {
 "id": "scidraw/mouse/mouse-head-c71ed098",
 "svg": "custom/scidraw/mouse/mouse-head-c71ed098.svg",
-"zh": "小鼠 头",
+"zh": "小鼠 小鼠 头",
 "en": "mouse head",
 "tags": [
 "mouse head",
@@ -9505,7 +9536,7 @@
 {
 "id": "scidraw/mouse/mouse-head-f10d55e4",
 "svg": "custom/scidraw/mouse/mouse-head-f10d55e4.svg",
-"zh": "小鼠 头",
+"zh": "小鼠 小鼠 头",
 "en": "mouse head",
 "tags": [
 "mouse head",
@@ -9524,7 +9555,7 @@
 {
 "id": "scidraw/mouse/mouse-head-f6db2b2c",
 "svg": "custom/scidraw/mouse/mouse-head-f6db2b2c.svg",
-"zh": "小鼠 头",
+"zh": "小鼠 小鼠 头",
 "en": "mouse head",
 "tags": [
 "mouse head",
@@ -9543,7 +9574,7 @@
 {
 "id": "scidraw/mouse/mouse-head-schema-51ed02be",
 "svg": "custom/scidraw/mouse/mouse-head-schema-51ed02be.svg",
-"zh": "小鼠 头",
+"zh": "小鼠 小鼠 头",
 "en": "Mouse head schema",
 "tags": [
 "mouse head schema",
@@ -9562,7 +9593,7 @@
 {
 "id": "scidraw/mouse/mouse-head-with-brain-and-whiskers-cf1d6c69",
 "svg": "custom/scidraw/mouse/mouse-head-with-brain-and-whiskers-cf1d6c69.svg",
-"zh": "小鼠 脑 头",
+"zh": "小鼠 小鼠 脑 头",
 "en": "Mouse head with brain and whiskers",
 "tags": [
 "mouse head with brain and whiskers",
@@ -9582,7 +9613,7 @@
 {
 "id": "scidraw/mouse/mouse-hiding-f9598de6",
 "svg": "custom/scidraw/mouse/mouse-hiding-f9598de6.svg",
-"zh": "小鼠",
+"zh": "小鼠 小鼠",
 "en": "mouse hiding",
 "tags": [
 "mouse hiding",
@@ -9600,7 +9631,7 @@
 {
 "id": "scidraw/mouse/mouse-lever-33c1560e",
 "svg": "custom/scidraw/mouse/mouse-lever-33c1560e.svg",
-"zh": "小鼠",
+"zh": "小鼠 小鼠",
 "en": "mouse lever",
 "tags": [
 "mouse lever",
@@ -9618,7 +9649,7 @@
 {
 "id": "scidraw/mouse/mouse-lever-634b1bea",
 "svg": "custom/scidraw/mouse/mouse-lever-634b1bea.svg",
-"zh": "小鼠",
+"zh": "小鼠 小鼠",
 "en": "mouse lever",
 "tags": [
 "mouse lever",
@@ -9636,7 +9667,7 @@
 {
 "id": "scidraw/mouse/mouse-lever-8c8fd60d",
 "svg": "custom/scidraw/mouse/mouse-lever-8c8fd60d.svg",
-"zh": "小鼠",
+"zh": "小鼠 小鼠",
 "en": "mouse lever",
 "tags": [
 "mouse lever",
@@ -9654,7 +9685,7 @@
 {
 "id": "scidraw/mouse/mouse-lever-e99fc405",
 "svg": "custom/scidraw/mouse/mouse-lever-e99fc405.svg",
-"zh": "小鼠",
+"zh": "小鼠 小鼠",
 "en": "mouse lever",
 "tags": [
 "mouse lever",
@@ -9672,7 +9703,7 @@
 {
 "id": "scidraw/mouse/mouse-nervous-system-1bff0ed0",
 "svg": "custom/scidraw/mouse/mouse-nervous-system-1bff0ed0.svg",
-"zh": "小鼠 干细胞",
+"zh": "小鼠 小鼠 干细胞",
 "en": "Mouse nervous system",
 "tags": [
 "mouse nervous system",
@@ -9691,7 +9722,7 @@
 {
 "id": "scidraw/mouse/mouse-on-a-disk-in-front-of-screen-a5356096",
 "svg": "custom/scidraw/mouse/mouse-on-a-disk-in-front-of-screen-a5356096.svg",
-"zh": "小鼠",
+"zh": "小鼠 小鼠",
 "en": "mouse on a disk in front of screen",
 "tags": [
 "mouse on a disk in front of screen",
@@ -9709,7 +9740,7 @@
 {
 "id": "scidraw/mouse/mouse-on-a-running-wheel-d982027d",
 "svg": "custom/scidraw/mouse/mouse-on-a-running-wheel-d982027d.svg",
-"zh": "小鼠",
+"zh": "小鼠 小鼠",
 "en": "Mouse on a Running Wheel",
 "tags": [
 "mouse on a running wheel",
@@ -9727,7 +9758,7 @@
 {
 "id": "scidraw/mouse/mouse-profile-f8e60949",
 "svg": "custom/scidraw/mouse/mouse-profile-f8e60949.svg",
-"zh": "小鼠",
+"zh": "小鼠 小鼠",
 "en": "mouse profile",
 "tags": [
 "mouse profile",
@@ -9745,7 +9776,7 @@
 {
 "id": "scidraw/mouse/mouse-pup-brain-27fc3f16",
 "svg": "custom/scidraw/mouse/mouse-pup-brain-27fc3f16.png",
-"zh": "小鼠 脑",
+"zh": "小鼠 小鼠 脑",
 "en": "mouse pup brain",
 "tags": [
 "mouse pup brain",
@@ -9764,7 +9795,7 @@
 {
 "id": "scidraw/mouse/mouse-quiet-73696ee8",
 "svg": "custom/scidraw/mouse/mouse-quiet-73696ee8.svg",
-"zh": "小鼠",
+"zh": "小鼠 小鼠",
 "en": "Mouse Quiet",
 "tags": [
 "mouse quiet",
@@ -9782,7 +9813,7 @@
 {
 "id": "scidraw/mouse/mouse-rearing-2ddc2c33",
 "svg": "custom/scidraw/mouse/mouse-rearing-2ddc2c33.svg",
-"zh": "小鼠 耳",
+"zh": "小鼠 小鼠 耳",
 "en": "mouse rearing",
 "tags": [
 "mouse rearing",
@@ -9801,7 +9832,7 @@
 {
 "id": "scidraw/mouse/mouse-rearing-70d10ef0",
 "svg": "custom/scidraw/mouse/mouse-rearing-70d10ef0.svg",
-"zh": "小鼠 耳",
+"zh": "小鼠 小鼠 耳",
 "en": "mouse rearing",
 "tags": [
 "mouse rearing",
@@ -9820,7 +9851,7 @@
 {
 "id": "scidraw/mouse/mouse-rearing-78e68e54",
 "svg": "custom/scidraw/mouse/mouse-rearing-78e68e54.svg",
-"zh": "小鼠 耳",
+"zh": "小鼠 小鼠 耳",
 "en": "mouse rearing",
 "tags": [
 "mouse rearing",
@@ -9839,7 +9870,7 @@
 {
 "id": "scidraw/mouse/mouse-running-6110a04a",
 "svg": "custom/scidraw/mouse/mouse-running-6110a04a.svg",
-"zh": "小鼠",
+"zh": "小鼠 小鼠",
 "en": "mouse running",
 "tags": [
 "mouse running",
@@ -9857,7 +9888,7 @@
 {
 "id": "scidraw/mouse/mouse-running-66926cd8",
 "svg": "custom/scidraw/mouse/mouse-running-66926cd8.svg",
-"zh": "小鼠",
+"zh": "小鼠 小鼠",
 "en": "mouse running",
 "tags": [
 "mouse running",
@@ -9875,7 +9906,7 @@
 {
 "id": "scidraw/mouse/mouse-running-ab29d586",
 "svg": "custom/scidraw/mouse/mouse-running-ab29d586.svg",
-"zh": "小鼠",
+"zh": "小鼠 小鼠",
 "en": "mouse running",
 "tags": [
 "mouse running",
@@ -9893,7 +9924,7 @@
 {
 "id": "scidraw/mouse/mouse-running-afea13d3",
 "svg": "custom/scidraw/mouse/mouse-running-afea13d3.svg",
-"zh": "小鼠",
+"zh": "小鼠 小鼠",
 "en": "mouse running",
 "tags": [
 "mouse running",
@@ -9911,7 +9942,7 @@
 {
 "id": "scidraw/mouse/mouse-running-e7a044a4",
 "svg": "custom/scidraw/mouse/mouse-running-e7a044a4.svg",
-"zh": "小鼠",
+"zh": "小鼠 小鼠",
 "en": "mouse running",
 "tags": [
 "mouse running",
@@ -9929,7 +9960,7 @@
 {
 "id": "scidraw/mouse/mouse-running-f0cbd966",
 "svg": "custom/scidraw/mouse/mouse-running-f0cbd966.svg",
-"zh": "小鼠",
+"zh": "小鼠 小鼠",
 "en": "Mouse Running",
 "tags": [
 "mouse running",
@@ -9947,7 +9978,7 @@
 {
 "id": "scidraw/mouse/mouse-silhouette-d5bc2b9e",
 "svg": "custom/scidraw/mouse/mouse-silhouette-d5bc2b9e.svg",
-"zh": "小鼠",
+"zh": "小鼠 小鼠",
 "en": "mouse silhouette",
 "tags": [
 "mouse silhouette",
@@ -9965,7 +9996,7 @@
 {
 "id": "scidraw/mouse/mouse-skull-785fc81d",
 "svg": "custom/scidraw/mouse/mouse-skull-785fc81d.svg",
-"zh": "小鼠",
+"zh": "小鼠 小鼠",
 "en": "mouse skull",
 "tags": [
 "mouse skull",
@@ -9983,7 +10014,7 @@
 {
 "id": "scidraw/mouse/mouse-sleeping-a8d9b911",
 "svg": "custom/scidraw/mouse/mouse-sleeping-a8d9b911.svg",
-"zh": "小鼠 睡眠",
+"zh": "小鼠 小鼠 睡眠",
 "en": "Mouse Sleeping",
 "tags": [
 "mouse sleeping",
@@ -10002,7 +10033,7 @@
 {
 "id": "scidraw/mouse/mouse-sleeping-curled-49df40d5",
 "svg": "custom/scidraw/mouse/mouse-sleeping-curled-49df40d5.svg",
-"zh": "小鼠 睡眠",
+"zh": "小鼠 小鼠 睡眠",
 "en": "Mouse Sleeping Curled",
 "tags": [
 "mouse sleeping curled",
@@ -10021,7 +10052,7 @@
 {
 "id": "scidraw/mouse/mouse-sleeping-curled-fiber-21df4307",
 "svg": "custom/scidraw/mouse/mouse-sleeping-curled-fiber-21df4307.svg",
-"zh": "小鼠 睡眠",
+"zh": "小鼠 小鼠 睡眠",
 "en": "Mouse Sleeping Curled Fiber",
 "tags": [
 "mouse sleeping curled fiber",
@@ -10040,7 +10071,7 @@
 {
 "id": "scidraw/mouse/mouse-sleeping-d9227d94",
 "svg": "custom/scidraw/mouse/mouse-sleeping-d9227d94.png",
-"zh": "小鼠 睡眠",
+"zh": "小鼠 小鼠 睡眠",
 "en": "Mouse Sleeping",
 "tags": [
 "mouse sleeping",
@@ -10059,7 +10090,7 @@
 {
 "id": "scidraw/mouse/mouse-sleeping-f2261ee7",
 "svg": "custom/scidraw/mouse/mouse-sleeping-f2261ee7.svg",
-"zh": "小鼠 睡眠",
+"zh": "小鼠 小鼠 睡眠",
 "en": "mouse sleeping",
 "tags": [
 "mouse sleeping",
@@ -10078,7 +10109,7 @@
 {
 "id": "scidraw/mouse/mouse-top-350cb77d",
 "svg": "custom/scidraw/mouse/mouse-top-350cb77d.svg",
-"zh": "小鼠",
+"zh": "小鼠 小鼠",
 "en": "Mouse Top",
 "tags": [
 "mouse top",
@@ -10096,7 +10127,7 @@
 {
 "id": "scidraw/mouse/mouse-top-d8143fa0",
 "svg": "custom/scidraw/mouse/mouse-top-d8143fa0.svg",
-"zh": "小鼠",
+"zh": "小鼠 小鼠",
 "en": "mouse top",
 "tags": [
 "mouse top",
@@ -10114,7 +10145,7 @@
 {
 "id": "scidraw/mouse/mouse-top-detailed-82f36ed0",
 "svg": "custom/scidraw/mouse/mouse-top-detailed-82f36ed0.svg",
-"zh": "小鼠",
+"zh": "小鼠 小鼠",
 "en": "Mouse Top Detailed",
 "tags": [
 "mouse top detailed",
@@ -10132,7 +10163,7 @@
 {
 "id": "scidraw/mouse/mouse-turning-19134bde",
 "svg": "custom/scidraw/mouse/mouse-turning-19134bde.svg",
-"zh": "小鼠",
+"zh": "小鼠 小鼠",
 "en": "mouse turning",
 "tags": [
 "mouse turning",
@@ -10150,7 +10181,7 @@
 {
 "id": "scidraw/mouse/mouse-with-an-imaging-objective-31e9fa07",
 "svg": "custom/scidraw/mouse/mouse-with-an-imaging-objective-31e9fa07.svg",
-"zh": "小鼠 衰老",
+"zh": "小鼠 小鼠 衰老",
 "en": "Mouse with an imaging objective",
 "tags": [
 "mouse with an imaging objective",
@@ -10169,7 +10200,7 @@
 {
 "id": "scidraw/mouse/mouse-with-rnn-brain-8333dc1d",
 "svg": "custom/scidraw/mouse/mouse-with-rnn-brain-8333dc1d.svg",
-"zh": "小鼠 脑",
+"zh": "小鼠 小鼠 脑",
 "en": "Mouse with RNN brain",
 "tags": [
 "mouse with rnn brain",
@@ -10188,7 +10219,7 @@
 {
 "id": "scidraw/mouse/mouseonsensor-6b522e6a",
 "svg": "custom/scidraw/mouse/mouseonsensor-6b522e6a.png",
-"zh": "小鼠",
+"zh": "小鼠 小鼠",
 "en": "MouseOnSensor",
 "tags": [
 "mouseonsensor",
@@ -10206,7 +10237,7 @@
 {
 "id": "scidraw/mouse/mousestep-b7ba0dff",
 "svg": "custom/scidraw/mouse/mousestep-b7ba0dff.png",
-"zh": "小鼠 步骤",
+"zh": "小鼠 小鼠 步骤",
 "en": "MouseStep",
 "tags": [
 "mousestep",
@@ -10225,7 +10256,7 @@
 {
 "id": "scidraw/mouse/mus-musculus-85eeeb61",
 "svg": "custom/scidraw/mouse/mus-musculus-85eeeb61.png",
-"zh": "小鼠",
+"zh": "小鼠 小鼠",
 "en": "Mus musculus",
 "tags": [
 "mus musculus",
@@ -10243,7 +10274,7 @@
 {
 "id": "scidraw/mouse/mus-musculus-d61ef112",
 "svg": "custom/scidraw/mouse/mus-musculus-d61ef112.svg",
-"zh": "小鼠",
+"zh": "小鼠 小鼠",
 "en": "Mus musculus",
 "tags": [
 "mus musculus",
@@ -10261,7 +10292,7 @@
 {
 "id": "scidraw/mouse/obese-mouse-1bb93cde",
 "svg": "custom/scidraw/mouse/obese-mouse-1bb93cde.svg",
-"zh": "小鼠",
+"zh": "小鼠 小鼠",
 "en": "obese mouse",
 "tags": [
 "obese mouse",
@@ -10279,7 +10310,7 @@
 {
 "id": "scidraw/mouse/obese-mouse-at-feeder-6290015e",
 "svg": "custom/scidraw/mouse/obese-mouse-at-feeder-6290015e.svg",
-"zh": "小鼠",
+"zh": "小鼠 小鼠",
 "en": "obese mouse at feeder",
 "tags": [
 "obese mouse at feeder",
@@ -10297,7 +10328,7 @@
 {
 "id": "scidraw/mouse/obese-mouse-drinking-bff6ade8",
 "svg": "custom/scidraw/mouse/obese-mouse-drinking-bff6ade8.svg",
-"zh": "小鼠",
+"zh": "小鼠 小鼠",
 "en": "obese mouse drinking",
 "tags": [
 "obese mouse drinking",
@@ -10315,7 +10346,7 @@
 {
 "id": "scidraw/mouse/obese-mouse-eating-1dd06892",
 "svg": "custom/scidraw/mouse/obese-mouse-eating-1dd06892.svg",
-"zh": "小鼠",
+"zh": "小鼠 小鼠",
 "en": "obese mouse eating",
 "tags": [
 "obese mouse eating",
@@ -10333,7 +10364,7 @@
 {
 "id": "scidraw/mouse/obese-mouse-eating-74b59690",
 "svg": "custom/scidraw/mouse/obese-mouse-eating-74b59690.svg",
-"zh": "小鼠",
+"zh": "小鼠 小鼠",
 "en": "obese mouse eating",
 "tags": [
 "obese mouse eating",
@@ -10351,7 +10382,7 @@
 {
 "id": "scidraw/mouse/obese-mouse-eating-cbf7a31d",
 "svg": "custom/scidraw/mouse/obese-mouse-eating-cbf7a31d.svg",
-"zh": "小鼠",
+"zh": "小鼠 小鼠",
 "en": "obese mouse eating",
 "tags": [
 "obese mouse eating",
@@ -10369,7 +10400,7 @@
 {
 "id": "scidraw/mouse/obese-mouse-lever-330f132d",
 "svg": "custom/scidraw/mouse/obese-mouse-lever-330f132d.svg",
-"zh": "小鼠",
+"zh": "小鼠 小鼠",
 "en": "obese mouse lever",
 "tags": [
 "obese mouse lever",
@@ -10387,7 +10418,7 @@
 {
 "id": "scidraw/mouse/obese-mouse-lever-7a1de28e",
 "svg": "custom/scidraw/mouse/obese-mouse-lever-7a1de28e.svg",
-"zh": "小鼠",
+"zh": "小鼠 小鼠",
 "en": "obese mouse lever",
 "tags": [
 "obese mouse lever",
@@ -10405,7 +10436,7 @@
 {
 "id": "scidraw/mouse/obese-mouse-lever-b6a78ae8",
 "svg": "custom/scidraw/mouse/obese-mouse-lever-b6a78ae8.svg",
-"zh": "小鼠",
+"zh": "小鼠 小鼠",
 "en": "obese mouse lever",
 "tags": [
 "obese mouse lever",
@@ -10423,7 +10454,7 @@
 {
 "id": "scidraw/mouse/obese-mouse-rearing-8603d1c2",
 "svg": "custom/scidraw/mouse/obese-mouse-rearing-8603d1c2.svg",
-"zh": "小鼠 耳",
+"zh": "小鼠 小鼠 耳",
 "en": "obese mouse rearing",
 "tags": [
 "obese mouse rearing",
@@ -10442,7 +10473,7 @@
 {
 "id": "scidraw/mouse/obese-mouse-running-2ccccfd9",
 "svg": "custom/scidraw/mouse/obese-mouse-running-2ccccfd9.svg",
-"zh": "小鼠",
+"zh": "小鼠 小鼠",
 "en": "obese mouse running",
 "tags": [
 "obese mouse running",
@@ -10460,7 +10491,7 @@
 {
 "id": "scidraw/mouse/obese-mouse-running-59490e63",
 "svg": "custom/scidraw/mouse/obese-mouse-running-59490e63.svg",
-"zh": "小鼠",
+"zh": "小鼠 小鼠",
 "en": "obese mouse running",
 "tags": [
 "obese mouse running",
@@ -10478,7 +10509,7 @@
 {
 "id": "scidraw/mouse/obese-mouse-sleeping-ea5f6c20",
 "svg": "custom/scidraw/mouse/obese-mouse-sleeping-ea5f6c20.svg",
-"zh": "小鼠 睡眠",
+"zh": "小鼠 小鼠 睡眠",
 "en": "obese mouse sleeping",
 "tags": [
 "obese mouse sleeping",
@@ -10497,7 +10528,7 @@
 {
 "id": "scidraw/mouse/obese-mouse-walking-67ec503b",
 "svg": "custom/scidraw/mouse/obese-mouse-walking-67ec503b.svg",
-"zh": "小鼠",
+"zh": "小鼠 小鼠",
 "en": "obese mouse walking",
 "tags": [
 "obese mouse walking",
@@ -10515,7 +10546,7 @@
 {
 "id": "scidraw/mouse/open-field-with-mouse-e0f519a1",
 "svg": "custom/scidraw/mouse/open-field-with-mouse-e0f519a1.svg",
-"zh": "小鼠",
+"zh": "小鼠 小鼠",
 "en": "Open field with mouse",
 "tags": [
 "open field with mouse",
@@ -10533,7 +10564,7 @@
 {
 "id": "scidraw/mouse/prefrontalhippocampus-912c02ce",
 "svg": "custom/scidraw/mouse/prefrontalhippocampus-912c02ce.svg",
-"zh": "小鼠",
+"zh": "小鼠 小鼠",
 "en": "Prefrontal&hippocampus",
 "tags": [
 "prefrontal&hippocampus",
@@ -10551,7 +10582,7 @@
 {
 "id": "scidraw/mouse/ratatouille-inspired-mouse-a96ddbfe",
 "svg": "custom/scidraw/mouse/ratatouille-inspired-mouse-a96ddbfe.jpg",
-"zh": "小鼠 大鼠",
+"zh": "小鼠 小鼠 大鼠",
 "en": "Ratatouille Inspired Mouse",
 "tags": [
 "ratatouille inspired mouse",
@@ -10570,7 +10601,7 @@
 {
 "id": "scidraw/mouse/resident-intruder-assay-a31b8bd9",
 "svg": "custom/scidraw/mouse/resident-intruder-assay-a31b8bd9.svg",
-"zh": "小鼠 检测",
+"zh": "小鼠 小鼠 检测",
 "en": "resident-intruder assay",
 "tags": [
 "resident-intruder assay",
@@ -10589,7 +10620,7 @@
 {
 "id": "scidraw/mouse/restrain-a3879bc2",
 "svg": "custom/scidraw/mouse/restrain-a3879bc2.svg",
-"zh": "小鼠",
+"zh": "小鼠 小鼠",
 "en": "restrain",
 "tags": [
 "restrain",
@@ -10607,7 +10638,7 @@
 {
 "id": "scidraw/mouse/rodent-recording-emg-with-tetrodes-73cdb877",
 "svg": "custom/scidraw/mouse/rodent-recording-emg-with-tetrodes-73cdb877.svg",
-"zh": "小鼠 啮齿动物",
+"zh": "小鼠 小鼠 啮齿动物",
 "en": "Rodent recording emg with tetrodes",
 "tags": [
 "rodent recording emg with tetrodes",
@@ -10626,7 +10657,7 @@
 {
 "id": "scidraw/mouse/rotarod-7fadfbbd",
 "svg": "custom/scidraw/mouse/rotarod-7fadfbbd.png",
-"zh": "小鼠",
+"zh": "小鼠 小鼠",
 "en": "rotarod",
 "tags": [
 "rotarod",
@@ -10644,7 +10675,7 @@
 {
 "id": "scidraw/mouse/sagittal-brain-with-emphasis-on-hippocampus-9ca8c333",
 "svg": "custom/scidraw/mouse/sagittal-brain-with-emphasis-on-hippocampus-9ca8c333.svg",
-"zh": "小鼠 脑 pH",
+"zh": "小鼠 小鼠 脑 pH",
 "en": "Sagittal brain with emphasis on hippocampus",
 "tags": [
 "sagittal brain with emphasis on hippocampus",
@@ -10664,7 +10695,7 @@
 {
 "id": "scidraw/mouse/simple-sleepy-mouse-112cecda",
 "svg": "custom/scidraw/mouse/simple-sleepy-mouse-112cecda.svg",
-"zh": "小鼠 睡眠",
+"zh": "小鼠 小鼠 睡眠",
 "en": "Simple sleepy mouse",
 "tags": [
 "simple sleepy mouse",
@@ -10683,7 +10714,7 @@
 {
 "id": "scidraw/mouse/sleep_eeg_emg-f9e5048f",
 "svg": "custom/scidraw/mouse/sleep_eeg_emg-f9e5048f.svg",
-"zh": "小鼠 睡眠",
+"zh": "小鼠 小鼠 睡眠",
 "en": "Sleep_EEG_EMG",
 "tags": [
 "sleep_eeg_emg",
@@ -10702,7 +10733,7 @@
 {
 "id": "scidraw/mouse/spinal-cord-section-a2ab5ed0",
 "svg": "custom/scidraw/mouse/spinal-cord-section-a2ab5ed0.svg",
-"zh": "小鼠 切片",
+"zh": "小鼠 小鼠 切片",
 "en": "Spinal cord section",
 "tags": [
 "spinal cord section",
@@ -10721,7 +10752,7 @@
 {
 "id": "scidraw/mouse/tail-suspension-5427948d",
 "svg": "custom/scidraw/mouse/tail-suspension-5427948d.svg",
-"zh": "小鼠",
+"zh": "小鼠 小鼠",
 "en": "Tail suspension",
 "tags": [
 "tail suspension",
@@ -10739,7 +10770,7 @@
 {
 "id": "scidraw/mouse/w-maze-with-mouse-abf65302",
 "svg": "custom/scidraw/mouse/w-maze-with-mouse-abf65302.svg",
-"zh": "小鼠",
+"zh": "小鼠 小鼠",
 "en": "W maze with mouse",
 "tags": [
 "w maze with mouse",
@@ -10757,7 +10788,7 @@
 {
 "id": "scidraw/mouse/walking-mouse-3c30783c",
 "svg": "custom/scidraw/mouse/walking-mouse-3c30783c.svg",
-"zh": "小鼠",
+"zh": "小鼠 小鼠",
 "en": "walking mouse",
 "tags": [
 "walking mouse",
@@ -10775,11 +10806,12 @@
 {
 "id": "scidraw/other/16-channel-neuronexus-electrode-82f4e006",
 "svg": "custom/scidraw/other/16-channel-neuronexus-electrode-82f4e006.svg",
-"zh": "神经元",
+"zh": "其他 神经元",
 "en": "16 channel Neuronexus electrode",
 "tags": [
 "16 channel neuronexus electrode",
 "other",
+"其他",
 "神经元"
 ],
 "cat": "other",
@@ -10793,11 +10825,12 @@
 {
 "id": "scidraw/other/1ml-syringe-with-25g-needle-d1185aaa",
 "svg": "custom/scidraw/other/1ml-syringe-with-25g-needle-d1185aaa.svg",
-"zh": "注射器",
+"zh": "其他 注射器",
 "en": "1ml syringe with 25G needle",
 "tags": [
 "1ml syringe with 25g needle",
 "other",
+"其他",
 "注射器"
 ],
 "cat": "other",
@@ -10811,11 +10844,12 @@
 {
 "id": "scidraw/other/4x-objective-cd905e06",
 "svg": "custom/scidraw/other/4x-objective-cd905e06.svg",
-"zh": "",
+"zh": "其他",
 "en": "4x objective",
 "tags": [
 "4x objective",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -10828,11 +10862,12 @@
 {
 "id": "scidraw/other/adenosine-3546c6bf",
 "svg": "custom/scidraw/other/adenosine-3546c6bf.svg",
-"zh": "",
+"zh": "其他",
 "en": "Adenosine",
 "tags": [
 "adenosine",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -10845,11 +10880,12 @@
 {
 "id": "scidraw/other/aedes-aegypti-52196997",
 "svg": "custom/scidraw/other/aedes-aegypti-52196997.svg",
-"zh": "",
+"zh": "其他",
 "en": "Aedes aegypti",
 "tags": [
 "aedes aegypti",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -10862,11 +10898,12 @@
 {
 "id": "scidraw/other/aedes-aegypti-f18cda64",
 "svg": "custom/scidraw/other/aedes-aegypti-f18cda64.png",
-"zh": "",
+"zh": "其他",
 "en": "Aedes aegypti",
 "tags": [
 "aedes aegypti",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -10879,11 +10916,12 @@
 {
 "id": "scidraw/other/agaricus-bisporus-3c86ea98",
 "svg": "custom/scidraw/other/agaricus-bisporus-3c86ea98.png",
-"zh": "",
+"zh": "其他",
 "en": "Agaricus bisporus",
 "tags": [
 "agaricus bisporus",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -10896,11 +10934,12 @@
 {
 "id": "scidraw/other/agaricus-bisporus-e6da1887",
 "svg": "custom/scidraw/other/agaricus-bisporus-e6da1887.svg",
-"zh": "",
+"zh": "其他",
 "en": "Agaricus bisporus",
 "tags": [
 "agaricus bisporus",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -10913,11 +10952,12 @@
 {
 "id": "scidraw/other/alpaca-35244e43",
 "svg": "custom/scidraw/other/alpaca-35244e43.svg",
-"zh": "",
+"zh": "其他",
 "en": "Alpaca",
 "tags": [
 "alpaca",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -10930,11 +10970,12 @@
 {
 "id": "scidraw/other/alpha-linolenic-acid-omega-3-214647b2",
 "svg": "custom/scidraw/other/alpha-linolenic-acid-omega-3-214647b2.svg",
-"zh": "酸 pH",
+"zh": "其他 酸 pH",
 "en": "Alpha-Linolenic acid (omega-3)",
 "tags": [
 "alpha-linolenic acid (omega-3)",
 "other",
+"其他",
 "酸",
 "pH"
 ],
@@ -10949,11 +10990,12 @@
 {
 "id": "scidraw/other/americancockroach-331806e2",
 "svg": "custom/scidraw/other/americancockroach-331806e2.png",
-"zh": "",
+"zh": "其他",
 "en": "AmericanCockroach",
 "tags": [
 "americancockroach",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -10966,11 +11008,12 @@
 {
 "id": "scidraw/other/americancockroacholfactorysensillum_pbasswa-1df5c9ae",
 "svg": "custom/scidraw/other/americancockroacholfactorysensillum_pbasswa-1df5c9ae.png",
-"zh": "",
+"zh": "其他",
 "en": "AmericanCockroachOlfactorySensillum_PBasSWA",
 "tags": [
 "americancockroacholfactorysensillum_pbasswa",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -10983,11 +11026,12 @@
 {
 "id": "scidraw/other/analytical-balance-58dd25f3",
 "svg": "custom/scidraw/other/analytical-balance-58dd25f3.svg",
-"zh": "天平",
+"zh": "其他 天平",
 "en": "Analytical balance",
 "tags": [
 "analytical balance",
 "other",
+"其他",
 "天平"
 ],
 "cat": "other",
@@ -11001,11 +11045,12 @@
 {
 "id": "scidraw/other/anolis-carolinensis-433350c0",
 "svg": "custom/scidraw/other/anolis-carolinensis-433350c0.png",
-"zh": "",
+"zh": "其他",
 "en": "Anolis carolinensis",
 "tags": [
 "anolis carolinensis",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -11018,11 +11063,12 @@
 {
 "id": "scidraw/other/anolis-carolinensis-c09eb4b4",
 "svg": "custom/scidraw/other/anolis-carolinensis-c09eb4b4.svg",
-"zh": "",
+"zh": "其他",
 "en": "Anolis carolinensis",
 "tags": [
 "anolis carolinensis",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -11035,11 +11081,12 @@
 {
 "id": "scidraw/other/ant-8dbdd4f6",
 "svg": "custom/scidraw/other/ant-8dbdd4f6.svg",
-"zh": "",
+"zh": "其他",
 "en": "Ant",
 "tags": [
 "ant",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -11052,11 +11099,12 @@
 {
 "id": "scidraw/other/aplysia-298a7081",
 "svg": "custom/scidraw/other/aplysia-298a7081.svg",
-"zh": "",
+"zh": "其他",
 "en": "Aplysia",
 "tags": [
 "aplysia",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -11069,11 +11117,12 @@
 {
 "id": "scidraw/other/apple-d478811c",
 "svg": "custom/scidraw/other/apple-d478811c.svg",
-"zh": "",
+"zh": "其他",
 "en": "apple",
 "tags": [
 "apple",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -11086,11 +11135,12 @@
 {
 "id": "scidraw/other/arabidopsis-thaliana-304e550e",
 "svg": "custom/scidraw/other/arabidopsis-thaliana-304e550e.png",
-"zh": "",
+"zh": "其他",
 "en": "Arabidopsis thaliana",
 "tags": [
 "arabidopsis thaliana",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -11103,11 +11153,12 @@
 {
 "id": "scidraw/other/arabidopsis-thaliana-60705bc0",
 "svg": "custom/scidraw/other/arabidopsis-thaliana-60705bc0.svg",
-"zh": "",
+"zh": "其他",
 "en": "Arabidopsis thaliana",
 "tags": [
 "arabidopsis thaliana",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -11120,11 +11171,12 @@
 {
 "id": "scidraw/other/arrows-54075f65",
 "svg": "custom/scidraw/other/arrows-54075f65.svg",
-"zh": "箭头",
+"zh": "其他 箭头",
 "en": "Arrows",
 "tags": [
 "arrows",
 "other",
+"其他",
 "箭头"
 ],
 "cat": "other",
@@ -11138,11 +11190,12 @@
 {
 "id": "scidraw/other/aspergillus-nidulans-b61c6969",
 "svg": "custom/scidraw/other/aspergillus-nidulans-b61c6969.svg",
-"zh": "",
+"zh": "其他",
 "en": "Aspergillus nidulans",
 "tags": [
 "aspergillus nidulans",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -11155,11 +11208,12 @@
 {
 "id": "scidraw/other/aspergillus-nidulans-c5bc34be",
 "svg": "custom/scidraw/other/aspergillus-nidulans-c5bc34be.png",
-"zh": "",
+"zh": "其他",
 "en": "Aspergillus nidulans",
 "tags": [
 "aspergillus nidulans",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -11172,11 +11226,12 @@
 {
 "id": "scidraw/other/asthma-inhaler-1ccbda7e",
 "svg": "custom/scidraw/other/asthma-inhaler-1ccbda7e.svg",
-"zh": "哮喘",
+"zh": "其他 哮喘",
 "en": "Asthma inhaler",
 "tags": [
 "asthma inhaler",
 "other",
+"其他",
 "哮喘"
 ],
 "cat": "other",
@@ -11190,11 +11245,12 @@
 {
 "id": "scidraw/other/atp-19030083",
 "svg": "custom/scidraw/other/atp-19030083.svg",
-"zh": "",
+"zh": "其他",
 "en": "ATP",
 "tags": [
 "atp",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -11207,11 +11263,12 @@
 {
 "id": "scidraw/other/atp-battery-7e628897",
 "svg": "custom/scidraw/other/atp-battery-7e628897.svg",
-"zh": "",
+"zh": "其他",
 "en": "ATP battery",
 "tags": [
 "atp battery",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -11224,11 +11281,12 @@
 {
 "id": "scidraw/other/atumsem-64610239",
 "svg": "custom/scidraw/other/atumsem-64610239.svg",
-"zh": "",
+"zh": "其他",
 "en": "ATUMSEM",
 "tags": [
 "atumsem",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -11241,11 +11299,12 @@
 {
 "id": "scidraw/other/bacteria-3f348ca8",
 "svg": "custom/scidraw/other/bacteria-3f348ca8.svg",
-"zh": "细菌",
+"zh": "其他 细菌",
 "en": "Bacteria",
 "tags": [
 "bacteria",
 "other",
+"其他",
 "细菌"
 ],
 "cat": "other",
@@ -11259,11 +11318,12 @@
 {
 "id": "scidraw/other/bacterium-d43254f8",
 "svg": "custom/scidraw/other/bacterium-d43254f8.svg",
-"zh": "细菌",
+"zh": "其他 细菌",
 "en": "Bacterium",
 "tags": [
 "bacterium",
 "other",
+"其他",
 "细菌"
 ],
 "cat": "other",
@@ -11277,11 +11337,12 @@
 {
 "id": "scidraw/other/bat-silhouette-9cfe0e8c",
 "svg": "custom/scidraw/other/bat-silhouette-9cfe0e8c.svg",
-"zh": "",
+"zh": "其他",
 "en": "Bat silhouette",
 "tags": [
 "bat silhouette",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -11294,11 +11355,12 @@
 {
 "id": "scidraw/other/beakers-ba8583ed",
 "svg": "custom/scidraw/other/beakers-ba8583ed.svg",
-"zh": "",
+"zh": "其他",
 "en": "Beakers",
 "tags": [
 "beakers",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -11311,11 +11373,12 @@
 {
 "id": "scidraw/other/blue-led-84f61cbc",
 "svg": "custom/scidraw/other/blue-led-84f61cbc.svg",
-"zh": "",
+"zh": "其他",
 "en": "Blue LED",
 "tags": [
 "blue led",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -11328,11 +11391,12 @@
 {
 "id": "scidraw/other/bone-cutters-d9f2fc18",
 "svg": "custom/scidraw/other/bone-cutters-d9f2fc18.svg",
-"zh": "骨骼",
+"zh": "其他 骨骼",
 "en": "Bone Cutters",
 "tags": [
 "bone cutters",
 "other",
+"其他",
 "骨骼"
 ],
 "cat": "other",
@@ -11346,11 +11410,12 @@
 {
 "id": "scidraw/other/bone-scissors-1e1bd902",
 "svg": "custom/scidraw/other/bone-scissors-1e1bd902.svg",
-"zh": "骨骼",
+"zh": "其他 骨骼",
 "en": "Bone Scissors",
 "tags": [
 "bone scissors",
 "other",
+"其他",
 "骨骼"
 ],
 "cat": "other",
@@ -11364,11 +11429,12 @@
 {
 "id": "scidraw/other/book-89548faf",
 "svg": "custom/scidraw/other/book-89548faf.svg",
-"zh": "",
+"zh": "其他",
 "en": "Book",
 "tags": [
 "book",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -11381,11 +11447,12 @@
 {
 "id": "scidraw/other/budding-yeast-8d64fc3a",
 "svg": "custom/scidraw/other/budding-yeast-8d64fc3a.svg",
-"zh": "酵母",
+"zh": "其他 酵母",
 "en": "Budding yeast",
 "tags": [
 "budding yeast",
 "other",
+"其他",
 "酵母"
 ],
 "cat": "other",
@@ -11399,11 +11466,12 @@
 {
 "id": "scidraw/other/caenorhabditis-elegans-52bf676f",
 "svg": "custom/scidraw/other/caenorhabditis-elegans-52bf676f.svg",
-"zh": "",
+"zh": "其他",
 "en": "Caenorhabditis elegans",
 "tags": [
 "caenorhabditis elegans",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -11416,11 +11484,12 @@
 {
 "id": "scidraw/other/caenorhabditis-elegans-fd99b24a",
 "svg": "custom/scidraw/other/caenorhabditis-elegans-fd99b24a.png",
-"zh": "",
+"zh": "其他",
 "en": "Caenorhabditis elegans",
 "tags": [
 "caenorhabditis elegans",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -11433,11 +11502,12 @@
 {
 "id": "scidraw/other/caffeine-bad266e2",
 "svg": "custom/scidraw/other/caffeine-bad266e2.svg",
-"zh": "",
+"zh": "其他",
 "en": "Caffeine",
 "tags": [
 "caffeine",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -11450,11 +11520,12 @@
 {
 "id": "scidraw/other/callithrix-jacchus-3e2a5ff2",
 "svg": "custom/scidraw/other/callithrix-jacchus-3e2a5ff2.png",
-"zh": "",
+"zh": "其他",
 "en": "Callithrix jacchus",
 "tags": [
 "callithrix jacchus",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -11467,11 +11538,12 @@
 {
 "id": "scidraw/other/callithrix-jacchus-75cd5b62",
 "svg": "custom/scidraw/other/callithrix-jacchus-75cd5b62.svg",
-"zh": "",
+"zh": "其他",
 "en": "Callithrix jacchus",
 "tags": [
 "callithrix jacchus",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -11484,11 +11556,12 @@
 {
 "id": "scidraw/other/camp-7b6cd68c",
 "svg": "custom/scidraw/other/camp-7b6cd68c.svg",
-"zh": "",
+"zh": "其他",
 "en": "cAMP",
 "tags": [
 "camp",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -11501,11 +11574,12 @@
 {
 "id": "scidraw/other/cannabidiol-28d8d7c0",
 "svg": "custom/scidraw/other/cannabidiol-28d8d7c0.png",
-"zh": "",
+"zh": "其他",
 "en": "Cannabidiol",
 "tags": [
 "cannabidiol",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -11518,11 +11592,12 @@
 {
 "id": "scidraw/other/carlito-syrichta-7d87b83a",
 "svg": "custom/scidraw/other/carlito-syrichta-7d87b83a.svg",
-"zh": "",
+"zh": "其他",
 "en": "Carlito syrichta",
 "tags": [
 "carlito syrichta",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -11535,11 +11610,12 @@
 {
 "id": "scidraw/other/carlito-syrichta-8ca86afe",
 "svg": "custom/scidraw/other/carlito-syrichta-8ca86afe.png",
-"zh": "",
+"zh": "其他",
 "en": "Carlito syrichta",
 "tags": [
 "carlito syrichta",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -11552,11 +11628,12 @@
 {
 "id": "scidraw/other/cat-brain-bcfc2a4f",
 "svg": "custom/scidraw/other/cat-brain-bcfc2a4f.png",
-"zh": "脑 猫",
+"zh": "其他 脑 猫",
 "en": "Cat brain",
 "tags": [
 "cat brain",
 "other",
+"其他",
 "脑",
 "猫"
 ],
@@ -11571,11 +11648,12 @@
 {
 "id": "scidraw/other/cellulose-7d643f7b",
 "svg": "custom/scidraw/other/cellulose-7d643f7b.svg",
-"zh": "细胞",
+"zh": "其他 细胞",
 "en": "cellulose",
 "tags": [
 "cellulose",
 "other",
+"其他",
 "细胞"
 ],
 "cat": "other",
@@ -11589,11 +11667,12 @@
 {
 "id": "scidraw/other/cgmp-ef24de0b",
 "svg": "custom/scidraw/other/cgmp-ef24de0b.svg",
-"zh": "",
+"zh": "其他",
 "en": "cGMP",
 "tags": [
 "cgmp",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -11606,11 +11685,12 @@
 {
 "id": "scidraw/other/chameleon-45a6eeee",
 "svg": "custom/scidraw/other/chameleon-45a6eeee.svg",
-"zh": "",
+"zh": "其他",
 "en": "Chameleon",
 "tags": [
 "chameleon",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -11623,11 +11703,12 @@
 {
 "id": "scidraw/other/cholesterol-fd32f2b9",
 "svg": "custom/scidraw/other/cholesterol-fd32f2b9.svg",
-"zh": "胆固醇",
+"zh": "其他 胆固醇",
 "en": "Cholesterol",
 "tags": [
 "cholesterol",
 "other",
+"其他",
 "胆固醇"
 ],
 "cat": "other",
@@ -11641,11 +11722,12 @@
 {
 "id": "scidraw/other/ciona-intestinalis-5c412a9b",
 "svg": "custom/scidraw/other/ciona-intestinalis-5c412a9b.png",
-"zh": "",
+"zh": "其他",
 "en": "Ciona intestinalis",
 "tags": [
 "ciona intestinalis",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -11658,11 +11740,12 @@
 {
 "id": "scidraw/other/ciona-intestinalis-ee045761",
 "svg": "custom/scidraw/other/ciona-intestinalis-ee045761.svg",
-"zh": "",
+"zh": "其他",
 "en": "Ciona intestinalis",
 "tags": [
 "ciona intestinalis",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -11675,11 +11758,12 @@
 {
 "id": "scidraw/other/clytia-hemisphaerica-0d16ac2c",
 "svg": "custom/scidraw/other/clytia-hemisphaerica-0d16ac2c.svg",
-"zh": "pH",
+"zh": "其他 pH",
 "en": "Clytia hemisphaerica",
 "tags": [
 "clytia hemisphaerica",
 "other",
+"其他",
 "pH"
 ],
 "cat": "other",
@@ -11693,11 +11777,12 @@
 {
 "id": "scidraw/other/clytia-hemisphaerica-d888c94e",
 "svg": "custom/scidraw/other/clytia-hemisphaerica-d888c94e.png",
-"zh": "pH",
+"zh": "其他 pH",
 "en": "Clytia hemisphaerica",
 "tags": [
 "clytia hemisphaerica",
 "other",
+"其他",
 "pH"
 ],
 "cat": "other",
@@ -11711,11 +11796,12 @@
 {
 "id": "scidraw/other/coffee-6b76c747",
 "svg": "custom/scidraw/other/coffee-6b76c747.svg",
-"zh": "",
+"zh": "其他",
 "en": "Coffee",
 "tags": [
 "coffee",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -11728,11 +11814,12 @@
 {
 "id": "scidraw/other/confocal-microscope-5b689aea",
 "svg": "custom/scidraw/other/confocal-microscope-5b689aea.svg",
-"zh": "显微镜",
+"zh": "其他 显微镜",
 "en": "confocal microscope",
 "tags": [
 "confocal microscope",
 "other",
+"其他",
 "显微镜"
 ],
 "cat": "other",
@@ -11746,11 +11833,12 @@
 {
 "id": "scidraw/other/coronavirus-3d-e760e7c9",
 "svg": "custom/scidraw/other/coronavirus-3d-e760e7c9.svg",
-"zh": "病毒",
+"zh": "其他 病毒",
 "en": "Coronavirus 3D",
 "tags": [
 "coronavirus 3d",
 "other",
+"其他",
 "病毒"
 ],
 "cat": "other",
@@ -11764,11 +11852,12 @@
 {
 "id": "scidraw/other/coronavirus-5c6f3d43",
 "svg": "custom/scidraw/other/coronavirus-5c6f3d43.svg",
-"zh": "病毒",
+"zh": "其他 病毒",
 "en": "Coronavirus",
 "tags": [
 "coronavirus",
 "other",
+"其他",
 "病毒"
 ],
 "cat": "other",
@@ -11782,11 +11871,12 @@
 {
 "id": "scidraw/other/cpp-box-252b1023",
 "svg": "custom/scidraw/other/cpp-box-252b1023.svg",
-"zh": "",
+"zh": "其他",
 "en": "CPP box",
 "tags": [
 "cpp box",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -11799,11 +11889,12 @@
 {
 "id": "scidraw/other/cyber-criminal-triangle-modal-6688b840",
 "svg": "custom/scidraw/other/cyber-criminal-triangle-modal-6688b840.png",
-"zh": "",
+"zh": "其他",
 "en": "cyber criminal triangle modal",
 "tags": [
 "cyber criminal triangle modal",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -11816,11 +11907,12 @@
 {
 "id": "scidraw/other/dna-4461dd7d",
 "svg": "custom/scidraw/other/dna-4461dd7d.svg",
-"zh": "DNA",
+"zh": "其他 DNA",
 "en": "DNA",
 "tags": [
 "dna",
 "other",
+"其他",
 "DNA"
 ],
 "cat": "other",
@@ -11834,11 +11926,12 @@
 {
 "id": "scidraw/other/dna-b7a7c4eb",
 "svg": "custom/scidraw/other/dna-b7a7c4eb.svg",
-"zh": "DNA",
+"zh": "其他 DNA",
 "en": "DNA",
 "tags": [
 "dna",
 "other",
+"其他",
 "DNA"
 ],
 "cat": "other",
@@ -11852,11 +11945,12 @@
 {
 "id": "scidraw/other/dna-feca6e8d",
 "svg": "custom/scidraw/other/dna-feca6e8d.jpg",
-"zh": "DNA",
+"zh": "其他 DNA",
 "en": "DNA",
 "tags": [
 "dna",
 "other",
+"其他",
 "DNA"
 ],
 "cat": "other",
@@ -11870,11 +11964,12 @@
 {
 "id": "scidraw/other/dna-strand-2cf19285",
 "svg": "custom/scidraw/other/dna-strand-2cf19285.svg",
-"zh": "DNA",
+"zh": "其他 DNA",
 "en": "DNA strand",
 "tags": [
 "dna strand",
 "other",
+"其他",
 "DNA"
 ],
 "cat": "other",
@@ -11888,11 +11983,12 @@
 {
 "id": "scidraw/other/drawing-3733524d",
 "svg": "custom/scidraw/other/drawing-3733524d.jpg",
-"zh": "",
+"zh": "其他",
 "en": "植物",
 "tags": [
 "植物",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -11905,11 +12001,12 @@
 {
 "id": "scidraw/other/drawing-8caf3226",
 "svg": "custom/scidraw/other/drawing-8caf3226.png",
-"zh": "",
+"zh": "其他",
 "en": "啊啊",
 "tags": [
 "啊啊",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -11922,11 +12019,12 @@
 {
 "id": "scidraw/other/dry-baths-df5304c5",
 "svg": "custom/scidraw/other/dry-baths-df5304c5.svg",
-"zh": "",
+"zh": "其他",
 "en": "Dry Baths",
 "tags": [
 "dry baths",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -11939,11 +12037,12 @@
 {
 "id": "scidraw/other/early-embryo-dorsal-view-7ae7a968",
 "svg": "custom/scidraw/other/early-embryo-dorsal-view-7ae7a968.svg",
-"zh": "耳",
+"zh": "其他 耳",
 "en": "Early embryo dorsal view",
 "tags": [
 "early embryo dorsal view",
 "other",
+"其他",
 "耳"
 ],
 "cat": "other",
@@ -11957,11 +12056,12 @@
 {
 "id": "scidraw/other/electrode-0f497556",
 "svg": "custom/scidraw/other/electrode-0f497556.svg",
-"zh": "",
+"zh": "其他",
 "en": "electrode",
 "tags": [
 "electrode",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -11974,11 +12074,12 @@
 {
 "id": "scidraw/other/electromyography-emg-02afbffe",
 "svg": "custom/scidraw/other/electromyography-emg-02afbffe.svg",
-"zh": "图 pH",
+"zh": "其他 图 pH",
 "en": "electromyography (EMG)",
 "tags": [
 "electromyography (emg)",
 "other",
+"其他",
 "图",
 "pH"
 ],
@@ -11993,11 +12094,12 @@
 {
 "id": "scidraw/other/elisa-09815685",
 "svg": "custom/scidraw/other/elisa-09815685.svg",
-"zh": "ELISA",
+"zh": "其他 ELISA",
 "en": "ELISA",
 "tags": [
 "elisa",
 "other",
+"其他",
 "ELISA"
 ],
 "cat": "other",
@@ -12011,11 +12113,12 @@
 {
 "id": "scidraw/other/elisa-2ae4fc35",
 "svg": "custom/scidraw/other/elisa-2ae4fc35.svg",
-"zh": "ELISA",
+"zh": "其他 ELISA",
 "en": "ELISA",
 "tags": [
 "elisa",
 "other",
+"其他",
 "ELISA"
 ],
 "cat": "other",
@@ -12029,11 +12132,12 @@
 {
 "id": "scidraw/other/em-slice-657ed890",
 "svg": "custom/scidraw/other/em-slice-657ed890.svg",
-"zh": "",
+"zh": "其他",
 "en": "EM slice",
 "tags": [
 "em slice",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -12046,11 +12150,12 @@
 {
 "id": "scidraw/other/em-slice-679de801",
 "svg": "custom/scidraw/other/em-slice-679de801.svg",
-"zh": "",
+"zh": "其他",
 "en": "EM slice",
 "tags": [
 "em slice",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -12063,11 +12168,12 @@
 {
 "id": "scidraw/other/em-slice-9e873298",
 "svg": "custom/scidraw/other/em-slice-9e873298.svg",
-"zh": "",
+"zh": "其他",
 "en": "EM slice",
 "tags": [
 "em slice",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -12080,11 +12186,12 @@
 {
 "id": "scidraw/other/em-slice-f8990ac6",
 "svg": "custom/scidraw/other/em-slice-f8990ac6.svg",
-"zh": "",
+"zh": "其他",
 "en": "EM slice",
 "tags": [
 "em slice",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -12097,11 +12204,12 @@
 {
 "id": "scidraw/other/embryo-lateral-view-67d83273",
 "svg": "custom/scidraw/other/embryo-lateral-view-67d83273.svg",
-"zh": "",
+"zh": "其他",
 "en": "Embryo lateral view",
 "tags": [
 "embryo lateral view",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -12114,11 +12222,12 @@
 {
 "id": "scidraw/other/enzyme-substrate-69945887",
 "svg": "custom/scidraw/other/enzyme-substrate-69945887.svg",
-"zh": "大鼠 酶",
+"zh": "其他 大鼠 酶",
 "en": "Enzyme Substrate",
 "tags": [
 "enzyme substrate",
 "other",
+"其他",
 "大鼠",
 "酶"
 ],
@@ -12133,11 +12242,12 @@
 {
 "id": "scidraw/other/epm-568a8b3d",
 "svg": "custom/scidraw/other/epm-568a8b3d.svg",
-"zh": "",
+"zh": "其他",
 "en": "EPM",
 "tags": [
 "epm",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -12150,11 +12260,12 @@
 {
 "id": "scidraw/other/eppendorf-tube-closed-b856d092",
 "svg": "custom/scidraw/other/eppendorf-tube-closed-b856d092.svg",
-"zh": "离心管",
+"zh": "其他 离心管",
 "en": "Eppendorf tube closed",
 "tags": [
 "eppendorf tube closed",
 "other",
+"其他",
 "离心管"
 ],
 "cat": "other",
@@ -12168,11 +12279,12 @@
 {
 "id": "scidraw/other/eppendorf-tube-e0ac07de",
 "svg": "custom/scidraw/other/eppendorf-tube-e0ac07de.svg",
-"zh": "离心管",
+"zh": "其他 离心管",
 "en": "Eppendorf tube",
 "tags": [
 "eppendorf tube",
 "other",
+"其他",
 "离心管"
 ],
 "cat": "other",
@@ -12186,11 +12298,12 @@
 {
 "id": "scidraw/other/exaiptasia-diaphana-4e191a1b",
 "svg": "custom/scidraw/other/exaiptasia-diaphana-4e191a1b.svg",
-"zh": "pH",
+"zh": "其他 pH",
 "en": "Exaiptasia diaphana",
 "tags": [
 "exaiptasia diaphana",
 "other",
+"其他",
 "pH"
 ],
 "cat": "other",
@@ -12204,11 +12317,12 @@
 {
 "id": "scidraw/other/exaiptasia-diaphana-daf550ef",
 "svg": "custom/scidraw/other/exaiptasia-diaphana-daf550ef.png",
-"zh": "pH",
+"zh": "其他 pH",
 "en": "Exaiptasia diaphana",
 "tags": [
 "exaiptasia diaphana",
 "other",
+"其他",
 "pH"
 ],
 "cat": "other",
@@ -12222,11 +12336,12 @@
 {
 "id": "scidraw/other/extracellular-recording-2273652d",
 "svg": "custom/scidraw/other/extracellular-recording-2273652d.svg",
-"zh": "细胞",
+"zh": "其他 细胞",
 "en": "Extracellular recording",
 "tags": [
 "extracellular recording",
 "other",
+"其他",
 "细胞"
 ],
 "cat": "other",
@@ -12240,11 +12355,12 @@
 {
 "id": "scidraw/other/falcon-tube-3a0d4ac8",
 "svg": "custom/scidraw/other/falcon-tube-3a0d4ac8.svg",
-"zh": "离心管",
+"zh": "其他 离心管",
 "en": "Falcon tube",
 "tags": [
 "falcon tube",
 "other",
+"其他",
 "离心管"
 ],
 "cat": "other",
@@ -12258,11 +12374,12 @@
 {
 "id": "scidraw/other/falcon-tube-7ed6ce51",
 "svg": "custom/scidraw/other/falcon-tube-7ed6ce51.svg",
-"zh": "离心管",
+"zh": "其他 离心管",
 "en": "Falcon Tube",
 "tags": [
 "falcon tube",
 "other",
+"其他",
 "离心管"
 ],
 "cat": "other",
@@ -12276,11 +12393,12 @@
 {
 "id": "scidraw/other/fed3-939f7b2b",
 "svg": "custom/scidraw/other/fed3-939f7b2b.svg",
-"zh": "",
+"zh": "其他",
 "en": "FED3",
 "tags": [
 "fed3",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -12293,11 +12411,12 @@
 {
 "id": "scidraw/other/fed3-angled-e82a061b",
 "svg": "custom/scidraw/other/fed3-angled-e82a061b.svg",
-"zh": "",
+"zh": "其他",
 "en": "FED3 angled",
 "tags": [
 "fed3 angled",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -12310,11 +12429,12 @@
 {
 "id": "scidraw/other/fed3_top_view-b99066d5",
 "svg": "custom/scidraw/other/fed3_top_view-b99066d5.svg",
-"zh": "",
+"zh": "其他",
 "en": "FED3_Top_View",
 "tags": [
 "fed3_top_view",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -12327,11 +12447,12 @@
 {
 "id": "scidraw/other/ferrule-8a0e563e",
 "svg": "custom/scidraw/other/ferrule-8a0e563e.svg",
-"zh": "",
+"zh": "其他",
 "en": "ferrule",
 "tags": [
 "ferrule",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -12344,11 +12465,12 @@
 {
 "id": "scidraw/other/fibsem-e72a945c",
 "svg": "custom/scidraw/other/fibsem-e72a945c.svg",
-"zh": "",
+"zh": "其他",
 "en": "FIBSEM",
 "tags": [
 "fibsem",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -12361,11 +12483,12 @@
 {
 "id": "scidraw/other/fiddler-crab-with-a-human-brain-as-its-carapace-464ba092",
 "svg": "custom/scidraw/other/fiddler-crab-with-a-human-brain-as-its-carapace-464ba092.svg",
-"zh": "脑 人 男性",
+"zh": "其他 脑 人 男性",
 "en": "Fiddler crab with a human brain as its carapace",
 "tags": [
 "fiddler crab with a human brain as its carapace",
 "other",
+"其他",
 "脑",
 "人",
 "男性"
@@ -12381,11 +12504,12 @@
 {
 "id": "scidraw/other/flower-82737dab",
 "svg": "custom/scidraw/other/flower-82737dab.svg",
-"zh": "花 流程",
+"zh": "其他 花 流程",
 "en": "Flower",
 "tags": [
 "flower",
 "other",
+"其他",
 "花",
 "流程"
 ],
@@ -12400,11 +12524,12 @@
 {
 "id": "scidraw/other/food-pellets-27cb229e",
 "svg": "custom/scidraw/other/food-pellets-27cb229e.svg",
-"zh": "食物",
+"zh": "其他 食物",
 "en": "Food pellets",
 "tags": [
 "food pellets",
 "other",
+"其他",
 "食物"
 ],
 "cat": "other",
@@ -12418,11 +12543,12 @@
 {
 "id": "scidraw/other/foot-shock-a128ae1b",
 "svg": "custom/scidraw/other/foot-shock-a128ae1b.svg",
-"zh": "足",
+"zh": "其他 足",
 "en": "foot shock",
 "tags": [
 "foot shock",
 "other",
+"其他",
 "足"
 ],
 "cat": "other",
@@ -12436,11 +12562,12 @@
 {
 "id": "scidraw/other/frog-c432e6c5",
 "svg": "custom/scidraw/other/frog-c432e6c5.svg",
-"zh": "蛙",
+"zh": "其他 蛙",
 "en": "Frog",
 "tags": [
 "frog",
 "other",
+"其他",
 "蛙"
 ],
 "cat": "other",
@@ -12454,11 +12581,12 @@
 {
 "id": "scidraw/other/frog-jumping-0904a213",
 "svg": "custom/scidraw/other/frog-jumping-0904a213.svg",
-"zh": "蛙",
+"zh": "其他 蛙",
 "en": "Frog jumping",
 "tags": [
 "frog jumping",
 "other",
+"其他",
 "蛙"
 ],
 "cat": "other",
@@ -12472,11 +12600,12 @@
 {
 "id": "scidraw/other/fructose-0ed7761d",
 "svg": "custom/scidraw/other/fructose-0ed7761d.svg",
-"zh": "",
+"zh": "其他",
 "en": "Fructose",
 "tags": [
 "fructose",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -12489,11 +12618,12 @@
 {
 "id": "scidraw/other/ganglioside-e514c743",
 "svg": "custom/scidraw/other/ganglioside-e514c743.svg",
-"zh": "",
+"zh": "其他",
 "en": "Ganglioside",
 "tags": [
 "ganglioside",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -12506,11 +12636,12 @@
 {
 "id": "scidraw/other/gcibsem-2923c867",
 "svg": "custom/scidraw/other/gcibsem-2923c867.svg",
-"zh": "",
+"zh": "其他",
 "en": "GCIBSEM",
 "tags": [
 "gcibsem",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -12523,11 +12654,12 @@
 {
 "id": "scidraw/other/glucose-8ea12831",
 "svg": "custom/scidraw/other/glucose-8ea12831.svg",
-"zh": "葡萄糖",
+"zh": "其他 葡萄糖",
 "en": "Glucose",
 "tags": [
 "glucose",
 "other",
+"其他",
 "葡萄糖"
 ],
 "cat": "other",
@@ -12541,11 +12673,12 @@
 {
 "id": "scidraw/other/gold-nanoparticle-0034ade9",
 "svg": "custom/scidraw/other/gold-nanoparticle-0034ade9.png",
-"zh": "老年",
+"zh": "其他 老年",
 "en": "Gold Nanoparticle",
 "tags": [
 "gold nanoparticle",
 "other",
+"其他",
 "老年"
 ],
 "cat": "other",
@@ -12559,11 +12692,12 @@
 {
 "id": "scidraw/other/ground-squirrel-bfcd8e4b",
 "svg": "custom/scidraw/other/ground-squirrel-bfcd8e4b.svg",
-"zh": "",
+"zh": "其他",
 "en": "Ground Squirrel",
 "tags": [
 "ground squirrel",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -12576,11 +12710,12 @@
 {
 "id": "scidraw/other/gtp-battery-f2f899e5",
 "svg": "custom/scidraw/other/gtp-battery-f2f899e5.svg",
-"zh": "",
+"zh": "其他",
 "en": "GTP battery",
 "tags": [
 "gtp battery",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -12593,11 +12728,12 @@
 {
 "id": "scidraw/other/haem-f3467a67",
 "svg": "custom/scidraw/other/haem-f3467a67.svg",
-"zh": "",
+"zh": "其他",
 "en": "Haem",
 "tags": [
 "haem",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -12610,11 +12746,12 @@
 {
 "id": "scidraw/other/hamilton-syringe-5e8e2d69",
 "svg": "custom/scidraw/other/hamilton-syringe-5e8e2d69.svg",
-"zh": "注射器",
+"zh": "其他 注射器",
 "en": "Hamilton Syringe",
 "tags": [
 "hamilton syringe",
 "other",
+"其他",
 "注射器"
 ],
 "cat": "other",
@@ -12628,11 +12765,12 @@
 {
 "id": "scidraw/other/heart-green-drawing-6383f6e5",
 "svg": "custom/scidraw/other/heart-green-drawing-6383f6e5.png",
-"zh": "心脏 耳",
+"zh": "其他 心脏 耳",
 "en": "Heart green drawing",
 "tags": [
 "heart green drawing",
 "other",
+"其他",
 "心脏",
 "耳"
 ],
@@ -12647,11 +12785,12 @@
 {
 "id": "scidraw/other/hofstenia-miamia-789b10cf",
 "svg": "custom/scidraw/other/hofstenia-miamia-789b10cf.svg",
-"zh": "",
+"zh": "其他",
 "en": "Hofstenia miamia",
 "tags": [
 "hofstenia miamia",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -12664,11 +12803,12 @@
 {
 "id": "scidraw/other/hofstenia-miamia-e307faef",
 "svg": "custom/scidraw/other/hofstenia-miamia-e307faef.png",
-"zh": "",
+"zh": "其他",
 "en": "Hofstenia miamia",
 "tags": [
 "hofstenia miamia",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -12681,11 +12821,12 @@
 {
 "id": "scidraw/other/human-immunodeficiency-virus-60cd8e34",
 "svg": "custom/scidraw/other/human-immunodeficiency-virus-60cd8e34.svg",
-"zh": "人 男性 病毒",
+"zh": "其他 人 男性 病毒",
 "en": "Human immunodeficiency virus",
 "tags": [
 "human immunodeficiency virus",
 "other",
+"其他",
 "人",
 "男性",
 "病毒"
@@ -12701,11 +12842,12 @@
 {
 "id": "scidraw/other/human-immunodeficiency-virus-bcaf306e",
 "svg": "custom/scidraw/other/human-immunodeficiency-virus-bcaf306e.png",
-"zh": "人 男性 病毒",
+"zh": "其他 人 男性 病毒",
 "en": "Human immunodeficiency virus",
 "tags": [
 "human immunodeficiency virus",
 "other",
+"其他",
 "人",
 "男性",
 "病毒"
@@ -12721,11 +12863,12 @@
 {
 "id": "scidraw/other/hydra-vulgaris-55bda97b",
 "svg": "custom/scidraw/other/hydra-vulgaris-55bda97b.svg",
-"zh": "",
+"zh": "其他",
 "en": "Hydra vulgaris",
 "tags": [
 "hydra vulgaris",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -12738,11 +12881,12 @@
 {
 "id": "scidraw/other/hydra-vulgaris-7164a049",
 "svg": "custom/scidraw/other/hydra-vulgaris-7164a049.png",
-"zh": "",
+"zh": "其他",
 "en": "Hydra vulgaris",
 "tags": [
 "hydra vulgaris",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -12755,11 +12899,12 @@
 {
 "id": "scidraw/other/hypsibius-dujardini-b2b94b57",
 "svg": "custom/scidraw/other/hypsibius-dujardini-b2b94b57.png",
-"zh": "",
+"zh": "其他",
 "en": "Hypsibius dujardini",
 "tags": [
 "hypsibius dujardini",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -12772,11 +12917,12 @@
 {
 "id": "scidraw/other/hypsibius-dujardini-e5d8ca3b",
 "svg": "custom/scidraw/other/hypsibius-dujardini-e5d8ca3b.svg",
-"zh": "",
+"zh": "其他",
 "en": "Hypsibius dujardini",
 "tags": [
 "hypsibius dujardini",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -12789,11 +12935,12 @@
 {
 "id": "scidraw/other/illumina-hi-seq-8427a523",
 "svg": "custom/scidraw/other/illumina-hi-seq-8427a523.svg",
-"zh": "",
+"zh": "其他",
 "en": "illumina Hi-seq",
 "tags": [
 "illumina hi-seq",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -12806,11 +12953,12 @@
 {
 "id": "scidraw/other/in-vivo-techniques-d7fa2e5a",
 "svg": "custom/scidraw/other/in-vivo-techniques-d7fa2e5a.svg",
-"zh": "",
+"zh": "其他",
 "en": "in-vivo techniques",
 "tags": [
 "in-vivo techniques",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -12823,11 +12971,12 @@
 {
 "id": "scidraw/other/infection-pattern-and-growth-rate-4f52cd4c",
 "svg": "custom/scidraw/other/infection-pattern-and-growth-rate-4f52cd4c.svg",
-"zh": "大鼠 感染",
+"zh": "其他 大鼠 感染",
 "en": "Infection pattern and Growth rate",
 "tags": [
 "infection pattern and growth rate",
 "other",
+"其他",
 "大鼠",
 "感染"
 ],
@@ -12842,11 +12991,12 @@
 {
 "id": "scidraw/other/influenza-virus-6883e674",
 "svg": "custom/scidraw/other/influenza-virus-6883e674.svg",
-"zh": "病毒",
+"zh": "其他 病毒",
 "en": "Influenza virus",
 "tags": [
 "influenza virus",
 "other",
+"其他",
 "病毒"
 ],
 "cat": "other",
@@ -12860,11 +13010,12 @@
 {
 "id": "scidraw/other/influenza-virus-8d9a57dc",
 "svg": "custom/scidraw/other/influenza-virus-8d9a57dc.png",
-"zh": "病毒",
+"zh": "其他 病毒",
 "en": "Influenza virus",
 "tags": [
 "influenza virus",
 "other",
+"其他",
 "病毒"
 ],
 "cat": "other",
@@ -12878,11 +13029,12 @@
 {
 "id": "scidraw/other/javan-spitting-cobra-naja-sputatrix-59ba77c8",
 "svg": "custom/scidraw/other/javan-spitting-cobra-naja-sputatrix-59ba77c8.png",
-"zh": "",
+"zh": "其他",
 "en": "Javan Spitting Cobra (Naja sputatrix)",
 "tags": [
 "javan spitting cobra (naja sputatrix)",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -12895,11 +13047,12 @@
 {
 "id": "scidraw/other/laboratory-89e2152f",
 "svg": "custom/scidraw/other/laboratory-89e2152f.svg",
-"zh": "大鼠",
+"zh": "其他 大鼠",
 "en": "laboratory",
 "tags": [
 "laboratory",
 "other",
+"其他",
 "大鼠"
 ],
 "cat": "other",
@@ -12913,11 +13066,12 @@
 {
 "id": "scidraw/other/lactose-0975acdd",
 "svg": "custom/scidraw/other/lactose-0975acdd.svg",
-"zh": "",
+"zh": "其他",
 "en": "Lactose",
 "tags": [
 "lactose",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -12930,11 +13084,12 @@
 {
 "id": "scidraw/other/lipid-bilayer-6ed7e490",
 "svg": "custom/scidraw/other/lipid-bilayer-6ed7e490.svg",
-"zh": "脂质",
+"zh": "其他 脂质",
 "en": "Lipid Bilayer",
 "tags": [
 "lipid bilayer",
 "other",
+"其他",
 "脂质"
 ],
 "cat": "other",
@@ -12948,11 +13103,12 @@
 {
 "id": "scidraw/other/lizard-02e202cc",
 "svg": "custom/scidraw/other/lizard-02e202cc.svg",
-"zh": "",
+"zh": "其他",
 "en": "lizard",
 "tags": [
 "lizard",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -12965,11 +13121,12 @@
 {
 "id": "scidraw/other/lts-standard-tips-c7bce8ff",
 "svg": "custom/scidraw/other/lts-standard-tips-c7bce8ff.svg",
-"zh": "",
+"zh": "其他",
 "en": "LTS Standard Tips",
 "tags": [
 "lts standard tips",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -12982,11 +13139,12 @@
 {
 "id": "scidraw/other/macaca-mulatta-187e3dab",
 "svg": "custom/scidraw/other/macaca-mulatta-187e3dab.svg",
-"zh": "",
+"zh": "其他",
 "en": "Macaca mulatta",
 "tags": [
 "macaca mulatta",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -12999,11 +13157,12 @@
 {
 "id": "scidraw/other/macaca-mulatta-5d0f81b2",
 "svg": "custom/scidraw/other/macaca-mulatta-5d0f81b2.png",
-"zh": "",
+"zh": "其他",
 "en": "Macaca mulatta",
 "tags": [
 "macaca mulatta",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -13016,11 +13175,12 @@
 {
 "id": "scidraw/other/macaque-cerebellar-cortex-saggital-section-e5842071",
 "svg": "custom/scidraw/other/macaque-cerebellar-cortex-saggital-section-e5842071.svg",
-"zh": "切片",
+"zh": "其他 切片",
 "en": "Macaque cerebellar cortex (saggital section)",
 "tags": [
 "macaque cerebellar cortex (saggital section)",
 "other",
+"其他",
 "切片"
 ],
 "cat": "other",
@@ -13034,11 +13194,12 @@
 {
 "id": "scidraw/other/macaque-coronal-section-ad30a61d",
 "svg": "custom/scidraw/other/macaque-coronal-section-ad30a61d.svg",
-"zh": "切片",
+"zh": "其他 切片",
 "en": "Macaque Coronal Section",
 "tags": [
 "macaque coronal section",
 "other",
+"其他",
 "切片"
 ],
 "cat": "other",
@@ -13052,11 +13213,12 @@
 {
 "id": "scidraw/other/maltose-45216637",
 "svg": "custom/scidraw/other/maltose-45216637.svg",
-"zh": "",
+"zh": "其他",
 "en": "Maltose",
 "tags": [
 "maltose",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -13069,11 +13231,12 @@
 {
 "id": "scidraw/other/matting-pattern-of-mosquitoes-flowchart-7b7115ff",
 "svg": "custom/scidraw/other/matting-pattern-of-mosquitoes-flowchart-7b7115ff.svg",
-"zh": "图表 流程",
+"zh": "其他 图表 流程",
 "en": "Matting pattern of Mosquitoes flowchart",
 "tags": [
 "matting pattern of mosquitoes flowchart",
 "other",
+"其他",
 "图表",
 "流程"
 ],
@@ -13088,11 +13251,12 @@
 {
 "id": "scidraw/other/microcebus-murinus-6ab623b6",
 "svg": "custom/scidraw/other/microcebus-murinus-6ab623b6.png",
-"zh": "",
+"zh": "其他",
 "en": "Microcebus murinus",
 "tags": [
 "microcebus murinus",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -13105,11 +13269,12 @@
 {
 "id": "scidraw/other/microcebus-murinus-b9542095",
 "svg": "custom/scidraw/other/microcebus-murinus-b9542095.svg",
-"zh": "",
+"zh": "其他",
 "en": "Microcebus murinus",
 "tags": [
 "microcebus murinus",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -13122,11 +13287,12 @@
 {
 "id": "scidraw/other/microscope-objective-10x-4851b0ea",
 "svg": "custom/scidraw/other/microscope-objective-10x-4851b0ea.svg",
-"zh": "显微镜",
+"zh": "其他 显微镜",
 "en": "Microscope objective 10x",
 "tags": [
 "microscope objective 10x",
 "other",
+"其他",
 "显微镜"
 ],
 "cat": "other",
@@ -13140,11 +13306,12 @@
 {
 "id": "scidraw/other/microscope-objective-53acffae",
 "svg": "custom/scidraw/other/microscope-objective-53acffae.svg",
-"zh": "显微镜",
+"zh": "其他 显微镜",
 "en": "microscope Objective",
 "tags": [
 "microscope objective",
 "other",
+"其他",
 "显微镜"
 ],
 "cat": "other",
@@ -13158,11 +13325,12 @@
 {
 "id": "scidraw/other/microtube-and-pestle-1269b70f",
 "svg": "custom/scidraw/other/microtube-and-pestle-1269b70f.svg",
-"zh": "离心管",
+"zh": "其他 离心管",
 "en": "Microtube and pestle",
 "tags": [
 "microtube and pestle",
 "other",
+"其他",
 "离心管"
 ],
 "cat": "other",
@@ -13176,11 +13344,12 @@
 {
 "id": "scidraw/other/mnemiopsis-leidyi-22c69339",
 "svg": "custom/scidraw/other/mnemiopsis-leidyi-22c69339.svg",
-"zh": "",
+"zh": "其他",
 "en": "Mnemiopsis leidyi",
 "tags": [
 "mnemiopsis leidyi",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -13193,11 +13362,12 @@
 {
 "id": "scidraw/other/mnemiopsis-leidyi-92b1c9d5",
 "svg": "custom/scidraw/other/mnemiopsis-leidyi-92b1c9d5.png",
-"zh": "",
+"zh": "其他",
 "en": "Mnemiopsis leidyi",
 "tags": [
 "mnemiopsis leidyi",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -13210,11 +13380,12 @@
 {
 "id": "scidraw/other/mobile-homecage-807624d7",
 "svg": "custom/scidraw/other/mobile-homecage-807624d7.svg",
-"zh": "胆汁",
+"zh": "其他 胆汁",
 "en": "Mobile HomeCage",
 "tags": [
 "mobile homecage",
 "other",
+"其他",
 "胆汁"
 ],
 "cat": "other",
@@ -13228,11 +13399,12 @@
 {
 "id": "scidraw/other/monkey-2e5cb1f8",
 "svg": "custom/scidraw/other/monkey-2e5cb1f8.svg",
-"zh": "猴",
+"zh": "其他 猴",
 "en": "monkey",
 "tags": [
 "monkey",
 "other",
+"其他",
 "猴"
 ],
 "cat": "other",
@@ -13246,11 +13418,12 @@
 {
 "id": "scidraw/other/monkey-746d36bf",
 "svg": "custom/scidraw/other/monkey-746d36bf.svg",
-"zh": "猴",
+"zh": "其他 猴",
 "en": "Monkey",
 "tags": [
 "monkey",
 "other",
+"其他",
 "猴"
 ],
 "cat": "other",
@@ -13264,11 +13437,12 @@
 {
 "id": "scidraw/other/monkey-arm-movement-b071ded9",
 "svg": "custom/scidraw/other/monkey-arm-movement-b071ded9.svg",
-"zh": "猴",
+"zh": "其他 猴",
 "en": "Monkey (arm movement)",
 "tags": [
 "monkey (arm movement)",
 "other",
+"其他",
 "猴"
 ],
 "cat": "other",
@@ -13282,11 +13456,12 @@
 {
 "id": "scidraw/other/monkey-brain-4b928138",
 "svg": "custom/scidraw/other/monkey-brain-4b928138.svg",
-"zh": "脑 猴",
+"zh": "其他 脑 猴",
 "en": "Monkey Brain",
 "tags": [
 "monkey brain",
 "other",
+"其他",
 "脑",
 "猴"
 ],
@@ -13301,11 +13476,12 @@
 {
 "id": "scidraw/other/monkey-face-cartoon-a7d53fc7",
 "svg": "custom/scidraw/other/monkey-face-cartoon-a7d53fc7.svg",
-"zh": "猴",
+"zh": "其他 猴",
 "en": "Monkey face cartoon",
 "tags": [
 "monkey face cartoon",
 "other",
+"其他",
 "猴"
 ],
 "cat": "other",
@@ -13319,11 +13495,12 @@
 {
 "id": "scidraw/other/monkey-pushes-the-button-7307b8eb",
 "svg": "custom/scidraw/other/monkey-pushes-the-button-7307b8eb.png",
-"zh": "猴",
+"zh": "其他 猴",
 "en": "Monkey pushes the button",
 "tags": [
 "monkey pushes the button",
 "other",
+"其他",
 "猴"
 ],
 "cat": "other",
@@ -13337,11 +13514,12 @@
 {
 "id": "scidraw/other/monkey-silhouette-77198df1",
 "svg": "custom/scidraw/other/monkey-silhouette-77198df1.svg",
-"zh": "猴",
+"zh": "其他 猴",
 "en": "monkey silhouette",
 "tags": [
 "monkey silhouette",
 "other",
+"其他",
 "猴"
 ],
 "cat": "other",
@@ -13355,11 +13533,12 @@
 {
 "id": "scidraw/other/monkey-with-lever-eea50104",
 "svg": "custom/scidraw/other/monkey-with-lever-eea50104.svg",
-"zh": "猴",
+"zh": "其他 猴",
 "en": "monkey with lever",
 "tags": [
 "monkey with lever",
 "other",
+"其他",
 "猴"
 ],
 "cat": "other",
@@ -13373,11 +13552,12 @@
 {
 "id": "scidraw/other/mouse-cage-4e38719d",
 "svg": "custom/scidraw/other/mouse-cage-4e38719d.svg",
-"zh": "小鼠",
+"zh": "其他 小鼠",
 "en": "mouse cage",
 "tags": [
 "mouse cage",
 "other",
+"其他",
 "小鼠"
 ],
 "cat": "other",
@@ -13391,11 +13571,12 @@
 {
 "id": "scidraw/other/mouse-cage-with-bedding-ff271f8d",
 "svg": "custom/scidraw/other/mouse-cage-with-bedding-ff271f8d.svg",
-"zh": "小鼠",
+"zh": "其他 小鼠",
 "en": "mouse cage with bedding",
 "tags": [
 "mouse cage with bedding",
 "other",
+"其他",
 "小鼠"
 ],
 "cat": "other",
@@ -13409,11 +13590,12 @@
 {
 "id": "scidraw/other/mri-scanner-c7545601",
 "svg": "custom/scidraw/other/mri-scanner-c7545601.svg",
-"zh": "",
+"zh": "其他",
 "en": "MRI scanner",
 "tags": [
 "mri scanner",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -13426,11 +13608,12 @@
 {
 "id": "scidraw/other/muscle-fibers-5be4f7c0",
 "svg": "custom/scidraw/other/muscle-fibers-5be4f7c0.svg",
-"zh": "肌肉",
+"zh": "其他 肌肉",
 "en": "Muscle Fibers",
 "tags": [
 "muscle fibers",
 "other",
+"其他",
 "肌肉"
 ],
 "cat": "other",
@@ -13444,11 +13627,12 @@
 {
 "id": "scidraw/other/muybridge-cat-a04ccee1",
 "svg": "custom/scidraw/other/muybridge-cat-a04ccee1.svg",
-"zh": "猫",
+"zh": "其他 猫",
 "en": "Muybridge Cat",
 "tags": [
 "muybridge cat",
 "other",
+"其他",
 "猫"
 ],
 "cat": "other",
@@ -13462,11 +13646,12 @@
 {
 "id": "scidraw/other/nebulizer-bc01bc04",
 "svg": "custom/scidraw/other/nebulizer-bc01bc04.png",
-"zh": "",
+"zh": "其他",
 "en": "nebulizer",
 "tags": [
 "nebulizer",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -13479,11 +13664,12 @@
 {
 "id": "scidraw/other/nematostella-vectensis-383f3c82",
 "svg": "custom/scidraw/other/nematostella-vectensis-383f3c82.png",
-"zh": "",
+"zh": "其他",
 "en": "Nematostella vectensis",
 "tags": [
 "nematostella vectensis",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -13496,11 +13682,12 @@
 {
 "id": "scidraw/other/nematostella-vectensis-b9254263",
 "svg": "custom/scidraw/other/nematostella-vectensis-b9254263.svg",
-"zh": "",
+"zh": "其他",
 "en": "Nematostella vectensis",
 "tags": [
 "nematostella vectensis",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -13513,11 +13700,12 @@
 {
 "id": "scidraw/other/network-0741e7ff",
 "svg": "custom/scidraw/other/network-0741e7ff.svg",
-"zh": "网络",
+"zh": "其他 网络",
 "en": "network",
 "tags": [
 "network",
 "other",
+"其他",
 "网络"
 ],
 "cat": "other",
@@ -13531,11 +13719,12 @@
 {
 "id": "scidraw/other/network-6d978839",
 "svg": "custom/scidraw/other/network-6d978839.svg",
-"zh": "网络",
+"zh": "其他 网络",
 "en": "network",
 "tags": [
 "network",
 "other",
+"其他",
 "网络"
 ],
 "cat": "other",
@@ -13549,11 +13738,12 @@
 {
 "id": "scidraw/other/network-db2e41f2",
 "svg": "custom/scidraw/other/network-db2e41f2.svg",
-"zh": "网络",
+"zh": "其他 网络",
 "en": "network",
 "tags": [
 "network",
 "other",
+"其他",
 "网络"
 ],
 "cat": "other",
@@ -13567,11 +13757,12 @@
 {
 "id": "scidraw/other/network-with-hubs-239e4508",
 "svg": "custom/scidraw/other/network-with-hubs-239e4508.svg",
-"zh": "网络",
+"zh": "其他 网络",
 "en": "network with hubs",
 "tags": [
 "network with hubs",
 "other",
+"其他",
 "网络"
 ],
 "cat": "other",
@@ -13585,11 +13776,12 @@
 {
 "id": "scidraw/other/neural-network-deeplabcut-dd4787a3",
 "svg": "custom/scidraw/other/neural-network-deeplabcut-dd4787a3.svg",
-"zh": "网络",
+"zh": "其他 网络",
 "en": "Neural Network DeepLabCut",
 "tags": [
 "neural network deeplabcut",
 "other",
+"其他",
 "网络"
 ],
 "cat": "other",
@@ -13603,11 +13795,12 @@
 {
 "id": "scidraw/other/neural-probe-b409acce",
 "svg": "custom/scidraw/other/neural-probe-b409acce.svg",
-"zh": "",
+"zh": "其他",
 "en": "Neural Probe",
 "tags": [
 "neural probe",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -13620,11 +13813,12 @@
 {
 "id": "scidraw/other/neural-recordings-4c95f0f0",
 "svg": "custom/scidraw/other/neural-recordings-4c95f0f0.svg",
-"zh": "",
+"zh": "其他",
 "en": "neural recordings",
 "tags": [
 "neural recordings",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -13637,11 +13831,12 @@
 {
 "id": "scidraw/other/neural-recordings-fcd8bf5e",
 "svg": "custom/scidraw/other/neural-recordings-fcd8bf5e.svg",
-"zh": "",
+"zh": "其他",
 "en": "neural recordings",
 "tags": [
 "neural recordings",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -13654,11 +13849,12 @@
 {
 "id": "scidraw/other/neural-recordings-spike-trains-9c1cbd51",
 "svg": "custom/scidraw/other/neural-recordings-spike-trains-9c1cbd51.svg",
-"zh": "",
+"zh": "其他",
 "en": "neural recordings - spike trains",
 "tags": [
 "neural recordings - spike trains",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -13671,11 +13867,12 @@
 {
 "id": "scidraw/other/neurospora-crassa-1829014f",
 "svg": "custom/scidraw/other/neurospora-crassa-1829014f.svg",
-"zh": "",
+"zh": "其他",
 "en": "Neurospora crassa",
 "tags": [
 "neurospora crassa",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -13688,11 +13885,12 @@
 {
 "id": "scidraw/other/neurospora-crassa-e549110b",
 "svg": "custom/scidraw/other/neurospora-crassa-e549110b.png",
-"zh": "",
+"zh": "其他",
 "en": "Neurospora crassa",
 "tags": [
 "neurospora crassa",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -13705,11 +13903,12 @@
 {
 "id": "scidraw/other/objective-silhouette-a5381837",
 "svg": "custom/scidraw/other/objective-silhouette-a5381837.svg",
-"zh": "",
+"zh": "其他",
 "en": "Objective silhouette",
 "tags": [
 "objective silhouette",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -13722,11 +13921,12 @@
 {
 "id": "scidraw/other/operant-chamber-9cf85b7c",
 "svg": "custom/scidraw/other/operant-chamber-9cf85b7c.jpg",
-"zh": "",
+"zh": "其他",
 "en": "operant chamber",
 "tags": [
 "operant chamber",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -13739,11 +13939,12 @@
 {
 "id": "scidraw/other/optogenetics-4d353b17",
 "svg": "custom/scidraw/other/optogenetics-4d353b17.svg",
-"zh": "基因",
+"zh": "其他 基因",
 "en": "optogenetics",
 "tags": [
 "optogenetics",
 "other",
+"其他",
 "基因"
 ],
 "cat": "other",
@@ -13757,11 +13958,12 @@
 {
 "id": "scidraw/other/palmitic-acid-08cc5399",
 "svg": "custom/scidraw/other/palmitic-acid-08cc5399.svg",
-"zh": "酸",
+"zh": "其他 酸",
 "en": "Palmitic acid",
 "tags": [
 "palmitic acid",
 "other",
+"其他",
 "酸"
 ],
 "cat": "other",
@@ -13775,11 +13977,12 @@
 {
 "id": "scidraw/other/pan-troglodytes-0157b41b",
 "svg": "custom/scidraw/other/pan-troglodytes-0157b41b.png",
-"zh": "",
+"zh": "其他",
 "en": "Pan troglodytes",
 "tags": [
 "pan troglodytes",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -13792,11 +13995,12 @@
 {
 "id": "scidraw/other/pan-troglodytes-58534ed7",
 "svg": "custom/scidraw/other/pan-troglodytes-58534ed7.svg",
-"zh": "",
+"zh": "其他",
 "en": "Pan troglodytes",
 "tags": [
 "pan troglodytes",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -13809,11 +14013,12 @@
 {
 "id": "scidraw/other/patch-electrode-f471ac68",
 "svg": "custom/scidraw/other/patch-electrode-f471ac68.svg",
-"zh": "",
+"zh": "其他",
 "en": "Patch Electrode",
 "tags": [
 "patch electrode",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -13826,11 +14031,12 @@
 {
 "id": "scidraw/other/penicillium-chrysogenum-12c8e243",
 "svg": "custom/scidraw/other/penicillium-chrysogenum-12c8e243.svg",
-"zh": "",
+"zh": "其他",
 "en": "Penicillium chrysogenum",
 "tags": [
 "penicillium chrysogenum",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -13843,11 +14049,12 @@
 {
 "id": "scidraw/other/penicillium-chrysogenum-e1583beb",
 "svg": "custom/scidraw/other/penicillium-chrysogenum-e1583beb.png",
-"zh": "",
+"zh": "其他",
 "en": "Penicillium chrysogenum",
 "tags": [
 "penicillium chrysogenum",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -13860,11 +14067,12 @@
 {
 "id": "scidraw/other/petri-dish-4ff8f1e4",
 "svg": "custom/scidraw/other/petri-dish-4ff8f1e4.svg",
-"zh": "培养皿",
+"zh": "其他 培养皿",
 "en": "Petri dish",
 "tags": [
 "petri dish",
 "other",
+"其他",
 "培养皿"
 ],
 "cat": "other",
@@ -13878,11 +14086,12 @@
 {
 "id": "scidraw/other/petri-dish-5cfff247",
 "svg": "custom/scidraw/other/petri-dish-5cfff247.svg",
-"zh": "培养皿",
+"zh": "其他 培养皿",
 "en": "Petri dish",
 "tags": [
 "petri dish",
 "other",
+"其他",
 "培养皿"
 ],
 "cat": "other",
@@ -13896,11 +14105,12 @@
 {
 "id": "scidraw/other/petri-dish-bc4de11b",
 "svg": "custom/scidraw/other/petri-dish-bc4de11b.svg",
-"zh": "培养皿",
+"zh": "其他 培养皿",
 "en": "Petri dish",
 "tags": [
 "petri dish",
 "other",
+"其他",
 "培养皿"
 ],
 "cat": "other",
@@ -13914,11 +14124,12 @@
 {
 "id": "scidraw/other/pill-capsule-medicine-7ee92768",
 "svg": "custom/scidraw/other/pill-capsule-medicine-7ee92768.svg",
-"zh": "",
+"zh": "其他",
 "en": "Pill Capsule Medicine",
 "tags": [
 "pill capsule medicine",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -13931,11 +14142,12 @@
 {
 "id": "scidraw/other/pipette-45d954b9",
 "svg": "custom/scidraw/other/pipette-45d954b9.svg",
-"zh": "移液器",
+"zh": "其他 移液器",
 "en": "pipette",
 "tags": [
 "pipette",
 "other",
+"其他",
 "移液器"
 ],
 "cat": "other",
@@ -13949,11 +14161,12 @@
 {
 "id": "scidraw/other/polysome-fractionation-a49305ab",
 "svg": "custom/scidraw/other/polysome-fractionation-a49305ab.png",
-"zh": "",
+"zh": "其他",
 "en": "polysome fractionation",
 "tags": [
 "polysome fractionation",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -13966,11 +14179,12 @@
 {
 "id": "scidraw/other/pristionchus-pacificus-69f5f954",
 "svg": "custom/scidraw/other/pristionchus-pacificus-69f5f954.svg",
-"zh": "",
+"zh": "其他",
 "en": "Pristionchus pacificus",
 "tags": [
 "pristionchus pacificus",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -13983,11 +14197,12 @@
 {
 "id": "scidraw/other/pristionchus-pacificus-cceb548b",
 "svg": "custom/scidraw/other/pristionchus-pacificus-cceb548b.png",
-"zh": "",
+"zh": "其他",
 "en": "Pristionchus pacificus",
 "tags": [
 "pristionchus pacificus",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -14000,11 +14215,12 @@
 {
 "id": "scidraw/other/qpcr-d9971725",
 "svg": "custom/scidraw/other/qpcr-d9971725.svg",
-"zh": "PCR",
+"zh": "其他 PCR",
 "en": "qPCR",
 "tags": [
 "qpcr",
 "other",
+"其他",
 "PCR"
 ],
 "cat": "other",
@@ -14018,11 +14234,12 @@
 {
 "id": "scidraw/other/rabbit-3606cd62",
 "svg": "custom/scidraw/other/rabbit-3606cd62.svg",
-"zh": "兔",
+"zh": "其他 兔",
 "en": "Rabbit",
 "tags": [
 "rabbit",
 "other",
+"其他",
 "兔"
 ],
 "cat": "other",
@@ -14036,11 +14253,12 @@
 {
 "id": "scidraw/other/random-network-b8404530",
 "svg": "custom/scidraw/other/random-network-b8404530.svg",
-"zh": "网络",
+"zh": "其他 网络",
 "en": "random network",
 "tags": [
 "random network",
 "other",
+"其他",
 "网络"
 ],
 "cat": "other",
@@ -14054,11 +14272,12 @@
 {
 "id": "scidraw/other/repeating-pipettor-1361e30f",
 "svg": "custom/scidraw/other/repeating-pipettor-1361e30f.svg",
-"zh": "",
+"zh": "其他",
 "en": "Repeating Pipettor",
 "tags": [
 "repeating pipettor",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -14071,11 +14290,12 @@
 {
 "id": "scidraw/other/repeating-pipettor-cda2e9e2",
 "svg": "custom/scidraw/other/repeating-pipettor-cda2e9e2.svg",
-"zh": "",
+"zh": "其他",
 "en": "Repeating Pipettor",
 "tags": [
 "repeating pipettor",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -14088,11 +14308,12 @@
 {
 "id": "scidraw/other/reward-water-drop-f0c3f63d",
 "svg": "custom/scidraw/other/reward-water-drop-f0c3f63d.svg",
-"zh": "水",
+"zh": "其他 水",
 "en": "Reward Water Drop",
 "tags": [
 "reward water drop",
 "other",
+"其他",
 "水"
 ],
 "cat": "other",
@@ -14106,11 +14327,12 @@
 {
 "id": "scidraw/other/ring-scissors-ec3a82a0",
 "svg": "custom/scidraw/other/ring-scissors-ec3a82a0.svg",
-"zh": "",
+"zh": "其他",
 "en": "Ring Scissors",
 "tags": [
 "ring scissors",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -14123,11 +14345,12 @@
 {
 "id": "scidraw/other/rnn-9f2c771b",
 "svg": "custom/scidraw/other/rnn-9f2c771b.svg",
-"zh": "",
+"zh": "其他",
 "en": "RNN",
 "tags": [
 "rnn",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -14140,11 +14363,12 @@
 {
 "id": "scidraw/other/salamander-02990ba0",
 "svg": "custom/scidraw/other/salamander-02990ba0.svg",
-"zh": "男性",
+"zh": "其他 男性",
 "en": "Salamander",
 "tags": [
 "salamander",
 "other",
+"其他",
 "男性"
 ],
 "cat": "other",
@@ -14158,11 +14382,12 @@
 {
 "id": "scidraw/other/sars-cov-2-998447f9",
 "svg": "custom/scidraw/other/sars-cov-2-998447f9.svg",
-"zh": "",
+"zh": "其他",
 "en": "SARS-CoV-2",
 "tags": [
 "sars-cov-2",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -14175,11 +14400,12 @@
 {
 "id": "scidraw/other/sars-cov-2-dc4095d5",
 "svg": "custom/scidraw/other/sars-cov-2-dc4095d5.png",
-"zh": "",
+"zh": "其他",
 "en": "SARS-CoV-2",
 "tags": [
 "sars-cov-2",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -14192,11 +14418,12 @@
 {
 "id": "scidraw/other/sbem-f72036b5",
 "svg": "custom/scidraw/other/sbem-f72036b5.svg",
-"zh": "",
+"zh": "其他",
 "en": "SBEM",
 "tags": [
 "sbem",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -14209,11 +14436,12 @@
 {
 "id": "scidraw/other/schistosoma-mansoni-7e82a264",
 "svg": "custom/scidraw/other/schistosoma-mansoni-7e82a264.png",
-"zh": "男性",
+"zh": "其他 男性",
 "en": "Schistosoma mansoni",
 "tags": [
 "schistosoma mansoni",
 "other",
+"其他",
 "男性"
 ],
 "cat": "other",
@@ -14227,11 +14455,12 @@
 {
 "id": "scidraw/other/schistosoma-mansoni-8954889b",
 "svg": "custom/scidraw/other/schistosoma-mansoni-8954889b.svg",
-"zh": "男性",
+"zh": "其他 男性",
 "en": "Schistosoma mansoni",
 "tags": [
 "schistosoma mansoni",
 "other",
+"其他",
 "男性"
 ],
 "cat": "other",
@@ -14245,11 +14474,12 @@
 {
 "id": "scidraw/other/schmidtea-mediterranea-a184ec3f",
 "svg": "custom/scidraw/other/schmidtea-mediterranea-a184ec3f.svg",
-"zh": "",
+"zh": "其他",
 "en": "Schmidtea mediterranea",
 "tags": [
 "schmidtea mediterranea",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -14262,11 +14492,12 @@
 {
 "id": "scidraw/other/schmidtea-mediterranea-c408ce8c",
 "svg": "custom/scidraw/other/schmidtea-mediterranea-c408ce8c.png",
-"zh": "",
+"zh": "其他",
 "en": "Schmidtea mediterranea",
 "tags": [
 "schmidtea mediterranea",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -14279,11 +14510,12 @@
 {
 "id": "scidraw/other/scidraw-icon-572c23aa",
 "svg": "custom/scidraw/other/scidraw-icon-572c23aa.svg",
-"zh": "",
+"zh": "其他",
 "en": "SciDraw Icon",
 "tags": [
 "scidraw icon",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -14296,11 +14528,12 @@
 {
 "id": "scidraw/other/scidraw-logo-8e601008",
 "svg": "custom/scidraw/other/scidraw-logo-8e601008.svg",
-"zh": "",
+"zh": "其他",
 "en": "SciDraw Logo",
 "tags": [
 "scidraw logo",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -14313,11 +14546,12 @@
 {
 "id": "scidraw/other/seagrass-897be193",
 "svg": "custom/scidraw/other/seagrass-897be193.jpg",
-"zh": "",
+"zh": "其他",
 "en": "Seagrass",
 "tags": [
 "seagrass",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -14330,11 +14564,12 @@
 {
 "id": "scidraw/other/seagrass-ee7607d3",
 "svg": "custom/scidraw/other/seagrass-ee7607d3.jpg",
-"zh": "",
+"zh": "其他",
 "en": "Seagrass",
 "tags": [
 "seagrass",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -14347,11 +14582,12 @@
 {
 "id": "scidraw/other/sheep-8071b88f",
 "svg": "custom/scidraw/other/sheep-8071b88f.png",
-"zh": "羊",
+"zh": "其他 羊",
 "en": "Sheep",
 "tags": [
 "sheep",
 "other",
+"其他",
 "羊"
 ],
 "cat": "other",
@@ -14365,11 +14601,12 @@
 {
 "id": "scidraw/other/sheep-brain-dorsal-view-5c918dd8",
 "svg": "custom/scidraw/other/sheep-brain-dorsal-view-5c918dd8.png",
-"zh": "脑 羊",
+"zh": "其他 脑 羊",
 "en": "Sheep brain dorsal view",
 "tags": [
 "sheep brain dorsal view",
 "other",
+"其他",
 "脑",
 "羊"
 ],
@@ -14384,11 +14621,12 @@
 {
 "id": "scidraw/other/sheep-brain-lateral-view-28036951",
 "svg": "custom/scidraw/other/sheep-brain-lateral-view-28036951.png",
-"zh": "脑 羊",
+"zh": "其他 脑 羊",
 "en": "Sheep brain lateral view",
 "tags": [
 "sheep brain lateral view",
 "other",
+"其他",
 "脑",
 "羊"
 ],
@@ -14403,11 +14641,12 @@
 {
 "id": "scidraw/other/sitobion-miscanthi-be7ea9e8",
 "svg": "custom/scidraw/other/sitobion-miscanthi-be7ea9e8.png",
-"zh": "",
+"zh": "其他",
 "en": "Sitobion miscanthi",
 "tags": [
 "sitobion miscanthi",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -14420,11 +14659,12 @@
 {
 "id": "scidraw/other/skewed-network-d9117db9",
 "svg": "custom/scidraw/other/skewed-network-d9117db9.svg",
-"zh": "网络",
+"zh": "其他 网络",
 "en": "skewed network",
 "tags": [
 "skewed network",
 "other",
+"其他",
 "网络"
 ],
 "cat": "other",
@@ -14438,11 +14678,12 @@
 {
 "id": "scidraw/other/smoking-cigarette-c9b71e2f",
 "svg": "custom/scidraw/other/smoking-cigarette-c9b71e2f.svg",
-"zh": "",
+"zh": "其他",
 "en": "Smoking cigarette",
 "tags": [
 "smoking cigarette",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -14455,11 +14696,12 @@
 {
 "id": "scidraw/other/snake-1ff281f5",
 "svg": "custom/scidraw/other/snake-1ff281f5.svg",
-"zh": "",
+"zh": "其他",
 "en": "Snake",
 "tags": [
 "snake",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -14472,11 +14714,12 @@
 {
 "id": "scidraw/other/snake-silhouette-49452eba",
 "svg": "custom/scidraw/other/snake-silhouette-49452eba.svg",
-"zh": "",
+"zh": "其他",
 "en": "Snake silhouette",
 "tags": [
 "snake silhouette",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -14489,11 +14732,12 @@
 {
 "id": "scidraw/other/soaps-45688adc",
 "svg": "custom/scidraw/other/soaps-45688adc.jpg",
-"zh": "",
+"zh": "其他",
 "en": "soaps",
 "tags": [
 "soaps",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -14506,11 +14750,12 @@
 {
 "id": "scidraw/other/social-vs-drug-operant-box-skinner-278c2601",
 "svg": "custom/scidraw/other/social-vs-drug-operant-box-skinner-278c2601.jpg",
-"zh": "皮肤",
+"zh": "其他 皮肤",
 "en": "social vs drug operant box skinner",
 "tags": [
 "social vs drug operant box skinner",
 "other",
+"其他",
 "皮肤"
 ],
 "cat": "other",
@@ -14524,11 +14769,12 @@
 {
 "id": "scidraw/other/sstem-166313c1",
 "svg": "custom/scidraw/other/sstem-166313c1.svg",
-"zh": "干细胞",
+"zh": "其他 干细胞",
 "en": "ssTEM",
 "tags": [
 "sstem",
 "other",
+"其他",
 "干细胞"
 ],
 "cat": "other",
@@ -14542,11 +14788,12 @@
 {
 "id": "scidraw/other/sucrose-69b83a18",
 "svg": "custom/scidraw/other/sucrose-69b83a18.svg",
-"zh": "",
+"zh": "其他",
 "en": "Sucrose",
 "tags": [
 "sucrose",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -14559,11 +14806,12 @@
 {
 "id": "scidraw/other/sucrose-gradient-18c35755",
 "svg": "custom/scidraw/other/sucrose-gradient-18c35755.png",
-"zh": "",
+"zh": "其他",
 "en": "SUCROSE GRADIENT",
 "tags": [
 "sucrose gradient",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -14576,11 +14824,12 @@
 {
 "id": "scidraw/other/sus-scrofa-domestica-df7f8593",
 "svg": "custom/scidraw/other/sus-scrofa-domestica-df7f8593.svg",
-"zh": "",
+"zh": "其他",
 "en": "Sus scrofa domestica",
 "tags": [
 "sus scrofa domestica",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -14593,11 +14842,12 @@
 {
 "id": "scidraw/other/sus-scrofa-domestica-f452e342",
 "svg": "custom/scidraw/other/sus-scrofa-domestica-f452e342.png",
-"zh": "",
+"zh": "其他",
 "en": "Sus scrofa domestica",
 "tags": [
 "sus scrofa domestica",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -14610,11 +14860,12 @@
 {
 "id": "scidraw/other/syringe-34dc24e3",
 "svg": "custom/scidraw/other/syringe-34dc24e3.svg",
-"zh": "注射器",
+"zh": "其他 注射器",
 "en": "syringe",
 "tags": [
 "syringe",
 "other",
+"其他",
 "注射器"
 ],
 "cat": "other",
@@ -14628,11 +14879,12 @@
 {
 "id": "scidraw/other/syringe-aae02381",
 "svg": "custom/scidraw/other/syringe-aae02381.png",
-"zh": "注射器",
+"zh": "其他 注射器",
 "en": "syringe",
 "tags": [
 "syringe",
 "other",
+"其他",
 "注射器"
 ],
 "cat": "other",
@@ -14646,11 +14898,12 @@
 {
 "id": "scidraw/other/syringe-fbb33485",
 "svg": "custom/scidraw/other/syringe-fbb33485.svg",
-"zh": "注射器",
+"zh": "其他 注射器",
 "en": "syringe",
 "tags": [
 "syringe",
 "other",
+"其他",
 "注射器"
 ],
 "cat": "other",
@@ -14664,11 +14917,12 @@
 {
 "id": "scidraw/other/syringe-pump-4350a7eb",
 "svg": "custom/scidraw/other/syringe-pump-4350a7eb.jpg",
-"zh": "注射器",
+"zh": "其他 注射器",
 "en": "syringe pump",
 "tags": [
 "syringe pump",
 "other",
+"其他",
 "注射器"
 ],
 "cat": "other",
@@ -14682,11 +14936,12 @@
 {
 "id": "scidraw/other/tablet-e081faab",
 "svg": "custom/scidraw/other/tablet-e081faab.png",
-"zh": "",
+"zh": "其他",
 "en": "Tablet",
 "tags": [
 "tablet",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -14699,11 +14954,12 @@
 {
 "id": "scidraw/other/thermometer-056cfc16",
 "svg": "custom/scidraw/other/thermometer-056cfc16.svg",
-"zh": "",
+"zh": "其他",
 "en": "Thermometer",
 "tags": [
 "thermometer",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -14716,11 +14972,12 @@
 {
 "id": "scidraw/other/triacylglyceride-a04655a6",
 "svg": "custom/scidraw/other/triacylglyceride-a04655a6.svg",
-"zh": "",
+"zh": "其他",
 "en": "Triacylglyceride",
 "tags": [
 "triacylglyceride",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -14733,11 +14990,12 @@
 {
 "id": "scidraw/other/tube-of-blood-76992905",
 "svg": "custom/scidraw/other/tube-of-blood-76992905.svg",
-"zh": "离心管 血液",
+"zh": "其他 离心管 血液",
 "en": "Tube of blood",
 "tags": [
 "tube of blood",
 "other",
+"其他",
 "离心管",
 "血液"
 ],
@@ -14752,11 +15010,12 @@
 {
 "id": "scidraw/other/tube-of-blood-f45de288",
 "svg": "custom/scidraw/other/tube-of-blood-f45de288.svg",
-"zh": "离心管 血液",
+"zh": "其他 离心管 血液",
 "en": "Tube of blood",
 "tags": [
 "tube of blood",
 "other",
+"其他",
 "离心管",
 "血液"
 ],
@@ -14771,11 +15030,12 @@
 {
 "id": "scidraw/other/tumor-microenvironment-drawing-5006efa5",
 "svg": "custom/scidraw/other/tumor-microenvironment-drawing-5006efa5.png",
-"zh": "肿瘤",
+"zh": "其他 肿瘤",
 "en": "Tumor microenvironment drawing",
 "tags": [
 "tumor microenvironment drawing",
 "other",
+"其他",
 "肿瘤"
 ],
 "cat": "other",
@@ -14789,11 +15049,12 @@
 {
 "id": "scidraw/other/tumor-microenvironment-drawing-7c90bd33",
 "svg": "custom/scidraw/other/tumor-microenvironment-drawing-7c90bd33.png",
-"zh": "肿瘤",
+"zh": "其他 肿瘤",
 "en": "Tumor microenvironment drawing",
 "tags": [
 "tumor microenvironment drawing",
 "other",
+"其他",
 "肿瘤"
 ],
 "cat": "other",
@@ -14807,11 +15068,12 @@
 {
 "id": "scidraw/other/urea-7cf9cf4b",
 "svg": "custom/scidraw/other/urea-7cf9cf4b.svg",
-"zh": "",
+"zh": "其他",
 "en": "Urea",
 "tags": [
 "urea",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -14824,11 +15086,12 @@
 {
 "id": "scidraw/other/utah-array-10x10-dd9067fd",
 "svg": "custom/scidraw/other/utah-array-10x10-dd9067fd.svg",
-"zh": "",
+"zh": "其他",
 "en": "Utah array 10x10",
 "tags": [
 "utah array 10x10",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -14841,11 +15104,12 @@
 {
 "id": "scidraw/other/utah-array-8x8-b8dd55fe",
 "svg": "custom/scidraw/other/utah-array-8x8-b8dd55fe.svg",
-"zh": "",
+"zh": "其他",
 "en": "Utah array 8x8",
 "tags": [
 "utah array 8x8",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -14858,11 +15122,12 @@
 {
 "id": "scidraw/other/virus-5a80c9c2",
 "svg": "custom/scidraw/other/virus-5a80c9c2.svg",
-"zh": "病毒",
+"zh": "其他 病毒",
 "en": "virus",
 "tags": [
 "virus",
 "other",
+"其他",
 "病毒"
 ],
 "cat": "other",
@@ -14876,11 +15141,12 @@
 {
 "id": "scidraw/other/volvox-carteri-c4e56861",
 "svg": "custom/scidraw/other/volvox-carteri-c4e56861.svg",
-"zh": "",
+"zh": "其他",
 "en": "Volvox carteri",
 "tags": [
 "volvox carteri",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -14893,11 +15159,12 @@
 {
 "id": "scidraw/other/volvox-carteri-d9c3fa4e",
 "svg": "custom/scidraw/other/volvox-carteri-d9c3fa4e.png",
-"zh": "",
+"zh": "其他",
 "en": "Volvox carteri",
 "tags": [
 "volvox carteri",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -14910,11 +15177,12 @@
 {
 "id": "scidraw/other/water-650093e3",
 "svg": "custom/scidraw/other/water-650093e3.svg",
-"zh": "水",
+"zh": "其他 水",
 "en": "Water",
 "tags": [
 "water",
 "other",
+"其他",
 "水"
 ],
 "cat": "other",
@@ -14928,11 +15196,12 @@
 {
 "id": "scidraw/other/weight-c512edc3",
 "svg": "custom/scidraw/other/weight-c512edc3.svg",
-"zh": "",
+"zh": "其他",
 "en": "weight",
 "tags": [
 "weight",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -14945,11 +15214,12 @@
 {
 "id": "scidraw/other/woma-python-aspidites-ramsayi-77d7ba26",
 "svg": "custom/scidraw/other/woma-python-aspidites-ramsayi-77d7ba26.png",
-"zh": "",
+"zh": "其他",
 "en": "Woma Python (Aspidites ramsayi)",
 "tags": [
 "woma python (aspidites ramsayi)",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -14962,11 +15232,12 @@
 {
 "id": "scidraw/other/xenopus-oocyte-36401daf",
 "svg": "custom/scidraw/other/xenopus-oocyte-36401daf.svg",
-"zh": "",
+"zh": "其他",
 "en": "Xenopus oocyte",
 "tags": [
 "xenopus oocyte",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -14979,11 +15250,12 @@
 {
 "id": "scidraw/other/xenopus-silhouette-color-12c25f0f",
 "svg": "custom/scidraw/other/xenopus-silhouette-color-12c25f0f.svg",
-"zh": "",
+"zh": "其他",
 "en": "Xenopus Silhouette color",
 "tags": [
 "xenopus silhouette color",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -14996,11 +15268,12 @@
 {
 "id": "scidraw/other/xenopus-silhouette-fd074591",
 "svg": "custom/scidraw/other/xenopus-silhouette-fd074591.svg",
-"zh": "",
+"zh": "其他",
 "en": "Xenopus Silhouette",
 "tags": [
 "xenopus silhouette",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -15013,11 +15286,12 @@
 {
 "id": "scidraw/other/xenopus-tadpole-with-optic-tectum-c9f29d2e",
 "svg": "custom/scidraw/other/xenopus-tadpole-with-optic-tectum-c9f29d2e.svg",
-"zh": "",
+"zh": "其他",
 "en": "Xenopus tadpole with optic tectum",
 "tags": [
 "xenopus tadpole with optic tectum",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -15030,11 +15304,12 @@
 {
 "id": "scidraw/other/xenopus-tropicalis-2f2dbcdf",
 "svg": "custom/scidraw/other/xenopus-tropicalis-2f2dbcdf.svg",
-"zh": "",
+"zh": "其他",
 "en": "Xenopus tropicalis",
 "tags": [
 "xenopus tropicalis",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -15047,11 +15322,12 @@
 {
 "id": "scidraw/other/xenopus-tropicalis-768d7f85",
 "svg": "custom/scidraw/other/xenopus-tropicalis-768d7f85.png",
-"zh": "",
+"zh": "其他",
 "en": "Xenopus tropicalis",
 "tags": [
 "xenopus tropicalis",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -15064,11 +15340,12 @@
 {
 "id": "scidraw/other/yellow-spotted-monitor-varanus-panoptes-85fe90ac",
 "svg": "custom/scidraw/other/yellow-spotted-monitor-varanus-panoptes-85fe90ac.png",
-"zh": "",
+"zh": "其他",
 "en": "Yellow-spotted Monitor (Varanus panoptes)",
 "tags": [
 "yellow-spotted monitor (varanus panoptes)",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -15081,11 +15358,12 @@
 {
 "id": "scidraw/other/yingfu-19dbf423",
 "svg": "custom/scidraw/other/yingfu-19dbf423.jpg",
-"zh": "",
+"zh": "其他",
 "en": "yingfu",
 "tags": [
 "yingfu",
-"other"
+"other",
+"其他"
 ],
 "cat": "other",
 "subdir": "other",
@@ -15098,7 +15376,7 @@
 {
 "id": "scidraw/rat/adult_albino_rat_drinking-871c19b2",
 "svg": "custom/scidraw/rat/adult_albino_rat_drinking-871c19b2.svg",
-"zh": "大鼠",
+"zh": "大鼠 大鼠",
 "en": "Adult_Albino_Rat_Drinking",
 "tags": [
 "adult_albino_rat_drinking",
@@ -15116,7 +15394,7 @@
 {
 "id": "scidraw/rat/adult_hooded_rat_eating-2e4284b8",
 "svg": "custom/scidraw/rat/adult_hooded_rat_eating-2e4284b8.svg",
-"zh": "大鼠",
+"zh": "大鼠 大鼠",
 "en": "Adult_Hooded_Rat_Eating",
 "tags": [
 "adult_hooded_rat_eating",
@@ -15134,7 +15412,7 @@
 {
 "id": "scidraw/rat/adult_hooded_rat_grooming-548d6492",
 "svg": "custom/scidraw/rat/adult_hooded_rat_grooming-548d6492.svg",
-"zh": "大鼠",
+"zh": "大鼠 大鼠",
 "en": "Adult_Hooded_Rat_Grooming",
 "tags": [
 "adult_hooded_rat_grooming",
@@ -15152,7 +15430,7 @@
 {
 "id": "scidraw/rat/adult_hooded_rat_hunching-b65397ba",
 "svg": "custom/scidraw/rat/adult_hooded_rat_hunching-b65397ba.svg",
-"zh": "大鼠",
+"zh": "大鼠 大鼠",
 "en": "Adult_Hooded_Rat_Hunching",
 "tags": [
 "adult_hooded_rat_hunching",
@@ -15170,7 +15448,7 @@
 {
 "id": "scidraw/rat/adult_hooded_rat_in-vivo-tethered-c927123c",
 "svg": "custom/scidraw/rat/adult_hooded_rat_in-vivo-tethered-c927123c.svg",
-"zh": "大鼠",
+"zh": "大鼠 大鼠",
 "en": "Adult_Hooded_Rat_In-vivo tethered",
 "tags": [
 "adult_hooded_rat_in-vivo tethered",
@@ -15188,7 +15466,7 @@
 {
 "id": "scidraw/rat/adult_hooded_rat_objects-32c35f4a",
 "svg": "custom/scidraw/rat/adult_hooded_rat_objects-32c35f4a.svg",
-"zh": "大鼠",
+"zh": "大鼠 大鼠",
 "en": "Adult_Hooded_Rat_Objects",
 "tags": [
 "adult_hooded_rat_objects",
@@ -15206,7 +15484,7 @@
 {
 "id": "scidraw/rat/adult_hooded_rat_pup-392be8f0",
 "svg": "custom/scidraw/rat/adult_hooded_rat_pup-392be8f0.svg",
-"zh": "大鼠",
+"zh": "大鼠 大鼠",
 "en": "Adult_Hooded_Rat_pup",
 "tags": [
 "adult_hooded_rat_pup",
@@ -15224,7 +15502,7 @@
 {
 "id": "scidraw/rat/adult_hooded_rat_running-ca0c7abf",
 "svg": "custom/scidraw/rat/adult_hooded_rat_running-ca0c7abf.svg",
-"zh": "大鼠",
+"zh": "大鼠 大鼠",
 "en": "Adult_Hooded_Rat_Running",
 "tags": [
 "adult_hooded_rat_running",
@@ -15242,7 +15520,7 @@
 {
 "id": "scidraw/rat/adult_hooded_rat_sitting-91c44c0c",
 "svg": "custom/scidraw/rat/adult_hooded_rat_sitting-91c44c0c.svg",
-"zh": "大鼠",
+"zh": "大鼠 大鼠",
 "en": "Adult_Hooded_Rat_Sitting",
 "tags": [
 "adult_hooded_rat_sitting",
@@ -15260,7 +15538,7 @@
 {
 "id": "scidraw/rat/adult_hooded_rat_sleeping-9bd3fc5e",
 "svg": "custom/scidraw/rat/adult_hooded_rat_sleeping-9bd3fc5e.svg",
-"zh": "大鼠 睡眠",
+"zh": "大鼠 大鼠 睡眠",
 "en": "Adult_Hooded_Rat_Sleeping",
 "tags": [
 "adult_hooded_rat_sleeping",
@@ -15279,7 +15557,7 @@
 {
 "id": "scidraw/rat/adult_hooded_rat_standing-fc055535",
 "svg": "custom/scidraw/rat/adult_hooded_rat_standing-fc055535.svg",
-"zh": "大鼠",
+"zh": "大鼠 大鼠",
 "en": "Adult_Hooded_Rat_Standing",
 "tags": [
 "adult_hooded_rat_standing",
@@ -15297,7 +15575,7 @@
 {
 "id": "scidraw/rat/adult_hooded_rats_fight-8ecc4b74",
 "svg": "custom/scidraw/rat/adult_hooded_rats_fight-8ecc4b74.svg",
-"zh": "大鼠",
+"zh": "大鼠 大鼠",
 "en": "Adult_Hooded_Rats_Fight",
 "tags": [
 "adult_hooded_rats_fight",
@@ -15315,7 +15593,7 @@
 {
 "id": "scidraw/rat/adult_rat_sitting-5dd3b4a3",
 "svg": "custom/scidraw/rat/adult_rat_sitting-5dd3b4a3.svg",
-"zh": "大鼠",
+"zh": "大鼠 大鼠",
 "en": "Adult_rat_sitting",
 "tags": [
 "adult_rat_sitting",
@@ -15333,7 +15611,7 @@
 {
 "id": "scidraw/rat/conditioned-place-preference-cpp-rat-c8021671",
 "svg": "custom/scidraw/rat/conditioned-place-preference-cpp-rat-c8021671.png",
-"zh": "大鼠",
+"zh": "大鼠 大鼠",
 "en": "conditioned place preference CPP rat",
 "tags": [
 "conditioned place preference cpp rat",
@@ -15351,7 +15629,7 @@
 {
 "id": "scidraw/rat/dorsal-horn-1ccacc1b",
 "svg": "custom/scidraw/rat/dorsal-horn-1ccacc1b.svg",
-"zh": "大鼠",
+"zh": "大鼠 大鼠",
 "en": "Dorsal Horn",
 "tags": [
 "dorsal horn",
@@ -15369,7 +15647,7 @@
 {
 "id": "scidraw/rat/grooming_rat-ade630cb",
 "svg": "custom/scidraw/rat/grooming_rat-ade630cb.png",
-"zh": "大鼠",
+"zh": "大鼠 大鼠",
 "en": "grooming_rat",
 "tags": [
 "grooming_rat",
@@ -15387,7 +15665,7 @@
 {
 "id": "scidraw/rat/hippocampus-and-prefrontal-cortex-in-rats-brain-2f6f89a1",
 "svg": "custom/scidraw/rat/hippocampus-and-prefrontal-cortex-in-rats-brain-2f6f89a1.svg",
-"zh": "大鼠 脑",
+"zh": "大鼠 大鼠 脑",
 "en": "Hippocampus and Prefrontal Cortex in Rat's Brain",
 "tags": [
 "hippocampus and prefrontal cortex in rat's brain",
@@ -15406,7 +15684,7 @@
 {
 "id": "scidraw/rat/long-evans-rat-eating-modified-from-ethan-tylers-drawing-e1375c47",
 "svg": "custom/scidraw/rat/long-evans-rat-eating-modified-from-ethan-tylers-drawing-e1375c47.svg",
-"zh": "大鼠",
+"zh": "大鼠 大鼠",
 "en": "Long-Evans Rat Eating (modified from Ethan Tyler's drawing)",
 "tags": [
 "long-evans rat eating (modified from ethan tyler's drawing)",
@@ -15424,7 +15702,7 @@
 {
 "id": "scidraw/rat/long-evans-rat-run-modified-from-ethan-tylers-drawing-56344a59",
 "svg": "custom/scidraw/rat/long-evans-rat-run-modified-from-ethan-tylers-drawing-56344a59.svg",
-"zh": "大鼠",
+"zh": "大鼠 大鼠",
 "en": "Long-Evans Rat Run (modified from Ethan Tyler's drawing)",
 "tags": [
 "long-evans rat run (modified from ethan tyler's drawing)",
@@ -15442,7 +15720,7 @@
 {
 "id": "scidraw/rat/long-evans-rat-still-modified-from-ethan-tylers-drawing-e5e1321b",
 "svg": "custom/scidraw/rat/long-evans-rat-still-modified-from-ethan-tylers-drawing-e5e1321b.svg",
-"zh": "大鼠",
+"zh": "大鼠 大鼠",
 "en": "Long-Evans Rat Still (modified from Ethan Tyler's drawing)",
 "tags": [
 "long-evans rat still (modified from ethan tyler's drawing)",
@@ -15460,7 +15738,7 @@
 {
 "id": "scidraw/rat/mid-sagittal-rat-brain-45870aff",
 "svg": "custom/scidraw/rat/mid-sagittal-rat-brain-45870aff.svg",
-"zh": "大鼠 脑",
+"zh": "大鼠 大鼠 脑",
 "en": "Mid-sagittal rat brain",
 "tags": [
 "mid-sagittal rat brain",
@@ -15479,7 +15757,7 @@
 {
 "id": "scidraw/rat/mobile-homecage-with-rat-d108e3fb",
 "svg": "custom/scidraw/rat/mobile-homecage-with-rat-d108e3fb.svg",
-"zh": "大鼠 胆汁",
+"zh": "大鼠 大鼠 胆汁",
 "en": "Mobile HomeCage with Rat",
 "tags": [
 "mobile homecage with rat",
@@ -15498,7 +15776,7 @@
 {
 "id": "scidraw/rat/rat-26172d2d",
 "svg": "custom/scidraw/rat/rat-26172d2d.png",
-"zh": "大鼠",
+"zh": "大鼠 大鼠",
 "en": "rat",
 "tags": [
 "rat",
@@ -15515,7 +15793,7 @@
 {
 "id": "scidraw/rat/rat-90da714d",
 "svg": "custom/scidraw/rat/rat-90da714d.svg",
-"zh": "大鼠",
+"zh": "大鼠 大鼠",
 "en": "rat",
 "tags": [
 "rat",
@@ -15532,7 +15810,7 @@
 {
 "id": "scidraw/rat/rat-acute-recodings-6340a7e0",
 "svg": "custom/scidraw/rat/rat-acute-recodings-6340a7e0.svg",
-"zh": "大鼠",
+"zh": "大鼠 大鼠",
 "en": "Rat Acute Recodings",
 "tags": [
 "rat acute recodings",
@@ -15550,7 +15828,7 @@
 {
 "id": "scidraw/rat/rat-brain-from-top-31d97399",
 "svg": "custom/scidraw/rat/rat-brain-from-top-31d97399.svg",
-"zh": "大鼠 脑",
+"zh": "大鼠 大鼠 脑",
 "en": "Rat brain from top",
 "tags": [
 "rat brain from top",
@@ -15569,7 +15847,7 @@
 {
 "id": "scidraw/rat/rat-from-the-top-e32a5181",
 "svg": "custom/scidraw/rat/rat-from-the-top-e32a5181.svg",
-"zh": "大鼠",
+"zh": "大鼠 大鼠",
 "en": "Rat from the top",
 "tags": [
 "rat from the top",
@@ -15587,7 +15865,7 @@
 {
 "id": "scidraw/rat/rat-grooming-5a137f21",
 "svg": "custom/scidraw/rat/rat-grooming-5a137f21.svg",
-"zh": "大鼠",
+"zh": "大鼠 大鼠",
 "en": "rat grooming",
 "tags": [
 "rat grooming",
@@ -15605,7 +15883,7 @@
 {
 "id": "scidraw/rat/rat-head-with-brain-atlas-30d28399",
 "svg": "custom/scidraw/rat/rat-head-with-brain-atlas-30d28399.svg",
-"zh": "大鼠 脑 头",
+"zh": "大鼠 大鼠 脑 头",
 "en": "Rat head with brain atlas",
 "tags": [
 "rat head with brain atlas",
@@ -15625,7 +15903,7 @@
 {
 "id": "scidraw/rat/rat-outline-0cb53072",
 "svg": "custom/scidraw/rat/rat-outline-0cb53072.svg",
-"zh": "大鼠",
+"zh": "大鼠 大鼠",
 "en": "Rat Outline",
 "tags": [
 "rat outline",
@@ -15643,7 +15921,7 @@
 {
 "id": "scidraw/rat/rat-pup-p1-ea617811",
 "svg": "custom/scidraw/rat/rat-pup-p1-ea617811.svg",
-"zh": "大鼠",
+"zh": "大鼠 大鼠",
 "en": "Rat pup P1",
 "tags": [
 "rat pup p1",
@@ -15661,7 +15939,7 @@
 {
 "id": "scidraw/rat/rat-pup-p15-2af3ba1e",
 "svg": "custom/scidraw/rat/rat-pup-p15-2af3ba1e.svg",
-"zh": "大鼠",
+"zh": "大鼠 大鼠",
 "en": "Rat pup P15",
 "tags": [
 "rat pup p15",
@@ -15679,7 +15957,7 @@
 {
 "id": "scidraw/rat/rat-pup-p21-d537c8d4",
 "svg": "custom/scidraw/rat/rat-pup-p21-d537c8d4.svg",
-"zh": "大鼠",
+"zh": "大鼠 大鼠",
 "en": "Rat pup P21",
 "tags": [
 "rat pup p21",
@@ -15697,7 +15975,7 @@
 {
 "id": "scidraw/rat/rat-pup-p5-212655fa",
 "svg": "custom/scidraw/rat/rat-pup-p5-212655fa.svg",
-"zh": "大鼠",
+"zh": "大鼠 大鼠",
 "en": "Rat pup P5",
 "tags": [
 "rat pup p5",
@@ -15715,7 +15993,7 @@
 {
 "id": "scidraw/rat/rat-silhouette-b1ecf2b5",
 "svg": "custom/scidraw/rat/rat-silhouette-b1ecf2b5.svg",
-"zh": "大鼠",
+"zh": "大鼠 大鼠",
 "en": "rat silhouette",
 "tags": [
 "rat silhouette",
@@ -15733,7 +16011,7 @@
 {
 "id": "scidraw/rat/rat-tetrode-recording-37b1f73d",
 "svg": "custom/scidraw/rat/rat-tetrode-recording-37b1f73d.svg",
-"zh": "大鼠",
+"zh": "大鼠 大鼠",
 "en": "Rat Tetrode Recording",
 "tags": [
 "rat tetrode recording",
@@ -15751,7 +16029,7 @@
 {
 "id": "scidraw/rat/rat-with-enlarged-head-and-silicon-probes-b29e5f51",
 "svg": "custom/scidraw/rat/rat-with-enlarged-head-and-silicon-probes-b29e5f51.svg",
-"zh": "大鼠 头",
+"zh": "大鼠 大鼠 头",
 "en": "Rat with enlarged head and silicon probes",
 "tags": [
 "rat with enlarged head and silicon probes",
@@ -15770,7 +16048,7 @@
 {
 "id": "scidraw/rat/rats-boxing-2f2fa1dc",
 "svg": "custom/scidraw/rat/rats-boxing-2f2fa1dc.svg",
-"zh": "大鼠",
+"zh": "大鼠 大鼠",
 "en": "Rats Boxing",
 "tags": [
 "rats boxing",
@@ -15788,7 +16066,7 @@
 {
 "id": "scidraw/rat/rats_play-e8726b9a",
 "svg": "custom/scidraw/rat/rats_play-e8726b9a.svg",
-"zh": "大鼠",
+"zh": "大鼠 大鼠",
 "en": "Rats_Play",
 "tags": [
 "rats_play",
@@ -15806,7 +16084,7 @@
 {
 "id": "scidraw/rat/rattus-norvegicus-a0b41255",
 "svg": "custom/scidraw/rat/rattus-norvegicus-a0b41255.svg",
-"zh": "大鼠",
+"zh": "大鼠 大鼠",
 "en": "Rattus norvegicus",
 "tags": [
 "rattus norvegicus",
@@ -15824,7 +16102,7 @@
 {
 "id": "scidraw/rat/rattus-norvegicus-d59fb5b4",
 "svg": "custom/scidraw/rat/rattus-norvegicus-d59fb5b4.png",
-"zh": "大鼠",
+"zh": "大鼠 大鼠",
 "en": "Rattus norvegicus",
 "tags": [
 "rattus norvegicus",
@@ -15842,7 +16120,7 @@
 {
 "id": "scidraw/rat/simplistic-rat-cartoon-db882e50",
 "svg": "custom/scidraw/rat/simplistic-rat-cartoon-db882e50.svg",
-"zh": "大鼠",
+"zh": "大鼠 大鼠",
 "en": "Simplistic rat cartoon",
 "tags": [
 "simplistic rat cartoon",
@@ -15860,7 +16138,7 @@
 {
 "id": "scidraw/rat/sleeping-p20-rat-775b032b",
 "svg": "custom/scidraw/rat/sleeping-p20-rat-775b032b.svg",
-"zh": "大鼠 睡眠",
+"zh": "大鼠 大鼠 睡眠",
 "en": "Sleeping P20 Rat",
 "tags": [
 "sleeping p20 rat",
@@ -15879,7 +16157,7 @@
 {
 "id": "scidraw/rat/sleeping-p20-rat-style-2-acd15812",
 "svg": "custom/scidraw/rat/sleeping-p20-rat-style-2-acd15812.svg",
-"zh": "大鼠 睡眠",
+"zh": "大鼠 大鼠 睡眠",
 "en": "Sleeping p20 Rat Style 2",
 "tags": [
 "sleeping p20 rat style 2",
@@ -15898,7 +16176,7 @@
 {
 "id": "scidraw/rat/sleeping-p8-rat-d4dec365",
 "svg": "custom/scidraw/rat/sleeping-p8-rat-d4dec365.svg",
-"zh": "大鼠 睡眠",
+"zh": "大鼠 大鼠 睡眠",
 "en": "Sleeping P8 Rat",
 "tags": [
 "sleeping p8 rat",
@@ -15917,7 +16195,7 @@
 {
 "id": "scidraw/rat/sleeping_rat-8f7fa932",
 "svg": "custom/scidraw/rat/sleeping_rat-8f7fa932.png",
-"zh": "大鼠 睡眠",
+"zh": "大鼠 大鼠 睡眠",
 "en": "sleeping_rat",
 "tags": [
 "sleeping_rat",
@@ -15936,7 +16214,7 @@
 {
 "id": "scidraw/rat/sprague-dawley-rat-64484385",
 "svg": "custom/scidraw/rat/sprague-dawley-rat-64484385.svg",
-"zh": "大鼠",
+"zh": "大鼠 大鼠",
 "en": "Sprague-Dawley rat",
 "tags": [
 "sprague-dawley rat",
@@ -15954,7 +16232,7 @@
 {
 "id": "scidraw/rat/standing_rat-99683ece",
 "svg": "custom/scidraw/rat/standing_rat-99683ece.png",
-"zh": "大鼠",
+"zh": "大鼠 大鼠",
 "en": "standing_rat",
 "tags": [
 "standing_rat",
@@ -15972,7 +16250,7 @@
 {
 "id": "scidraw/rat/standing_rat_2-2771f6cb",
 "svg": "custom/scidraw/rat/standing_rat_2-2771f6cb.png",
-"zh": "大鼠",
+"zh": "大鼠 大鼠",
 "en": "standing_rat_2",
 "tags": [
 "standing_rat_2",
@@ -15990,7 +16268,7 @@
 {
 "id": "scidraw/rat/structure-of-a-synapse-77806f85",
 "svg": "custom/scidraw/rat/structure-of-a-synapse-77806f85.png",
-"zh": "大鼠 突触",
+"zh": "大鼠 大鼠 突触",
 "en": "Structure of a synapse",
 "tags": [
 "structure of a synapse",
@@ -16009,7 +16287,7 @@
 {
 "id": "scidraw/rat/two-connected-neurons-5d87fd5f",
 "svg": "custom/scidraw/rat/two-connected-neurons-5d87fd5f.svg",
-"zh": "大鼠 神经元",
+"zh": "大鼠 大鼠 神经元",
 "en": "Two connected neurons",
 "tags": [
 "two connected neurons",
@@ -16028,7 +16306,7 @@
 {
 "id": "scidraw/rat/two-connected-neurons-75907e2a",
 "svg": "custom/scidraw/rat/two-connected-neurons-75907e2a.png",
-"zh": "大鼠 神经元",
+"zh": "大鼠 大鼠 神经元",
 "en": "Two connected neurons",
 "tags": [
 "two connected neurons",
@@ -16047,7 +16325,7 @@
 {
 "id": "scidraw/rat/w-maze-3d-0a3fbf73",
 "svg": "custom/scidraw/rat/w-maze-3d-0a3fbf73.svg",
-"zh": "大鼠",
+"zh": "大鼠 大鼠",
 "en": "W Maze 3D",
 "tags": [
 "w maze 3d",
@@ -16065,7 +16343,7 @@
 {
 "id": "scidraw/rat/w-maze-3d-e568d22e",
 "svg": "custom/scidraw/rat/w-maze-3d-e568d22e.svg",
-"zh": "大鼠",
+"zh": "大鼠 大鼠",
 "en": "W Maze 3D",
 "tags": [
 "w maze 3d",
@@ -16083,7 +16361,7 @@
 {
 "id": "scidraw/rat/w-maze-behavior-design-61643851",
 "svg": "custom/scidraw/rat/w-maze-behavior-design-61643851.svg",
-"zh": "大鼠",
+"zh": "大鼠 大鼠",
 "en": "W maze behavior design",
 "tags": [
 "w maze behavior design",
@@ -16101,7 +16379,7 @@
 {
 "id": "scidraw/rat/walking_rat-59ce3cd0",
 "svg": "custom/scidraw/rat/walking_rat-59ce3cd0.png",
-"zh": "大鼠",
+"zh": "大鼠 大鼠",
 "en": "walking_rat",
 "tags": [
 "walking_rat",
@@ -16119,7 +16397,7 @@
 {
 "id": "scidraw/rat/whole-rat-brain-side-view-v2-48cc74a8",
 "svg": "custom/scidraw/rat/whole-rat-brain-side-view-v2-48cc74a8.svg",
-"zh": "大鼠 脑",
+"zh": "大鼠 大鼠 脑",
 "en": "Whole Rat Brain (side view, v2)",
 "tags": [
 "whole rat brain (side view, v2)",
@@ -16138,7 +16416,7 @@
 {
 "id": "scidraw/rat/whole-rat-brain-with-s1-side-view-4cef5945",
 "svg": "custom/scidraw/rat/whole-rat-brain-with-s1-side-view-4cef5945.svg",
-"zh": "大鼠 脑",
+"zh": "大鼠 大鼠 脑",
 "en": "Whole Rat Brain (with S1, side view)",
 "tags": [
 "whole rat brain (with s1, side view)",
@@ -16157,7 +16435,7 @@
 {
 "id": "scidraw/rat/wistar-rat-0ad08c21",
 "svg": "custom/scidraw/rat/wistar-rat-0ad08c21.svg",
-"zh": "大鼠",
+"zh": "大鼠 大鼠",
 "en": "Wistar Rat",
 "tags": [
 "wistar rat",
