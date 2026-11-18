@@ -156,7 +156,7 @@ def zone3(cv: Canvas, b: Box):
         ("结肠 + 粪便", "LC-MS/MS 代谢组\n16S / 宏基因组", 1,
          "bioicons/servier/Human_physiology/colon"),
         ("结肠组织", "H&E · 炎症评分\n免疫组化 / 屏障蛋白", 2,
-         "bioicons/servier/Human_physiology/intestinal-villi"),
+         "bioicons/servier/Tissues/epithelium-cell-column"),
     ]
     area = Box(c.x, c.y, c.w, c.h - 5.2)
     for (t, s, _acc, icon), card in zip(items, area.rows(3, gap=2.2)):
@@ -206,9 +206,9 @@ def zone5(cv: Canvas, b: Box):
     # row 1: five modalities side by side
     mods = [
         ("宏基因组", "bioicons/james-lloyd/Microbiology/Bacteria_Swimming"),
-        ("宿主基因组", "bioicons/dbcls/Nucleic_acids/DNA_colored"),
+        ("宿主基因组", "bioicons/servier/Nucleic_acids/dna-3"),
         ("SCFA 靶向", "sciglyph/03-metabolism-phenotype/metabolism/013-ferm-butyrate"),
-        ("代谢组", "sciglyph/08-instruments-apparatus/separation-fluidics/045-chromatography-column-glass"),
+        ("代谢组", "bioicons/sasha-sundstrom/Lab_apparatus/mass-spectrometer-MS"),
         ("病理 / 炎症", "bioicons/servier/Lab_apparatus/microscope"),
     ]
     band = Box(c.x, c.y, c.w, 12.4)
@@ -314,6 +314,8 @@ def zone7(cv: Canvas, b: Box):
 if __name__ == "__main__":
     out = Path(sys.argv[1]) if len(sys.argv) > 1 else Path(__file__).parent / "out"
     print(build(Path(out)))
+
+
 
 
 
