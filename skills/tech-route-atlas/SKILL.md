@@ -34,6 +34,9 @@ routekit 把前两件事变成可计算的毫米坐标，把第三件事接到 2
 1. **规格**：上面 5 行 + 箭头拓扑表。
 2. **检索素材**：每个图标位先 `python -m routekit.icons search "<中文关键词>" -k 8 --sheet sheet.png`，
    看缩略图再定 id（详见 `sciglyph-catalog` 技能）。放 ≥8 mm 的位置只用 `format="illustration"`。
+   要写实插画级（BioRender 观感）就用远程库：`python -m routekit.remote search "colon" -c servier --sheet s.png`，
+   id 形如 `bioicons/servier/Human_physiology/colon`，`cv.icon()` 会在首次使用时自动下载，
+   许可与署名规则见 `references/remote.md`。
 3. **搭骨架**：只放分区 + 标题 + 卡片外框，先不写正文，导出看一眼版面比例。
 4. **填内容**：按 `Box.rows/cols` 分配，逐块填图标 + 标题 + 副文案；`Canvas.text` 自动收缩，
    但**先量后放**仍要守：文案长度 ≈ 框宽 ÷ (字号 × 0.35) 个汉字。

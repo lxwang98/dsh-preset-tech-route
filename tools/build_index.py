@@ -51,6 +51,14 @@ GLOSSARY: dict[str, str] = {
 
 _STEM = re.compile(r"[^a-z0-9]+")
 
+# the long-form keyword map lives in tools/glossary_zh.json so that both the
+# local index and the remote catalogue (routekit.remote) share one vocabulary
+EXTRA = Path(__file__).with_name("glossary_zh.json")
+if EXTRA.exists():
+    for _k, _v in json.loads(EXTRA.read_text(encoding="utf-8")).items():
+        if not _k.startswith("_"):
+            GLOSSARY.setdefault(_k, _v)
+
 
 def zh_for(stem: str) -> list[str]:
     low = stem.lower()
@@ -141,6 +149,10 @@ def main(argv: list[str]) -> int:
             return 1
     recs.sort(key=lambda r: r["id"])
     INDEX.write_text(json.dumps(recs, ensure_ascii=False, indent=0), encoding="utf-8")
+    # share the vocabulary with routekit.remote (zh labels for remote assets)
+    (ASSETS / "glossary.json").write_text(
+        json.dumps(GLOSSARY, ensure_ascii=False, indent=0), encoding="utf-8"
+    )
     libs: dict[str, int] = {}
     for r in recs:
         lib = r["id"].split("/")[0]

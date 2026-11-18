@@ -17,15 +17,22 @@
 - 本预设改动：只做目录复制与索引（未修改 SVG 内容）；`assets/index.json` 由
   `tools/build_index.py` 从各子目录 `manifest.json` 生成。
 
-## 2. Bioicons — 精选 100 个插画
+## 2. Bioicons — 精选 100 个插画 + 远程全库 2829 件
 
 - 仓库：https://github.com/duerrsimon/bioicons（站点 https://bioicons.com）
-- 取用方式：`tools/fetch_bioicons.py` 通过 GitHub API 树 + raw 链接按"家族"抓取，
-  单文件上限 520 KB，优先级 CC0 > MIT > CC BY 4.0 > CC BY 3.0 > CC BY-SA。
-- 逐文件许可记录在 `assets/bioicons/manifest.json`（字段 license / license_uri / attribution）。
-- 主要来源作者：Servier Medical Art（CC BY 3.0）、Ben Murrell（CC0，Mouse 系列）、
-  DBCLS / Togo picture gallery（CC BY 4.0）等，均以 manifest 内 attribution 为准。
-- 本预设改动：仅复制 SVG 与元数据，未修改图形。
+- 本机精选：`tools/fetch_bioicons.py` 通过 GitHub API 树 + raw 链接按"家族"抓取，
+  单文件上限 520 KB，优先级 CC0 > MIT > CC BY 4.0 > CC BY 3.0 > CC BY-SA；
+  逐文件许可记录在 `assets/bioicons/manifest.json`。
+- 远程全库：`routekit.remote` 以 raw.githubusercontent.com 按需下载（默认缓存到
+  `assets/.remote/`），目录在 `assets/remote/index.json`（只存元数据，1.4 MB）。
+  上游共 428 MB / 2829 件，本仓库不分发这些 SVG 本体。
+- 两个最接近 BioRender 观感的集合：
+  **Servier Medical Art**（1374 件，**CC BY 3.0**，https://smart.servier.com/）与
+  **DBCLS / Togo picture gallery**（634 件，**CC BY 4.0**，https://dbcls.rois.ac.jp/）；
+  其余为各作者 CC0 / CC BY / MIT / BSD 素材，以记录内 `attribution` 为准。
+- 许可分布（远程库）：CC BY 3.0 1019、CC BY 4.0 869、CC0 487、MIT 37、CC BY-SA 4.0 31、
+  CC BY-SA 3.0 4、BSD 3。
+- 本预设改动：仅复制/下载 SVG 与元数据，未修改图形；下载时在缓存目录写同名 `.license.txt`。
 
 ## 3. 方法论参考（未复制代码）
 

@@ -1,40 +1,56 @@
 ---
 name: sciglyph-catalog
-description: 检索、预览、挑选本机 2930 个期刊级矢量素材（SciGlyph 12 大类图元 + Bioicons 精选插画），按中英文关键词搜索、生成缩略图对照表、判断 format/series/尺寸适配与许可证；绘制技术路线图、机制图、图形摘要前用它选素材，避免用错线稿/插画风格或漏标注署名。
-whenToUse: 需要给路线图挑图标（细胞、菌群、脏器、小鼠、仪器、玻璃器皿、箭头、图表），或不确定某个 id 是否存在、该用哪种画风。
+description: 检索、预览、挑选素材——本机 2930 个矢量图元（SciGlyph 12 大类 + Bioicons 精选），外加 2829 个联网取用的 Bioicons 全库（Servier Medical Art 1374 件、DBCLS 634 件，彩色写实插画）；按中英文关键词搜索、生成缩略图对照表、判断 format/series/尺寸适配与许可证。
+whenToUse: 需要给路线图挑图标（细胞、菌群、脏器、小鼠、仪器、玻璃器皿、箭头、图表），或本机素材画风不够像 BioRender 时，改从远程库按需下载。
 ---
 
-# 素材目录：2930 个矢量图元
+# 素材目录：本机 2930 + 联网 2829
 
-索引在 `D:\dsh-bundles\tech-route\assets\index.json`（1.7 MB），
-文件在 `assets\sciglyph\<类别>\<子类>\<文件>.svg` 与 `assets\bioicons\<name>.svg`。
-PNG 只在第一次用时转（缓存到 `assets\.cache`），不要预渲染整库。
+两套索引，一个取用接口：
+
+| 索引 | 规模 | 位置 | 取用 |
+|---|---|---|---|
+| 本机 | 2930 | `assets\index.json`，文件在 `assets\sciglyph\…`、`assets\bioicons\…` | 拷入即用，离线可用 |
+| 远程 | 2829 | `assets\remote\index.json`（仅元数据 1.4 MB） | 首次使用时下载到 `assets\.remote\`，之后走缓存 |
+
+远程库 = Bioicons 全库（`duerrsimon/bioicons`，上游 428 MB），其中 **Servier Medical Art 1374 件**
+（CC BY 3.0）与 **DBCLS / Togo picture gallery 634 件**（CC BY 4.0）是彩色写实插画，
+最接近 BioRender 的观感；SciGlyph 是线稿/扁平图元，两者不要混用在同一张图里。
 
 ## 一条命令挑素材
 
 ```powershell
 cd D:\dsh-bundles\tech-route\skills\tech-route-atlas\scripts
 python -m routekit.icons search "肠道菌群" -k 8 --sheet out\sheet-gut.png
-python -m routekit.icons search "mouse" -k 6 --cat Animals --sheet out\sheet-mouse.png
 python -m routekit.icons stats
+
+# 远程库：先搜（不需要联网），再按需下载
+python -m routekit.remote search "心脏" -k 7 --sheet out\cardiac.png
+python -m routekit.remote search "colon" -c servier
+python -m routekit.remote fetch bioicons/servier/Human_physiology/colon
+python -m routekit.remote sync          # 只在想刷新目录时跑（要联网）
 ```
 
 `--sheet` 会生成带 id 标签的缩略图网格（6 列 × 220 px），**先看图再定 id**；
-名字像不代表画得像（"040-tube-centrifuge" 是线稿，"013-centrifuge-tube" 才是彩色插画）。
+名字像不代表画得像（"040-tube-centrifuge" 是线稿，"microtube-closed-blue" 才是彩色插画）。
 
 Python 里等价写法：
 
 ```python
 from routekit.icons import catalog, contact_sheet
+from routekit import remote
+
 c = catalog()
-hits = c.search("结肠", k=6)                 # 支持中文、英文、类别、系列过滤
-print([(a.id, a.zh, a.fmt, a.series) for a in hits])
+hits = c.search("结肠", k=6)                   # 本机：中文、英文、类别、系列过滤
 contact_sheet(hits, "out/sheet.png", cols=6, cell_px=220)
-c.get("bioicons/mouse-gray"); c.require("sciglyph/.../013-centrifuge-tube")
+
+remote.search("结肠", k=6)                      # 远程：同样支持中文
+remote.sheet(remote.search("mouse", k=8), "out/sheet-mouse.png")
 ```
 
-`search(q, k=20, cat=None, series=None, fmt=None)`；`get()` 找不到返回 `None`，
-`require()` 抛 `KeyError` 并给相近 id 建议。id 可省略前缀（`"mouse-gray"` 也会命中）。
+`remote.get(id)` 找记录，`remote.fetch(rec)` 下载原始 SVG 并写同目录 `.license.txt`；
+日常直接写 id 即可，`Canvas.icon(box, "bioicons/servier/Human_physiology/colon")`
+会在第一次用到时自动下载——本机找不到的 id 会自动转去远程库。
 
 ## 12 大类（SciGlyph，CC BY 4.0）
 

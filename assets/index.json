@@ -113,10 +113,11 @@
 {
 "id": "bioicons/Examination_Man",
 "svg": "bioicons/cc-by-4.0/People-Other/DBCLS/Examination_Man.svg",
-"zh": "",
+"zh": "男性",
 "en": "Examination Man",
 "tags": [
 "Examination Man",
+"男性",
 "people-other"
 ],
 "cat": "People-Other",
@@ -130,10 +131,12 @@
 {
 "id": "bioicons/Examination_Woman",
 "svg": "bioicons/cc-by-4.0/People-Other/DBCLS/Examination_Woman.svg",
-"zh": "",
+"zh": "男性 女性",
 "en": "Examination Woman",
 "tags": [
 "Examination Woman",
+"男性",
+"女性",
 "people-other"
 ],
 "cat": "People-Other",
@@ -165,11 +168,13 @@
 {
 "id": "bioicons/Human_female",
 "svg": "bioicons/cc-by-4.0/Human_physiology/DBCLS/Human_female.svg",
-"zh": "人",
+"zh": "人 男性 女性",
 "en": "Human female",
 "tags": [
 "Human female",
 "人",
+"男性",
+"女性",
 "human_physiology"
 ],
 "cat": "Human_physiology",
@@ -183,11 +188,12 @@
 {
 "id": "bioicons/Human_male",
 "svg": "bioicons/cc-by-4.0/Human_physiology/DBCLS/Human_male.svg",
-"zh": "人",
+"zh": "人 男性",
 "en": "Human male",
 "tags": [
 "Human male",
 "人",
+"男性",
 "human_physiology"
 ],
 "cat": "Human_physiology",
@@ -275,12 +281,14 @@
 {
 "id": "bioicons/Rice_Root_Anatomy",
 "svg": "bioicons/cc-by-4.0/Plants_Algae/Erin_Sparks/Rice_Root_Anatomy.svg",
-"zh": "水稻 大米",
+"zh": "水稻 大米 原子 根",
 "en": "Rice Root Anatomy",
 "tags": [
 "Rice Root Anatomy",
 "水稻",
 "大米",
+"原子",
+"根",
 "plants_algae"
 ],
 "cat": "Plants_Algae",
@@ -312,10 +320,11 @@
 {
 "id": "bioicons/TomatoFruit",
 "svg": "bioicons/cc-0/Plants_Algae/James-Lloyd/TomatoFruit.svg",
-"zh": "",
+"zh": "果实",
 "en": "TomatoFruit",
 "tags": [
 "TomatoFruit",
+"果实",
 "plants_algae"
 ],
 "cat": "Plants_Algae",
@@ -636,11 +645,12 @@
 {
 "id": "bioicons/column-grouped",
 "svg": "bioicons/mit/Scientific_graphs/dbs-sticky/column-grouped.svg",
-"zh": "分组",
+"zh": "分组 层析柱",
 "en": "column grouped",
 "tags": [
 "column grouped",
 "分组",
+"层析柱",
 "scientific_graphs"
 ],
 "cat": "Scientific_graphs",
@@ -654,12 +664,13 @@
 {
 "id": "bioicons/flow-cytometer-cell-sorter",
 "svg": "bioicons/cc-0/Lab_apparatus/Derek-Croote/flow-cytometer-cell-sorter.svg",
-"zh": "流式细胞仪 细胞",
+"zh": "流式细胞仪 细胞 流程",
 "en": "flow cytometer cell sorter",
 "tags": [
 "flow cytometer cell sorter",
 "流式细胞仪",
 "细胞",
+"流程",
 "lab_apparatus"
 ],
 "cat": "Lab_apparatus",
@@ -692,11 +703,13 @@
 {
 "id": "bioicons/heart-cross-section-2",
 "svg": "bioicons/cc-by-3.0/Human_physiology/Servier/heart-cross-section-2.svg",
-"zh": "心脏",
+"zh": "心脏 耳 切片",
 "en": "heart cross section 2",
 "tags": [
 "heart cross section 2",
 "心脏",
+"耳",
+"切片",
 "human_physiology"
 ],
 "cat": "Human_physiology",
@@ -710,11 +723,12 @@
 {
 "id": "bioicons/heart-one-color",
 "svg": "bioicons/cc-by-3.0/Human_physiology/Servier/heart-one-color.svg",
-"zh": "心脏",
+"zh": "心脏 耳",
 "en": "heart one color",
 "tags": [
 "heart one color",
 "心脏",
+"耳",
 "human_physiology"
 ],
 "cat": "Human_physiology",
@@ -728,11 +742,12 @@
 {
 "id": "bioicons/heart-outline",
 "svg": "bioicons/cc-by-3.0/Human_physiology/Servier/heart-outline.svg",
-"zh": "心脏",
+"zh": "心脏 耳",
 "en": "heart outline",
 "tags": [
 "heart outline",
 "心脏",
+"耳",
 "human_physiology"
 ],
 "cat": "Human_physiology",
@@ -1161,11 +1176,12 @@
 {
 "id": "bioicons/mouse-embryoearly",
 "svg": "bioicons/cc-by-3.0/Animals/Servier/mouse-embryoearly.svg",
-"zh": "小鼠",
+"zh": "小鼠 耳",
 "en": "mouse embryoearly",
 "tags": [
 "mouse embryoearly",
 "小鼠",
+"耳",
 "animals"
 ],
 "cat": "Animals",
@@ -1378,11 +1394,12 @@
 {
 "id": "bioicons/rat-embryoearly",
 "svg": "bioicons/cc-by-3.0/Animals/Servier/rat-embryoearly.svg",
-"zh": "大鼠",
+"zh": "大鼠 耳",
 "en": "rat embryoearly",
 "tags": [
 "rat embryoearly",
 "大鼠",
+"耳",
 "animals"
 ],
 "cat": "Animals",
@@ -1396,12 +1413,13 @@
 {
 "id": "bioicons/rat_optogenetic_implant",
 "svg": "bioicons/cc-by-4.0/Neuroscience/Eric-R-Cole/rat_optogenetic_implant.svg",
-"zh": "大鼠 基因",
+"zh": "大鼠 基因 植物",
 "en": "rat optogenetic implant",
 "tags": [
 "rat optogenetic implant",
 "大鼠",
 "基因",
+"植物",
 "neuroscience"
 ],
 "cat": "Neuroscience",
@@ -1821,7 +1839,8 @@
 "周生鞭毛",
 "peritrichous flagellation",
 "flagellation",
-"flagellum"
+"flagellum",
+"凝胶"
 ],
 "cat": "01-cells-microbes",
 "subdir": "appendages-motility",
@@ -1843,7 +1862,8 @@
 "hook",
 "极生单毛鞭毛",
 "monotrichous flagellum",
-"flagellum"
+"flagellum",
+"凝胶"
 ],
 "cat": "01-cells-microbes",
 "subdir": "appendages-motility",
@@ -1864,7 +1884,9 @@
 "both poles",
 "两端鞭毛",
 "amphitrichous flagellum",
-"flagellum"
+"flagellum",
+"凝胶",
+"pH"
 ],
 "cat": "01-cells-microbes",
 "subdir": "appendages-motility",
@@ -1885,7 +1907,9 @@
 "丛毛鞭毛",
 "lophotrichous flagella",
 "flagella",
-"flagellum"
+"flagellum",
+"凝胶",
+"pH"
 ],
 "cat": "01-cells-microbes",
 "subdir": "appendages-motility",
@@ -1906,7 +1930,8 @@
 "sheath",
 "鞘鞭毛",
 "sheathed",
-"flagellum"
+"flagellum",
+"凝胶"
 ],
 "cat": "01-cells-microbes",
 "subdir": "appendages-motility",
@@ -1931,7 +1956,8 @@
 "c ring",
 "鞭毛基体结构g-",
 "flagellar basal body g-negative",
-"flagellar"
+"flagellar",
+"凝胶"
 ],
 "cat": "01-cells-microbes",
 "subdir": "appendages-motility",
@@ -1956,7 +1982,8 @@
 "flagellar basal body g-positive",
 "flagellar",
 "basal",
-"body"
+"body",
+"凝胶"
 ],
 "cat": "01-cells-microbes",
 "subdir": "appendages-motility",
@@ -1979,7 +2006,8 @@
 "古鞭毛vs真细菌鞭毛",
 "archaellum vs bacterial flagellum",
 "bacterial",
-"flagellum"
+"flagellum",
+"凝胶"
 ],
 "cat": "01-cells-microbes",
 "subdir": "appendages-motility",
@@ -2001,7 +2029,8 @@
 "cw",
 "鞭毛旋转与群集扩散",
 "flagellar rotation & swarming",
-"flagellar"
+"flagellar",
+"凝胶"
 ],
 "cat": "01-cells-microbes",
 "subdir": "appendages-motility",
@@ -2024,7 +2053,8 @@
 "鞭毛反转翻滚",
 "flagellar tumbling & reversal",
 "flagellar",
-"reversal"
+"reversal",
+"凝胶"
 ],
 "cat": "01-cells-microbes",
 "subdir": "appendages-motility",
@@ -2070,7 +2100,8 @@
 "波动膜运动",
 "wave membrane wiggle",
 "wave",
-"membrane"
+"membrane",
+"膜"
 ],
 "cat": "01-cells-microbes",
 "subdir": "appendages-motility",
@@ -2093,7 +2124,8 @@
 "cross-section",
 "内轴丝周质鞭毛",
 "periplasmic flagella",
-"flagella"
+"flagella",
+"凝胶"
 ],
 "cat": "01-cells-microbes",
 "subdir": "appendages-motility",
@@ -2116,7 +2148,8 @@
 "钩端螺旋体内轴丝",
 "leptospira axial filament",
 "axial",
-"filament"
+"filament",
+"凝胶"
 ],
 "cat": "01-cells-microbes",
 "subdir": "appendages-motility",
@@ -2484,7 +2517,8 @@
 "filamentous",
 "spore chain",
 "放线菌分隔菌丝",
-"septate hyphae"
+"septate hyphae",
+"pH"
 ],
 "cat": "01-cells-microbes",
 "subdir": "appendages-motility",
@@ -2645,7 +2679,9 @@
 "archaellum membrane anchor",
 "archaellum",
 "membrane",
-"anchor"
+"anchor",
+"脂质",
+"凝胶"
 ],
 "cat": "01-cells-microbes",
 "subdir": "appendages-motility",
@@ -2689,7 +2725,8 @@
 "host recognition",
 "刺突蛋白",
 "spike",
-"protein"
+"protein",
+"蛋白质"
 ],
 "cat": "01-cells-microbes",
 "subdir": "appendages-motility",
@@ -2921,7 +2958,8 @@
 "irregular",
 "sulfur granule",
 "thermoacidophile",
-"酸菌"
+"酸菌",
+"酸"
 ],
 "cat": "01-cells-microbes",
 "subdir": "archaea",
@@ -2941,7 +2979,8 @@
 "ph 0",
 "extreme acidophile",
 "thermoplasmata",
-"嗜酸菌"
+"嗜酸菌",
+"pH"
 ],
 "cat": "01-cells-microbes",
 "subdir": "archaea",
@@ -3067,7 +3106,8 @@
 "reduced genome",
 "dpann",
 "symbiont",
-"伍斯古菌门"
+"伍斯古菌门",
+"耳"
 ],
 "cat": "01-cells-microbes",
 "subdir": "archaea",
@@ -3087,7 +3127,8 @@
 "dpann",
 "ultra-small",
 "protrusions",
-"透明古菌门"
+"透明古菌门",
+"pH"
 ],
 "cat": "01-cells-microbes",
 "subdir": "archaea",
@@ -3211,7 +3252,8 @@
 "ammonia oxidation",
 "stalk",
 "nitrososphaerota",
-"氨氧化球形菌"
+"氨氧化球形菌",
+"pH"
 ],
 "cat": "01-cells-microbes",
 "subdir": "archaea",
@@ -3257,7 +3299,8 @@
 "membrane",
 "氨单加氧酶",
 "ammonia monooxygenase amo",
-"ammonia"
+"ammonia",
+"酶"
 ],
 "cat": "01-cells-microbes",
 "subdir": "archaea",
@@ -3280,7 +3323,8 @@
 "s-s bond",
 "辅酶m与辅酶b",
 "coenzyme m & coenzyme b",
-"coenzyme"
+"coenzyme",
+"酶"
 ],
 "cat": "01-cells-microbes",
 "subdir": "archaea",
@@ -3329,7 +3373,8 @@
 "产甲烷途径",
 "methanogenesis pathways",
 "pathways",
-"基因"
+"基因",
+"通路"
 ],
 "cat": "01-cells-microbes",
 "subdir": "archaea",
@@ -3374,7 +3419,8 @@
 "紫膜细菌视紫红质",
 "purple membrane / bacteriorhodopsin",
 "purple",
-"membrane"
+"membrane",
+"膜"
 ],
 "cat": "01-cells-microbes",
 "subdir": "archaea",
@@ -3933,7 +3979,9 @@
 "anchor",
 "membrane",
 "膜糖脂",
-"membrane glycolipid"
+"membrane glycolipid",
+"脂质",
+"膜"
 ],
 "cat": "01-cells-microbes",
 "subdir": "cell-envelope",
@@ -4001,7 +4049,8 @@
 "acid-fast stain",
 "acid",
 "fast",
-"stain"
+"stain",
+"酸"
 ],
 "cat": "01-cells-microbes",
 "subdir": "cell-envelope",
@@ -4091,7 +4140,8 @@
 "membrane",
 "支原体包被",
 "mycoplasma envelope",
-"envelope"
+"envelope",
+"血浆"
 ],
 "cat": "01-cells-microbes",
 "subdir": "cell-envelope",
@@ -4115,7 +4165,8 @@
 "p ring",
 "鞭毛基部截面",
 "flagellum base",
-"base"
+"base",
+"凝胶"
 ],
 "cat": "01-cells-microbes",
 "subdir": "cell-envelope",
@@ -4136,7 +4187,8 @@
 "septation",
 "气生菌丝隔间",
 "aerial",
-"hyphae"
+"hyphae",
+"pH"
 ],
 "cat": "01-cells-microbes",
 "subdir": "cell-envelope",
@@ -4242,7 +4294,8 @@
 "鞭毛总览",
 "flagellum overview",
 "flagellum",
-"overview"
+"overview",
+"凝胶"
 ],
 "cat": "01-cells-microbes",
 "subdir": "cell-structures",
@@ -4287,7 +4340,8 @@
 "螺菌",
 "amphitrichous flagellum",
 "amphitrichous",
-"flagellum"
+"flagellum",
+"pH"
 ],
 "cat": "01-cells-microbes",
 "subdir": "cell-structures",
@@ -4310,7 +4364,8 @@
 "幽门螺杆菌",
 "lophotrichous flagella",
 "lophotrichous",
-"flagella"
+"flagella",
+"pH"
 ],
 "cat": "01-cells-microbes",
 "subdir": "cell-structures",
@@ -4355,7 +4410,8 @@
 "螺旋状运动",
 "lashing flagellum",
 "lashing",
-"flagellum"
+"flagellum",
+"凝胶"
 ],
 "cat": "01-cells-microbes",
 "subdir": "cell-structures",
@@ -4467,7 +4523,8 @@
 "定子",
 "跨膜",
 "basal body",
-"basal"
+"basal",
+"人体"
 ],
 "cat": "01-cells-microbes",
 "subdir": "cell-structures",
@@ -4536,7 +4593,8 @@
 "穿膜",
 "鞭毛锚定",
 "flagellar anchoring",
-"flagellar"
+"flagellar",
+"凝胶"
 ],
 "cat": "01-cells-microbes",
 "subdir": "cell-structures",
@@ -4611,7 +4669,8 @@
 "网状骨架",
 "肽聚糖网",
 "peptidoglycan mesh",
-"peptidoglycan"
+"peptidoglycan",
+"狗"
 ],
 "cat": "01-cells-microbes",
 "subdir": "cell-structures",
@@ -4661,7 +4720,8 @@
 "孔蛋白",
 "lipid a",
 "o抗原",
-"outer membrane"
+"outer membrane",
+"膜"
 ],
 "cat": "01-cells-microbes",
 "subdir": "cell-structures",
@@ -4753,7 +4813,8 @@
 "核糖体rna",
 "rrna 操纵子",
 "rrna operon",
-"rrna"
+"rrna",
+"RNA"
 ],
 "cat": "01-cells-microbes",
 "subdir": "cell-structures",
@@ -4878,7 +4939,8 @@
 "伴孢",
 "parasporal crystal",
 "parasporal",
-"crystal"
+"crystal",
+"口服"
 ],
 "cat": "01-cells-microbes",
 "subdir": "cell-structures",
@@ -4927,7 +4989,8 @@
 "动员",
 "phb 贮藏颗粒",
 "phb granule",
-"granule"
+"granule",
+"pH"
 ],
 "cat": "01-cells-microbes",
 "subdir": "cell-structures",
@@ -5065,7 +5128,8 @@
 "植物细胞",
 "plant",
 "cell",
-"细胞"
+"细胞",
+"植物"
 ],
 "cat": "01-cells-microbes",
 "subdir": "eukaryotic-cells-organelles",
@@ -5271,7 +5335,9 @@
 "hyphae",
 "spore",
 "菌丝与孢子",
-"fungus hyphae"
+"fungus hyphae",
+"真菌",
+"pH"
 ],
 "cat": "01-cells-microbes",
 "subdir": "eukaryotic-cells-organelles",
@@ -5291,7 +5357,8 @@
 "budding",
 "asexual reproduction",
 "出芽酵母",
-"yeast budding"
+"yeast budding",
+"酵母"
 ],
 "cat": "01-cells-microbes",
 "subdir": "eukaryotic-cells-organelles",
@@ -5350,7 +5417,8 @@
 "synapse",
 "nerve cell",
 "神经元与突触",
-"neuron neuron"
+"neuron neuron",
+"神经元"
 ],
 "cat": "01-cells-microbes",
 "subdir": "eukaryotic-cells-organelles",
@@ -5371,7 +5439,8 @@
 "vesicle",
 "突触放大",
 "synapse detail",
-"detail"
+"detail",
+"突触"
 ],
 "cat": "01-cells-microbes",
 "subdir": "eukaryotic-cells-organelles",
@@ -5413,7 +5482,8 @@
 "nephron",
 "kidney",
 "filtration",
-"肾单位"
+"肾单位",
+"pH"
 ],
 "cat": "01-cells-microbes",
 "subdir": "eukaryotic-cells-organelles",
@@ -5433,7 +5503,8 @@
 "capillary",
 "gas exchange",
 "肺泡-毛细血管",
-"alveolus capillary"
+"alveolus capillary",
+"毛细血管"
 ],
 "cat": "01-cells-microbes",
 "subdir": "eukaryotic-cells-organelles",
@@ -5456,7 +5527,8 @@
 "心脏四腔",
 "heart chamber simple",
 "simple",
-"心脏"
+"心脏",
+"耳"
 ],
 "cat": "01-cells-microbes",
 "subdir": "eukaryotic-cells-organelles",
@@ -5480,7 +5552,8 @@
 "blood",
 "vessel",
 "cut",
-"血液"
+"血液",
+"血管"
 ],
 "cat": "01-cells-microbes",
 "subdir": "eukaryotic-cells-organelles",
@@ -5551,7 +5624,8 @@
 "neuron reflex arc",
 "neuron",
 "reflex",
-"arc"
+"arc",
+"神经元"
 ],
 "cat": "01-cells-microbes",
 "subdir": "eukaryotic-cells-organelles",
@@ -5572,7 +5646,8 @@
 "water transport",
 "木质部导管",
 "plant vascular xylem",
-"plant"
+"plant",
+"植物"
 ],
 "cat": "01-cells-microbes",
 "subdir": "eukaryotic-cells-organelles",
@@ -5694,7 +5769,8 @@
 "staphylococcus",
 "葡萄状簇",
 "随机多平面分裂",
-"成团"
+"成团",
+"pH"
 ],
 "cat": "01-cells-microbes",
 "subdir": "morphology-arrangement",
@@ -6379,7 +6455,8 @@
 "tags": [
 "staphylococcus",
 "grape-like cluster",
-"葡萄球菌"
+"葡萄球菌",
+"pH"
 ],
 "cat": "01-cells-microbes",
 "subdir": "morphology-arrangement",
@@ -6903,7 +6980,8 @@
 "pleomorphic",
 "no cell wall",
 "membrane",
-"支原体"
+"支原体",
+"血浆"
 ],
 "cat": "01-cells-microbes",
 "subdir": "morphology-arrangement",
@@ -7124,7 +7202,8 @@
 "non",
 "contractile",
 "tail",
-"phage"
+"phage",
+"pH"
 ],
 "cat": "01-cells-microbes",
 "subdir": "viruses-phages",
@@ -7170,7 +7249,9 @@
 "lederbergvirus",
 "p22噬菌体(salmonella)",
 "salmonella phage p22",
-"phage"
+"phage",
+"噬菌体",
+"pH"
 ],
 "cat": "01-cells-microbes",
 "subdir": "viruses-phages",
@@ -7195,7 +7276,9 @@
 "t4 phage (contractile tail)",
 "phage",
 "contractile",
-"tail"
+"tail",
+"噬菌体",
+"pH"
 ],
 "cat": "01-cells-microbes",
 "subdir": "viruses-phages",
@@ -7217,7 +7300,9 @@
 "siphovirus",
 "λ噬菌体(温和)",
 "lambda phage temperate",
-"phage"
+"phage",
+"噬菌体",
+"pH"
 ],
 "cat": "01-cells-microbes",
 "subdir": "viruses-phages",
@@ -7241,7 +7326,9 @@
 "t7 phage (short tail)",
 "phage",
 "short",
-"tail"
+"tail",
+"噬菌体",
+"pH"
 ],
 "cat": "01-cells-microbes",
 "subdir": "viruses-phages",
@@ -7264,7 +7351,9 @@
 "crass噬菌体(肠道)",
 "crassphage gut bacteriophage",
 "gut",
-"bacteriophage"
+"bacteriophage",
+"噬菌体",
+"pH"
 ],
 "cat": "01-cells-microbes",
 "subdir": "viruses-phages",
@@ -7286,7 +7375,8 @@
 "icosahedral",
 "φx174(无尾二十面体)",
 "phix174 tailless icosahedral",
-"tailless"
+"tailless",
+"pH"
 ],
 "cat": "01-cells-microbes",
 "subdir": "viruses-phages",
@@ -7523,7 +7613,8 @@
 "dsdna",
 "疱疹病毒(被膜)",
 "herpesvirus tegument layered",
-"layered"
+"layered",
+"病毒"
 ],
 "cat": "01-cells-microbes",
 "subdir": "viruses-phages",
@@ -7547,7 +7638,8 @@
 "痘病毒(砖形)",
 "poxvirus brick-shaped complex",
 "brick",
-"shaped"
+"shaped",
+"病毒"
 ],
 "cat": "01-cells-microbes",
 "subdir": "viruses-phages",
@@ -7619,7 +7711,8 @@
 "拟菌病毒(巨病毒)",
 "mimivirus giant virus stargate",
 "giant",
-"virus"
+"virus",
+"病毒"
 ],
 "cat": "01-cells-microbes",
 "subdir": "viruses-phages",
@@ -7643,7 +7736,8 @@
 "潘多拉病毒(卵形)",
 "pandoravirus ovoid giant virus",
 "giant",
-"virus"
+"virus",
+"病毒"
 ],
 "cat": "01-cells-microbes",
 "subdir": "viruses-phages",
@@ -7668,7 +7762,8 @@
 "virus morphology spectrum",
 "virus",
 "morphology",
-"spectrum"
+"spectrum",
+"pH"
 ],
 "cat": "01-cells-microbes",
 "subdir": "viruses-phages",
@@ -7718,7 +7813,8 @@
 "injection",
 "tail",
 "sheath",
-"DNA"
+"DNA",
+"注射"
 ],
 "cat": "01-cells-microbes",
 "subdir": "viruses-phages",
@@ -7816,7 +7912,8 @@
 "immunity",
 "超感染免疫",
 "superinfection immunity lysogen",
-"superinfection"
+"superinfection",
+"感染"
 ],
 "cat": "01-cells-microbes",
 "subdir": "viruses-phages",
@@ -8017,7 +8114,9 @@
 "marine phage abundance 10^7 per ml",
 "marine",
 "phage",
-"per"
+"per",
+"噬菌体",
+"pH"
 ],
 "cat": "01-cells-microbes",
 "subdir": "viruses-phages",
@@ -8041,7 +8140,9 @@
 "phage therapy",
 "噬菌斑(清晰/浑浊/针尖)",
 "phage plaque clear turbid pinpoint",
-"phage"
+"phage",
+"噬菌体",
+"pH"
 ],
 "cat": "01-cells-microbes",
 "subdir": "viruses-phages",
@@ -8066,7 +8167,8 @@
 "virus",
 "size",
 "with",
-"bacteria"
+"bacteria",
+"病毒"
 ],
 "cat": "01-cells-microbes",
 "subdir": "viruses-phages",
@@ -8090,7 +8192,8 @@
 "tupanvirus巨病毒",
 "tupanvirus giant virus",
 "giant",
-"virus"
+"virus",
+"病毒"
 ],
 "cat": "01-cells-microbes",
 "subdir": "viruses-phages",
@@ -8188,7 +8291,8 @@
 "giant virus amoeba host infection",
 "giant",
 "virus",
-"host"
+"host",
+"病毒"
 ],
 "cat": "01-cells-microbes",
 "subdir": "viruses-phages",
@@ -8213,7 +8317,9 @@
 "噬菌体展示(piii融合)",
 "phage display filamentous piii fusion",
 "phage",
-"display"
+"display",
+"噬菌体",
+"pH"
 ],
 "cat": "01-cells-microbes",
 "subdir": "viruses-phages",
@@ -8309,7 +8415,9 @@
 "capsid",
 "spike",
 "球形病毒",
-"spherical virus"
+"spherical virus",
+"病毒",
+"pH"
 ],
 "cat": "01-cells-microbes",
 "subdir": "viruses-phages",
@@ -8330,7 +8438,9 @@
 "virus",
 "噬菌体",
 "virus bacteriophage",
-"细菌"
+"细菌",
+"病毒",
+"pH"
 ],
 "cat": "01-cells-microbes",
 "subdir": "viruses-phages",
@@ -8352,7 +8462,8 @@
 "包膜病毒",
 "virus envelope cut",
 "virus",
-"cut"
+"cut",
+"病毒"
 ],
 "cat": "01-cells-microbes",
 "subdir": "viruses-phages",
@@ -8395,7 +8506,8 @@
 "private",
 "泛基因组堆叠条",
 "pangenome core/dispensable/private",
-"stacked"
+"stacked",
+"基因组"
 ],
 "cat": "02-genetics-omics",
 "subdir": "comparative-pan",
@@ -8418,7 +8530,8 @@
 "asymptote",
 "核心基因组下降曲线",
 "core genome decay curve",
-"curve"
+"curve",
+"基因组"
 ],
 "cat": "02-genetics-omics",
 "subdir": "comparative-pan",
@@ -8529,7 +8642,8 @@
 "comparison",
 "基因组比对点阵",
 "genome alignment dotplot",
-"genome"
+"genome",
+"基因组"
 ],
 "cat": "02-genetics-omics",
 "subdir": "comparative-pan",
@@ -8617,7 +8731,8 @@
 "基因组减少梯度",
 "genome reduction gradient (endosymbiont)",
 "genome",
-"gradient"
+"gradient",
+"基因组"
 ],
 "cat": "02-genetics-omics",
 "subdir": "comparative-pan",
@@ -8638,7 +8753,8 @@
 "mge",
 "质粒含量比较",
 "plasmid content comparison",
-"comparison"
+"comparison",
+"质粒"
 ],
 "cat": "02-genetics-omics",
 "subdir": "comparative-pan",
@@ -8659,7 +8775,8 @@
 "network",
 "crispr spacer 共享网络",
 "crispr spacer sharing network",
-"sharing"
+"sharing",
+"网络"
 ],
 "cat": "02-genetics-omics",
 "subdir": "comparative-pan",
@@ -8682,7 +8799,8 @@
 "gene duplication and loss",
 "gene",
 "and",
-"基因"
+"基因",
+"猫"
 ],
 "cat": "02-genetics-omics",
 "subdir": "comparative-pan",
@@ -8702,7 +8820,10 @@
 "phylogenomics",
 "pipeline",
 "系统发育基因组学流程",
-"phylogenomics workflow"
+"phylogenomics workflow",
+"pH",
+"基因组学",
+"流程"
 ],
 "cat": "02-genetics-omics",
 "subdir": "comparative-pan",
@@ -8725,7 +8846,8 @@
 "orthologous gene family tree",
 "orthologous",
 "gene",
-"family"
+"family",
+"树"
 ],
 "cat": "02-genetics-omics",
 "subdir": "comparative-pan",
@@ -8797,7 +8919,8 @@
 "phenotype-genotype association",
 "phenotype",
 "genotype",
-"assoc"
+"assoc",
+"pH"
 ],
 "cat": "02-genetics-omics",
 "subdir": "comparative-pan",
@@ -8844,7 +8967,8 @@
 "蛋白结构比较",
 "protein structure comparison (fold classification)",
 "comparison",
-"classification"
+"classification",
+"蛋白质"
 ],
 "cat": "02-genetics-omics",
 "subdir": "comparative-pan",
@@ -8915,7 +9039,8 @@
 "trna/rrna copy number comparison",
 "copy",
 "number",
-"comparison"
+"comparison",
+"RNA"
 ],
 "cat": "02-genetics-omics",
 "subdir": "comparative-pan",
@@ -8960,7 +9085,8 @@
 "metabolic",
 "代谢通路完备性比较",
 "metabolic pathway completeness comparison",
-"comparison"
+"comparison",
+"通路"
 ],
 "cat": "02-genetics-omics",
 "subdir": "comparative-pan",
@@ -9075,7 +9201,8 @@
 "bidirectional replication",
 "环状染色体",
 "circular",
-"chromosome"
+"chromosome",
+"染色体"
 ],
 "cat": "02-genetics-omics",
 "subdir": "genes-mge",
@@ -9096,7 +9223,9 @@
 "hairpin",
 "线性染色体",
 "linear",
-"chromosome"
+"chromosome",
+"耳",
+"染色体"
 ],
 "cat": "02-genetics-omics",
 "subdir": "genes-mge",
@@ -9121,7 +9250,8 @@
 "宏基因组组装",
 "metagenome assembly (contig/scaffold/bin)",
 "assembly",
-"bins"
+"bins",
+"基因组"
 ],
 "cat": "02-genetics-omics",
 "subdir": "genes-mge",
@@ -9161,7 +9291,8 @@
 "f plasmid",
 "质粒接合转移",
 "plasmid conjugation",
-"plasmid"
+"plasmid",
+"质粒"
 ],
 "cat": "02-genetics-omics",
 "subdir": "genes-mge",
@@ -9322,7 +9453,9 @@
 "integration",
 "excision",
 "前噬菌体",
-"prophage integration"
+"prophage integration",
+"噬菌体",
+"pH"
 ],
 "cat": "02-genetics-omics",
 "subdir": "genes-mge",
@@ -9530,7 +9663,8 @@
 "crispr三阶段",
 "crispr three stages",
 "three",
-"stages"
+"stages",
+"阶段"
 ],
 "cat": "02-genetics-omics",
 "subdir": "genes-mge",
@@ -9623,7 +9757,8 @@
 "two-component system",
 "two",
 "component",
-"system"
+"system",
+"干细胞"
 ],
 "cat": "02-genetics-omics",
 "subdir": "genes-mge",
@@ -9668,7 +9803,8 @@
 "hfq",
 "regulation",
 "小rna调控",
-"srna regulation"
+"srna regulation",
+"RNA"
 ],
 "cat": "02-genetics-omics",
 "subdir": "genes-mge",
@@ -9714,7 +9850,8 @@
 "restriction-modification system",
 "restriction",
 "modification",
-"system"
+"system",
+"猫"
 ],
 "cat": "02-genetics-omics",
 "subdir": "genes-mge",
@@ -9810,7 +9947,8 @@
 "synonymous",
 "突变类型",
 "mutation types",
-"types"
+"types",
+"突变"
 ],
 "cat": "02-genetics-omics",
 "subdir": "genes-mge",
@@ -9835,7 +9973,8 @@
 "replication fork and okazaki fragments",
 "replication",
 "fork",
-"and"
+"and",
+"猫"
 ],
 "cat": "02-genetics-omics",
 "subdir": "genes-mge",
@@ -9879,7 +10018,8 @@
 "oric",
 "theta复制",
 "theta",
-"replication"
+"replication",
+"猫"
 ],
 "cat": "02-genetics-omics",
 "subdir": "genes-mge",
@@ -9927,7 +10067,8 @@
 "rrna操纵子",
 "rrna operon (16s-23s-5s)",
 "rrna",
-"operon"
+"operon",
+"RNA"
 ],
 "cat": "02-genetics-omics",
 "subdir": "genes-mge",
@@ -9993,7 +10134,8 @@
 "frameshift",
 "premature stop",
 "假基因",
-"基因"
+"基因",
+"狗"
 ],
 "cat": "02-genetics-omics",
 "subdir": "genes-mge",
@@ -10129,7 +10271,8 @@
 "plasmid incompatibility groups",
 "plasmid",
 "incompatibility",
-"groups"
+"groups",
+"质粒"
 ],
 "cat": "02-genetics-omics",
 "subdir": "genes-mge",
@@ -10152,7 +10295,9 @@
 "plasmid",
 "chromosome",
 "ratio",
-"大鼠"
+"大鼠",
+"染色体",
+"质粒"
 ],
 "cat": "02-genetics-omics",
 "subdir": "genes-mge",
@@ -10290,7 +10435,8 @@
 "mrna stability (no 5' cap)",
 "mrna",
 "stability",
-"cap"
+"cap",
+"RNA"
 ],
 "cat": "02-genetics-omics",
 "subdir": "genes-mge",
@@ -10409,7 +10555,8 @@
 "光复活修复",
 "dna photolyase",
 "dna",
-"DNA"
+"DNA",
+"pH"
 ],
 "cat": "02-genetics-omics",
 "subdir": "genes-mge",
@@ -10434,7 +10581,8 @@
 "nucleotide excision repair (uvrabc)",
 "nucleotide",
 "excision",
-"repair"
+"repair",
+"核苷酸"
 ],
 "cat": "02-genetics-omics",
 "subdir": "genes-mge",
@@ -10479,7 +10627,8 @@
 "helicase",
 "复制叉",
 "dna replication fork",
-"DNA"
+"DNA",
+"猫"
 ],
 "cat": "02-genetics-omics",
 "subdir": "mol-structures",
@@ -10501,7 +10650,8 @@
 "transcription",
 "单链rna",
 "rna single strand",
-"single"
+"single",
+"RNA"
 ],
 "cat": "02-genetics-omics",
 "subdir": "mol-structures",
@@ -10545,7 +10695,8 @@
 "vector",
 "质粒环",
 "plasmid circle",
-"circle"
+"circle",
+"质粒"
 ],
 "cat": "02-genetics-omics",
 "subdir": "mol-structures",
@@ -10587,7 +10738,8 @@
 "homologous",
 "pair",
 "染色体对",
-"chromosome pair"
+"chromosome pair",
+"染色体"
 ],
 "cat": "02-genetics-omics",
 "subdir": "mol-structures",
@@ -10629,7 +10781,10 @@
 "amphipathic",
 "磷脂分子",
 "phospholipid head tails",
-"tails"
+"tails",
+"头",
+"脂质",
+"pH"
 ],
 "cat": "02-genetics-omics",
 "subdir": "mol-structures",
@@ -10650,7 +10805,8 @@
 "phospholipid",
 "脂双层",
 "lipid",
-"bilayer"
+"bilayer",
+"脂质"
 ],
 "cat": "02-genetics-omics",
 "subdir": "mol-structures",
@@ -10672,7 +10828,8 @@
 "胶束",
 "lipid micelle",
 "小鼠",
-"细胞"
+"细胞",
+"脂质"
 ],
 "cat": "02-genetics-omics",
 "subdir": "mol-structures",
@@ -10694,7 +10851,9 @@
 "跨膜通道蛋白",
 "membrane channel protein",
 "channel",
-"protein"
+"protein",
+"蛋白质",
+"膜"
 ],
 "cat": "02-genetics-omics",
 "subdir": "mol-structures",
@@ -10716,7 +10875,9 @@
 "受体与配体",
 "membrane protein receptor",
 "membrane",
-"protein"
+"protein",
+"蛋白质",
+"膜"
 ],
 "cat": "02-genetics-omics",
 "subdir": "mol-structures",
@@ -10763,7 +10924,9 @@
 "amino",
 "acid",
 "general",
-"基因"
+"基因",
+"氨基酸",
+"酸"
 ],
 "cat": "02-genetics-omics",
 "subdir": "mol-structures",
@@ -10785,7 +10948,8 @@
 "肽键",
 "peptide bond dipeptide",
 "peptide",
-"bond"
+"bond",
+"多肽"
 ],
 "cat": "02-genetics-omics",
 "subdir": "mol-structures",
@@ -10808,7 +10972,8 @@
 "protein primary chain",
 "protein",
 "primary",
-"chain"
+"chain",
+"蛋白质"
 ],
 "cat": "02-genetics-omics",
 "subdir": "mol-structures",
@@ -10831,7 +10996,9 @@
 "protein alpha helix",
 "protein",
 "alpha",
-"helix"
+"helix",
+"蛋白质",
+"pH"
 ],
 "cat": "02-genetics-omics",
 "subdir": "mol-structures",
@@ -10854,7 +11021,8 @@
 "protein beta sheet",
 "protein",
 "beta",
-"sheet"
+"sheet",
+"蛋白质"
 ],
 "cat": "02-genetics-omics",
 "subdir": "mol-structures",
@@ -10877,7 +11045,8 @@
 "protein tertiary blob",
 "protein",
 "tertiary",
-"blob"
+"blob",
+"蛋白质"
 ],
 "cat": "02-genetics-omics",
 "subdir": "mol-structures",
@@ -10897,7 +11066,9 @@
 "immunoglobulin",
 "y-shape",
 "抗体y形",
-"antibody y"
+"antibody y",
+"人体",
+"抗体"
 ],
 "cat": "02-genetics-omics",
 "subdir": "mol-structures",
@@ -10918,7 +11089,8 @@
 "epitope",
 "binding",
 "抗原抗体结合",
-"antigen epitope binding"
+"antigen epitope binding",
+"抗原"
 ],
 "cat": "02-genetics-omics",
 "subdir": "mol-structures",
@@ -10940,7 +11112,8 @@
 "锁钥模型",
 "enzyme substrate lock",
 "lock",
-"大鼠"
+"大鼠",
+"酶"
 ],
 "cat": "02-genetics-omics",
 "subdir": "mol-structures",
@@ -10962,7 +11135,8 @@
 "诱导契合",
 "enzyme induced fit",
 "induced",
-"fit"
+"fit",
+"酶"
 ],
 "cat": "02-genetics-omics",
 "subdir": "mol-structures",
@@ -11003,7 +11177,8 @@
 "ring structure",
 "六元糖环",
 "hexose ring glucose",
-"ring"
+"ring",
+"葡萄糖"
 ],
 "cat": "02-genetics-omics",
 "subdir": "mol-structures",
@@ -11023,7 +11198,8 @@
 "lipid",
 "energy storage",
 "甘油三酯",
-"lipid triglyceride"
+"lipid triglyceride",
+"脂质"
 ],
 "cat": "02-genetics-omics",
 "subdir": "mol-structures",
@@ -11047,7 +11223,8 @@
 "微生物组分析流程",
 "microbiome",
 "workflow",
-"微生物组"
+"微生物组",
+"流程"
 ],
 "cat": "02-genetics-omics",
 "subdir": "molecular-ecology",
@@ -11072,7 +11249,8 @@
 "significance",
 "index",
 "simpson",
-"alpha多样性指数"
+"alpha多样性指数",
+"pH"
 ],
 "cat": "02-genetics-omics",
 "subdir": "molecular-ecology",
@@ -11244,7 +11422,8 @@
 "permutation",
 "permanova结果",
 "permanova results",
-"results"
+"results",
+"男性"
 ],
 "cat": "02-genetics-omics",
 "subdir": "molecular-ecology",
@@ -11362,7 +11541,8 @@
 "degree",
 "correlation",
 "sparcc相关网络",
-"sparcc"
+"sparcc",
+"网络"
 ],
 "cat": "02-genetics-omics",
 "subdir": "molecular-ecology",
@@ -11462,7 +11642,8 @@
 "宏基因组分箱",
 "metagenome binning",
 "binning",
-"scatter"
+"scatter",
+"猫"
 ],
 "cat": "02-genetics-omics",
 "subdir": "molecular-ecology",
@@ -11487,7 +11668,8 @@
 "组装图",
 "assembly",
 "graph",
-"图"
+"图",
+"pH"
 ],
 "cat": "02-genetics-omics",
 "subdir": "molecular-ecology",
@@ -11587,7 +11769,8 @@
 "hybridization",
 "cell",
 "sorted",
-"fish-facs分选"
+"fish-facs分选",
+"鱼"
 ],
 "cat": "02-genetics-omics",
 "subdir": "molecular-ecology",
@@ -11685,7 +11868,8 @@
 "class",
 "abundance",
 "抗性基因目录",
-"arg"
+"arg",
+"猫"
 ],
 "cat": "02-genetics-omics",
 "subdir": "molecular-ecology",
@@ -11786,7 +11970,8 @@
 "reference database alignment",
 "reference",
 "database",
-"alignment"
+"alignment",
+"比对"
 ],
 "cat": "02-genetics-omics",
 "subdir": "omics-charts",
@@ -11811,7 +11996,8 @@
 "novel taxon phylogenetic placement",
 "novel",
 "taxon",
-"phylogenetic"
+"phylogenetic",
+"pH"
 ],
 "cat": "02-genetics-omics",
 "subdir": "omics-charts",
@@ -11838,7 +12024,8 @@
 "gene",
 "flow",
 "大鼠",
-"基因"
+"基因",
+"流程"
 ],
 "cat": "02-genetics-omics",
 "subdir": "population-genomics",
@@ -11925,7 +12112,8 @@
 "pca scatter with 95% ellipses",
 "scatter",
 "with",
-"ellipses"
+"ellipses",
+"猫"
 ],
 "cat": "02-genetics-omics",
 "subdir": "population-genomics",
@@ -11968,7 +12156,9 @@
 "recovery",
 "有效群体大小瓶颈与恢复",
 "ne bottleneck and recovery",
-"and"
+"and",
+"颈",
+"瓶"
 ],
 "cat": "02-genetics-omics",
 "subdir": "population-genomics",
@@ -12131,7 +12321,9 @@
 "root-to-tip regression with ci",
 "root",
 "tip",
-"with"
+"with",
+"根",
+"回归"
 ],
 "cat": "02-genetics-omics",
 "subdir": "population-genomics",
@@ -12243,7 +12435,8 @@
 "genome size vs gc content",
 "genome",
 "size",
-"content"
+"content",
+"基因组"
 ],
 "cat": "02-genetics-omics",
 "subdir": "population-genomics",
@@ -12267,7 +12460,8 @@
 "species",
 "tree",
 "gene",
-"基因"
+"基因",
+"树"
 ],
 "cat": "02-genetics-omics",
 "subdir": "population-genomics",
@@ -12313,7 +12507,8 @@
 "mlst 序列型网络",
 "mlst sequence type network",
 "sequence",
-"type"
+"type",
+"网络"
 ],
 "cat": "02-genetics-omics",
 "subdir": "population-genomics",
@@ -12420,7 +12615,8 @@
 "genome quality completeness vs contamination",
 "genome",
 "genomic",
-"stars"
+"stars",
+"质量"
 ],
 "cat": "02-genetics-omics",
 "subdir": "population-genomics",
@@ -12468,7 +12664,8 @@
 "clonal complex cc clustering",
 "clonal",
 "complex",
-"clustering"
+"clustering",
+"聚类"
 ],
 "cat": "02-genetics-omics",
 "subdir": "population-genomics",
@@ -12513,7 +12710,8 @@
 "dna sequence alignment",
 "dna",
 "sequence",
-"DNA"
+"DNA",
+"比对"
 ],
 "cat": "02-genetics-omics",
 "subdir": "sequence-graphics",
@@ -12536,7 +12734,8 @@
 "blosum62",
 "蛋白比对 blosum 5 级着色",
 "protein blosum 5-level coloring",
-"level"
+"level",
+"蛋白质"
 ],
 "cat": "02-genetics-omics",
 "subdir": "sequence-graphics",
@@ -12624,7 +12823,9 @@
 "phred 质量条",
 "phred quality score bar",
 "score",
-"bar"
+"bar",
+"pH",
+"质量"
 ],
 "cat": "02-genetics-omics",
 "subdir": "sequence-graphics",
@@ -12971,7 +13172,9 @@
 "trna 三叶草二级结构",
 "trna cloverleaf secondary structure",
 "secondary",
-"structure"
+"structure",
+"RNA",
+"叶"
 ],
 "cat": "02-genetics-omics",
 "subdir": "sequence-graphics",
@@ -12995,7 +13198,8 @@
 "rrna secondary structure domains",
 "secondary",
 "structure",
-"domains"
+"domains",
+"RNA"
 ],
 "cat": "02-genetics-omics",
 "subdir": "sequence-graphics",
@@ -13019,7 +13223,8 @@
 "stem-loop, internal loop & pseudoknot",
 "stem",
 "loop",
-"internal"
+"internal",
+"干细胞"
 ],
 "cat": "02-genetics-omics",
 "subdir": "sequence-graphics",
@@ -13066,7 +13271,8 @@
 "polymerase",
 "复制叉",
 "replication",
-"fork"
+"fork",
+"猫"
 ],
 "cat": "02-genetics-omics",
 "subdir": "sequence-graphics",
@@ -13088,7 +13294,8 @@
 "oric",
 "theta 复制",
 "theta",
-"replication"
+"replication",
+"猫"
 ],
 "cat": "02-genetics-omics",
 "subdir": "sequence-graphics",
@@ -13161,7 +13368,8 @@
 "holliday",
 "junction",
 "two",
-"states"
+"states",
+"天"
 ],
 "cat": "02-genetics-omics",
 "subdir": "sequence-graphics",
@@ -13328,7 +13536,8 @@
 "extracellular",
 "跨膜螺旋柱状图",
 "transmembrane helix topology",
-"helix"
+"helix",
+"膜"
 ],
 "cat": "02-genetics-omics",
 "subdir": "sequence-graphics",
@@ -13352,7 +13561,8 @@
 "signal peptide cleavage site",
 "signal",
 "peptide",
-"site"
+"site",
+"多肽"
 ],
 "cat": "02-genetics-omics",
 "subdir": "sequence-graphics",
@@ -13399,7 +13609,8 @@
 "泛基因组二进制矩阵骨架",
 "pangenome binary matrix",
 "binary",
-"matrix"
+"matrix",
+"基因组"
 ],
 "cat": "02-genetics-omics",
 "subdir": "sequence-graphics",
@@ -13423,7 +13634,8 @@
 "reference",
 "read 比对堆叠",
 "read alignment (bam stack)",
-"stack"
+"stack",
+"比对"
 ],
 "cat": "02-genetics-omics",
 "subdir": "sequence-graphics",
@@ -13468,7 +13680,8 @@
 "missense",
 "lollipop 突变注释图",
 "lollipop mutation plot",
-"plot"
+"plot",
+"突变"
 ],
 "cat": "02-genetics-omics",
 "subdir": "sequence-graphics",
@@ -13491,7 +13704,8 @@
 "ring",
 "宏基因组同心环分类图",
 "metagenome krona-style concentric ring",
-"style"
+"style",
+"基因组"
 ],
 "cat": "02-genetics-omics",
 "subdir": "sequence-graphics",
@@ -13538,7 +13752,8 @@
 "引物对结合示意",
 "primer pair binding",
 "pair",
-"binding"
+"binding",
+"引物"
 ],
 "cat": "02-genetics-omics",
 "subdir": "sequence-graphics",
@@ -13613,7 +13828,8 @@
 "de bruijn 拼接图",
 "de bruijn graph assembly",
 "bruijn",
-"图"
+"图",
+"pH"
 ],
 "cat": "02-genetics-omics",
 "subdir": "sequence-graphics",
@@ -13662,7 +13878,8 @@
 "注释轨道",
 "annotation track (functional categories)",
 "track",
-"functional"
+"functional",
+"注释"
 ],
 "cat": "02-genetics-omics",
 "subdir": "sequence-graphics",
@@ -13708,7 +13925,8 @@
 "genome position",
 "strip",
 "snp 目录位点条",
-"snp catalog strip"
+"snp catalog strip",
+"猫"
 ],
 "cat": "02-genetics-omics",
 "subdir": "sequence-graphics",
@@ -13733,7 +13951,8 @@
 "rna-seq 基因表达定量条",
 "rna-seq gene expression bars",
 "rna",
-"seq"
+"seq",
+"RNA"
 ],
 "cat": "02-genetics-omics",
 "subdir": "sequence-graphics",
@@ -13866,7 +14085,8 @@
 "无氧呼吸(锰(iv))",
 "anaerobic respiration (mn(iv))",
 "anaerobic",
-"respiration"
+"respiration",
+"男性"
 ],
 "cat": "03-metabolism-phenotype",
 "subdir": "metabolism",
@@ -13930,7 +14150,8 @@
 "无氧呼吸(碳酸盐)",
 "anaerobic respiration (carbonate)",
 "anaerobic",
-"respiration"
+"respiration",
+"碳"
 ],
 "cat": "03-metabolism-phenotype",
 "subdir": "metabolism",
@@ -14016,7 +14237,8 @@
 "混合酸 fermentation",
 "ferm",
 "mixed",
-"acid"
+"acid",
+"酸"
 ],
 "cat": "03-metabolism-phenotype",
 "subdir": "metabolism",
@@ -14038,7 +14260,8 @@
 "丁酸 fermentation",
 "ferm",
 "butyrate",
-"大鼠"
+"大鼠",
+"丁酸"
 ],
 "cat": "03-metabolism-phenotype",
 "subdir": "metabolism",
@@ -14059,7 +14282,8 @@
 "丙酸发酵",
 "丙酸 fermentation",
 "ferm",
-"propionate"
+"propionate",
+"丙酸"
 ],
 "cat": "03-metabolism-phenotype",
 "subdir": "metabolism",
@@ -14127,7 +14351,9 @@
 "oxygenic photosynthesis",
 "oxygenic",
 "photosynthesis",
-"photosynth"
+"photosynth",
+"pH",
+"氧"
 ],
 "cat": "03-metabolism-phenotype",
 "subdir": "metabolism",
@@ -14150,7 +14376,9 @@
 "anoxygenic photosynthesis",
 "anoxygenic",
 "photosynthesis",
-"photosynth"
+"photosynth",
+"pH",
+"氧"
 ],
 "cat": "03-metabolism-phenotype",
 "subdir": "metabolism",
@@ -14174,7 +14402,8 @@
 "green",
 "sulfur",
 "photosynthesis",
-"photo"
+"photo",
+"pH"
 ],
 "cat": "03-metabolism-phenotype",
 "subdir": "metabolism",
@@ -14195,7 +14424,8 @@
 "pc",
 "apc",
 "antenna",
-"藻胆体"
+"藻胆体",
+"pH"
 ],
 "cat": "03-metabolism-phenotype",
 "subdir": "metabolism",
@@ -14217,7 +14447,8 @@
 "800-900nm",
 "细菌叶绿素",
 "bacteriochlorophyll",
-"细菌"
+"细菌",
+"pH"
 ],
 "cat": "03-metabolism-phenotype",
 "subdir": "metabolism",
@@ -14258,7 +14489,8 @@
 "hao",
 "nxr",
 "nitrification",
-"硝化作用"
+"硝化作用",
+"猫"
 ],
 "cat": "03-metabolism-phenotype",
 "subdir": "metabolism",
@@ -14343,7 +14575,8 @@
 "mnxg",
 "锰氧化",
 "manganese",
-"oxidation"
+"oxidation",
+"男性"
 ],
 "cat": "03-metabolism-phenotype",
 "subdir": "metabolism",
@@ -14439,7 +14672,8 @@
 "wood",
 "ljungdahl",
 "pathway",
-"acetyl"
+"acetyl",
+"通路"
 ],
 "cat": "03-metabolism-phenotype",
 "subdir": "metabolism",
@@ -14461,7 +14695,8 @@
 "产甲烷(氢营养)",
 "methanogenesis (hydrogenotrophic)",
 "hydrogenotrophic",
-"methano"
+"methano",
+"pH"
 ],
 "cat": "03-metabolism-phenotype",
 "subdir": "metabolism",
@@ -14505,7 +14740,8 @@
 "产甲烷(甲基营养)",
 "methanogenesis (甲基营养)",
 "methano",
-"methylotrophic"
+"methylotrophic",
+"pH"
 ],
 "cat": "03-metabolism-phenotype",
 "subdir": "metabolism",
@@ -14570,7 +14806,8 @@
 "nor",
 "nos",
 "n2o",
-"反硝化"
+"反硝化",
+"猫"
 ],
 "cat": "03-metabolism-phenotype",
 "subdir": "metabolism",
@@ -14710,7 +14947,8 @@
 "互营营养",
 "syntrophy (interspecies transfer)",
 "interspecies",
-"transfer"
+"transfer",
+"pH"
 ],
 "cat": "03-metabolism-phenotype",
 "subdir": "metabolism",
@@ -14734,7 +14972,8 @@
 "iron",
 "铁载体摄取",
 "siderophore uptake",
-"uptake"
+"uptake",
+"pH"
 ],
 "cat": "03-metabolism-phenotype",
 "subdir": "metabolism",
@@ -14780,7 +15019,8 @@
 "sugar uptake",
 "pts糖摄取",
 "pts (phosphotransferase system)",
-"system"
+"system",
+"干细胞"
 ],
 "cat": "03-metabolism-phenotype",
 "subdir": "metabolism",
@@ -14869,7 +15109,8 @@
 "phb颗粒",
 "phb granule (poly-β-hydroxybutyrate)",
 "poly",
-"hydroxybutyrate"
+"hydroxybutyrate",
+"pH"
 ],
 "cat": "03-metabolism-phenotype",
 "subdir": "metabolism",
@@ -14914,7 +15155,8 @@
 "membrane modification",
 "耐酸适应",
 "acid",
-"resistance"
+"resistance",
+"酸"
 ],
 "cat": "03-metabolism-phenotype",
 "subdir": "metabolism",
@@ -14936,7 +15178,8 @@
 "ph homeostasis",
 "耐碱适应",
 "alkaliphile adaptation",
-"adaptation"
+"adaptation",
+"pH"
 ],
 "cat": "03-metabolism-phenotype",
 "subdir": "metabolism",
@@ -14960,7 +15203,8 @@
 "耐盐适应",
 "halophile (compatible solutes)",
 "compatible",
-"solutes"
+"solutes",
+"pH"
 ],
 "cat": "03-metabolism-phenotype",
 "subdir": "metabolism",
@@ -14985,7 +15229,8 @@
 "thermophile (heat shock proteins)",
 "heat",
 "shock",
-"proteins"
+"proteins",
+"pH"
 ],
 "cat": "03-metabolism-phenotype",
 "subdir": "metabolism",
@@ -15008,7 +15253,8 @@
 "冷适应",
 "psychrophile (cold adaptation)",
 "cold",
-"adaptation"
+"adaptation",
+"pH"
 ],
 "cat": "03-metabolism-phenotype",
 "subdir": "metabolism",
@@ -15055,7 +15301,8 @@
 "polyp",
 "聚磷酸盐颗粒",
 "polyphosphate (metachromatic) granules",
-"granules"
+"granules",
+"pH"
 ],
 "cat": "03-metabolism-phenotype",
 "subdir": "metabolism",
@@ -15078,7 +15325,8 @@
 "3-hydroxypropionate pathway",
 "hydroxypropionate",
 "pathway",
-"3hp"
+"3hp",
+"通路"
 ],
 "cat": "03-metabolism-phenotype",
 "subdir": "metabolism",
@@ -15243,7 +15491,8 @@
 "stomata",
 "叶片蒸腾",
 "leaf transpiration",
-"大鼠"
+"大鼠",
+"叶"
 ],
 "cat": "03-metabolism-phenotype",
 "subdir": "metabolism",
@@ -15263,7 +15512,8 @@
 "thylakoid",
 "photosynthesis",
 "类囊体放大",
-"photosynthesis grana"
+"photosynthesis grana",
+"pH"
 ],
 "cat": "03-metabolism-phenotype",
 "subdir": "metabolism",
@@ -15388,7 +15638,8 @@
 "抗酸染色：分枝菌",
 "acid fast staining",
 "acid",
-"fast"
+"fast",
+"酸"
 ],
 "cat": "03-metabolism-phenotype",
 "subdir": "phenotype",
@@ -15463,7 +15714,8 @@
 "鞭毛染色银染",
 "flagella silver stain",
 "flagella",
-"silver"
+"silver",
+"凝胶"
 ],
 "cat": "03-metabolism-phenotype",
 "subdir": "phenotype",
@@ -15488,7 +15740,8 @@
 "相差显微视野",
 "phase contrast microscopy",
 "phase",
-"contrast"
+"contrast",
+"pH"
 ],
 "cat": "03-metabolism-phenotype",
 "subdir": "phenotype",
@@ -15615,7 +15868,8 @@
 "convex circular colony",
 "convex",
 "circular",
-"结肠"
+"结肠",
+"菌落"
 ],
 "cat": "03-metabolism-phenotype",
 "subdir": "phenotype",
@@ -15641,7 +15895,8 @@
 "flat spreading colony",
 "flat",
 "spreading",
-"结肠"
+"结肠",
+"菌落"
 ],
 "cat": "03-metabolism-phenotype",
 "subdir": "phenotype",
@@ -15667,7 +15922,8 @@
 "filamentous colony",
 "filamentous",
 "colony",
-"结肠"
+"结肠",
+"菌落"
 ],
 "cat": "03-metabolism-phenotype",
 "subdir": "phenotype",
@@ -15693,7 +15949,8 @@
 "rhizoid colony",
 "rhizoid",
 "colony",
-"结肠"
+"结肠",
+"菌落"
 ],
 "cat": "03-metabolism-phenotype",
 "subdir": "phenotype",
@@ -15718,7 +15975,8 @@
 "erose colony",
 "erose",
 "colony",
-"结肠"
+"结肠",
+"菌落"
 ],
 "cat": "03-metabolism-phenotype",
 "subdir": "phenotype",
@@ -15744,7 +16002,8 @@
 "mucoid colony",
 "mucoid",
 "colony",
-"结肠"
+"结肠",
+"菌落"
 ],
 "cat": "03-metabolism-phenotype",
 "subdir": "phenotype",
@@ -15795,7 +16054,8 @@
 "α溶血绿晕",
 "alpha hemolysis",
 "alpha",
-"hemolysis"
+"hemolysis",
+"pH"
 ],
 "cat": "03-metabolism-phenotype",
 "subdir": "phenotype",
@@ -15994,7 +16254,8 @@
 "厌氧指示剂变色",
 "anaerobic indicator",
 "anaerobic",
-"indicator"
+"indicator",
+"猫"
 ],
 "cat": "03-metabolism-phenotype",
 "subdir": "phenotype",
@@ -16120,7 +16381,8 @@
 "触酶试验冒气泡",
 "catalase test",
 "catalase",
-"test"
+"test",
+"猫"
 ],
 "cat": "03-metabolism-phenotype",
 "subdir": "phenotype",
@@ -16169,7 +16431,8 @@
 "糖发酵产酸产气（durham管）",
 "acid / gas fermentation",
 "acid",
-"gas"
+"gas",
+"酸"
 ],
 "cat": "03-metabolism-phenotype",
 "subdir": "phenotype",
@@ -16305,7 +16568,8 @@
 "gene duplication",
 "重复突变",
 "duplication mutation",
-"mutation"
+"mutation",
+"猫"
 ],
 "cat": "04-phylogeny-evolution",
 "subdir": "evolution-process",
@@ -16347,7 +16611,8 @@
 "chromosome",
 "易位突变",
 "translocation mutation",
-"mutation"
+"mutation",
+"猫"
 ],
 "cat": "04-phylogeny-evolution",
 "subdir": "evolution-process",
@@ -16735,7 +17000,9 @@
 "allele loss",
 "瓶颈效应",
 "bottleneck effect",
-"effect"
+"effect",
+"颈",
+"瓶"
 ],
 "cat": "04-phylogeny-evolution",
 "subdir": "evolution-process",
@@ -16828,7 +17095,8 @@
 "gene",
 "fates",
 "脂肪",
-"基因"
+"基因",
+"猫"
 ],
 "cat": "04-phylogeny-evolution",
 "subdir": "evolution-process",
@@ -16899,7 +17167,8 @@
 "accessory",
 "gene content",
 "泛基因组 open vs closed",
-"pangenome open vs closed"
+"pangenome open vs closed",
+"基因组"
 ],
 "cat": "04-phylogeny-evolution",
 "subdir": "evolution-process",
@@ -16953,7 +17222,8 @@
 "tags": [
 "phylum",
 "rank",
-"门"
+"门",
+"pH"
 ],
 "cat": "04-phylogeny-evolution",
 "subdir": "nomenclature",
@@ -17367,7 +17637,8 @@
 "dpann",
 "候选门",
 "candidate",
-"phylum"
+"phylum",
+"pH"
 ],
 "cat": "04-phylogeny-evolution",
 "subdir": "nomenclature",
@@ -17447,7 +17718,8 @@
 "tags": [
 "polyphasic",
 "taxonomy",
-"多相分类"
+"多相分类",
+"pH"
 ],
 "cat": "04-phylogeny-evolution",
 "subdir": "nomenclature",
@@ -17592,7 +17864,8 @@
 "root",
 "ancestor",
 "luca根",
-"luca root"
+"luca root",
+"根"
 ],
 "cat": "04-phylogeny-evolution",
 "subdir": "nomenclature",
@@ -17629,7 +17902,8 @@
 "tags": [
 "monophyletic",
 "clade",
-"单系"
+"单系",
+"pH"
 ],
 "cat": "04-phylogeny-evolution",
 "subdir": "nomenclature",
@@ -17650,7 +17924,8 @@
 "common ancestor",
 "excluded descendant",
 "group",
-"并系"
+"并系",
+"pH"
 ],
 "cat": "04-phylogeny-evolution",
 "subdir": "nomenclature",
@@ -17668,7 +17943,8 @@
 "tags": [
 "polyphyletic",
 "convergent",
-"多系"
+"多系",
+"pH"
 ],
 "cat": "04-phylogeny-evolution",
 "subdir": "nomenclature",
@@ -18135,7 +18411,8 @@
 "rooted tree",
 "节点标记: 根节点",
 "node marker: root",
-"marker"
+"marker",
+"根"
 ],
 "cat": "04-phylogeny-evolution",
 "subdir": "tree-annotation",
@@ -18563,7 +18840,8 @@
 "diversification",
 "rate",
 "bars",
-"大鼠"
+"大鼠",
+"猫"
 ],
 "cat": "04-phylogeny-evolution",
 "subdir": "tree-annotation",
@@ -18638,7 +18916,8 @@
 "phylogenetic",
 "signal",
 "table",
-"phylo"
+"phylo",
+"pH"
 ],
 "cat": "04-phylogeny-evolution",
 "subdir": "tree-annotation",
@@ -18661,7 +18940,8 @@
 "ring",
 "树基座与树干",
 "tree base and trunk",
-"and"
+"and",
+"树"
 ],
 "cat": "04-phylogeny-evolution",
 "subdir": "tree-annotation",
@@ -18683,7 +18963,8 @@
 "association",
 "树+条形图面板",
 "tree+bar panel template",
-"template"
+"template",
+"树"
 ],
 "cat": "04-phylogeny-evolution",
 "subdir": "tree-annotation",
@@ -18706,7 +18987,8 @@
 "panel",
 "树+地图面板",
 "tree+map panel template",
-"template"
+"template",
+"树"
 ],
 "cat": "04-phylogeny-evolution",
 "subdir": "tree-annotation",
@@ -18729,7 +19011,9 @@
 "synteny",
 "树+基因组面板",
 "tree+genome panel template",
-"template"
+"template",
+"基因组",
+"树"
 ],
 "cat": "04-phylogeny-evolution",
 "subdir": "tree-annotation",
@@ -18753,7 +19037,9 @@
 "树+共现网络",
 "tree+network panel template",
 "panel",
-"template"
+"template",
+"树",
+"网络"
 ],
 "cat": "04-phylogeny-evolution",
 "subdir": "tree-annotation",
@@ -18778,7 +19064,8 @@
 "tree",
 "environment",
 "gradient",
-"env"
+"env",
+"树"
 ],
 "cat": "04-phylogeny-evolution",
 "subdir": "tree-annotation",
@@ -18802,7 +19089,9 @@
 "tree+temp/ph gradient",
 "tree",
 "temp",
-"gradient"
+"gradient",
+"树",
+"pH"
 ],
 "cat": "04-phylogeny-evolution",
 "subdir": "tree-annotation",
@@ -18825,7 +19114,8 @@
 "sequence",
 "tip标签对齐引导线",
 "tip alignment guides",
-"guides"
+"guides",
+"比对"
 ],
 "cat": "04-phylogeny-evolution",
 "subdir": "tree-annotation",
@@ -18873,7 +19163,8 @@
 "cladogram",
 "rectangular cladogram",
 "rectangular",
-"tree"
+"tree",
+"树"
 ],
 "cat": "04-phylogeny-evolution",
 "subdir": "tree-skeletons",
@@ -18896,7 +19187,8 @@
 "slanted",
 "slanted cladogram",
 "cladogram",
-"tree"
+"tree",
+"树"
 ],
 "cat": "04-phylogeny-evolution",
 "subdir": "tree-skeletons",
@@ -18919,7 +19211,8 @@
 "radial",
 "放射圆周树",
 "radial tree",
-"tree"
+"tree",
+"树"
 ],
 "cat": "04-phylogeny-evolution",
 "subdir": "tree-skeletons",
@@ -18942,7 +19235,8 @@
 "ultrametric",
 "时标对齐树",
 "ultrametric tree",
-"tree"
+"tree",
+"树"
 ],
 "cat": "04-phylogeny-evolution",
 "subdir": "tree-skeletons",
@@ -18965,7 +19259,8 @@
 "indented",
 "缩进式支序图",
 "indented cladogram",
-"cladogram"
+"cladogram",
+"狗"
 ],
 "cat": "04-phylogeny-evolution",
 "subdir": "tree-skeletons",
@@ -19223,7 +19518,8 @@
 "多序列比对矩阵",
 "msa matrix",
 "matrix",
-"alignment"
+"alignment",
+"比对"
 ],
 "cat": "04-phylogeny-evolution",
 "subdir": "tree-skeletons",
@@ -19297,7 +19593,8 @@
 "majority-rule consensus tree",
 "majority",
 "rule",
-"consensus"
+"consensus",
+"树"
 ],
 "cat": "04-phylogeny-evolution",
 "subdir": "tree-skeletons",
@@ -19370,7 +19667,8 @@
 "支长加宽",
 "mcc 树与节点后验",
 "mcc tree",
-"tree"
+"tree",
+"树"
 ],
 "cat": "04-phylogeny-evolution",
 "subdir": "tree-skeletons",
@@ -19395,7 +19693,8 @@
 "16s rrna gene copies",
 "16s",
 "rrna",
-"gene"
+"gene",
+"RNA"
 ],
 "cat": "04-phylogeny-evolution",
 "subdir": "tree-skeletons",
@@ -19516,7 +19815,8 @@
 "genome size vs coding density",
 "genome",
 "size",
-"coding"
+"coding",
+"基因组"
 ],
 "cat": "04-phylogeny-evolution",
 "subdir": "tree-skeletons",
@@ -19541,7 +19841,8 @@
 "circular",
 "genome",
 "map",
-"content"
+"content",
+"基因组"
 ],
 "cat": "04-phylogeny-evolution",
 "subdir": "tree-skeletons",
@@ -19567,7 +19868,8 @@
 "and",
 "phylogenetic",
 "signal",
-"基因"
+"基因",
+"pH"
 ],
 "cat": "04-phylogeny-evolution",
 "subdir": "tree-skeletons",
@@ -19592,7 +19894,8 @@
 "core and specific genes",
 "core",
 "and",
-"specific"
+"specific",
+"基因组"
 ],
 "cat": "04-phylogeny-evolution",
 "subdir": "tree-skeletons",
@@ -19642,7 +19945,8 @@
 "矩形枝杈树",
 "rectangular cladogram",
 "cladogram",
-"rect"
+"rect",
+"狗"
 ],
 "cat": "04-phylogeny-evolution",
 "subdir": "tree-skeletons",
@@ -19667,7 +19971,8 @@
 "矩形分支长度树",
 "rectangular phylogram",
 "phylogram",
-"rect"
+"rect",
+"pH"
 ],
 "cat": "04-phylogeny-evolution",
 "subdir": "tree-skeletons",
@@ -19692,7 +19997,8 @@
 "时间校准树",
 "time-calibrated tree",
 "time",
-"calibrated"
+"calibrated",
+"树"
 ],
 "cat": "04-phylogeny-evolution",
 "subdir": "tree-skeletons",
@@ -19716,7 +20022,8 @@
 "phylogenetics",
 "环形圆树",
 "circular",
-"tree"
+"tree",
+"树"
 ],
 "cat": "04-phylogeny-evolution",
 "subdir": "tree-skeletons",
@@ -19740,7 +20047,8 @@
 "phylogenetics",
 "扇形树",
 "fan",
-"tree"
+"tree",
+"树"
 ],
 "cat": "04-phylogeny-evolution",
 "subdir": "tree-skeletons",
@@ -19763,7 +20071,8 @@
 "phylogenetics",
 "对角斜生树",
 "diagonal",
-"tree"
+"tree",
+"树"
 ],
 "cat": "04-phylogeny-evolution",
 "subdir": "tree-skeletons",
@@ -19788,7 +20097,8 @@
 "box tree with bootstrap",
 "box",
 "tree",
-"with"
+"with",
+"树"
 ],
 "cat": "04-phylogeny-evolution",
 "subdir": "tree-skeletons",
@@ -19813,7 +20123,8 @@
 "中点根树",
 "midpoint-rooted tree",
 "midpoint",
-"rooted"
+"rooted",
+"根"
 ],
 "cat": "04-phylogeny-evolution",
 "subdir": "tree-skeletons",
@@ -19838,7 +20149,8 @@
 "non-overlapping",
 "无根星状树",
 "unrooted star tree",
-"unrooted"
+"unrooted",
+"根"
 ],
 "cat": "04-phylogeny-evolution",
 "subdir": "tree-skeletons",
@@ -19863,7 +20175,8 @@
 "bacteria",
 "archaea",
 "eukaryote",
-"skeleton template"
+"skeleton template",
+"树"
 ],
 "cat": "04-phylogeny-evolution",
 "subdir": "tree-skeletons",
@@ -19963,7 +20276,9 @@
 "gtdb简化门级树",
 "gtdb phylum-level tree",
 "gtdb",
-"phylum"
+"phylum",
+"树",
+"pH"
 ],
 "cat": "04-phylogeny-evolution",
 "subdir": "tree-skeletons",
@@ -19988,7 +20303,8 @@
 "ncbi 16s phylum tree",
 "ncbi",
 "16s",
-"tree"
+"tree",
+"树"
 ],
 "cat": "04-phylogeny-evolution",
 "subdir": "tree-skeletons",
@@ -20013,7 +20329,8 @@
 "16s vs 多基因标记拓扑比较",
 "16s vs mls tree",
 "16s",
-"tree"
+"tree",
+"树"
 ],
 "cat": "04-phylogeny-evolution",
 "subdir": "tree-skeletons",
@@ -20037,7 +20354,8 @@
 "skeleton template",
 "标记基因串联超级矩阵树",
 "concatenated supermatrix tree",
-"tree"
+"tree",
+"树"
 ],
 "cat": "04-phylogeny-evolution",
 "subdir": "tree-skeletons",
@@ -20062,7 +20380,8 @@
 "skeleton template",
 "phylogenetics",
 "ml树",
-"maximum likelihood tree"
+"maximum likelihood tree",
+"树"
 ],
 "cat": "04-phylogeny-evolution",
 "subdir": "tree-skeletons",
@@ -20087,7 +20406,8 @@
 "phylogenetics",
 "nj树",
 "neighbor-joining tree",
-"neighbor"
+"neighbor",
+"树"
 ],
 "cat": "04-phylogeny-evolution",
 "subdir": "tree-skeletons",
@@ -20112,7 +20432,8 @@
 "phylogenetics",
 "bayesian树",
 "bayesian inference tree",
-"bayesian"
+"bayesian",
+"树"
 ],
 "cat": "04-phylogeny-evolution",
 "subdir": "tree-skeletons",
@@ -20163,7 +20484,8 @@
 "phylogenetics",
 "物种形成事件树",
 "speciation event tree",
-"speciation"
+"speciation",
+"树"
 ],
 "cat": "04-phylogeny-evolution",
 "subdir": "tree-skeletons",
@@ -20186,7 +20508,10 @@
 "skeleton template",
 "系统基因组学树",
 "phylogenomics",
-"tree"
+"tree",
+"树",
+"pH",
+"基因组学"
 ],
 "cat": "04-phylogeny-evolution",
 "subdir": "tree-skeletons",
@@ -20307,7 +20632,8 @@
 "tip着色型树",
 "tip-colored tree",
 "tip",
-"colored"
+"colored",
+"树"
 ],
 "cat": "04-phylogeny-evolution",
 "subdir": "tree-skeletons",
@@ -20332,7 +20658,8 @@
 "tip标签框型树",
 "tip box tree",
 "tip",
-"box"
+"box",
+"树"
 ],
 "cat": "04-phylogeny-evolution",
 "subdir": "tree-skeletons",
@@ -20357,7 +20684,8 @@
 "blank-label tree",
 "blank",
 "label",
-"tree"
+"tree",
+"树"
 ],
 "cat": "04-phylogeny-evolution",
 "subdir": "tree-skeletons",
@@ -20382,7 +20710,8 @@
 "large tree (200 tips)",
 "large",
 "tree",
-"200"
+"200",
+"树"
 ],
 "cat": "04-phylogeny-evolution",
 "subdir": "tree-skeletons",
@@ -20408,7 +20737,8 @@
 "tree with outgroup",
 "tree",
 "with",
-"分组"
+"分组",
+"树"
 ],
 "cat": "04-phylogeny-evolution",
 "subdir": "tree-skeletons",
@@ -20433,7 +20763,8 @@
 "sampling",
 "time",
 "dist",
-"skeleton template"
+"skeleton template",
+"根"
 ],
 "cat": "04-phylogeny-evolution",
 "subdir": "tree-skeletons",
@@ -20458,7 +20789,8 @@
 "present",
 "skeleton template",
 "time calibration",
-"时间校准树+hpd区间"
+"时间校准树+hpd区间",
+"树"
 ],
 "cat": "04-phylogeny-evolution",
 "subdir": "tree-skeletons",
@@ -20607,7 +20939,8 @@
 "splits分裂图",
 "splits",
 "graph",
-"图"
+"图",
+"pH"
 ],
 "cat": "04-phylogeny-evolution",
 "subdir": "tree-skeletons",
@@ -20632,7 +20965,9 @@
 "系统发育网络(重组)",
 "phylogenetic network",
 "phylogenetic",
-"network"
+"network",
+"pH",
+"网络"
 ],
 "cat": "04-phylogeny-evolution",
 "subdir": "tree-skeletons",
@@ -20657,7 +20992,8 @@
 "siphoviridae",
 "podoviridae",
 "autographiviridae",
-"skeleton template"
+"skeleton template",
+"树"
 ],
 "cat": "04-phylogeny-evolution",
 "subdir": "tree-skeletons",
@@ -20707,7 +21043,8 @@
 "ani基因组种簇树",
 "ani genome species cluster tree",
 "ani",
-"genome"
+"genome",
+"树"
 ],
 "cat": "04-phylogeny-evolution",
 "subdir": "tree-skeletons",
@@ -20756,7 +21093,8 @@
 "树缩略图",
 "tree thumbnail",
 "tree",
-"thumbnail"
+"thumbnail",
+"树"
 ],
 "cat": "04-phylogeny-evolution",
 "subdir": "tree-skeletons",
@@ -20781,7 +21119,8 @@
 "root position comparison",
 "root",
 "position",
-"comparison"
+"comparison",
+"根"
 ],
 "cat": "04-phylogeny-evolution",
 "subdir": "tree-skeletons",
@@ -20806,7 +21145,9 @@
 "parasite",
 "skeleton template",
 "phylogenetics",
-"共树(宿主-寄生虫)"
+"共树(宿主-寄生虫)",
+"树",
+"pH"
 ],
 "cat": "04-phylogeny-evolution",
 "subdir": "tree-skeletons",
@@ -20903,7 +21244,9 @@
 "污水生物处理",
 "biological wastewater treatment",
 "biological",
-"wastewater"
+"wastewater",
+"水",
+"处理"
 ],
 "cat": "05-ecology-biotech",
 "subdir": "biotech-applications",
@@ -20929,7 +21272,8 @@
 "尾丝",
 "噬菌体侵染裂解周期",
 "bacteriophage lytic cycle",
-"细菌"
+"细菌",
+"pH"
 ],
 "cat": "05-ecology-biotech",
 "subdir": "biotech-applications",
@@ -21004,7 +21348,8 @@
 "重组疫苗抗原表达",
 "recombinant vaccine antigen expression",
 "recombinant",
-"vaccine"
+"vaccine",
+"疫苗"
 ],
 "cat": "05-ecology-biotech",
 "subdir": "biotech-applications",
@@ -21054,7 +21399,9 @@
 "定向进化",
 "噬菌体展示文库",
 "phage display library",
-"phage"
+"phage",
+"噬菌体",
+"pH"
 ],
 "cat": "05-ecology-biotech",
 "subdir": "biotech-applications",
@@ -21129,7 +21476,8 @@
 "acid mine drainage acidophiles",
 "acid",
 "mine",
-"drainage"
+"drainage",
+"酸"
 ],
 "cat": "05-ecology-biotech",
 "subdir": "habitats",
@@ -21227,7 +21575,8 @@
 "植物根际",
 "plant rhizosphere",
 "plant",
-"rhizosphere"
+"rhizosphere",
+"pH"
 ],
 "cat": "05-ecology-biotech",
 "subdir": "habitats",
@@ -21349,7 +21698,8 @@
 "coral–symbiodinium symbiosis",
 "coral",
 "symbiodinium",
-"symbiosis"
+"symbiosis",
+"口服"
 ],
 "cat": "05-ecology-biotech",
 "subdir": "habitats",
@@ -21468,7 +21818,8 @@
 "oral",
 "plaque",
 "口腔牙菌斑",
-"oral plaque"
+"oral plaque",
+"口服"
 ],
 "cat": "05-ecology-biotech",
 "subdir": "habitats",
@@ -21655,7 +22006,9 @@
 "coral",
 "mucus",
 "珊瑚黏液",
-"coral mucus"
+"coral mucus",
+"口服",
+"黏液"
 ],
 "cat": "05-ecology-biotech",
 "subdir": "habitats",
@@ -21741,7 +22094,8 @@
 "root",
 "pseudomonas",
 "hyphae",
-"根际"
+"根际",
+"pH"
 ],
 "cat": "05-ecology-biotech",
 "subdir": "habitats",
@@ -21762,7 +22116,8 @@
 "endophyte",
 "bacteria",
 "根内",
-"root endophyte"
+"root endophyte",
+"根"
 ],
 "cat": "05-ecology-biotech",
 "subdir": "habitats",
@@ -21782,7 +22137,8 @@
 "leaf",
 "methylobacterium",
 "yeast",
-"叶际"
+"叶际",
+"pH"
 ],
 "cat": "05-ecology-biotech",
 "subdir": "habitats",
@@ -21843,7 +22199,8 @@
 "rhizobium",
 "bacteroid",
 "根瘤",
-"root nodule"
+"root nodule",
+"根"
 ],
 "cat": "05-ecology-biotech",
 "subdir": "habitats",
@@ -21865,7 +22222,8 @@
 "heterotrophs",
 "pelagic",
 "low salinity",
-"淡水"
+"淡水",
+"水"
 ],
 "cat": "05-ecology-biotech",
 "subdir": "habitats",
@@ -22079,7 +22437,8 @@
 "fracture",
 "biofilm",
 "深层生物圈",
-"deep biosphere"
+"deep biosphere",
+"pH"
 ],
 "cat": "05-ecology-biotech",
 "subdir": "habitats",
@@ -22182,7 +22541,8 @@
 "iron",
 "酸性矿山",
 "acid mine drainage",
-"drainage"
+"drainage",
+"酸"
 ],
 "cat": "05-ecology-biotech",
 "subdir": "habitats",
@@ -22203,7 +22563,8 @@
 "sulfolobus",
 "hot",
 "超酸温泉",
-"acid hot spring"
+"acid hot spring",
+"酸"
 ],
 "cat": "05-ecology-biotech",
 "subdir": "habitats",
@@ -22327,7 +22688,8 @@
 "dark",
 "无光环境",
 "aphotic zone",
-"zone"
+"zone",
+"pH"
 ],
 "cat": "05-ecology-biotech",
 "subdir": "habitats",
@@ -22390,7 +22752,8 @@
 "packing",
 "flow",
 "生物膜反应器",
-"biofilm reactor"
+"biofilm reactor",
+"生物膜"
 ],
 "cat": "05-ecology-biotech",
 "subdir": "habitats",
@@ -22431,7 +22794,8 @@
 "permeate",
 "膜生物反应器",
 "membrane bioreactor",
-"bio"
+"bio",
+"膜"
 ],
 "cat": "05-ecology-biotech",
 "subdir": "habitats",
@@ -22452,7 +22816,8 @@
 "legionella",
 "amoeba",
 "工业冷却水",
-"cooling water"
+"cooling water",
+"水"
 ],
 "cat": "05-ecology-biotech",
 "subdir": "habitats",
@@ -22576,7 +22941,8 @@
 "snow",
 "chlamydomonas",
 "冰雪藻华",
-"snow algae"
+"snow algae",
+"藻类"
 ],
 "cat": "05-ecology-biotech",
 "subdir": "habitats",
@@ -22862,7 +23228,8 @@
 "syntrophy",
 "h2",
 "methanogenesis",
-"互营"
+"互营",
+"pH"
 ],
 "cat": "05-ecology-biotech",
 "subdir": "interactions",
@@ -22906,7 +23273,8 @@
 "dispersal",
 "被膜发育",
 "biofilm development",
-"development"
+"development",
+"生物膜"
 ],
 "cat": "05-ecology-biotech",
 "subdir": "interactions",
@@ -22927,7 +23295,8 @@
 "pgpr",
 "plant growth promotion",
 "exudate",
-"根际"
+"根际",
+"pH"
 ],
 "cat": "05-ecology-biotech",
 "subdir": "interactions",
@@ -23019,7 +23388,9 @@
 "effector",
 "immunity",
 "植物病原",
-"plant pathogen"
+"plant pathogen",
+"病原体",
+"植物"
 ],
 "cat": "05-ecology-biotech",
 "subdir": "interactions",
@@ -23041,7 +23412,9 @@
 "virulence",
 "人类病原",
 "human pathogen",
-"人"
+"人",
+"男性",
+"病原体"
 ],
 "cat": "05-ecology-biotech",
 "subdir": "interactions",
@@ -23064,7 +23437,9 @@
 "噬菌体军备竞赛",
 "phage-host arms race",
 "arms",
-"race"
+"race",
+"噬菌体",
+"pH"
 ],
 "cat": "05-ecology-biotech",
 "subdir": "interactions",
@@ -23324,7 +23699,8 @@
 "food",
 "chain",
 "linear",
-"食物"
+"食物",
+"耳"
 ],
 "cat": "05-ecology-biotech",
 "subdir": "interactions",
@@ -23371,7 +23747,8 @@
 "energy pyramid 4level",
 "energy",
 "pyramid",
-"4level"
+"4level",
+"能量"
 ],
 "cat": "05-ecology-biotech",
 "subdir": "interactions",
@@ -23393,7 +23770,8 @@
 "水循环",
 "water",
 "cycle",
-"循环"
+"循环",
+"水"
 ],
 "cat": "05-ecology-biotech",
 "subdir": "interactions",
@@ -23415,7 +23793,8 @@
 "碳循环",
 "carbon",
 "cycle",
-"循环"
+"循环",
+"碳"
 ],
 "cat": "05-ecology-biotech",
 "subdir": "interactions",
@@ -23462,7 +23841,8 @@
 "rock",
 "cycle",
 "3stage",
-"循环"
+"循环",
+"阶段"
 ],
 "cat": "05-ecology-biotech",
 "subdir": "interactions",
@@ -23484,7 +23864,8 @@
 "地层柱状",
 "strat column",
 "strat",
-"大鼠"
+"大鼠",
+"层析柱"
 ],
 "cat": "05-ecology-biotech",
 "subdir": "interactions",
@@ -23577,7 +23958,8 @@
 "prokka",
 "skeleton template",
 "宏基因组鸟枪法流程",
-"shotgun metagenomics pipeline"
+"shotgun metagenomics pipeline",
+"基因组学"
 ],
 "cat": "06-lab-methods",
 "subdir": "analysis-pipelines",
@@ -23629,7 +24011,8 @@
 "spades",
 "prokka",
 "skeleton template",
-"细胞"
+"细胞",
+"基因组学"
 ],
 "cat": "06-lab-methods",
 "subdir": "analysis-pipelines",
@@ -23679,7 +24062,8 @@
 "bootstrap",
 "skeleton template",
 "phylogenetics",
-"系统发育分析流程"
+"系统发育分析流程",
+"pH"
 ],
 "cat": "06-lab-methods",
 "subdir": "analysis-pipelines",
@@ -23729,7 +24113,8 @@
 "skeleton template",
 "heatmap",
 "泛基因组分析流程",
-"pangenome analysis pipeline"
+"pangenome analysis pipeline",
+"基因组"
 ],
 "cat": "06-lab-methods",
 "subdir": "analysis-pipelines",
@@ -23854,7 +24239,10 @@
 "metagenomic",
 "skeleton template",
 "噬菌体鉴定流程",
-"phage identification pipeline"
+"phage identification pipeline",
+"猫",
+"噬菌体",
+"pH"
 ],
 "cat": "06-lab-methods",
 "subdir": "analysis-pipelines",
@@ -23879,7 +24267,8 @@
 "mob-suite",
 "skeleton template",
 "质粒组装与分型流程",
-"plasmid assembly and typing"
+"plasmid assembly and typing",
+"质粒"
 ],
 "cat": "06-lab-methods",
 "subdir": "analysis-pipelines",
@@ -23904,7 +24293,8 @@
 "skeleton template",
 "移动元件注释流程",
 "mge annotation pipeline",
-"mge"
+"mge",
+"注释"
 ],
 "cat": "06-lab-methods",
 "subdir": "analysis-pipelines",
@@ -24004,7 +24394,8 @@
 "liquid",
 "skeleton template",
 "采样与保存流程",
-"sampling and preservation pipeline"
+"sampling and preservation pipeline",
+"取样"
 ],
 "cat": "06-lab-methods",
 "subdir": "analysis-pipelines",
@@ -24156,7 +24547,8 @@
 "igraph",
 "skeleton template",
 "网络推断与 keystone 分析",
-"network inference and keystone analysis"
+"network inference and keystone analysis",
+"网络"
 ],
 "cat": "06-lab-methods",
 "subdir": "analysis-pipelines",
@@ -24257,7 +24649,8 @@
 "fritz-purvis d",
 "phytools",
 "skeleton template",
-"大鼠"
+"大鼠",
+"pH"
 ],
 "cat": "06-lab-methods",
 "subdir": "analysis-pipelines",
@@ -24308,7 +24701,8 @@
 "busco",
 "draft",
 "hybrid",
-"skeleton template"
+"skeleton template",
+"基因组"
 ],
 "cat": "06-lab-methods",
 "subdir": "analysis-pipelines",
@@ -24491,7 +24885,8 @@
 "colony pick",
 "colony",
 "pick",
-"结肠"
+"结肠",
+"菌落"
 ],
 "cat": "06-lab-methods",
 "subdir": "culture-biochem",
@@ -24641,7 +25036,8 @@
 "gas pack",
 "o2",
 "co2",
-"微需氧培养"
+"微需氧培养",
+"pH"
 ],
 "cat": "06-lab-methods",
 "subdir": "culture-biochem",
@@ -24661,7 +25057,8 @@
 "cyanobacteria",
 "light",
 "photosynthesis",
-"光培养"
+"光培养",
+"pH"
 ],
 "cat": "06-lab-methods",
 "subdir": "culture-biochem",
@@ -24833,7 +25230,8 @@
 "acid-fast stain",
 "acid",
 "fast",
-"stain"
+"stain",
+"酸"
 ],
 "cat": "06-lab-methods",
 "subdir": "culture-biochem",
@@ -24878,7 +25276,8 @@
 "motility",
 "鞭毛染色",
 "flagella",
-"stain"
+"stain",
+"凝胶"
 ],
 "cat": "06-lab-methods",
 "subdir": "culture-biochem",
@@ -25092,7 +25491,8 @@
 "catalase",
 "h2o2",
 "bubbles",
-"触酶"
+"触酶",
+"猫"
 ],
 "cat": "06-lab-methods",
 "subdir": "culture-biochem",
@@ -25185,7 +25585,8 @@
 "polymerase chain reaction",
 "polymerase",
 "chain",
-"reaction"
+"reaction",
+"PCR"
 ],
 "cat": "06-lab-methods",
 "subdir": "culture-biochem",
@@ -25208,7 +25609,8 @@
 "real-time pcr",
 "real",
 "time",
-"pcr"
+"pcr",
+"PCR"
 ],
 "cat": "06-lab-methods",
 "subdir": "culture-biochem",
@@ -25230,7 +25632,8 @@
 "partitioning",
 "数字pcr",
 "digital",
-"pcr"
+"pcr",
+"PCR"
 ],
 "cat": "06-lab-methods",
 "subdir": "culture-biochem",
@@ -25277,7 +25680,10 @@
 "bp",
 "凝胶电泳",
 "gel",
-"electrophoresis"
+"electrophoresis",
+"凝胶",
+"电泳",
+"pH"
 ],
 "cat": "06-lab-methods",
 "subdir": "culture-biochem",
@@ -25325,7 +25731,8 @@
 "fish探针",
 "fluorescence in situ hybridization",
 "situ",
-"hybridization"
+"hybridization",
+"鱼"
 ],
 "cat": "06-lab-methods",
 "subdir": "culture-biochem",
@@ -25390,7 +25797,8 @@
 "spin column",
 "质粒小提",
 "plasmid miniprep",
-"plasmid"
+"plasmid",
+"质粒"
 ],
 "cat": "06-lab-methods",
 "subdir": "culture-biochem",
@@ -25508,7 +25916,8 @@
 "fluorescence",
 "流式细胞术",
 "flow",
-"cytometry"
+"cytometry",
+"流程"
 ],
 "cat": "06-lab-methods",
 "subdir": "culture-biochem",
@@ -25551,7 +25960,8 @@
 "超净台",
 "laminar",
 "flow",
-"hood"
+"hood",
+"流程"
 ],
 "cat": "06-lab-methods",
 "subdir": "culture-biochem",
@@ -25642,7 +26052,8 @@
 "uncultured",
 "宏基因组",
 "metagenomics shotgun",
-"shotgun"
+"shotgun",
+"基因组学"
 ],
 "cat": "06-lab-methods",
 "subdir": "culture-biochem",
@@ -25692,7 +26103,8 @@
 "enzyme-linked immunosorbent assay",
 "enzyme",
 "linked",
-"immunosorbent"
+"immunosorbent",
+"ELISA"
 ],
 "cat": "06-lab-methods",
 "subdir": "culture-biochem",
@@ -25715,7 +26127,8 @@
 "membrane",
 "band",
 "western",
-"blot"
+"blot",
+"蛋白印迹"
 ],
 "cat": "06-lab-methods",
 "subdir": "culture-biochem",
@@ -25789,7 +26202,8 @@
 "phase contrast microscopy phase ring",
 "phase",
 "contrast",
-"microscopy"
+"microscopy",
+"pH"
 ],
 "cat": "06-lab-methods",
 "subdir": "microscopy-detection",
@@ -26089,7 +26503,8 @@
 "fish fluorescence in situ hybridization",
 "fluorescence",
 "situ",
-"hybridization"
+"hybridization",
+"鱼"
 ],
 "cat": "06-lab-methods",
 "subdir": "microscopy-detection",
@@ -26114,7 +26529,8 @@
 "clsm生物被膜死活染色",
 "clsm biofilm live dead staining",
 "live",
-"dead"
+"dead",
+"生物膜"
 ],
 "cat": "06-lab-methods",
 "subdir": "microscopy-detection",
@@ -26189,7 +26605,8 @@
 "抗酸染色(分枝杆菌)",
 "acid-fast stain mycobacteria ziehl-neelsen",
 "acid",
-"fast"
+"fast",
+"酸"
 ],
 "cat": "06-lab-methods",
 "subdir": "microscopy-detection",
@@ -26214,7 +26631,8 @@
 "crystal violet biofilm microtiter assay",
 "crystal",
 "violet",
-"biofilm"
+"biofilm",
+"生物膜"
 ],
 "cat": "06-lab-methods",
 "subdir": "microscopy-detection",
@@ -26240,7 +26658,9 @@
 "菌落形态",
 "colony morphology types",
 "colony",
-"结肠"
+"结肠",
+"菌落",
+"pH"
 ],
 "cat": "06-lab-methods",
 "subdir": "microscopy-detection",
@@ -26290,7 +26710,8 @@
 "vp",
 "生化显色结果",
 "biochemical test color results",
-"biochemical"
+"biochemical",
+"化学"
 ],
 "cat": "06-lab-methods",
 "subdir": "microscopy-detection",
@@ -26365,7 +26786,8 @@
 "flagella stain mordant light microscopy",
 "flagella",
 "stain",
-"light"
+"light",
+"凝胶"
 ],
 "cat": "06-lab-methods",
 "subdir": "microscopy-detection",
@@ -26415,7 +26837,9 @@
 "negative stain phage tem uranyl acetate",
 "negative",
 "stain",
-"phage"
+"phage",
+"噬菌体",
+"pH"
 ],
 "cat": "06-lab-methods",
 "subdir": "microscopy-detection",
@@ -26441,7 +26865,9 @@
 "phage",
 "attached",
 "bacterial",
-"细胞"
+"细胞",
+"噬菌体",
+"pH"
 ],
 "cat": "06-lab-methods",
 "subdir": "microscopy-detection",
@@ -26466,7 +26892,8 @@
 "纳米孔测序",
 "nanopore sequencing dna through pore",
 "dna",
-"through"
+"through",
+"测序"
 ],
 "cat": "06-lab-methods",
 "subdir": "microscopy-detection",
@@ -26491,7 +26918,8 @@
 "流式细胞术散点图",
 "flow cytometry scatter plot quadrants",
 "flow",
-"cytometry"
+"cytometry",
+"流程"
 ],
 "cat": "06-lab-methods",
 "subdir": "microscopy-detection",
@@ -26615,7 +27043,8 @@
 "droplet digital pcr ddpcr chip",
 "droplet",
 "digital",
-"pcr"
+"pcr",
+"PCR"
 ],
 "cat": "06-lab-methods",
 "subdir": "microscopy-detection",
@@ -26640,7 +27069,9 @@
 "采样—提取—建库—测序流程",
 "sampling-to-sequencing workflow",
 "sampling",
-"sequencing"
+"sequencing",
+"取样",
+"流程"
 ],
 "cat": "06-lab-methods",
 "subdir": "omics-workflow",
@@ -26691,7 +27122,9 @@
 "pcr 指数扩增轮次",
 "pcr exponential amplification",
 "exponential",
-"amplification"
+"amplification",
+"猫",
+"PCR"
 ],
 "cat": "06-lab-methods",
 "subdir": "omics-workflow",
@@ -26738,7 +27171,8 @@
 "读段",
 "组装",
 "contig",
-"metagenomics"
+"metagenomics",
+"基因组学"
 ],
 "cat": "06-lab-methods",
 "subdir": "omics-workflow",
@@ -26807,7 +27241,8 @@
 "single",
 "cell",
 "genomics",
-"细胞"
+"细胞",
+"基因组学"
 ],
 "cat": "06-lab-methods",
 "subdir": "omics-workflow",
@@ -26858,7 +27293,8 @@
 "illumina flow cell bridge amplification",
 "illumina",
 "flow",
-"细胞"
+"细胞",
+"流程"
 ],
 "cat": "06-lab-methods",
 "subdir": "omics-workflow",
@@ -27301,7 +27737,8 @@
 "缓冲",
 "减压",
 "woulff_bottle",
-"bottle"
+"bottle",
+"瓶"
 ],
 "cat": "07-glassware-consumables",
 "subdir": "general-labware",
@@ -27320,7 +27757,8 @@
 "干燥器",
 "desiccator",
 "干燥",
-"防潮"
+"防潮",
+"猫"
 ],
 "cat": "07-glassware-consumables",
 "subdir": "general-labware",
@@ -27342,7 +27780,8 @@
 "浓缩",
 "evaporating_dish",
 "evaporating",
-"大鼠"
+"大鼠",
+"培养皿"
 ],
 "cat": "07-glassware-consumables",
 "subdir": "general-labware",
@@ -27426,7 +27865,9 @@
 "避光",
 "棕色试剂瓶",
 "reagent_bottle",
-"reagent"
+"reagent",
+"瓶",
+"试剂"
 ],
 "cat": "07-glassware-consumables",
 "subdir": "general-labware",
@@ -27447,7 +27888,8 @@
 "储存",
 "滴加",
 "dropper_bottle",
-"bottle"
+"bottle",
+"瓶"
 ],
 "cat": "07-glassware-consumables",
 "subdir": "general-labware",
@@ -27933,7 +28375,8 @@
 "棕色试剂瓶",
 "bottle amber",
 "bottle",
-"amber"
+"amber",
+"瓶"
 ],
 "cat": "07-glassware-consumables",
 "subdir": "glassware",
@@ -27952,7 +28395,8 @@
 "比重瓶",
 "bottle pycnometer",
 "bottle",
-"pycnometer"
+"pycnometer",
+"瓶"
 ],
 "cat": "07-glassware-consumables",
 "subdir": "glassware",
@@ -27971,7 +28415,9 @@
 "细口试剂瓶",
 "bottle reagent",
 "bottle",
-"reagent"
+"reagent",
+"瓶",
+"试剂"
 ],
 "cat": "07-glassware-consumables",
 "subdir": "glassware",
@@ -27990,7 +28436,8 @@
 "塑料洗瓶",
 "bottle wash",
 "bottle",
-"wash"
+"wash",
+"瓶"
 ],
 "cat": "07-glassware-consumables",
 "subdir": "glassware",
@@ -28009,7 +28456,8 @@
 "扁形称量瓶",
 "bottle weighing",
 "bottle",
-"weighing"
+"weighing",
+"瓶"
 ],
 "cat": "07-glassware-consumables",
 "subdir": "glassware",
@@ -28029,7 +28477,8 @@
 "bottle wide mouth",
 "bottle",
 "wide",
-"mouth"
+"mouth",
+"瓶"
 ],
 "cat": "07-glassware-consumables",
 "subdir": "glassware",
@@ -28126,7 +28575,8 @@
 "结晶皿",
 "crystallizing dish",
 "crystallizing",
-"dish"
+"dish",
+"培养皿"
 ],
 "cat": "07-glassware-consumables",
 "subdir": "glassware",
@@ -28201,7 +28651,8 @@
 "滴瓶",
 "dropper bottle",
 "dropper",
-"bottle"
+"bottle",
+"瓶"
 ],
 "cat": "07-glassware-consumables",
 "subdir": "glassware",
@@ -28260,7 +28711,8 @@
 "evaporating dish",
 "evaporating",
 "dish",
-"大鼠"
+"大鼠",
+"培养皿"
 ],
 "cat": "07-glassware-consumables",
 "subdir": "glassware",
@@ -28404,7 +28856,9 @@
 "flask",
 "safety",
 "bottle",
-"培养瓶"
+"培养瓶",
+"瓶",
+"安全"
 ],
 "cat": "07-glassware-consumables",
 "subdir": "glassware",
@@ -28582,7 +29036,8 @@
 "表面皿",
 "surface dish",
 "surface",
-"dish"
+"dish",
+"培养皿"
 ],
 "cat": "07-glassware-consumables",
 "subdir": "glassware",
@@ -28851,7 +29306,8 @@
 "glassware",
 "德型烧杯(无嘴)",
 "german form beaker",
-"form"
+"form",
+"男性"
 ],
 "cat": "07-glassware-consumables",
 "subdir": "glassware",
@@ -29086,7 +29542,8 @@
 "evaporation",
 "crystal",
 "结晶皿",
-"crystallizing dish"
+"crystallizing dish",
+"培养皿"
 ],
 "cat": "07-glassware-consumables",
 "subdir": "glassware",
@@ -29393,7 +29850,8 @@
 "reagent",
 "storage",
 "刻度试剂瓶",
-"graduated bottle"
+"graduated bottle",
+"瓶"
 ],
 "cat": "07-glassware-consumables",
 "subdir": "glassware",
@@ -29416,7 +29874,8 @@
 "two tube",
 "伍尔夫瓶",
 "woulff bottle",
-"graduated"
+"graduated",
+"瓶"
 ],
 "cat": "07-glassware-consumables",
 "subdir": "glassware",
@@ -29575,7 +30034,8 @@
 "evaporation",
 "梨形瓶",
 "pear flask",
-"培养瓶"
+"培养瓶",
+"耳"
 ],
 "cat": "07-glassware-consumables",
 "subdir": "glassware",
@@ -29650,7 +30110,8 @@
 "3-neck round bottom flask",
 "neck",
 "round",
-"bottom"
+"bottom",
+"颈"
 ],
 "cat": "07-glassware-consumables",
 "subdir": "glassware",
@@ -29911,7 +30372,8 @@
 "cover",
 "precise",
 "称量瓶",
-"weighing bottle"
+"weighing bottle",
+"瓶"
 ],
 "cat": "07-glassware-consumables",
 "subdir": "glassware",
@@ -30095,7 +30557,8 @@
 "crucible graphite",
 "crucible",
 "graphite",
-"图"
+"图",
+"pH"
 ],
 "cat": "07-glassware-consumables",
 "subdir": "hardware-tools",
@@ -30211,7 +30674,8 @@
 "电解皿",
 "electrolysis dish",
 "electrolysis",
-"dish"
+"dish",
+"培养皿"
 ],
 "cat": "07-glassware-consumables",
 "subdir": "hardware-tools",
@@ -30351,7 +30815,8 @@
 "lab marker permanent",
 "lab",
 "marker",
-"permanent"
+"permanent",
+"男性"
 ],
 "cat": "07-glassware-consumables",
 "subdir": "hardware-tools",
@@ -30392,7 +30857,8 @@
 "melting",
 "capillary",
 "tube",
-"离心管"
+"离心管",
+"毛细血管"
 ],
 "cat": "07-glassware-consumables",
 "subdir": "hardware-tools",
@@ -30491,7 +30957,8 @@
 "scalpel handle blade",
 "scalpel",
 "handle",
-"blade"
+"blade",
+"手"
 ],
 "cat": "07-glassware-consumables",
 "subdir": "hardware-tools",
@@ -30690,7 +31157,8 @@
 "wash bottle squirt",
 "wash",
 "bottle",
-"squirt"
+"squirt",
+"瓶"
 ],
 "cat": "07-glassware-consumables",
 "subdir": "hardware-tools",
@@ -30801,7 +31269,8 @@
 "porous",
 "chromatography",
 "筛板(烧结垫)",
-"column frit (sintered disc)"
+"column frit (sintered disc)",
+"层析柱"
 ],
 "cat": "07-glassware-consumables",
 "subdir": "storage-consumables",
@@ -30845,7 +31314,8 @@
 "0.45μm",
 "microporous",
 "圆膜过滤器(0.45μm)",
-"filter membrane disc (0.45μm)"
+"filter membrane disc (0.45μm)",
+"膜"
 ],
 "cat": "07-glassware-consumables",
 "subdir": "storage-consumables",
@@ -31386,7 +31856,8 @@
 "fluid",
 "透明pvc软管",
 "clear pvc tubing",
-"clear"
+"clear",
+"耳"
 ],
 "cat": "07-glassware-consumables",
 "subdir": "storage-consumables",
@@ -31555,7 +32026,8 @@
 "storage",
 "棕色玻璃瓶(gls45)",
 "amber glass bottle gls45",
-"glass"
+"glass",
+"瓶"
 ],
 "cat": "07-glassware-consumables",
 "subdir": "storage-consumables",
@@ -31680,7 +32152,8 @@
 "cryotube (external thread)",
 "external",
 "thread",
-"离心管"
+"离心管",
+"RNA"
 ],
 "cat": "07-glassware-consumables",
 "subdir": "storage-consumables",
@@ -31702,7 +32175,8 @@
 "deep",
 "evaporation",
 "结晶皿(储存用)",
-"crystallizing dish (storage)"
+"crystallizing dish (storage)",
+"培养皿"
 ],
 "cat": "07-glassware-consumables",
 "subdir": "storage-consumables",
@@ -31752,7 +32226,8 @@
 "desiccator with silica gel indicator",
 "with",
 "silica",
-"gel"
+"gel",
+"猫"
 ],
 "cat": "07-glassware-consumables",
 "subdir": "storage-consumables",
@@ -31774,7 +32249,8 @@
 "storage",
 "valve",
 "真空干燥器",
-"vacuum desiccator"
+"vacuum desiccator",
+"猫"
 ],
 "cat": "07-glassware-consumables",
 "subdir": "storage-consumables",
@@ -31797,7 +32273,8 @@
 "filter cap",
 "培养基瓶(可灭菌)",
 "media bottle (autoclavable)",
-"autoclavable"
+"autoclavable",
+"瓶"
 ],
 "cat": "07-glassware-consumables",
 "subdir": "storage-consumables",
@@ -31821,7 +32298,8 @@
 "plant",
 "组培瓶",
 "culture medium bottle",
-"torch"
+"torch",
+"瓶"
 ],
 "cat": "07-glassware-consumables",
 "subdir": "storage-consumables",
@@ -31897,7 +32375,8 @@
 "96-well pcr plate (top view)",
 "well",
 "top",
-"孔板"
+"孔板",
+"PCR"
 ],
 "cat": "07-glassware-consumables",
 "subdir": "storage-consumables",
@@ -31921,7 +32400,8 @@
 "polymerase",
 "8连pcr管",
 "pcr strip tube (8-tube)",
-"离心管"
+"离心管",
+"PCR"
 ],
 "cat": "07-glassware-consumables",
 "subdir": "storage-consumables",
@@ -31969,7 +32449,9 @@
 "gl45",
 "试剂瓶",
 "gl45 试剂瓶",
-"reagent bottle (gl45)"
+"reagent bottle (gl45)",
+"瓶",
+"试剂"
 ],
 "cat": "07-glassware-consumables",
 "subdir": "storage-consumables",
@@ -31994,7 +32476,9 @@
 "方形窄口试剂瓶",
 "square narrow mouth reagent bottle",
 "mouth",
-"箭头"
+"箭头",
+"瓶",
+"试剂"
 ],
 "cat": "07-glassware-consumables",
 "subdir": "storage-consumables",
@@ -32019,7 +32503,9 @@
 "广口试剂瓶",
 "wide mouth reagent bottle",
 "wide",
-"mouth"
+"mouth",
+"瓶",
+"试剂"
 ],
 "cat": "07-glassware-consumables",
 "subdir": "storage-consumables",
@@ -32089,7 +32575,8 @@
 "vacuum",
 "ptfe",
 "干燥器活塞阀",
-"desiccator stopcock valve"
+"desiccator stopcock valve",
+"猫"
 ],
 "cat": "07-glassware-consumables",
 "subdir": "storage-consumables",
@@ -32162,7 +32649,8 @@
 "solution",
 "容量瓶(带塞)",
 "volumetric bottle with cap",
-"with"
+"with",
+"瓶"
 ],
 "cat": "07-glassware-consumables",
 "subdir": "storage-consumables",
@@ -32185,7 +32673,8 @@
 "rinse",
 "di water",
 "塑料冲洗瓶",
-"wash bottle"
+"wash bottle",
+"瓶"
 ],
 "cat": "07-glassware-consumables",
 "subdir": "storage-consumables",
@@ -32228,7 +32717,8 @@
 "原子吸收光谱仪",
 "atomic absorption",
 "atomic",
-"absorption"
+"absorption",
+"原子"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "analytical-instruments",
@@ -32385,7 +32875,8 @@
 "dissolved oxygen meter",
 "dissolved",
 "oxygen",
-"meter"
+"meter",
+"氧"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "analytical-instruments",
@@ -32728,7 +33219,8 @@
 "microscope compound",
 "microscope",
 "compound",
-"显微镜"
+"显微镜",
+"化合物"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "analytical-instruments",
@@ -32981,7 +33473,8 @@
 "total carbon analyzer",
 "total",
 "carbon",
-"analyzer"
+"analyzer",
+"碳"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "analytical-instruments",
@@ -33019,7 +33512,8 @@
 "紫外可见分光光度计",
 "uv vis spectrophotometer",
 "vis",
-"spectrophotometer"
+"spectrophotometer",
+"pH"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "analytical-instruments",
@@ -33104,7 +33598,8 @@
 "gfaas",
 "石墨炉原子吸收光谱仪",
 "graphite furnace aas",
-"图"
+"图",
+"pH"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "analytical-instruments",
@@ -33129,7 +33624,8 @@
 "source",
 "空心阴极灯",
 "hollow cathode lamp",
-"atomic"
+"atomic",
+"原子"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "analytical-instruments",
@@ -33176,7 +33672,10 @@
 "voltage",
 "separation",
 "毛细管电泳仪",
-"capillary electrophoresis"
+"capillary electrophoresis",
+"毛细血管",
+"电泳",
+"pH"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "analytical-instruments",
@@ -33272,7 +33771,8 @@
 "emission",
 "alkali",
 "火焰光度计",
-"flame photometer"
+"flame photometer",
+"pH"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "analytical-instruments",
@@ -33338,7 +33838,8 @@
 "fused",
 "silica",
 "毛细管色谱柱",
-"gc column coil"
+"gc column coil",
+"层析柱"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "analytical-instruments",
@@ -33384,7 +33885,8 @@
 "static",
 "volatiles",
 "顶空进样器",
-"gc headspace sampler"
+"gc headspace sampler",
+"头"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "analytical-instruments",
@@ -33431,7 +33933,8 @@
 "detector",
 "column",
 "气相色谱系统",
-"gc system"
+"gc system",
+"干细胞"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "analytical-instruments",
@@ -33477,7 +33980,8 @@
 "temperature",
 "thermostat",
 "柱温箱",
-"hplc column oven"
+"hplc column oven",
+"层析柱"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "analytical-instruments",
@@ -33524,7 +34028,8 @@
 "solvent",
 "delivery",
 "四元梯度泵",
-"hplc quaternary pump"
+"hplc quaternary pump",
+"RNA"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "analytical-instruments",
@@ -33571,7 +34076,8 @@
 "detector",
 "column",
 "高效液相色谱系统",
-"hplc system"
+"hplc system",
+"干细胞"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "analytical-instruments",
@@ -33738,7 +34244,8 @@
 "hyphenated",
 "液质联用系统",
 "lc-ms system",
-"system"
+"system",
+"干细胞"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "analytical-instruments",
@@ -33881,7 +34388,8 @@
 "buffer",
 "台式ph计",
 "benchtop ph meter",
-"bench"
+"bench",
+"pH"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "analytical-instruments",
@@ -33976,7 +34484,8 @@
 "fiber",
 "notch",
 "拉曼光谱探头",
-"raman probe"
+"raman probe",
+"男性"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "analytical-instruments",
@@ -34072,7 +34581,8 @@
 "absorbance",
 "optical",
 "紫外-可见分光光度计",
-"uv-vis spectrophotometer"
+"uv-vis spectrophotometer",
+"pH"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "analytical-instruments",
@@ -34200,7 +34710,8 @@
 "电化学工作站",
 "electrochemical workstation",
 "electrochemical",
-"workstation"
+"workstation",
+"化学"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "electrical-equipment",
@@ -34278,7 +34789,9 @@
 "electrophoresis power supply",
 "electrophoresis",
 "power",
-"supply"
+"supply",
+"电泳",
+"pH"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "electrical-equipment",
@@ -34298,7 +34811,9 @@
 "electrophoresis tank horizontal",
 "electrophoresis",
 "tank",
-"horizontal"
+"horizontal",
+"电泳",
+"pH"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "electrical-equipment",
@@ -34318,7 +34833,9 @@
 "electrophoresis tank vertical",
 "electrophoresis",
 "tank",
-"vertical"
+"vertical",
+"电泳",
+"pH"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "electrical-equipment",
@@ -34377,7 +34894,8 @@
 "gel",
 "casting",
 "apparatus",
-"大鼠"
+"大鼠",
+"凝胶"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "electrical-equipment",
@@ -34398,7 +34916,10 @@
 "gel",
 "doc",
 "imaging",
-"system"
+"system",
+"干细胞",
+"凝胶",
+"衰老"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "electrical-equipment",
@@ -34456,7 +34977,8 @@
 "microwave digestion system",
 "microwave",
 "digestion",
-"system"
+"system",
+"干细胞"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "electrical-equipment",
@@ -34551,7 +35073,8 @@
 "等离子清洗机",
 "plasma cleaner",
 "plasma",
-"cleaner"
+"cleaner",
+"血浆"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "electrical-equipment",
@@ -34763,7 +35286,8 @@
 "手持紫外灯",
 "uv lamp handheld",
 "lamp",
-"handheld"
+"handheld",
+"手"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "electrical-equipment",
@@ -34826,7 +35350,8 @@
 "测量",
 "溶液",
 "ph_meter",
-"meter"
+"meter",
+"pH"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "general-apparatus",
@@ -34870,7 +35395,8 @@
 "恒温",
 "加热",
 "water",
-"bath"
+"bath",
+"水"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "general-apparatus",
@@ -35062,7 +35588,8 @@
 "高温",
 "灼烧",
 "muffle_furnace",
-"furnace"
+"furnace",
+"RNA"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "general-apparatus",
@@ -35105,7 +35632,8 @@
 "真空管路",
 "vacuum_desiccator_line",
 "desiccator",
-"line"
+"line",
+"猫"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "general-apparatus",
@@ -35148,7 +35676,8 @@
 "防护",
 "生物安全柜",
 "biosafety_cabinet",
-"cabinet"
+"cabinet",
+"安全"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "general-apparatus",
@@ -35267,7 +35796,8 @@
 "dna",
 "sequencer",
 "测序仪",
-"DNA"
+"DNA",
+"毛细血管"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "lifescience-instruments",
@@ -35372,7 +35902,8 @@
 "colony counter",
 "colony",
 "counter",
-"结肠"
+"结肠",
+"菌落"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "lifescience-instruments",
@@ -35394,7 +35925,8 @@
 "rate",
 "freezing",
 "container",
-"大鼠"
+"大鼠",
+"对照"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "lifescience-instruments",
@@ -35476,7 +36008,8 @@
 "gel",
 "loading",
 "tray",
-"DNA"
+"DNA",
+"凝胶"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "lifescience-instruments",
@@ -35514,7 +36047,8 @@
 "流式细胞仪",
 "flow cytometer",
 "flow",
-"cytometer"
+"cytometer",
+"流程"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "lifescience-instruments",
@@ -35632,7 +36166,8 @@
 "magnetic rack pcr",
 "magnetic",
 "rack",
-"pcr"
+"pcr",
+"PCR"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "lifescience-instruments",
@@ -35733,7 +36268,8 @@
 "pcr plate 96",
 "pcr",
 "plate",
-"孔板"
+"孔板",
+"PCR"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "lifescience-instruments",
@@ -35754,7 +36290,8 @@
 "pcr",
 "thermal",
 "cycler",
-"循环"
+"循环",
+"PCR"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "lifescience-instruments",
@@ -35776,7 +36313,8 @@
 "tube",
 "strip",
 "eight",
-"离心管"
+"离心管",
+"PCR"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "lifescience-instruments",
@@ -35942,7 +36480,8 @@
 "tube",
 "pcr",
 "02ml",
-"离心管"
+"离心管",
+"PCR"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "lifescience-instruments",
@@ -36012,7 +36551,8 @@
 "airflow",
 "sterile",
 "二级生物安全柜",
-"biosafety cabinet class ii"
+"biosafety cabinet class ii",
+"安全"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "lifescience-instruments",
@@ -36138,7 +36678,8 @@
 "magnifier",
 "菌落计数器",
 "colony counter",
-"结肠"
+"结肠",
+"菌落"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "lifescience-instruments",
@@ -36234,7 +36775,9 @@
 "well",
 "ladder",
 "水平电泳槽",
-"electrophoresis tank"
+"electrophoresis tank",
+"电泳",
+"pH"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "lifescience-instruments",
@@ -36259,7 +36802,8 @@
 "电泳",
 "凝胶",
 "垂直电泳槽（sds-page）",
-"vertical electrophoresis cell"
+"vertical electrophoresis cell",
+"pH"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "lifescience-instruments",
@@ -36306,7 +36850,8 @@
 "cell",
 "analysis",
 "流式细胞仪",
-"flow cytometer"
+"flow cytometer",
+"流程"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "lifescience-instruments",
@@ -36331,7 +36876,8 @@
 "shelf",
 "冷冻干燥机",
 "freeze dryer (lyophilizer)",
-"dryer"
+"dryer",
+"pH"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "lifescience-instruments",
@@ -36356,7 +36902,8 @@
 "camera",
 "dna",
 "凝胶成像仪",
-"gel documentation imager"
+"gel documentation imager",
+"凝胶"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "lifescience-instruments",
@@ -36380,7 +36927,8 @@
 "dual",
 "zone",
 "梯度pcr仪",
-"gradient pcr cycler"
+"gradient pcr cycler",
+"PCR"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "lifescience-instruments",
@@ -36478,7 +37026,8 @@
 "sterile",
 "workstation",
 "超净工作台",
-"laminar flow hood"
+"laminar flow hood",
+"流程"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "lifescience-instruments",
@@ -36652,7 +37201,8 @@
 "well",
 "pcr热循环仪",
 "pcr thermal cycler",
-"循环"
+"循环",
+"PCR"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "lifescience-instruments",
@@ -36677,7 +37227,8 @@
 "photoperiod",
 "植物生长培养箱",
 "plant growth chamber",
-"grow"
+"grow",
+"植物"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "lifescience-instruments",
@@ -36702,7 +37253,8 @@
 "实时荧光定量pcr仪",
 "real-time pcr (qpcr)",
 "real",
-"time"
+"time",
+"PCR"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "lifescience-instruments",
@@ -36775,7 +37327,8 @@
 "detector",
 "扫描电子显微镜",
 "scanning electron microscope",
-"column"
+"column",
+"层析柱"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "lifescience-instruments",
@@ -36874,7 +37427,8 @@
 "透射电子显微镜",
 "transmission electron microscope",
 "transmission",
-"column"
+"column",
+"层析柱"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "lifescience-instruments",
@@ -36972,7 +37526,8 @@
 "heated",
 "temperature",
 "水浴恒温振荡器",
-"water bath shaker"
+"water bath shaker",
+"水"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "lifescience-instruments",
@@ -36995,7 +37550,8 @@
 "瓶口搅拌器",
 "bottle-top stirrer",
 "bottle",
-"top"
+"top",
+"瓶"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "liquid-handling",
@@ -37017,7 +37573,8 @@
 "rubber",
 "aspirator",
 "洗耳球",
-"safety bulb (rubber aspirator)"
+"safety bulb (rubber aspirator)",
+"安全"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "liquid-handling",
@@ -37102,7 +37659,8 @@
 "dilution",
 "liquid handling",
 "手动稀释器",
-"manual dilutor"
+"manual dilutor",
+"男性"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "liquid-handling",
@@ -37125,7 +37683,8 @@
 "瓶口分液器",
 "bottle-top dispenser",
 "bottle",
-"top"
+"top",
+"瓶"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "liquid-handling",
@@ -37217,7 +37776,8 @@
 "liquid handling",
 "滚轮泵头",
 "peristaltic pump head",
-"head"
+"head",
+"头"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "liquid-handling",
@@ -37264,7 +37824,8 @@
 "electronic pipette controller aspirator",
 "electronic",
 "大鼠",
-"移液器"
+"移液器",
+"对照"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "liquid-handling",
@@ -37612,7 +38173,8 @@
 "洗瓶（鲁尔接口）",
 "wash bottle (luer)",
 "wash",
-"bottle"
+"bottle",
+"瓶"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "liquid-handling",
@@ -37636,7 +38198,8 @@
 "空气站",
 "微型",
 "微型空气站",
-"micro air quality station"
+"micro air quality station",
+"质量"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "monitoring-sensors",
@@ -37947,7 +38510,9 @@
 "水质",
 "探头",
 "水质多参数探头",
-"water quality sonde"
+"water quality sonde",
+"水",
+"质量"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "monitoring-sensors",
@@ -37993,7 +38558,8 @@
 "手持万用表",
 "handheld multimeter",
 "handheld",
-"analog"
+"analog",
+"手"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "monitoring-sensors",
@@ -38154,7 +38720,8 @@
 "membrane",
 "溶解氧",
 "溶解氧探头",
-"dissolved oxygen probe"
+"dissolved oxygen probe",
+"氧"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "monitoring-sensors",
@@ -38177,7 +38744,8 @@
 "流量计",
 "转子",
 "转子流量计",
-"rotameter flowmeter"
+"rotameter flowmeter",
+"流程"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "monitoring-sensors",
@@ -38314,7 +38882,8 @@
 "电极",
 "复合ph电极",
 "combination ph electrode",
-"combination"
+"combination",
+"pH"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "monitoring-sensors",
@@ -38338,7 +38907,8 @@
 "ph计",
 "笔式",
 "笔式ph计",
-"portable pen ph meter"
+"portable pen ph meter",
+"pH"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "monitoring-sensors",
@@ -38631,7 +39201,10 @@
 "chromatography",
 "glass",
 "色谱仪",
-"图"
+"图",
+"色谱",
+"层析柱",
+"pH"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "separation-fluidics",
@@ -38653,7 +39226,10 @@
 "flash",
 "chromatography",
 "色谱仪",
-"图"
+"图",
+"色谱",
+"层析柱",
+"pH"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "separation-fluidics",
@@ -38674,7 +39250,8 @@
 "column",
 "preparative",
 "steel",
-"大鼠"
+"大鼠",
+"层析柱"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "separation-fluidics",
@@ -38894,7 +39471,8 @@
 "filter membrane disc",
 "filter",
 "membrane",
-"disc"
+"disc",
+"膜"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "separation-fluidics",
@@ -39034,7 +39612,8 @@
 "funnel",
 "hot",
 "water",
-"jacket"
+"jacket",
+"水"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "separation-fluidics",
@@ -39132,7 +39711,8 @@
 "hplc analytical column",
 "hplc",
 "analytical",
-"column"
+"column",
+"层析柱"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "separation-fluidics",
@@ -39152,7 +39732,8 @@
 "hplc guard column",
 "hplc",
 "guard",
-"column"
+"column",
+"层析柱"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "separation-fluidics",
@@ -39251,7 +39832,8 @@
 "spe",
 "manifold",
 "vacuum",
-"老年"
+"老年",
+"男性"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "separation-fluidics",
@@ -39331,7 +39913,8 @@
 "真空干燥器",
 "vacuum desiccator",
 "vacuum",
-"desiccator"
+"desiccator",
+"猫"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "separation-fluidics",
@@ -39392,7 +39975,8 @@
 "vacuum pump diaphragm",
 "vacuum",
 "pump",
-"diaphragm"
+"diaphragm",
+"pH"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "separation-fluidics",
@@ -39434,7 +40018,8 @@
 "vacuum",
 "pump",
 "water",
-"circulating"
+"circulating",
+"水"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "separation-fluidics",
@@ -39482,7 +40067,8 @@
 "angle",
 "bottle",
 "离心机",
-"离心管"
+"离心管",
+"瓶"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "separation-fluidics",
@@ -39506,7 +40092,10 @@
 "玻璃层析柱",
 "glass chromatography column",
 "色谱仪",
-"图"
+"图",
+"色谱",
+"层析柱",
+"pH"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "separation-fluidics",
@@ -39531,7 +40120,9 @@
 "96-well solid-phase extraction plate",
 "well",
 "solid",
-"phase"
+"phase",
+"层析柱",
+"pH"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "separation-fluidics",
@@ -39552,7 +40143,8 @@
 "chromatography",
 "temperature",
 "夹套层析柱",
-"jacketed chromatography column"
+"jacketed chromatography column",
+"层析柱"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "separation-fluidics",
@@ -39845,7 +40437,9 @@
 "快速纯化系统",
 "flash chromatography system",
 "色谱仪",
-"图"
+"图",
+"色谱",
+"pH"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "separation-fluidics",
@@ -39869,7 +40463,9 @@
 "gel filtration column",
 "gel",
 "filtration",
-"大鼠"
+"大鼠",
+"层析柱",
+"凝胶"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "separation-fluidics",
@@ -39913,7 +40509,8 @@
 "离子交换柱",
 "ion-exchange column",
 "ion",
-"exchange"
+"exchange",
+"层析柱"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "separation-fluidics",
@@ -39936,7 +40533,8 @@
 "kuderna-danish浓缩器",
 "kuderna-danish concentrator",
 "concentrator",
-"大鼠"
+"大鼠",
+"RNA"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "separation-fluidics",
@@ -39980,7 +40578,9 @@
 "filtration",
 "tff",
 "错流过滤膜堆",
-"crossflow membrane stack"
+"crossflow membrane stack",
+"膜",
+"流程"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "separation-fluidics",
@@ -40026,7 +40626,8 @@
 "silica gel tlc plate",
 "silica",
 "gel",
-"孔板"
+"孔板",
+"凝胶"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "separation-fluidics",
@@ -40091,7 +40692,8 @@
 "solid-phase",
 "固相萃取真空装置",
 "spe vacuum manifold",
-"老年"
+"老年",
+"男性"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "separation-fluidics",
@@ -40182,7 +40784,8 @@
 "regulator",
 "gauge",
 "真空控制器",
-"vacuum controller"
+"vacuum controller",
+"对照"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "separation-fluidics",
@@ -40229,7 +40832,8 @@
 "diaphragm",
 "lab",
 "隔膜真空泵",
-"diaphragm vacuum pump"
+"diaphragm vacuum pump",
+"pH"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "separation-fluidics",
@@ -40505,7 +41109,8 @@
 "电热套",
 "heating mantle",
 "heating",
-"mantle"
+"mantle",
+"男性"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "thermal-mechanical",
@@ -40661,7 +41266,8 @@
 "tags": [
 "冷冻干燥机",
 "lyophilizer",
-"thermal mechanical"
+"thermal mechanical",
+"pH"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "thermal-mechanical",
@@ -40719,7 +41325,8 @@
 "箱式马弗炉",
 "muffle furnace",
 "muffle",
-"furnace"
+"furnace",
+"RNA"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "thermal-mechanical",
@@ -40837,7 +41444,8 @@
 "超声破碎仪",
 "sonicator probe",
 "sonicator",
-"probe"
+"probe",
+"猫"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "thermal-mechanical",
@@ -40856,7 +41464,8 @@
 "顶置式搅拌器",
 "stirrer overhead",
 "stirrer",
-"overhead"
+"overhead",
+"头"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "thermal-mechanical",
@@ -40896,7 +41505,8 @@
 "tube furnace",
 "tube",
 "furnace",
-"离心管"
+"离心管",
+"RNA"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "thermal-mechanical",
@@ -40992,7 +41602,8 @@
 "water bath circulating",
 "water",
 "bath",
-"circulating"
+"circulating",
+"水"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "thermal-mechanical",
@@ -41011,7 +41622,8 @@
 "恒温水浴锅",
 "water bath",
 "water",
-"bath"
+"bath",
+"水"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "thermal-mechanical",
@@ -41123,7 +41735,8 @@
 "低温冷却循环水浴机",
 "circulating water bath chiller",
 "water",
-"bath"
+"bath",
+"水"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "thermal-mechanical",
@@ -41245,7 +41858,8 @@
 "heat",
 "block",
 "with",
-"离心管"
+"离心管",
+"试管"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "thermal-mechanical",
@@ -41288,7 +41902,8 @@
 "round-bottom",
 "flask",
 "电热套",
-"electric heating mantle"
+"electric heating mantle",
+"男性"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "thermal-mechanical",
@@ -41336,7 +41951,8 @@
 "热水加热器（电热水壶）",
 "hot water heater kettle",
 "hot",
-"water"
+"water",
+"水"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "thermal-mechanical",
@@ -41476,7 +42092,8 @@
 "kiln",
 "heating",
 "马弗炉",
-"muffle furnace"
+"muffle furnace",
+"RNA"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "thermal-mechanical",
@@ -41664,7 +42281,8 @@
 "horizontal tube furnace",
 "tube",
 "furnace",
-"离心管"
+"离心管",
+"RNA"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "thermal-mechanical",
@@ -41735,7 +42353,8 @@
 "constant",
 "temperature",
 "water",
-"bath"
+"bath",
+"水"
 ],
 "cat": "08-instruments-apparatus",
 "subdir": "thermal-mechanical",
@@ -41904,7 +42523,9 @@
 "菱形",
 "nfpa 704 四色菱形",
 "nfpa 704 fire diamond",
-"chemical"
+"chemical",
+"化学",
+"风险比"
 ],
 "cat": "09-safety-signage",
 "subdir": "hazard-signs",
@@ -41929,7 +42550,8 @@
 "试剂标签空白模板",
 "chemical stock label template",
 "template",
-"empty"
+"empty",
+"化学"
 ],
 "cat": "09-safety-signage",
 "subdir": "hazard-signs",
@@ -42146,7 +42768,8 @@
 "ghs08 健康危害",
 "ghs08 health hazard",
 "ghs08",
-"health"
+"health",
+"风险比"
 ],
 "cat": "09-safety-signage",
 "subdir": "hazard-signs",
@@ -42171,7 +42794,9 @@
 "死鱼",
 "枯树",
 "ghs09 环境危害",
-"ghs09 environmental hazard"
+"ghs09 environmental hazard",
+"鱼",
+"树"
 ],
 "cat": "09-safety-signage",
 "subdir": "hazard-signs",
@@ -42196,7 +42821,8 @@
 "生物危害标志",
 "biohazard symbol",
 "symbol",
-"hazard"
+"hazard",
+"风险比"
 ],
 "cat": "09-safety-signage",
 "subdir": "hazard-signs",
@@ -42218,7 +42844,9 @@
 "腐蚀",
 "化学品",
 "腐蚀品标志",
-"corrosive chemical hazard"
+"corrosive chemical hazard",
+"化学",
+"风险比"
 ],
 "cat": "09-safety-signage",
 "subdir": "hazard-signs",
@@ -42244,7 +42872,8 @@
 "cryogenic burn (ln2)",
 "burn",
 "hazard",
-"老年"
+"老年",
+"风险比"
 ],
 "cat": "09-safety-signage",
 "subdir": "hazard-signs",
@@ -42266,7 +42895,8 @@
 "受限空间",
 "受限空间标志",
 "confined space hazard",
-"hazard"
+"hazard",
+"风险比"
 ],
 "cat": "09-safety-signage",
 "subdir": "hazard-signs",
@@ -42289,7 +42919,8 @@
 "闪电",
 "触电危险标志",
 "electric shock hazard",
-"hazard"
+"hazard",
+"风险比"
 ],
 "cat": "09-safety-signage",
 "subdir": "hazard-signs",
@@ -42311,7 +42942,8 @@
 "静电",
 "静电esd警告标志",
 "esd electrostatic hazard",
-"hazard"
+"hazard",
+"风险比"
 ],
 "cat": "09-safety-signage",
 "subdir": "hazard-signs",
@@ -42334,7 +42966,8 @@
 "火焰",
 "易燃标志",
 "flammable hazard cn",
-"hazard"
+"hazard",
+"风险比"
 ],
 "cat": "09-safety-signage",
 "subdir": "hazard-signs",
@@ -42359,7 +42992,8 @@
 "high temperature hazard",
 "high",
 "hazard",
-"大鼠"
+"大鼠",
+"风险比"
 ],
 "cat": "09-safety-signage",
 "subdir": "hazard-signs",
@@ -42384,7 +43018,8 @@
 "激光危险4级标志",
 "laser class 4 hazard",
 "class",
-"hazard"
+"hazard",
+"风险比"
 ],
 "cat": "09-safety-signage",
 "subdir": "hazard-signs",
@@ -42408,7 +43043,8 @@
 "强磁危险标志",
 "strong magnet hazard",
 "strong",
-"hazard"
+"hazard",
+"风险比"
 ],
 "cat": "09-safety-signage",
 "subdir": "hazard-signs",
@@ -42431,7 +43067,8 @@
 "听力",
 "噪声危害标志",
 "noise hazard",
-"hazard"
+"hazard",
+"风险比"
 ],
 "cat": "09-safety-signage",
 "subdir": "hazard-signs",
@@ -42456,7 +43093,8 @@
 "非电离辐射标志",
 "non-ionizing radiation",
 "non",
-"ionizing"
+"ionizing",
+"风险比"
 ],
 "cat": "09-safety-signage",
 "subdir": "hazard-signs",
@@ -42479,7 +43117,8 @@
 "sign",
 "氧化剂",
 "氧化剂标志",
-"oxidizer hazard cn"
+"oxidizer hazard cn",
+"风险比"
 ],
 "cat": "09-safety-signage",
 "subdir": "hazard-signs",
@@ -42503,7 +43142,8 @@
 "夹手危险标志",
 "pinch point hazard",
 "point",
-"hazard"
+"hazard",
+"风险比"
 ],
 "cat": "09-safety-signage",
 "subdir": "hazard-signs",
@@ -42526,7 +43166,8 @@
 "放射性",
 "电离辐射标志",
 "radioactive trefoil",
-"hazard"
+"hazard",
+"风险比"
 ],
 "cat": "09-safety-signage",
 "subdir": "hazard-signs",
@@ -42549,7 +43190,8 @@
 "骷髅",
 "有毒标志",
 "toxic hazard cn",
-"hazard"
+"hazard",
+"风险比"
 ],
 "cat": "09-safety-signage",
 "subdir": "hazard-signs",
@@ -42572,7 +43214,8 @@
 "辐射",
 "紫外辐射标志",
 "uv radiation hazard",
-"hazard"
+"hazard",
+"风险比"
 ],
 "cat": "09-safety-signage",
 "subdir": "hazard-signs",
@@ -42718,7 +43361,8 @@
 "必须洗手标志",
 "must wash hands",
 "must",
-"sign"
+"sign",
+"手"
 ],
 "cat": "09-safety-signage",
 "subdir": "hazard-signs",
@@ -42743,7 +43387,8 @@
 "必须戴手套标志",
 "must wear gloves",
 "must",
-"wear"
+"wear",
+"耳"
 ],
 "cat": "09-safety-signage",
 "subdir": "hazard-signs",
@@ -42768,7 +43413,8 @@
 "必须戴护目镜标志",
 "must wear goggles",
 "must",
-"wear"
+"wear",
+"耳"
 ],
 "cat": "09-safety-signage",
 "subdir": "hazard-signs",
@@ -42794,7 +43440,8 @@
 "实验服",
 "必须穿实验服",
 "must wear laboratory coat",
-"燕麦"
+"燕麦",
+"耳"
 ],
 "cat": "09-safety-signage",
 "subdir": "hazard-signs",
@@ -42819,7 +43466,8 @@
 "必须戴口罩标志",
 "must wear mask",
 "must",
-"wear"
+"wear",
+"耳"
 ],
 "cat": "09-safety-signage",
 "subdir": "hazard-signs",
@@ -42893,7 +43541,8 @@
 "禁止触摸标志",
 "no touching",
 "touching",
-"sign"
+"sign",
+"手"
 ],
 "cat": "09-safety-signage",
 "subdir": "hazard-signs",
@@ -42917,7 +43566,9 @@
 "手机",
 "禁止手机标志",
 "no mobile phone",
-"sign"
+"sign",
+"胆汁",
+"pH"
 ],
 "cat": "09-safety-signage",
 "subdir": "hazard-signs",
@@ -43033,7 +43684,8 @@
 "危废",
 "危险",
 "危险废物标签",
-"hazardous waste label"
+"hazardous waste label",
+"风险比"
 ],
 "cat": "09-safety-signage",
 "subdir": "hazard-signs",
@@ -43130,7 +43782,8 @@
 "carrying two bottles not mouth",
 "two",
 "not",
-"mouth"
+"mouth",
+"瓶"
 ],
 "cat": "09-safety-signage",
 "subdir": "personnel-behavior",
@@ -43202,7 +43855,8 @@
 "lab area",
 "耳机禁止",
 "earbuds prohibited crossed",
-"crossed"
+"crossed",
+"耳"
 ],
 "cat": "09-safety-signage",
 "subdir": "personnel-behavior",
@@ -43322,7 +43976,9 @@
 "handling bottle cap over label",
 "handling",
 "bottle",
-"over"
+"over",
+"手",
+"瓶"
 ],
 "cat": "09-safety-signage",
 "subdir": "personnel-behavior",
@@ -43516,7 +44172,9 @@
 "开瓶远离面部",
 "opening reagent bottle face away",
 "face",
-"away"
+"away",
+"瓶",
+"试剂"
 ],
 "cat": "09-safety-signage",
 "subdir": "personnel-behavior",
@@ -43608,7 +44266,8 @@
 "technique",
 "odor",
 "扇闻法",
-"smelling waft hand"
+"smelling waft hand",
+"手"
 ],
 "cat": "09-safety-signage",
 "subdir": "personnel-behavior",
@@ -43655,7 +44314,8 @@
 "手机拍照记录允许",
 "using phone for recording allowed",
 "using",
-"for"
+"for",
+"pH"
 ],
 "cat": "09-safety-signage",
 "subdir": "personnel-behavior",
@@ -43679,7 +44339,9 @@
 "禁止玩手机戴耳机",
 "using phone no photo no earphones",
 "using",
-"photo"
+"photo",
+"耳",
+"pH"
 ],
 "cat": "09-safety-signage",
 "subdir": "personnel-behavior",
@@ -43771,7 +44433,8 @@
 "二级生物安全柜",
 "biosafety cabinet",
 "biosafety",
-"cabinet"
+"cabinet",
+"安全"
 ],
 "cat": "09-safety-signage",
 "subdir": "ppe-emergency",
@@ -43832,7 +44495,8 @@
 "隔声耳罩",
 "ear muffs",
 "ear",
-"muffs"
+"muffs",
+"耳"
 ],
 "cat": "09-safety-signage",
 "subdir": "ppe-emergency",
@@ -43851,7 +44515,8 @@
 "成型隔音耳塞",
 "ear plugs",
 "ear",
-"plugs"
+"plugs",
+"耳"
 ],
 "cat": "09-safety-signage",
 "subdir": "ppe-emergency",
@@ -43988,7 +44653,8 @@
 "fire extinguisher water",
 "fire",
 "extinguisher",
-"water"
+"water",
+"水"
 ],
 "cat": "09-safety-signage",
 "subdir": "ppe-emergency",
@@ -44048,7 +44714,8 @@
 "first aid kit",
 "first",
 "aid",
-"kit"
+"kit",
+"试剂盒"
 ],
 "cat": "09-safety-signage",
 "subdir": "ppe-emergency",
@@ -44206,7 +44873,8 @@
 "hazard diamond nfpa",
 "hazard",
 "diamond",
-"nfpa"
+"nfpa",
+"风险比"
 ],
 "cat": "09-safety-signage",
 "subdir": "ppe-emergency",
@@ -44265,7 +44933,8 @@
 "laminar flow cabinet",
 "laminar",
 "flow",
-"cabinet"
+"cabinet",
+"流程"
 ],
 "cat": "09-safety-signage",
 "subdir": "ppe-emergency",
@@ -44366,7 +45035,8 @@
 "safety goggles sealed",
 "safety",
 "goggles",
-"sealed"
+"sealed",
+"安全"
 ],
 "cat": "09-safety-signage",
 "subdir": "ppe-emergency",
@@ -44385,7 +45055,8 @@
 "防砸防滑实验鞋",
 "safety shoes",
 "safety",
-"shoes"
+"shoes",
+"安全"
 ],
 "cat": "09-safety-signage",
 "subdir": "ppe-emergency",
@@ -44407,7 +45078,8 @@
 "shower",
 "eyewash",
 "combo",
-"眼"
+"眼",
+"安全"
 ],
 "cat": "09-safety-signage",
 "subdir": "ppe-emergency",
@@ -44426,7 +45098,8 @@
 "紧急冲淋器",
 "safety shower",
 "safety",
-"shower"
+"shower",
+"安全"
 ],
 "cat": "09-safety-signage",
 "subdir": "ppe-emergency",
@@ -44445,7 +45118,8 @@
 "生物危害标志",
 "signal biohazard",
 "signal",
-"biohazard"
+"biohazard",
+"风险比"
 ],
 "cat": "09-safety-signage",
 "subdir": "ppe-emergency",
@@ -44465,7 +45139,9 @@
 "signal chemical hazard",
 "signal",
 "chemical",
-"hazard"
+"hazard",
+"化学",
+"风险比"
 ],
 "cat": "09-safety-signage",
 "subdir": "ppe-emergency",
@@ -44524,7 +45200,8 @@
 "signal laser hazard",
 "signal",
 "laser",
-"hazard"
+"hazard",
+"风险比"
 ],
 "cat": "09-safety-signage",
 "subdir": "ppe-emergency",
@@ -44628,7 +45305,8 @@
 "腐蚀品安全柜",
 "acid cabinet corrosive",
 "acid",
-"cabinet"
+"cabinet",
+"酸"
 ],
 "cat": "09-safety-signage",
 "subdir": "ppe-emergency",
@@ -44698,7 +45376,9 @@
 "biohazard bin foot pedal",
 "biohazard",
 "bin",
-"foot"
+"foot",
+"足",
+"风险比"
 ],
 "cat": "09-safety-signage",
 "subdir": "ppe-emergency",
@@ -44722,7 +45402,8 @@
 "医废袋",
 "biohazard waste bag",
 "waste",
-"bag"
+"bag",
+"风险比"
 ],
 "cat": "09-safety-signage",
 "subdir": "ppe-emergency",
@@ -44744,7 +45425,8 @@
 "acid-resistant",
 "protective",
 "橡胶围裙",
-"chemical apron rubber"
+"chemical apron rubber",
+"化学"
 ],
 "cat": "09-safety-signage",
 "subdir": "ppe-emergency",
@@ -44769,7 +45451,8 @@
 "chemical storage cabinet flammable",
 "chemical",
 "storage",
-"cabinet"
+"cabinet",
+"化学"
 ],
 "cat": "09-safety-signage",
 "subdir": "ppe-emergency",
@@ -44911,7 +45594,8 @@
 "ear",
 "muff",
 "hearing",
-"protection"
+"protection",
+"耳"
 ],
 "cat": "09-safety-signage",
 "subdir": "ppe-emergency",
@@ -44933,7 +45617,8 @@
 "ppe",
 "耳塞",
 "ear",
-"plugs"
+"plugs",
+"耳"
 ],
 "cat": "09-safety-signage",
 "subdir": "ppe-emergency",
@@ -44957,7 +45642,8 @@
 "紧急冲淋器",
 "emergency safety shower",
 "safety",
-"shower"
+"shower",
+"安全"
 ],
 "cat": "09-safety-signage",
 "subdir": "ppe-emergency",
@@ -45004,7 +45690,8 @@
 "emergency",
 "挤压式洗眼瓶",
 "eyewash portable bottle",
-"眼"
+"眼",
+"瓶"
 ],
 "cat": "09-safety-signage",
 "subdir": "ppe-emergency",
@@ -45148,7 +45835,8 @@
 "水基灭火器",
 "fire extinguisher water",
 "fire",
-"extinguisher"
+"extinguisher",
+"水"
 ],
 "cat": "09-safety-signage",
 "subdir": "ppe-emergency",
@@ -45196,7 +45884,8 @@
 "first aid kit box",
 "first",
 "aid",
-"kit"
+"kit",
+"试剂盒"
 ],
 "cat": "09-safety-signage",
 "subdir": "ppe-emergency",
@@ -45221,7 +45910,8 @@
 "急救箱打开",
 "first aid kit open",
 "first",
-"aid"
+"aid",
+"试剂盒"
 ],
 "cat": "09-safety-signage",
 "subdir": "ppe-emergency",
@@ -45296,7 +45986,8 @@
 "化学通风橱",
 "fume hood chemical",
 "fume",
-"hood"
+"hood",
+"化学"
 ],
 "cat": "09-safety-signage",
 "subdir": "ppe-emergency",
@@ -45417,7 +46108,8 @@
 "防化溅护目镜",
 "goggles chemical splash",
 "chemical",
-"splash"
+"splash",
+"化学"
 ],
 "cat": "09-safety-signage",
 "subdir": "ppe-emergency",
@@ -45612,7 +46304,8 @@
 "safety glasses anti-fog",
 "safety",
 "glasses",
-"anti"
+"anti",
+"安全"
 ],
 "cat": "09-safety-signage",
 "subdir": "ppe-emergency",
@@ -45637,7 +46330,8 @@
 "safety goggles indirect vent",
 "safety",
 "indirect",
-"vent"
+"vent",
+"安全"
 ],
 "cat": "09-safety-signage",
 "subdir": "ppe-emergency",
@@ -45661,7 +46355,8 @@
 "安全联锁开关",
 "safety interlock switch",
 "safety",
-"interlock"
+"interlock",
+"安全"
 ],
 "cat": "09-safety-signage",
 "subdir": "ppe-emergency",
@@ -45708,7 +46403,9 @@
 "酸溢洒处理箱",
 "spill kit acid",
 "spill",
-"kit"
+"kit",
+"试剂盒",
+"酸"
 ],
 "cat": "09-safety-signage",
 "subdir": "ppe-emergency",
@@ -45732,7 +46429,8 @@
 "汞溢洒套件",
 "spill kit mercury",
 "spill",
-"kit"
+"kit",
+"试剂盒"
 ],
 "cat": "09-safety-signage",
 "subdir": "ppe-emergency",
@@ -45756,7 +46454,8 @@
 "溶剂溢洒处理箱",
 "spill kit solvent",
 "spill",
-"kit"
+"kit",
+"试剂盒"
 ],
 "cat": "09-safety-signage",
 "subdir": "ppe-emergency",
@@ -45908,7 +46607,8 @@
 "sign mandatory gloves",
 "sign",
 "mandatory",
-"gloves"
+"gloves",
+"男性"
 ],
 "cat": "09-safety-signage",
 "subdir": "signage",
@@ -45928,7 +46628,8 @@
 "sign mandatory goggles",
 "sign",
 "mandatory",
-"goggles"
+"goggles",
+"男性"
 ],
 "cat": "09-safety-signage",
 "subdir": "signage",
@@ -45948,7 +46649,8 @@
 "sign mandatory mask",
 "sign",
 "mandatory",
-"mask"
+"mask",
+"男性"
 ],
 "cat": "09-safety-signage",
 "subdir": "signage",
@@ -45968,7 +46670,8 @@
 "sign mandatory shower",
 "sign",
 "mandatory",
-"shower"
+"shower",
+"男性"
 ],
 "cat": "09-safety-signage",
 "subdir": "signage",
@@ -45988,7 +46691,8 @@
 "sign noise hazard",
 "sign",
 "noise",
-"hazard"
+"hazard",
+"风险比"
 ],
 "cat": "09-safety-signage",
 "subdir": "signage",
@@ -46049,7 +46753,8 @@
 "sign prohibition water",
 "sign",
 "prohibition",
-"water"
+"water",
+"水"
 ],
 "cat": "09-safety-signage",
 "subdir": "signage",
@@ -46089,7 +46794,8 @@
 "sign slip hazard",
 "sign",
 "slip",
-"hazard"
+"hazard",
+"风险比"
 ],
 "cat": "09-safety-signage",
 "subdir": "signage",
@@ -46353,7 +47059,8 @@
 "bidirectional",
 "双头箭头",
 "arrow double head",
-"箭头"
+"箭头",
+"头"
 ],
 "cat": "10-figure-elements",
 "subdir": "arrows-connectors",
@@ -46376,7 +47083,8 @@
 "bidirectional",
 "双头空心箭头",
 "arrow double head hollow",
-"箭头"
+"箭头",
+"头"
 ],
 "cat": "10-figure-elements",
 "subdir": "arrows-connectors",
@@ -46713,7 +47421,8 @@
 "v",
 "chevron",
 "v形开口箭头",
-"head open v"
+"head open v",
+"头"
 ],
 "cat": "10-figure-elements",
 "subdir": "arrows-connectors",
@@ -46734,7 +47443,8 @@
 "hollow",
 "outline",
 "空心三角箭头",
-"head triangle hollow"
+"head triangle hollow",
+"头"
 ],
 "cat": "10-figure-elements",
 "subdir": "arrows-connectors",
@@ -46755,7 +47465,9 @@
 "chevron",
 "鱼骨箭头",
 "head fishbone",
-"骨骼"
+"骨骼",
+"鱼",
+"头"
 ],
 "cat": "10-figure-elements",
 "subdir": "arrows-connectors",
@@ -46776,7 +47488,8 @@
 "dot",
 "circle",
 "圆点端头",
-"head round dot"
+"head round dot",
+"头"
 ],
 "cat": "10-figure-elements",
 "subdir": "arrows-connectors",
@@ -46797,7 +47510,8 @@
 "stop",
 "cap",
 "横杠端头",
-"head bar"
+"head bar",
+"头"
 ],
 "cat": "10-figure-elements",
 "subdir": "arrows-connectors",
@@ -46818,7 +47532,8 @@
 "plus",
 "marker",
 "十字端头",
-"head cross"
+"head cross",
+"头"
 ],
 "cat": "10-figure-elements",
 "subdir": "arrows-connectors",
@@ -46839,7 +47554,8 @@
 "cap",
 "terminator",
 "t形端头",
-"head t"
+"head t",
+"头"
 ],
 "cat": "10-figure-elements",
 "subdir": "arrows-connectors",
@@ -46860,7 +47576,8 @@
 "block",
 "cap",
 "方头端头",
-"head square"
+"head square",
+"头"
 ],
 "cat": "10-figure-elements",
 "subdir": "arrows-connectors",
@@ -46881,7 +47598,8 @@
 "open",
 "outline",
 "菱形空心端头",
-"head diamond open"
+"head diamond open",
+"头"
 ],
 "cat": "10-figure-elements",
 "subdir": "arrows-connectors",
@@ -47049,7 +47767,8 @@
 "down",
 "descent",
 "阶梯下降连接",
-"conn step down"
+"conn step down",
+"步骤"
 ],
 "cat": "10-figure-elements",
 "subdir": "arrows-connectors",
@@ -47324,7 +48043,8 @@
 "fan",
 "multi-path",
 "扇形分支流程",
-"flow branch fan"
+"flow branch fan",
+"流程"
 ],
 "cat": "10-figure-elements",
 "subdir": "arrows-connectors",
@@ -47366,7 +48086,8 @@
 "arrow",
 "curved",
 "flow",
-"箭头"
+"箭头",
+"流程"
 ],
 "cat": "10-figure-elements",
 "subdir": "connectors",
@@ -47409,7 +48130,8 @@
 "arrow",
 "elbow",
 "flow",
-"箭头"
+"箭头",
+"流程"
 ],
 "cat": "10-figure-elements",
 "subdir": "connectors",
@@ -47493,7 +48215,8 @@
 "arrow",
 "straight",
 "flow",
-"箭头"
+"箭头",
+"流程"
 ],
 "cat": "10-figure-elements",
 "subdir": "connectors",
@@ -47513,7 +48236,8 @@
 "badge step number",
 "badge",
 "step",
-"number"
+"number",
+"步骤"
 ],
 "cat": "10-figure-elements",
 "subdir": "connectors",
@@ -47534,7 +48258,8 @@
 "bracket",
 "step",
 "group",
-"分组"
+"分组",
+"步骤"
 ],
 "cat": "10-figure-elements",
 "subdir": "connectors",
@@ -47654,7 +48379,8 @@
 "flow database cylinder",
 "flow",
 "database",
-"cylinder"
+"cylinder",
+"流程"
 ],
 "cat": "10-figure-elements",
 "subdir": "connectors",
@@ -47675,7 +48401,8 @@
 "flow",
 "doc",
 "input",
-"skewed"
+"skewed",
+"流程"
 ],
 "cat": "10-figure-elements",
 "subdir": "connectors",
@@ -47737,7 +48464,8 @@
 "percent",
 "线性标尺",
 "linear 0-100",
-"100"
+"100",
+"耳"
 ],
 "cat": "10-figure-elements",
 "subdir": "figure-layout",
@@ -48501,7 +49229,8 @@
 "category",
 "分类色块组",
 "category colors",
-"colors"
+"colors",
+"猫"
 ],
 "cat": "10-figure-elements",
 "subdir": "figure-layout",
@@ -48922,7 +49651,8 @@
 "散点图带参考线",
 "scatter+ref skeleton",
 "ref",
-"skel"
+"skel",
+"猫"
 ],
 "cat": "10-figure-elements",
 "subdir": "figure-layout",
@@ -49015,7 +49745,8 @@
 "矩形树骨架",
 "rect tree skeleton",
 "rect",
-"skel"
+"skel",
+"树"
 ],
 "cat": "10-figure-elements",
 "subdir": "figure-layout",
@@ -49039,7 +49770,8 @@
 "环形树骨架",
 "circular tree skeleton",
 "skel",
-"circ"
+"circ",
+"树"
 ],
 "cat": "10-figure-elements",
 "subdir": "figure-layout",
@@ -49310,7 +50042,8 @@
 "connector",
 "box",
 "折角流程框",
-"elbow flow"
+"elbow flow",
+"流程"
 ],
 "cat": "10-figure-elements",
 "subdir": "figure-layout",
@@ -49331,7 +50064,8 @@
 "step",
 "rounded",
 "胶囊步骤框",
-"capsule step"
+"capsule step",
+"流程"
 ],
 "cat": "10-figure-elements",
 "subdir": "figure-layout",
@@ -49355,7 +50089,8 @@
 "rounded",
 "rect",
 "flow",
-"roundrect"
+"roundrect",
+"流程"
 ],
 "cat": "10-figure-elements",
 "subdir": "figure-layout",
@@ -49379,7 +50114,8 @@
 "dashed group",
 "flow",
 "dashedgroup",
-"分组"
+"分组",
+"流程"
 ],
 "cat": "10-figure-elements",
 "subdir": "figure-layout",
@@ -49721,7 +50457,8 @@
 "kite",
 "quadrilateral",
 "geometry",
-"筝形"
+"筝形",
+"试剂盒"
 ],
 "cat": "10-figure-elements",
 "subdir": "geometry-math",
@@ -50338,7 +51075,8 @@
 "sphere",
 "solid",
 "geometry",
-"球体"
+"球体",
+"pH"
 ],
 "cat": "10-figure-elements",
 "subdir": "geometry-math",
@@ -50440,7 +51178,8 @@
 "圆柱截面",
 "cylinder cross section",
 "cross",
-"section"
+"section",
+"切片"
 ],
 "cat": "10-figure-elements",
 "subdir": "geometry-math",
@@ -50606,7 +51345,8 @@
 "symbol square root",
 "symbol",
 "square",
-"root"
+"root",
+"根"
 ],
 "cat": "10-figure-elements",
 "subdir": "geometry-math",
@@ -50669,7 +51409,8 @@
 "greater",
 "不等号组",
 "symbol inequality",
-"symbol"
+"symbol",
+"质量"
 ],
 "cat": "10-figure-elements",
 "subdir": "geometry-math",
@@ -50710,7 +51451,8 @@
 "graph",
 "抛物线函数图",
 "function graph parabola",
-"图"
+"图",
+"pH"
 ],
 "cat": "10-figure-elements",
 "subdir": "geometry-math",
@@ -50733,7 +51475,8 @@
 "function graph sin",
 "graph",
 "sin",
-"图"
+"图",
+"pH"
 ],
 "cat": "10-figure-elements",
 "subdir": "geometry-math",
@@ -50802,7 +51545,9 @@
 "circular",
 "圆形药品标签",
 "round pharma label rx",
-"chemical"
+"chemical",
+"化学",
+"pH"
 ],
 "cat": "10-figure-elements",
 "subdir": "labels-tags",
@@ -50827,7 +51572,8 @@
 "hazard",
 "试剂标签",
 "chemical label square sample",
-"square"
+"square",
+"化学"
 ],
 "cat": "10-figure-elements",
 "subdir": "labels-tags",
@@ -50897,7 +51643,8 @@
 "diamond",
 "ghs",
 "运输危险性标志牌",
-"hazard class label placard"
+"hazard class label placard",
+"风险比"
 ],
 "cat": "10-figure-elements",
 "subdir": "labels-tags",
@@ -51043,7 +51790,8 @@
 "responsible",
 "warning",
 "二次容器标签",
-"secondary container label"
+"secondary container label",
+"试剂"
 ],
 "cat": "10-figure-elements",
 "subdir": "labels-tags",
@@ -51113,7 +51861,8 @@
 "aisle",
 "bin",
 "库位标签",
-"shelf location tag a-12-3"
+"shelf location tag a-12-3",
+"猫"
 ],
 "cat": "10-figure-elements",
 "subdir": "labels-tags",
@@ -51326,7 +52075,8 @@
 "sequence",
 "1",
 "步骤序号圆牌",
-"step badge numbered circle 1"
+"step badge numbered circle 1",
+"步骤"
 ],
 "cat": "10-figure-elements",
 "subdir": "labels-tags",
@@ -51349,7 +52099,8 @@
 "sequence",
 "1",
 "步骤序号方牌",
-"step badge numbered square"
+"step badge numbered square",
+"步骤"
 ],
 "cat": "10-figure-elements",
 "subdir": "labels-tags",
@@ -51422,7 +52173,8 @@
 "corrosive",
 "hazardous",
 "废液标签酸",
-"waste label acid"
+"waste label acid",
+"酸"
 ],
 "cat": "10-figure-elements",
 "subdir": "labels-tags",
@@ -51470,7 +52222,8 @@
 "废液",
 "生物",
 "生物废液标签",
-"biohazard waste label"
+"biohazard waste label",
+"风险比"
 ],
 "cat": "10-figure-elements",
 "subdir": "labels-tags",
@@ -51566,7 +52319,8 @@
 "1nm",
 "protein",
 "globule",
-"size"
+"size",
+"蛋白质"
 ],
 "cat": "10-figure-elements",
 "subdir": "scale-reference",
@@ -51589,7 +52343,8 @@
 "20nm ribosome",
 "20nm",
 "ribosome",
-"size"
+"size",
+"核糖体"
 ],
 "cat": "10-figure-elements",
 "subdir": "scale-reference",
@@ -51613,7 +52368,8 @@
 "25nm",
 "small",
 "virus",
-"size"
+"size",
+"病毒"
 ],
 "cat": "10-figure-elements",
 "subdir": "scale-reference",
@@ -51883,7 +52639,8 @@
 "line",
 "table",
 "two",
-"row"
+"row",
+"头"
 ],
 "cat": "10-figure-elements",
 "subdir": "tables-frames",
@@ -52094,7 +52851,8 @@
 "merged",
 "cell",
 "header",
-"细胞"
+"细胞",
+"头"
 ],
 "cat": "10-figure-elements",
 "subdir": "tables-frames",
@@ -52140,7 +52898,8 @@
 "nested-header-2level",
 "nested",
 "header",
-"2level"
+"2level",
+"头"
 ],
 "cat": "10-figure-elements",
 "subdir": "tables-frames",
@@ -52207,7 +52966,8 @@
 "correlation-matrix-4x4",
 "correlation",
 "matrix",
-"4x4"
+"4x4",
+"相关"
 ],
 "cat": "10-figure-elements",
 "subdir": "tables-frames",
@@ -52251,7 +53011,8 @@
 "regression-coef-stars",
 "regression",
 "coef",
-"stars"
+"stars",
+"回归"
 ],
 "cat": "10-figure-elements",
 "subdir": "tables-frames",
@@ -52820,7 +53581,8 @@
 "karnaugh-map-4var",
 "karnaugh",
 "map",
-"4var"
+"4var",
+"RNA"
 ],
 "cat": "10-figure-elements",
 "subdir": "tables-frames",
@@ -53001,7 +53763,8 @@
 "脚注分隔线组",
 "footnote-rules",
 "footnote",
-"rules"
+"rules",
+"足"
 ],
 "cat": "10-figure-elements",
 "subdir": "tables-frames",
@@ -53023,7 +53786,8 @@
 "标题横幅色块",
 "header-banner",
 "header",
-"banner"
+"banner",
+"头"
 ],
 "cat": "10-figure-elements",
 "subdir": "tables-frames",
@@ -53046,7 +53810,9 @@
 "section-heading-bar",
 "section",
 "heading",
-"bar"
+"bar",
+"头",
+"切片"
 ],
 "cat": "10-figure-elements",
 "subdir": "tables-frames",
@@ -53069,7 +53835,8 @@
 "two-column-layout",
 "two",
 "column",
-"layout"
+"layout",
+"层析柱"
 ],
 "cat": "10-figure-elements",
 "subdir": "tables-frames",
@@ -53139,7 +53906,8 @@
 "12栅格示意",
 "grid-12-columns",
 "grid",
-"columns"
+"columns",
+"层析柱"
 ],
 "cat": "10-figure-elements",
 "subdir": "tables-frames",
@@ -53438,7 +54206,8 @@
 "cloud",
 "points",
 "散点图",
-"scatter cloud"
+"scatter cloud",
+"猫"
 ],
 "cat": "11-diagrams-charts",
 "subdir": "charts-plots",
@@ -53459,7 +54228,8 @@
 "regression",
 "散点趋势线",
 "scatter with trendline",
-"with"
+"with",
+"猫"
 ],
 "cat": "11-diagrams-charts",
 "subdir": "charts-plots",
@@ -53606,7 +54376,9 @@
 "leaf",
 "distribution",
 "茎叶图",
-"stem leaf"
+"stem leaf",
+"干细胞",
+"叶"
 ],
 "cat": "11-diagrams-charts",
 "subdir": "charts-plots",
@@ -53770,7 +54542,8 @@
 "change",
 "瀑布图",
 "waterfall bars",
-"bars"
+"bars",
+"水"
 ],
 "cat": "11-diagrams-charts",
 "subdir": "charts-plots",
@@ -53855,7 +54628,8 @@
 "parts",
 "矩形树图",
 "treemap four",
-"four"
+"four",
+"树"
 ],
 "cat": "11-diagrams-charts",
 "subdir": "charts-plots",
@@ -54021,7 +54795,8 @@
 "fit",
 "回归虚线",
 "regression line dashed",
-"line"
+"line",
+"回归"
 ],
 "cat": "11-diagrams-charts",
 "subdir": "charts-plots",
@@ -54041,7 +54816,8 @@
 "scatter",
 "diagnostic",
 "残差散点",
-"residuals scatter"
+"residuals scatter",
+"猫"
 ],
 "cat": "11-diagrams-charts",
 "subdir": "charts-plots",
@@ -54104,7 +54880,8 @@
 "cumulative",
 "经验分布函数",
 "ecdf steps",
-"steps"
+"steps",
+"步骤"
 ],
 "cat": "11-diagrams-charts",
 "subdir": "charts-plots",
@@ -54147,7 +54924,9 @@
 "meier",
 "km生存曲线",
 "survival steps",
-"steps"
+"steps",
+"生存",
+"步骤"
 ],
 "cat": "11-diagrams-charts",
 "subdir": "charts-plots",
@@ -54539,7 +55318,8 @@
 "diverging",
 "compare",
 "蝴蝶对比图",
-"butterfly diverging"
+"butterfly diverging",
+"果蝇"
 ],
 "cat": "11-diagrams-charts",
 "subdir": "charts-plots",
@@ -54685,7 +55465,9 @@
 "chart dose response curve",
 "dose",
 "response",
-"图表"
+"图表",
+"剂量",
+"剂量效应"
 ],
 "cat": "11-diagrams-charts",
 "subdir": "charts-plots",
@@ -54736,7 +55518,8 @@
 "五段箭头链条",
 "chart flow arrow chevrons",
 "箭头",
-"图表"
+"图表",
+"流程"
 ],
 "cat": "11-diagrams-charts",
 "subdir": "charts-plots",
@@ -54810,7 +55593,8 @@
 "chart kaplan meier steps",
 "kaplan",
 "meier",
-"图表"
+"图表",
+"步骤"
 ],
 "cat": "11-diagrams-charts",
 "subdir": "charts-plots",
@@ -54959,7 +55743,8 @@
 "gradient",
 "桑基图三流",
 "chart sankey three flows",
-"图表"
+"图表",
+"流程"
 ],
 "cat": "11-diagrams-charts",
 "subdir": "charts-plots",
@@ -54984,7 +55769,8 @@
 "散点回归图",
 "chart scatter with trend r2",
 "with",
-"图表"
+"图表",
+"猫"
 ],
 "cat": "11-diagrams-charts",
 "subdir": "charts-plots",
@@ -55103,7 +55889,8 @@
 "fold-change",
 "火山图",
 "chart volcano scatter",
-"图表"
+"图表",
+"猫"
 ],
 "cat": "11-diagrams-charts",
 "subdir": "charts-plots",
@@ -55124,7 +55911,8 @@
 "usecase",
 "participant",
 "参与者小人",
-"actor stickman"
+"actor stickman",
+"男性"
 ],
 "cat": "11-diagrams-charts",
 "subdir": "diagrams-uml",
@@ -55164,7 +55952,8 @@
 "boundary",
 "usecase",
 "系统边界加两用例",
-"usecase system boundary"
+"usecase system boundary",
+"干细胞"
 ],
 "cat": "11-diagrams-charts",
 "subdir": "diagrams-uml",
@@ -55963,7 +56752,9 @@
 "crowfoot",
 "er",
 "一对多鸦爪",
-"er one-many crowfoot"
+"er one-many crowfoot",
+"男性",
+"足"
 ],
 "cat": "11-diagrams-charts",
 "subdir": "diagrams-uml",
@@ -55983,7 +56774,8 @@
 "crowfoot",
 "er",
 "多对多",
-"er many-many"
+"er many-many",
+"男性"
 ],
 "cat": "11-diagrams-charts",
 "subdir": "diagrams-uml",
@@ -56111,7 +56903,9 @@
 "dfd",
 "数据流外部实体",
 "dataflow external entity",
-"dataflow"
+"dataflow",
+"RNA",
+"流程"
 ],
 "cat": "11-diagrams-charts",
 "subdir": "diagrams-uml",
@@ -56132,7 +56926,8 @@
 "dfd",
 "数据流过程",
 "dataflow process circle",
-"dataflow"
+"dataflow",
+"流程"
 ],
 "cat": "11-diagrams-charts",
 "subdir": "diagrams-uml",
@@ -56153,7 +56948,8 @@
 "dfd",
 "数据存储开口框",
 "dataflow store open",
-"dataflow"
+"dataflow",
+"流程"
 ],
 "cat": "11-diagrams-charts",
 "subdir": "diagrams-uml",
@@ -56174,7 +56970,8 @@
 "diagram",
 "dfd四元素小图",
 "dataflow diagram mini",
-"mini"
+"mini",
+"流程"
 ],
 "cat": "11-diagrams-charts",
 "subdir": "diagrams-uml",
@@ -56275,7 +57072,8 @@
 "topology",
 "network",
 "树型拓扑",
-"topology tree"
+"topology tree",
+"树"
 ],
 "cat": "11-diagrams-charts",
 "subdir": "diagrams-uml",
@@ -56665,7 +57463,8 @@
 "manual",
 "input",
 "手工输入",
-"manual-input"
+"manual-input",
+"男性"
 ],
 "cat": "11-diagrams-charts",
 "subdir": "flowchart-syntax",
@@ -56860,7 +57659,8 @@
 "annotation",
 "竖向说明线",
 "line-annotation",
-"line"
+"line",
+"注释"
 ],
 "cat": "11-diagrams-charts",
 "subdir": "flowchart-syntax",
@@ -57081,7 +57881,8 @@
 "intersection",
 "交集阴影",
 "set-intersection-shaded",
-"shaded"
+"shaded",
+"切片"
 ],
 "cat": "11-diagrams-charts",
 "subdir": "flowchart-syntax",
@@ -57218,7 +58019,8 @@
 "hierarchy",
 "tree",
 "三层组织树",
-"hierarchy-tree-3"
+"hierarchy-tree-3",
+"树"
 ],
 "cat": "11-diagrams-charts",
 "subdir": "flowchart-syntax",
@@ -57415,7 +58217,8 @@
 "flow",
 "example",
 "泳道流程示例",
-"flow-swimlane-example"
+"flow-swimlane-example",
+"流程"
 ],
 "cat": "11-diagrams-charts",
 "subdir": "flowchart-syntax",
@@ -57976,7 +58779,8 @@
 "optional",
 "flowchart",
 "虚线注解框",
-"annotation dashed box"
+"annotation dashed box",
+"注释"
 ],
 "cat": "11-diagrams-charts",
 "subdir": "flowchart-syntax",
@@ -57999,7 +58803,8 @@
 "note",
 "flowchart",
 "注解花括号",
-"annotation brace"
+"annotation brace",
+"注释"
 ],
 "cat": "11-diagrams-charts",
 "subdir": "flowchart-syntax",
@@ -58392,7 +59197,8 @@
 "flowchart",
 "虚线分组容器",
 "dashed boundary container",
-"flow"
+"flow",
+"流程"
 ],
 "cat": "11-diagrams-charts",
 "subdir": "flowchart-syntax",
@@ -58439,7 +59245,8 @@
 "divider",
 "flowchart",
 "泳道分隔",
-"swimlane header"
+"swimlane header",
+"头"
 ],
 "cat": "11-diagrams-charts",
 "subdir": "flowchart-syntax",
@@ -58506,7 +59313,8 @@
 "keyboard",
 "flowchart",
 "人工输入梯形",
-"manual input trapezoid"
+"manual input trapezoid",
+"男性"
 ],
 "cat": "11-diagrams-charts",
 "subdir": "flowchart-syntax",
@@ -58733,7 +59541,8 @@
 "flowchart",
 "签核框",
 "signature approval box",
-"box"
+"box",
+"特征"
 ],
 "cat": "11-diagrams-charts",
 "subdir": "flowchart-syntax",
@@ -59539,7 +60348,8 @@
 "保护地",
 "ground-earth",
 "ground",
-"earth"
+"earth",
+"耳"
 ],
 "cat": "11-diagrams-charts",
 "subdir": "physics-circuits",
@@ -60143,7 +60953,8 @@
 "内阻",
 "模型",
 "电池内阻模型",
-"battery internal resistance model"
+"battery internal resistance model",
+"RNA"
 ],
 "cat": "11-diagrams-charts",
 "subdir": "physics-circuits",
@@ -60372,7 +61183,8 @@
 "断路器",
 "漏电断路器elcb",
 "earth leakage circuit breaker",
-"earth"
+"earth",
+"耳"
 ],
 "cat": "11-diagrams-charts",
 "subdir": "physics-circuits",
@@ -60436,7 +61248,8 @@
 "接地",
 "接地符号",
 "ground earth symbol",
-"symbol"
+"symbol",
+"耳"
 ],
 "cat": "11-diagrams-charts",
 "subdir": "physics-circuits",
@@ -60904,7 +61717,8 @@
 "actuator pneumatic diaphragm",
 "actuator",
 "pneumatic",
-"diaphragm"
+"diaphragm",
+"pH"
 ],
 "cat": "11-diagrams-charts",
 "subdir": "pid-process",
@@ -60943,7 +61757,8 @@
 "column distillation tray",
 "column",
 "distillation",
-"tray"
+"tray",
+"层析柱"
 ],
 "cat": "11-diagrams-charts",
 "subdir": "pid-process",
@@ -60962,7 +61777,8 @@
 "填料吸收塔",
 "column packed",
 "column",
-"packed"
+"packed",
+"层析柱"
 ],
 "cat": "11-diagrams-charts",
 "subdir": "pid-process",
@@ -61064,7 +61880,8 @@
 "instrument bubble flow",
 "instrument",
 "bubble",
-"flow"
+"flow",
+"流程"
 ],
 "cat": "11-diagrams-charts",
 "subdir": "pid-process",
@@ -61286,7 +62103,8 @@
 "pump",
 "gear",
 "positive",
-"displacement"
+"displacement",
+"耳"
 ],
 "cat": "11-diagrams-charts",
 "subdir": "pid-process",
@@ -61306,7 +62124,8 @@
 "pump metering diaphragm",
 "pump",
 "metering",
-"diaphragm"
+"diaphragm",
+"pH"
 ],
 "cat": "11-diagrams-charts",
 "subdir": "pid-process",
@@ -61425,7 +62244,8 @@
 "sensor flow rotameter",
 "sensor",
 "flow",
-"rotameter"
+"rotameter",
+"流程"
 ],
 "cat": "11-diagrams-charts",
 "subdir": "pid-process",
@@ -61567,7 +62387,8 @@
 "valve butterfly wafer",
 "valve",
 "butterfly",
-"wafer"
+"wafer",
+"果蝇"
 ],
 "cat": "11-diagrams-charts",
 "subdir": "pid-process",
@@ -61607,7 +62428,8 @@
 "valve gate handwheel",
 "valve",
 "gate",
-"handwheel"
+"handwheel",
+"手"
 ],
 "cat": "11-diagrams-charts",
 "subdir": "pid-process",
@@ -61668,7 +62490,8 @@
 "valve",
 "safety",
 "relief",
-"spring"
+"spring",
+"安全"
 ],
 "cat": "11-diagrams-charts",
 "subdir": "pid-process",
@@ -61709,7 +62532,8 @@
 "vessel tank horizontal",
 "vessel",
 "tank",
-"horizontal"
+"horizontal",
+"血管"
 ],
 "cat": "11-diagrams-charts",
 "subdir": "pid-process",
@@ -61730,7 +62554,9 @@
 "vessel",
 "tank",
 "vertical",
-"atmospheric"
+"atmospheric",
+"血管",
+"pH"
 ],
 "cat": "11-diagrams-charts",
 "subdir": "pid-process",
@@ -61751,7 +62577,8 @@
 "gas-liquid",
 "scrubber",
 "吸收塔",
-"absorption column"
+"absorption column",
+"层析柱"
 ],
 "cat": "11-diagrams-charts",
 "subdir": "pid-process",
@@ -61867,7 +62694,8 @@
 "intercooler",
 "gas",
 "多级压缩机",
-"multistage compressor"
+"multistage compressor",
+"阶段"
 ],
 "cat": "11-diagrams-charts",
 "subdir": "pid-process",
@@ -61888,7 +62716,8 @@
 "cooling",
 "vapor-liquid",
 "塔顶冷凝器",
-"overhead condenser"
+"overhead condenser",
+"头"
 ],
 "cat": "11-diagrams-charts",
 "subdir": "pid-process",
@@ -61956,7 +62785,8 @@
 "packing",
 "random",
 "填料塔",
-"packed distillation column"
+"packed distillation column",
+"层析柱"
 ],
 "cat": "11-diagrams-charts",
 "subdir": "pid-process",
@@ -61979,7 +62809,8 @@
 "boiler",
 "reflux",
 "板式精馏塔",
-"tray distillation column"
+"tray distillation column",
+"层析柱"
 ],
 "cat": "11-diagrams-charts",
 "subdir": "pid-process",
@@ -62235,7 +63066,8 @@
 "离子交换柱",
 "ion exchange resin column",
 "ion",
-"exchange"
+"exchange",
+"层析柱"
 ],
 "cat": "11-diagrams-charts",
 "subdir": "pid-process",
@@ -62483,7 +63315,8 @@
 "level-gauge",
 "vertical",
 "立式储罐",
-"atmospheric storage tank"
+"atmospheric storage tank",
+"pH"
 ],
 "cat": "11-diagrams-charts",
 "subdir": "pid-process",
@@ -62505,7 +63338,8 @@
 "removal",
 "gas",
 "汽提塔",
-"stripping column"
+"stripping column",
+"层析柱"
 ],
 "cat": "11-diagrams-charts",
 "subdir": "pid-process",
@@ -62552,7 +63386,9 @@
 "coagulation flocculation tank",
 "tank",
 "water",
-"treatment"
+"treatment",
+"水",
+"处理"
 ],
 "cat": "11-diagrams-charts",
 "subdir": "pid-process",
@@ -62592,7 +63428,8 @@
 "magnifier",
 "search",
 "搜索放大镜",
-"magnifier_search"
+"magnifier_search",
+"耳"
 ],
 "cat": "12-icons-ui",
 "subdir": "icons-ui",
@@ -63299,7 +64136,8 @@
 "settings",
 "gear",
 "设置齿轮",
-"settings_gear"
+"settings_gear",
+"耳"
 ],
 "cat": "12-icons-ui",
 "subdir": "icons-ui",
@@ -63377,7 +64215,8 @@
 "喜欢",
 "heart",
 "love",
-"心脏"
+"心脏",
+"耳"
 ],
 "cat": "12-icons-ui",
 "subdir": "icons-ui",
@@ -63748,7 +64587,8 @@
 "tags": [
 "证书",
 "认证",
-"certificate"
+"certificate",
+"猫"
 ],
 "cat": "12-icons-ui",
 "subdir": "icons-ui",
@@ -63866,7 +64706,8 @@
 "计时",
 "hourglass",
 "timer",
-"timer_hourglass"
+"timer_hourglass",
+"小时"
 ],
 "cat": "12-icons-ui",
 "subdir": "icons-ui",
@@ -63887,7 +64728,8 @@
 "location",
 "pin",
 "定位标记",
-"location_pin"
+"location_pin",
+"猫"
 ],
 "cat": "12-icons-ui",
 "subdir": "icons-ui",
@@ -63991,7 +64833,8 @@
 "electron",
 "orbital",
 "原子图标",
-"icon atom"
+"icon atom",
+"原子"
 ],
 "cat": "12-icons-ui",
 "subdir": "icons-ui",
@@ -64057,7 +64900,8 @@
 "hazard",
 "biological",
 "生物危害图标",
-"icon biohazard"
+"icon biohazard",
+"风险比"
 ],
 "cat": "12-icons-ui",
 "subdir": "icons-ui",
@@ -64235,7 +65079,8 @@
 "mechanical",
 "configuration",
 "齿轮图标",
-"icon gear"
+"icon gear",
+"耳"
 ],
 "cat": "12-icons-ui",
 "subdir": "icons-ui",
@@ -64302,7 +65147,8 @@
 "eco",
 "nature",
 "叶子环保图标",
-"icon leaf environment"
+"icon leaf environment",
+"叶"
 ],
 "cat": "12-icons-ui",
 "subdir": "icons-ui",
@@ -64390,7 +65236,8 @@
 "organic",
 "chemistry",
 "苯分子图标",
-"icon molecule benzene"
+"icon molecule benzene",
+"分子"
 ],
 "cat": "12-icons-ui",
 "subdir": "icons-ui",

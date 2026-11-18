@@ -87,13 +87,15 @@ def zone1(cv: Canvas, b: Box):
     p = cv.p
     c = cv.zone(b, "1  实验设计  Study design", acc=0)
 
-    arms = [("WGBR", "全谷物黑米", 0), ("WGWR", "全谷物白米", 1),
-            ("PR", "精白米", 2), ("ST", "标准饲料 AIN93", 3)]
+    arms = [("WGBR", "全谷物黑米", 0, "bioicons/servier/Animals/mouse-gray"),
+            ("WGWR", "全谷物白米", 1, "bioicons/servier/Animals/mouse-gray"),
+            ("PR", "精白米", 2, "bioicons/servier/Animals/mouse-gray"),
+            ("ST", "标准饲料 AIN93", 3, "bioicons/servier/Animals/mouse-gray")]
     area = Box(c.x, c.y, c.w, c.h - 10.4)
-    for (code, name, acc), r in zip(arms, area.rows(4, gap=1.8)):
+    for (code, name, acc, ic), r in zip(arms, area.rows(4, gap=1.8)):
         cv.chip(Box(r.x, r.y + (r.h - 6.2) / 2, 15.0, 6.2), code, acc=acc,
                 size=6.0, bold=True, mode="solid")
-        cv.icon(Box(r.x + 16.6, r.y, 12.6, r.h), "bioicons/mouse-gray", pad=0.5)
+        cv.icon(Box(r.x + 16.6, r.y, 12.6, r.h), ic, pad=0.5)
         cv.text(Box(r.x + 30.2, r.y, r.w - 30.4, r.h), name, size=6.6, align="l",
                 colour=p.ink)
 
@@ -122,8 +124,7 @@ def zone2(cv: Canvas, b: Box):
         cv.text(Box(x - 6.5, y_axis - 5.6, 13.0, 4.2), a, size=6.2, bold=True,
                 colour=p.ink)
         cv.icon(Box(x - 3.8, y_axis + 2.2, 7.6, 10.4),
-                "sciglyph/07-glassware-consumables/general-labware/013-centrifuge-tube",
-                pad=0.0)
+                "bioicons/servier/Microbiology/microtube-closed-blue", pad=0.0)
     cv.text(Box(ax.x, y_axis - 10.2, 14.0, 3.8), "月龄", size=5.6, align="l",
             colour=p.ink3)
 
@@ -151,10 +152,11 @@ def zone3(cv: Canvas, b: Box):
 
     items = [
         ("盲肠内容物", "SCFA（GC-MS）\n菌群绝对定量", 0,
-         "sciglyph/07-glassware-consumables/general-labware/013-centrifuge-tube"),
-        ("结肠 + 粪便", "LC-MS/MS 代谢组\n16S / 宏基因组", 1, "bioicons/colon"),
+         "bioicons/servier/Microbiology/microtube-closed-blue"),
+        ("结肠 + 粪便", "LC-MS/MS 代谢组\n16S / 宏基因组", 1,
+         "bioicons/servier/Human_physiology/colon"),
         ("结肠组织", "H&E · 炎症评分\n免疫组化 / 屏障蛋白", 2,
-         "sciglyph/07-glassware-consumables/general-labware/046-microscope-slide-2"),
+         "bioicons/servier/Human_physiology/intestinal-villi"),
     ]
     area = Box(c.x, c.y, c.w, c.h - 5.2)
     for (t, s, _acc, icon), card in zip(items, area.rows(3, gap=2.2)):
@@ -203,11 +205,11 @@ def zone5(cv: Canvas, b: Box):
 
     # row 1: five modalities side by side
     mods = [
-        ("宏基因组", "sciglyph/05-ecology-biotech/interactions/016-gut-microbiome"),
-        ("宿主基因组", "sciglyph/02-genetics-omics/mol-structures/001-dna-double-helix"),
+        ("宏基因组", "bioicons/james-lloyd/Microbiology/Bacteria_Swimming"),
+        ("宿主基因组", "bioicons/dbcls/Nucleic_acids/DNA_colored"),
         ("SCFA 靶向", "sciglyph/03-metabolism-phenotype/metabolism/013-ferm-butyrate"),
         ("代谢组", "sciglyph/08-instruments-apparatus/separation-fluidics/045-chromatography-column-glass"),
-        ("病理 / 炎症", "sciglyph/07-glassware-consumables/general-labware/046-microscope-slide-2"),
+        ("病理 / 炎症", "bioicons/servier/Lab_apparatus/microscope"),
     ]
     band = Box(c.x, c.y, c.w, 12.4)
     for (name, icon), cell in zip(mods, band.cols(5, gap=1.4)):
@@ -312,3 +314,6 @@ def zone7(cv: Canvas, b: Box):
 if __name__ == "__main__":
     out = Path(sys.argv[1]) if len(sys.argv) > 1 else Path(__file__).parent / "out"
     print(build(Path(out)))
+
+
+

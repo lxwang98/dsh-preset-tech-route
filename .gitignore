@@ -6,3 +6,13 @@ assets/.cache/
 .~*
 Thumbs.db
 .DS_Store
+
+# remote asset cache (downloaded SVGs, ~428 MB if fully populated)
+assets/.remote/
+assets/remote/bioicons-tree.json
+assets/remote/reactome.json
+
+# miniplot transient insets
+.routekit_plots/
+skills/tech-route-atlas/scripts/.routekit_plots/
+

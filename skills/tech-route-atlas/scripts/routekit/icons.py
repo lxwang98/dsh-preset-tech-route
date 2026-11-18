@@ -195,17 +195,38 @@ def _flatten_tint(img: Image.Image, colour: str) -> Image.Image:
     return solid
 
 
-def png(asset_id: str, px: int = 900, *, tint: str | None = None,
+def resolve(asset_id, cat: Catalog | None = None) -> tuple[str, Path]:
+    """id -> (asset id, local svg path).
+
+    Accepts a bundled ``Asset``, a ``routekit.remote.Remote`` record, or a plain
+    id string.  Ids that are not in the bundled index are looked up in the
+    remote catalogue and downloaded on first use, so ``icon("bioicons/servier/
+    heart")`` works even though the file is not shipped in the bundle.
+    """
+    if not isinstance(asset_id, str):
+        p = asset_id.path
+        return asset_id.id, (p() if callable(p) else p)
+
+    a = (cat or catalog()).get(asset_id)
+    if a is not None:
+        return a.id, a.path
+
+    from . import remote as _remote  # lazy: keeps offline use dependency-free
+
+    rec = _remote.get(asset_id)
+    return rec.id, _remote.fetch(rec)
+
+
+def png(asset_id, px: int = 900, *, tint: str | None = None,
         cat: Catalog | None = None) -> Path:
     """Rasterise an asset to a cached transparent PNG; returns the path."""
-    cat = cat or catalog()
-    a = cat.get(asset_id)
+    aid, svg = resolve(asset_id, cat)
     CACHE.mkdir(parents=True, exist_ok=True)
-    key = a.id.replace("/", "__") + (f"__t{tint.lstrip('#')}" if tint else "")
+    key = aid.replace("/", "__") + (f"__t{tint.lstrip('#')}" if tint else "")
     out = CACHE / f"{key}@{px}.png"
-    if out.exists():
+    if out.exists() and out.stat().st_size > 0:
         return out
-    img = _svg_to_image(a.path, px)
+    img = _svg_to_image(svg, px)
     if tint:
         img = _flatten_tint(img, tint)
     img.save(out)

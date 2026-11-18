@@ -9,20 +9,41 @@ tech-route/
 ├─ package.json              # @local/dsh-preset-tech-route
 ├─ assets/
 │  ├─ sciglyph/              # 2830 个矢量图元（CC BY 4.0，12 大类 5 种画风）
-│  ├─ bioicons/              # 100 个插画（CC0 / CC BY，小鼠·脏器·水稻·人体·仪器·箭头）
-│  └─ index.json             # 2930 条素材索引（中英名、标签、风格、许可、署名）
+│  ├─ bioicons/              # 100 个精选插画（CC0 / CC BY，离线可用）
+│  ├─ index.json             # 2930 条本机素材索引（中英名、标签、风格、许可、署名）
+│  ├─ glossary.json          # 240 个中英术语，供中文检索用
+│  └─ remote/index.json      # 2829 条远程素材目录（元数据 1.4 MB，按需下载）
+├─ tools/
+│  ├─ build_index.py         # 重建本机索引
+│  └─ fetch_bioicons.py      # 拉取精选 Bioicons 子集
 ├─ skills/
 │  ├─ tech-route-atlas/      # 核心方法 + routekit 库 + 示例（含 7 分区示范图）
 │  │  ├─ references/api.md       # 全部 API 签名
 │  │  ├─ references/patterns.md  # 12 种版式骨架（真实坐标）
 │  │  ├─ references/arrows.md    # 箭头拓扑与走位规则
+│  │  ├─ references/remote.md    # 远程素材库（Servier / DBCLS）用法与许可
 │  │  └─ examples/               # build_demo.py + pptx/png/pdf 成品
-│  ├─ sciglyph-catalog/      # 素材检索/预览/许可与格式规则
+│  ├─ sciglyph-catalog/      # 素材检索/预览/许可与格式规则（本机 + 远程）
 │  ├─ route-visual-qa/       # 渲染、审计、10 点人工复查
 │  └─ journal-route-spec/    # 期刊画布/字号/配色/图注规范与双输出
 ├─ docs/SOURCES.md           # 素材来源与许可
 └─ docs/ATTRIBUTION.md       # 可直接抄的署名片段
 ```
+
+## 素材：本机 2930 + 联网 2829
+
+本机 2930 件开箱即用（离线）。要 BioRender 那种彩色写实插画，用**远程库**——
+Bioicons 全库 2829 件，其中 **Servier Medical Art 1374 件**（CC BY 3.0）与
+**DBCLS 634 件**（CC BY 4.0）是人工绘制的彩色插画，脏器、小鼠、菌群、仪器都有。
+仓库只带 1.4 MB 目录，图上用到哪张才下载哪张（缓存到 `assets/.remote/`，附许可文件）：
+
+```powershell
+python -m routekit.remote search "心脏" -k 8 --sheet out\cardiac.png
+python -m routekit.remote search "colon" -c servier
+python -m routekit.remote fetch bioicons/servier/Human_physiology/colon
+```
+
+写代码时直接写 id，`cv.icon(box, "bioicons/servier/Animals/mouse-gray")` 首次使用自动下载。
 
 ## 快速上手
 
