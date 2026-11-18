@@ -87,10 +87,12 @@ def zone1(cv: Canvas, b: Box):
     p = cv.p
     c = cv.zone(b, "1  实验设计  Study design", acc=0)
 
-    arms = [("WGBR", "全谷物黑米", 0, "bioicons/servier/Animals/mouse-gray"),
-            ("WGWR", "全谷物白米", 1, "bioicons/servier/Animals/mouse-gray"),
-            ("PR", "精白米", 2, "bioicons/servier/Animals/mouse-gray"),
-            ("ST", "标准饲料 AIN93", 3, "bioicons/servier/Animals/mouse-gray")]
+    BLACK = "bioicons/servier/Animals/mouse-darkgray"
+    WHITE = "bioicons/servier/Animals/mouse-small"
+    arms = [("WGBR", "全谷物黑米", 0, BLACK),
+            ("WGWR", "全谷物白米", 1, WHITE),
+            ("PR", "精白米", 2, WHITE),
+            ("ST", "标准饲料 AIN93", 3, BLACK)]
     area = Box(c.x, c.y, c.w, c.h - 10.4)
     for (code, name, acc, ic), r in zip(arms, area.rows(4, gap=1.8)):
         cv.chip(Box(r.x, r.y + (r.h - 6.2) / 2, 15.0, 6.2), code, acc=acc,
@@ -187,7 +189,9 @@ def zone4(cv: Canvas, b: Box):
     pb = Box(c.x, c.y, c.w, 24.0)
     cv.rect(pb, fill=p.paper, line=p.rule, lw=S.hair, radius=R.chip)
     cv.plot(pb.inner(1.4), mp.survival(curves, p, xticks=[0, 10, 20, 30, 40],
-                                       legend=True, ylabel="", xlabel=""))
+                                       legend=True,
+                                       xlabel="Age (months)",
+                                       ylabel="Survival (%)"))
 
     hyp = Box(c.x, c.y + 26.0, c.w, c.h - 26.0)
     cv.rect(hyp, fill=p.zone(3), line=p.zone_line(3), lw=S.hair, radius=R.chip)
@@ -207,7 +211,7 @@ def zone5(cv: Canvas, b: Box):
     mods = [
         ("宏基因组", "bioicons/james-lloyd/Microbiology/Bacteria_Swimming"),
         ("宿主基因组", "bioicons/servier/Nucleic_acids/dna-3"),
-        ("SCFA 靶向", "sciglyph/03-metabolism-phenotype/metabolism/013-ferm-butyrate"),
+        ("SCFA 靶向", "sciglyph/12-icons-ui/icons-ui/006-molecule"),
         ("代谢组", "bioicons/sasha-sundstrom/Lab_apparatus/mass-spectrometer-MS"),
         ("病理 / 炎症", "bioicons/servier/Lab_apparatus/microscope"),
     ]
@@ -314,6 +318,8 @@ def zone7(cv: Canvas, b: Box):
 if __name__ == "__main__":
     out = Path(sys.argv[1]) if len(sys.argv) > 1 else Path(__file__).parent / "out"
     print(build(Path(out)))
+
+
 
 
 

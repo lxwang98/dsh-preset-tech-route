@@ -457,7 +457,10 @@ class Canvas:
              cache_dir: str | Path | None = None, name: str = "plot"):
         """Render a matplotlib figure (mm-sized) and place it in `b`.
 
-        `draw(fig, ax)` is called with a figure exactly `b` mm in size.
+        `draw(fig, ax)` is called with a figure exactly `b` mm in size. The
+        saved image uses `bbox_inches="tight"`, so tick labels and axis labels
+        are never clipped; the result is letterboxed inside `b` keeping its
+        aspect ratio.
         """
         import hashlib
         import io
@@ -466,6 +469,7 @@ class Canvas:
 
         matplotlib.use("Agg")
         import matplotlib.pyplot as plt
+        from PIL import Image
 
         w_in, h_in = b.w / 25.4, b.h / 25.4
         fig = plt.figure(figsize=(w_in, h_in), dpi=dpi)
@@ -476,12 +480,23 @@ class Canvas:
         try:
             draw(fig)
             fig.savefig(out, dpi=dpi, transparent=transparent,
-                        bbox_inches=None, pad_inches=0)
+                        bbox_inches="tight", pad_inches=0.012)
         finally:
             plt.close(fig)
-        pic = self.slide.shapes.add_picture(str(out), Mm(b.x), Mm(b.y), Mm(b.w), Mm(b.h))
+
+        with Image.open(out) as im:
+            iw, ih = im.size
+        aspect = iw / max(ih, 1)
+        box_aspect = b.w / max(b.h, 0.01)
+        if aspect > box_aspect:          # wider than the slot: fit width
+            w, h = b.w, b.w / aspect
+        else:                            # taller: fit height
+            h, w = b.h, b.h * aspect
+        x = b.x + (b.w - w) / 2
+        y = b.y + (b.h - h) / 2
+        pic = self.slide.shapes.add_picture(str(out), Mm(x), Mm(y), Mm(w), Mm(h))
         pic.name = name
-        self.notes.append(Note("plot", b, name, 0, pic))
+        self.notes.append(Note("plot", Box(x, y, w, h), name, 0, pic))
         return pic
 
     # ------------------------------------------------------------ output

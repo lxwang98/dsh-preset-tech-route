@@ -86,6 +86,11 @@ save(path) -> Path
 summary() -> dict
 ```
 
+**plot() 的落地规则**：图按 `b` 的毫米尺寸建 fig，`savefig(bbox_inches="tight")`
+（因此刻度与轴标题永远不会被裁掉），再按比例居中放进 `b`（同比例缩放、留白），
+不会拉伸变形。轴标题建议用英文（`Age (months)` / `Survival (%)`）：4.5–5 pt 的中英混排
+在 20 mm 高的插图中会挤在一起。
+
 **text() 的排版契约**：`s` 里的 `\n` 是硬换行；每段再按真实字宽折行；
 `word_wrap=False`（PowerPoint 不会二次折行），因此高度由 `fit_paragraphs` 预先算准；
 `autofit=True` 时从 `size` 逐 0.25 pt 降到 `min_size`。返回 `None`。

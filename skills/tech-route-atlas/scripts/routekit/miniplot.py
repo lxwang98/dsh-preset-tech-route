@@ -27,6 +27,13 @@ def _apply(fig, p: Palette, *, grid: bool = False, offset_x: float = 0.0):
     mpl.rcParams["font.sans-serif"] = ["Microsoft YaHei", "SimHei", "Arial", "DejaVu Sans"]
     mpl.rcParams["axes.unicode_minus"] = False
     ax = fig.axes[0] if fig.axes else fig.add_axes((0, 0, 1, 1))
+    # Absolute mm margins instead of matplotlib's fractional defaults: on a
+    # 55 x 21 mm inset the default 12.5 % left margin eats 7 mm of plot.
+    w_mm = fig.get_size_inches()[0] * 25.4
+    h_mm = fig.get_size_inches()[1] * 25.4
+    left = min(0.34, 6.4 / max(w_mm, 1.0))
+    bottom = min(0.34, 5.6 / max(h_mm, 1.0))
+    ax.set_position((left, bottom, 1 - left - 0.018, 1 - bottom - 0.022))
     ax.set_facecolor("none")
     for side in ("top", "right"):
         ax.spines[side].set_visible(False)
@@ -169,6 +176,10 @@ def heat(matrix: list[list[float]], p: Palette, *, row_labels: list[str] | None 
         if col_labels:
             ax.set_xticks(range(len(col_labels)))
             ax.set_xticklabels(col_labels, fontsize=T.micro - 0.5, rotation=0)
+        if not row_labels and not col_labels:
+            # schematic block (no real axes): keep the grid clean
+            ax.set_xticks([])
+            ax.set_yticks([])
         for sp in ax.spines.values():
             sp.set_visible(False)
         ax.tick_params(length=0)
