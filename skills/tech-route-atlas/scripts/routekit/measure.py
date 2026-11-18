@@ -33,9 +33,11 @@ FONT_FILES: dict[str, tuple[str, str]] = {
     ),
     "Times New Roman": (r"C:\Windows\Fonts\times.ttf", r"C:\Windows\Fonts\timesbd.ttf"),
     "Calibri": (r"C:\Windows\Fonts\calibri.ttf", r"C:\Windows\Fonts\calibrib.ttf"),
+    "Cambria": (r"C:\Windows\Fonts\cambria.ttc", r"C:\Windows\Fonts\cambriab.ttf"),
+    "KaiTi": (r"C:\Windows\Fonts\simkai.ttf", r"C:\Windows\Fonts\simkai.ttf"),
 }
 
-CJK_FONT = "Microsoft YaHei"
+CJK_FONT = "KaiTi"
 _REF = 100  # reference px size for ratio measurement
 
 

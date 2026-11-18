@@ -10,12 +10,14 @@ tech-route/
 ├─ assets/
 │  ├─ sciglyph/              # 2830 个矢量图元（CC BY 4.0，12 大类 5 种画风）
 │  ├─ bioicons/              # 100 个精选插画（CC0 / CC BY，离线可用）
-│  ├─ index.json             # 2930 条本机素材索引（中英名、标签、风格、许可、署名）
-│  ├─ glossary.json          # 240 个中英术语，供中文检索用
+│  ├─ custom/                # 11 个自制/参考素材 + SciDraw 774 个插画
+│  ├─ index.json             # 3715 条本机素材索引（中英名、标签、风格、许可、署名）
+│  ├─ glossary.json          # 中英术语，供中文检索用
 │  └─ remote/index.json      # 2829 条远程素材目录（元数据 1.4 MB，按需下载）
 ├─ tools/
-│  ├─ build_index.py         # 重建本机索引
-│  └─ fetch_bioicons.py      # 拉取精选 Bioicons 子集
+│  ├─ build_index.py         # 重建本机索引（sciglyph + bioicons + custom + scidraw）
+│  ├─ fetch_bioicons.py      # 拉取精选 Bioicons 子集
+│  └─ fetch_scidraw.py       # 从 scidraw.io 公共 API 全量抓取 774 件
 ├─ skills/
 │  ├─ tech-route-atlas/      # 核心方法 + routekit 库 + 示例（含 7 分区示范图）
 │  │  ├─ references/api.md       # 全部 API 签名
@@ -27,12 +29,14 @@ tech-route/
 │  ├─ route-visual-qa/       # 渲染、审计、10 点人工复查
 │  └─ journal-route-spec/    # 期刊画布/字号/配色/图注规范与双输出
 ├─ docs/SOURCES.md           # 素材来源与许可
-└─ docs/ATTRIBUTION.md       # 可直接抄的署名片段
+├─ docs/ATTRIBUTION.md       # 可直接抄的署名片段
+└─ docs/USER_PRESET.md       # 用户审美 / 七区布局 / 字体与交付硬约束
 ```
 
-## 素材：本机 2930 + 联网 2829
+## 素材：本机 3715 + 联网 2829
 
-本机 2930 件开箱即用（离线）。要 BioRender 那种彩色写实插画，用**远程库**——
+本机 3715 件开箱即用（离线）：SciGlyph 2830、Bioicons 精选 100、SciDraw 774、自制/参考 11。
+SciDraw 来自 <https://scidraw.io>（CC BY 4.0 / CC0，逐条保留作者、DOI 与许可）。要 BioRender 那种彩色写实插画，用**远程库**——
 Bioicons 全库 2829 件，其中 **Servier Medical Art 1374 件**（CC BY 3.0）与
 **DBCLS 634 件**（CC BY 4.0）是人工绘制的彩色插画，脏器、小鼠、菌群、仪器都有。
 仓库只带 1.4 MB 目录，图上用到哪张才下载哪张（缓存到 `assets/.remote/`，附许可文件）：
@@ -61,7 +65,8 @@ from routekit import Canvas, Box, P, T, CANVAS, P as palette
 from routekit import miniplot as mp
 from routekit.audit import static_report, format_report
 
-cv = Canvas(*CANVAS.slide_16x9, palette="cell", title="研究技术路线")
+cv = Canvas(*CANVAS.slide_16x9, palette="cell",
+            font="Cambria", cjk_font="KaiTi", title="研究技术路线")
 c = cv.zone(Box(4, 20, 120, 60), "1 实验设计 Study design", acc=0)
 cv.text(Box(c.x, c.y, c.w, 6), "全谷物黑米 × 4 组 × 33 月龄", size=T.small, bold=True)
 cv.icon(Box(c.x, c.y + 8, 18, 18), "bioicons/Mouse")
@@ -103,5 +108,6 @@ Microsoft PowerPoint（仅作渲染/导出/审计引擎，无需人工打开）�
 ## 许可
 
 - 代码与技能文档：随本预设自由使用。
-- SciGlyph 素材：CC BY 4.0（署名 ZengZichao）；Bioicons：逐文件 CC0 / CC BY 3.0 / CC BY 4.0。
+- SciGlyph：CC BY 4.0（署名 ZengZichao）；Bioicons：逐文件 CC0 / CC BY 3.0 / CC BY 4.0；
+  SciDraw：逐文件 CC BY 4.0 / CC0，保留作者、DOI 与来源。
 - 对外交付图件请附 `docs/ATTRIBUTION.md` 中的署名片段。详见 `docs/SOURCES.md`。

@@ -132,9 +132,76 @@ def bioicons() -> list[dict]:
     return out
 
 
+def custom() -> list[dict]:
+    """Keep hand-curated assets already in the index.
+
+    The custom records carry Chinese names, tags and attribution that cannot
+    be inferred from a bare file, so they are read back from the previous
+    index instead of being regenerated.
+    """
+    if not INDEX.exists():
+        return []
+    try:
+        old = json.loads(INDEX.read_text(encoding="utf-8"))
+    except Exception:
+        return []
+    out = []
+    for r in old:
+        pid = r.get("id", "")
+        if not pid.startswith("custom/"):
+            continue
+        p = r.get("svg")
+        if p and (ASSETS / p).exists():
+            out.append(r)
+    return out
+
+
+def scidraw() -> list[dict]:
+    """SciDraw.io download manifest -> flat index records."""
+    mf = ASSETS / "custom" / "scidraw" / "metadata.json"
+    if not mf.exists():
+        return []
+    meta = json.loads(mf.read_text(encoding="utf-8"))
+    lic_map = {
+        "cc-by": ("CC BY 4.0", "https://creativecommons.org/licenses/by/4.0/"),
+        "cc0": ("CC0 1.0", "https://creativecommons.org/publicdomain/zero/1.0/"),
+    }
+    out: list[dict] = []
+    for it in meta:
+        rel = it.get("local_file")
+        if not rel or not (ASSETS / rel).exists():
+            continue
+        cat = it.get("category_slug") or "other"
+        name = it.get("name") or it.get("slug", "")
+        slug = it.get("slug") or it.get("id", "")
+        lic, uri = lic_map.get(it.get("license", ""), (it.get("license", ""), ""))
+        author = (it.get("primary_author") or {}).get("full_name", "")
+        doi = it.get("doi", "")
+        attrib = f"{author} via SciDraw (https://scidraw.io)"
+        if doi:
+            attrib += f", DOI {doi}"
+        if lic:
+            attrib += f", {lic}"
+        tags = list(dict.fromkeys(
+            [name.lower(), cat] + zh_for(name + " " + cat)
+        ))
+        out.append({
+            "id": f"scidraw/{cat}/{slug}",
+            "svg": rel,
+            "zh": " ".join(zh_for(name + " " + cat))[:40],
+            "en": name,
+            "tags": tags,
+            "cat": cat, "subdir": cat,
+            "series": "scidraw", "format": "illustration",
+            "license": lic, "license_uri": uri,
+            "attribution": attrib,
+        })
+    return out
+
+
 def main(argv: list[str]) -> int:
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
-    recs = sciglyph() + bioicons()
+    recs = sciglyph() + bioicons() + custom() + scidraw()
     # duplicate ids would shadow each other in the catalog
     seen: dict[str, int] = {}
     for r in recs:

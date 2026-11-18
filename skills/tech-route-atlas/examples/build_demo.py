@@ -144,7 +144,7 @@ def zone2(cv: Canvas, b: Box):
 
     cv.text(Box(c.x, c.y2 - 4.6, c.w, 4.0),
             "纵向追踪同一动物 → 抵消个体间差异",
-            size=5.3, align="c", colour=p.ink3, italic=True)
+            size=5.5, align="c", colour=p.ink3, italic=True)
 
 
 # ------------------------------------------------------------------ zone 3
@@ -172,7 +172,7 @@ def zone3(cv: Canvas, b: Box):
 
     cv.text(Box(c.x, c.y2 - 4.6, c.w, 4.0),
             "同一时间点并行取样，模态可对齐",
-            size=5.3, align="c", colour=p.ink3, italic=True)
+            size=5.5, align="c", colour=p.ink3, italic=True)
 
 
 # ------------------------------------------------------------------ zone 4
@@ -309,7 +309,7 @@ def zone7(cv: Canvas, b: Box):
         cv.text(Box(card.x + 7.4, card.y + 1.3, card.w - 8.2, 4.2), t, size=6.2,
                 bold=True, align="l", colour=p.ink)
         cv.text(Box(card.x + 6.6, card.y + 5.4, card.w - 7.4, card.h - 6.0), s,
-                size=5.2, align="l", colour=p.ink2, line_spacing=1.35)
+                size=5.5, align="l", colour=p.ink2, line_spacing=1.35)
 
     cv.text(Box(c.x, c.y2 - 4.4, c.w, 4.0), "机制在人体中一致 → 可转化", size=5.5,
             align="c", colour=p.ink3, italic=True)

@@ -226,7 +226,15 @@ def png(asset_id, px: int = 900, *, tint: str | None = None,
     out = CACHE / f"{key}@{px}.png"
     if out.exists() and out.stat().st_size > 0:
         return out
-    img = _svg_to_image(svg, px)
+    if svg.suffix.lower() in {".png", ".jpg", ".jpeg", ".webp"}:
+        src = Image.open(svg).convert("RGBA")
+        scale = px / max(src.size)
+        img = src.resize(
+            (max(1, round(src.width * scale)), max(1, round(src.height * scale))),
+            Image.LANCZOS,
+        )
+    else:
+        img = _svg_to_image(svg, px)
     if tint:
         img = _flatten_tint(img, tint)
     img.save(out)

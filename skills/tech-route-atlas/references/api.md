@@ -53,7 +53,7 @@ b.anchor("top"|"bottom"|"left"|"right"|"center", frac=0.5)  # -> (x, y) 连线�
 
 ```python
 Canvas(w, h, *, palette="cell", margin=0.0, background=True,
-       font="Arial", cjk_font="Microsoft YaHei", title="")
+       font="Cambria", cjk_font="KaiTi", title="")
 ```
 字段：`prs slide p frame bbox notes warnings`。
 

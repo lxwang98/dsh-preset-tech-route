@@ -115,6 +115,12 @@ repository-wide license is CC BY 4.0 and the code/tools under `tools/` are MIT.
 | `mit/Scientific_graphs/dbs-sticky/bar-grouped.svg` |  | bar grouped | MIT | Bioicons (https://bioicons.com) |
 | `mit/Scientific_graphs/dbs-sticky/column-grouped.svg` |  | column grouped | MIT | Bioicons (https://bioicons.com) |
 
+## SciDraw（774 个插画，`assets/custom/scidraw/`）
+
+来源 https://scidraw.io；逐条作者、DOI、许可与原始 URL 见 `assets/custom/scidraw/metadata.json`。
+许可：CC BY 4.0 632 件、CC0 142 件；CC BY 作品必须署名。分类：other 247、cell 187、
+mouse 114、human 65、rat 59、fish 36、drosophila 35、bird 31。
+
 ## 本仓库代码
 
 MIT (c) 2026 lxwang98 — 见 `LICENSE`。

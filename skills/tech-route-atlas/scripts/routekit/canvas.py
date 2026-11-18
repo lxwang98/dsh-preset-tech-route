@@ -52,7 +52,7 @@ class Note:
 class Canvas:
     def __init__(self, w: float, h: float, *, palette: str = "cell",
                  margin: float = 0.0, background: bool = True,
-                 font: str = "Arial", cjk_font: str = "Microsoft YaHei",
+                 font: str = "Cambria", cjk_font: str = "KaiTi",
                  title: str = ""):
         self.w, self.h = float(w), float(h)
         self.p: Palette = P(palette)

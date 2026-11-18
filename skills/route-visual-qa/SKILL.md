@@ -66,7 +66,7 @@ print(com_audit(pptx, tol_pt=0.6))                # 真实文本 vs 形状框
 | 热图色块糊成一片 | 无 cell 边界 + 低对比 cmap | `mp.heat(..., vmin=0, vmax=1)`；必要时加白描边 |
 | 曲线压住图例 | 图例放角上但曲线也走角上 | 图例移到图外右侧，或 `legend=False` 用文字标注 |
 | 导出 PNG 发灰/模糊 | dpi 不足或缩放过 | `dpi=600`；不要用 96 dpi 的截图放大 |
-| PowerPoint 里字变形 | 用了系统没有的字体 | 只用 Arial / Microsoft YaHei / Times New Roman |
+| PowerPoint 里字变形 | 用了系统没有的字体 | 中文 KaiTi；英文 Times（编辑）/ Cambria（PDF 嵌入）；不要用 Arial/YaHei 默认 |
 | 交付 pptx 打不开 | 保存时文件被占用 | 先关闭 PowerPoint 里的同名文件再导出 |
 
 ## 导出规格

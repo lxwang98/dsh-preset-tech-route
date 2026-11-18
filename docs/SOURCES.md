@@ -34,6 +34,16 @@
   CC BY-SA 3.0 4、BSD 3。
 - 本预设改动：仅复制/下载 SVG 与元数据，未修改图形；下载时在缓存目录写同名 `.license.txt`。
 
+## 2b. SciDraw — 774 个科学插画
+
+- 站点：https://scidraw.io；API：`/api/v1/drawings/`。
+- 本机全量：`assets/custom/scidraw/<category>/<slug>.<ext>`，774 个文件；
+  逐条元数据在 `assets/custom/scidraw/metadata.json`（作者、DOI、许可、原始 URL、分类、下载量）。
+- 许可：CC BY 4.0 632 件、CC0 142 件；CC BY 必须署名，CC0 也保留来源。
+- 分类：other 247、cell 187、mouse 114、human 65、rat 59、fish 36、drosophila 35、bird 31。
+- 本预设改动：仅下载/复制，未修改图形；索引由 `tools/build_index.py` 的 `scidraw()` 生成，
+  署名写入每条记录的 `attribution`。
+
 ## 3. 方法论参考（未复制代码）
 
 | 项目 | 借鉴点 |
@@ -54,8 +64,9 @@ svglib / reportlab（BSD）、pywin32（PSF）、Microsoft PowerPoint（商业�
 |---|---|---|
 | SciGlyph SVG | 2830 | CC BY 4.0 |
 | Bioicons SVG | 100 | CC0 / CC BY 3.0 / CC BY 4.0 / MIT（逐文件） |
+| SciDraw 插画 | 774 | CC BY 4.0（632）/ CC0（142），逐文件 |
 | routekit 代码 | — | 随预设自由使用 |
 | 技能文档 | — | 随预设自由使用 |
 
-对外交付图件时，若使用了 SciGlyph 或 Bioicons 素材，需在图注或致谢中署名，
+对外交付图件时，若使用了 SciGlyph、Bioicons 或 SciDraw 素材，需在图注或致谢中署名，
 并随交付附 `ATTRIBUTION.md` 片段（模板见 `docs/ATTRIBUTION.md`）。

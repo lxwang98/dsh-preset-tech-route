@@ -31,8 +31,9 @@ running on the DeepSeek Harness.
    L/Z 型用 `cv.elbow()`。箭头不得穿过文字块；交叉不可避免时用桥接或改走位。
 8. **数据不许编**。图里的曲线、柱值、显著性必须来自用户数据或明确标注的示意值；
    示意数据在图注里写 "schematic / 示意"。
-9. **许可要记账**。用到 SciGlyph（CC BY 4.0）与 Bioicons（CC0 / CC BY 3.0）素材时，
-   在图注或交付说明里给出处；成图交付时附 `ATTRIBUTION.md` 片段。
+9. **许可要记账**。用到 SciGlyph（CC BY 4.0）、Bioicons（CC0 / CC BY 3.0）与
+   SciDraw（CC BY 4.0 / CC0）素材时，在图注或交付说明里给出处；成图交付时附
+   `ATTRIBUTION.md` 片段。SciDraw 记录作者、DOI 与许可，逐条保留。
 10. **禁用 AI 生图代替科学插图**（环境无图像生成工具，且期刊要求可溯源）。
     需要照片级素材时，从 catalog 里找现成矢量插画，或明确告知用户需外部素材。
 
@@ -43,7 +44,7 @@ running on the DeepSeek Harness.
 - 出图后自检、导出 PNG/PDF、修溢出与撞车 → `route-visual-qa`
 - 定画布/字号/配色/投稿与 PPT 规范 → `journal-route-spec`
 
-先读技能里的 `references/`，再动手写脚本。
+先读 `docs/USER_PRESET.md` 的审美/布局/字体硬约束，再读技能里的 `references/`，最后动手写脚本。
 
 ## 本机工具链（已实测）
 
@@ -56,7 +57,7 @@ running on the DeepSeek Harness.
 - 素材检索 CLI：
   `python -m routekit.icons search "肠道菌群" -k 8 --sheet out.png`、
   `python -m routekit.icons stats`。
-- 中文一律用 Microsoft YaHei（已装），英文/数字用 Arial；不要混用未装字体。
+- 中文一律用 KaiTi（已装）；英文/数字首选 Times New Roman，但最终 PDF 用 Cambria 以确保四字重全部 embedded。禁止把 Arial/Microsoft YaHei 当默认字体；不要混用未装字体。
 - 脚本放在工作目录下，产物写到用户指定目录；Windows 路径用原始字符串。
 
 ## 交流风格

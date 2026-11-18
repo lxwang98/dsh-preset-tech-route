@@ -1,21 +1,25 @@
 ---
 name: sciglyph-catalog
-description: 检索、预览、挑选素材——本机 2930 个矢量图元（SciGlyph 12 大类 + Bioicons 精选），外加 2829 个联网取用的 Bioicons 全库（Servier Medical Art 1374 件、DBCLS 634 件，彩色写实插画）；按中英文关键词搜索、生成缩略图对照表、判断 format/series/尺寸适配与许可证。
+description: 检索、预览、挑选素材——本机 3715 个矢量图元（SciGlyph 12 大类 + Bioicons 精选 + SciDraw 774 + 自制/参考 11），外加 2829 个联网取用的 Bioicons 全库（Servier Medical Art 1374 件、DBCLS 634 件，彩色写实插画）；按中英文关键词搜索、生成缩略图对照表、判断 format/series/尺寸适配与许可证。
 whenToUse: 需要给路线图挑图标（细胞、菌群、脏器、小鼠、仪器、玻璃器皿、箭头、图表），或本机素材画风不够像 BioRender 时，改从远程库按需下载。
 ---
 
-# 素材目录：本机 2930 + 联网 2829
+# 素材目录：本机 3715 + 联网 2829
 
 两套索引，一个取用接口：
 
 | 索引 | 规模 | 位置 | 取用 |
 |---|---|---|---|
-| 本机 | 2930 | `assets\index.json`，文件在 `assets\sciglyph\…`、`assets\bioicons\…` | 拷入即用，离线可用 |
+| 本机 | 3715 | `assets\index.json`，文件在 `assets\sciglyph\…`、`assets\bioicons\…`、`assets\custom\…` | 拷入即用，离线可用 |
 | 远程 | 2829 | `assets\remote\index.json`（仅元数据 1.4 MB） | 首次使用时下载到 `assets\.remote\`，之后走缓存 |
 
 远程库 = Bioicons 全库（`duerrsimon/bioicons`，上游 428 MB），其中 **Servier Medical Art 1374 件**
 （CC BY 3.0）与 **DBCLS / Togo picture gallery 634 件**（CC BY 4.0）是彩色写实插画，
 最接近 BioRender 的观感；SciGlyph 是线稿/扁平图元，两者不要混用在同一张图里。
+
+本机 `custom/` 另含 11 个自制/参考图与 **SciDraw 774 件**（`scidraw/<category>/<slug>`，
+CC BY 4.0 632 / CC0 142，逐条作者、DOI、许可在 `assets/custom/scidraw/metadata.json`）。
+SciDraw 分类：other 247、cell 187、mouse 114、human 65、rat 59、fish 36、drosophila 35、bird 31。
 
 ## 一条命令挑素材
 

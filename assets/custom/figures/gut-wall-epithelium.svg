@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="240" viewBox="0 0 400 240">
+<g fill="#F6DCCF" stroke="#C98F7C" stroke-width="4">
+<rect x="35" y="60" width="78" height="150" rx="12"/><rect x="121" y="60" width="78" height="150" rx="12"/>
+<rect x="207" y="60" width="78" height="150" rx="12"/><rect x="293" y="60" width="78" height="150" rx="12"/>
+</g>
+<g fill="#E8B7A6" stroke="none">
+<circle cx="74" cy="140" r="18"/><circle cx="160" cy="140" r="18"/><circle cx="246" cy="140" r="18"/><circle cx="332" cy="140" r="18"/>
+</g>
+<g stroke="#C98F7C" stroke-width="3" stroke-linecap="round">
+<path d="M45 40 V60 M55 40 V60 M65 40 V60 M75 40 V60 M85 40 V60 M95 40 V60 M105 40 V60"/>
+<path d="M131 40 V60 M141 40 V60 M151 40 V60 M161 40 V60 M171 40 V60 M181 40 V60 M191 40 V60"/>
+<path d="M217 40 V60 M227 40 V60 M237 40 V60 M247 40 V60 M257 40 V60 M267 40 V60 M277 40 V60"/>
+<path d="M303 40 V60 M313 40 V60 M323 40 V60 M333 40 V60 M343 40 V60 M353 40 V60 M363 40 V60"/>
+</g>
+<g stroke="#5A4A42" fill="none" stroke-linecap="round">
+<line x1="201" y1="56" x2="201" y2="212" stroke-width="7"/><line x1="209" y1="56" x2="209" y2="212" stroke-width="7"/>
+<line x1="192" y1="78" x2="218" y2="78" stroke-width="4"/><line x1="192" y1="106" x2="218" y2="106" stroke-width="4"/>
+<line x1="192" y1="134" x2="218" y2="134" stroke-width="4"/><line x1="192" y1="162" x2="218" y2="162" stroke-width="4"/>
+<line x1="192" y1="190" x2="218" y2="190" stroke-width="4"/>
+</g>
+<line x1="30" y1="214" x2="376" y2="214" stroke="#C98F7C" stroke-width="7" stroke-linecap="round"/>
+</svg>

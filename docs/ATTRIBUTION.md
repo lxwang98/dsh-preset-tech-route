@@ -2,11 +2,11 @@
 
 ## 图注一行版（用图元时放 caption 末尾）
 
-> Icons: SciGlyph (CC BY 4.0, ZengZichao) and Bioicons (CC BY 3.0/CC0, Servier Medical Art).
+> Icons: SciGlyph (CC BY 4.0, ZengZichao), Bioicons (CC BY 3.0/CC0, Servier Medical Art), and SciDraw (CC BY 4.0/CC0, scidraw.io).
 
 中文：
 
-> 图元素材：SciGlyph（CC BY 4.0，ZengZichao）、Bioicons（CC BY 3.0/CC0，Servier Medical Art）。
+> 图元素材：SciGlyph（CC BY 4.0，ZengZichao）、Bioicons（CC BY 3.0/CC0，Servier Medical Art）、SciDraw（CC BY 4.0/CC0，scidraw.io）。
 
 ## 用了远程写实插画（Servier / DBCLS）时的署名
 
@@ -25,8 +25,10 @@
 ## 致谢段（论文 Acknowledgements）
 
 > Figures were assembled with routekit. Vector icons are adapted from SciGlyph
-> (ZengZichao, https://github.com/ZengZichao; CC BY 4.0) and Bioicons
-> (https://bioicons.com; individual licences CC0 / CC BY 3.0 / CC BY 4.0).
+> (ZengZichao, https://github.com/ZengZichao; CC BY 4.0), Bioicons
+> (https://bioicons.com; individual licences CC0 / CC BY 3.0 / CC BY 4.0), and
+> SciDraw (https://scidraw.io; individual licences CC BY 4.0 / CC0; author and DOI
+> recorded per asset).
 > Medical illustrations are reproduced from Servier Medical Art
 > (https://smart.servier.com, CC BY 3.0) and the DBCLS Togo picture gallery
 > (CC BY 4.0). No artwork was modified beyond uniform scaling, cropping and palette tinting.
@@ -37,6 +39,7 @@
 ASSETS
 - SciGlyph: 12 categories / 2830 SVGs, CC BY 4.0 — attribution required
 - Bioicons local: 100 SVGs, CC0 / CC BY 3.0 / CC BY 4.0 — assets/bioicons/manifest.json
+- SciDraw: 774 illustrations, CC BY 4.0 (632) / CC0 (142) — assets/custom/scidraw/metadata.json
 - Bioicons remote: 2829 records (metadata only), fetched on demand —
   Servier Medical Art 1374 (CC BY 3.0), DBCLS 634 (CC BY 4.0), others CC0/CC BY/MIT/BSD
 - routekit code: MIT-like, free to use with this bundle

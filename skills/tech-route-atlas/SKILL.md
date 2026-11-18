@@ -7,7 +7,7 @@ whenToUse: 用户要画或改一张技术路线图 / 框架图 / 图形摘要；
 # 技术路线图绘制（routekit 主流程）
 
 一张合格的路线图 = **分区骨架 + 箭头拓扑 + 图标语义 + 期刊排版**。
-routekit 把前两件事变成可计算的毫米坐标，把第三件事接到 2930 个矢量素材上，第四件事交给 6 套调色板。
+routekit 把前两件事变成可计算的毫米坐标，把第三件事接到 3715 个矢量素材上，第四件事交给 6 套调色板。
 
 ## 先写规格，再写代码
 
@@ -18,7 +18,7 @@ routekit 把前两件事变成可计算的毫米坐标，把第三件事接到 2
 故事: 一句话论点（谁 → 做了什么 → 得到什么结论）
 分区: zone 编号 + 标题（中英）+ 每区一句话结论 + 相对宽度权重
 箭头: 箭头拓扑表（见下）
-风格: palette=cell|nature|science|lancet|biorender|mono；字体 Arial + Microsoft YaHei
+风格: palette=cell|nature|science|lancet|biorender|mono；字体 KaiTi + Times/Cambria（PDF 用 Cambria 确保嵌入）
 ```
 
 箭头拓扑表（画之前必须写，改图时先核对它）：
@@ -107,7 +107,7 @@ cv.export("out", dpi=600)          # → demo.png (600 dpi) + demo.pdf
 | 文字溢出卡片 | 手算坐标 + 未自动收缩 | 用 `Box.rows/cols`，让 `text()` 自动收缩 |
 | 虚线在每个拐点"断" | 多段独立线段 | `cv.route([...])` 一条 freeform |
 | 卡片高低不齐 / 底部空白大 | 高度写死 | `area.rows(n, gap)` 均分 |
-| 中文变方框 / 字号忽大忽小 | 未设 ea 字体或用了 .5 字号 | 统一 `Microsoft YaHei`；字号取整或 .5 |
+| 中文变方框 / 字号忽大忽小 | 未设 ea 字体或用了 .5 字号 | 统一 `KaiTi`；字号取整或 .5 |
 | 热图/曲线配色跳脱 | 默认 matplotlib | 用 `routekit.miniplot` 的 palette-locked 系列 |
 | 图整体发灰 | zone 底与卡片底太接近 | 卡片用 `p.paper`，zone 用 `p.zone(i)` |
 
