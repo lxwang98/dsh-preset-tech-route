@@ -123,7 +123,14 @@ mp.heat(matrix, p, *, row_labels=None, col_labels=None, cmap="Blues",
         vmin=None, vmax=None, cbar=False, center=None)
 mp.scatter(points, p, *, xlabel="", ylabel="", size=None, fit=False, legend=True)
 mp.sparkline(values, p, *, colour=None, fill=True)
+mp.manhattan(p, *, nchr=12, n_per_chr=150, seed=11, labels=True, ymax=8.4,
+        peak_chr=(2, 5, 8), genome_wide=6.0, suggestive=4.0,
+        data=None, label_size=5.2)         # data={chrom: [pvals]} 走真实数据
 ```
+
+`mp.manhattan` 是唯一一条**不许简化**的小图：染色体分色 + 双阈值 + 峰点高亮
+三件套缺一不可（详见 `docs/USER_PRESET.md` §5.1 与 `patterns.md` §13）。
+`labels=False` 用于 < 25 mm 窄面板，此时只保留形状与阈值线。
 
 全部返回 `draw(fig)` 回调，交给 `cv.plot(box, draw)` 落地成图片（b 决定图幅与纵横比）。
 

@@ -106,6 +106,29 @@ for i, ((t, s, a), card) in enumerate(zip(steps, area.rows(5, gap=2.2))):
 `grid(b, rows, cols)` 出格子，对角/命中格填 `p.accent_soft(i,.6)` + 勾，
 行列标签用 `T.caption`，命中率数字放格子中心。
 
+## 13. GWAS Manhattan 面板（mGWAS / 人群验证两处通吃）
+
+```python
+# 左：SNP 矩阵 → 曼哈顿；右：复现（曼哈顿 + 相关散点）
+cv.text(Box(p3.x+2, p3.y+7.4, 30, 3.2), "SNPs", size=6.6, bold=True, align="c")
+snp_blocks(Box(p3.x+3, p3.y+11.0, 26, 12.2))
+cv.plot(Box(p3.x+3, p3.y+24.6, 26, 20.4), mp.manhattan(cv.p, nchr=10, n_per_chr=110))
+# 窄面板（< 25 mm）只留形状：labels=False
+cv.plot(Box(c.x+1, c.y+11, 23, 15.4), mp.manhattan(cv.p, nchr=10, n_per_chr=70, labels=False))
+```
+
+硬规则（缺一条就不叫 Manhattan，见 `USER_PRESET.md` §5.1）：
+
+1. x 轴是**累加染色体位置**，不是 bp/Mb；刻度落在染色体段中心、文字写染色体号。
+2. y 轴是 `−log10(P)`，只标 `0 / 4 / 8` 三个刻度。
+3. 染色体**奇偶交替**上色（`#3f7099` / `#a8c2d6`），否则读不出"分了几条染色体"。
+4. 两条阈值线：genome-wide 实线（`p<5e-7`→6）与 suggestive 虚线（`p<1e-4`→4）。
+5. 阈值之上的峰必须**换色**（红 `#c0392b` = 显著，绿 `#2f9e44` = 提示性），
+   qqman 的 `highlight=` 就是这个语义；否则只是一团散点。
+6. 面板宽度 < 25 mm 时不写任何刻度文字（删字，不要 3 pt 硬塞）。
+7. 数据来源：真实 p 值走 `data={chrom: [pvals]}`；示意值必须用同一函数生成，
+   图注写 "schematic / 示意值"，禁止贴截图、禁止换字体。
+
 ## 通用准绳
 
 - 分区之间 gap ≥ 2.2 mm；卡片之间 ≥ 1.6 mm；正文与边框 ≥ 1.2 mm。

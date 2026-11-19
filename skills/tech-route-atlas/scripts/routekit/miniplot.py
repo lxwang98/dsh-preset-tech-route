@@ -248,4 +248,80 @@ def sparkline(values: list[float], p: Palette, *, colour: str | None = None,
     return draw
 
 
-__all__ = ["bars", "lines", "survival", "heat", "scatter", "sparkline"]
+# ------------------------------------------------------------------ manhattan
+
+_MANHATTAN_A = "#3f7099"      # even chromosomes
+_MANHATTAN_B = "#a8c2d6"      # odd chromosomes
+_MANHATTAN_HIT = "#c0392b"    # p < genome-wide  (qqman highlight colour)
+_MANHATTAN_SUG = "#2f9e44"    # suggestive peak
+
+
+def manhattan(p: Palette, *, nchr: int = 12, n_per_chr: int = 150, seed: int = 11,
+              labels: bool = True, ymax: float = 8.4, peak_chr=(2, 5, 8),
+              genome_wide: float = 6.0, suggestive: float = 4.0,
+              data: dict[int, list[float]] | None = None,
+              label_size: float = 5.2):
+    """GWAS Manhattan — x is cumulative chromosome position, y is -log10(P).
+
+    Visual grammar (do not drop any of it, a bare dot cloud is not a Manhattan):
+    alternating chromosome colours, a solid genome-wide threshold, a dashed
+    suggestive threshold, and peaks recoloured red / green.  R equivalent is
+    ``qqman::manhattan(..., highlight=...)``; the cumulative-position trick is
+    the usual ``axisdf$cumulative`` dplyr recipe.
+
+    Pass ``data={chrom: [p_values]}`` to plot real p-values; otherwise a
+    schematic set is generated (exponential null + gaussian peaks) and the
+    caption must say "schematic".
+
+    ``labels=False`` drops all tick text — use it below ~25 mm panel width.
+    """
+    def draw(fig):
+        import matplotlib as mpl
+        import numpy as np
+
+        mpl.rcParams["font.family"] = "serif"
+        mpl.rcParams["font.serif"] = ["Cambria", "Times New Roman", "DejaVu Serif"]
+        ax = _apply(fig, p, grid=False)
+        rng = np.random.default_rng(seed)
+        pos = 0.0
+        ticks, labs = [], []
+        for c in range(nchr):
+            if data is not None:
+                pv = np.asarray(data.get(c + 1, []), dtype=float)
+                pv = pv[(pv > 0) & (pv <= 1)]
+                y = -np.log10(pv) if pv.size else np.zeros(0)
+            else:
+                n = n_per_chr
+                y = rng.exponential(0.62, n)
+                if c in set(peak_chr):
+                    k = int(rng.integers(int(n * 0.30), int(n * 0.70)))
+                    bump = np.exp(-((np.arange(n) - k) ** 2) / (2 * (n * 0.022) ** 2))
+                    y = np.maximum(y, bump * rng.uniform(genome_wide + 0.3, ymax - 0.4))
+            n = max(len(y), 1)
+            x = pos + (np.arange(len(y)) + rng.random(len(y))) / n * 0.92
+            col = np.where(y >= genome_wide, _MANHATTAN_HIT,
+                           np.where(y >= suggestive, _MANHATTAN_SUG,
+                                    _MANHATTAN_A if c % 2 == 0 else _MANHATTAN_B))
+            ax.scatter(x, y, s=1.1, color=col, linewidths=0, zorder=2, alpha=0.9)
+            ticks.append(pos + 0.47)
+            labs.append(str(c + 1) if c < 22 else ("X" if c == 22 else "Y"))
+            pos += 1.0
+        ax.axhline(genome_wide, color="#3b4a57", lw=0.65, zorder=1)
+        ax.axhline(suggestive, color="#9fb0be", lw=0.55, ls=(0, (2.2, 1.8)),
+                   zorder=1)
+        ax.set_xlim(0, nchr)
+        ax.set_ylim(0, ymax)
+        if labels:
+            ax.set_xticks(ticks)
+            ax.set_xticklabels(labs)
+            ax.set_yticks([t for t in (0, 4, 8) if t <= ymax])
+            ax.tick_params(labelsize=label_size)
+        else:
+            ax.set_xticks([])
+            ax.set_yticks([])
+        return ax
+
+    return draw
+
+
+__all__ = ["bars", "lines", "survival", "heat", "scatter", "sparkline", "manhattan"]

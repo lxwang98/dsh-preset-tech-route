@@ -59,16 +59,125 @@
   CC BY 4.0 必须署名，CC0 可免署名但仍记录来源。索引 id 为 `scidraw/<category>/<slug>`。
 - 小鼠：本课题用 **KM 白小鼠**（正面、白身、粉耳、红眼、长尾），
   id `custom/figures/km-white-mouse`；不要用灰鼠/黑鼠代替。
+  例外：1:1 复刻用户给的参考图时按原图配色走（参考图是灰鼠就用
+  `bioicons/mouse-darkgray`），并在交付说明里写清“改这一处即可换回 KM 白鼠”。
 - 饲料：三粒圆柱形颗粒，上 1 下 2、边对边闭合成三角形；
   id `custom/figures/feed-pellet-triangle`；不要用碗。
-- mGWAS：SNP 块（彩色竖块 + 虚线连接）在 Manhattan 上方；Manhattan 用用户原图
-  `custom/references/manhattan-plot-reference`，不要重画。
+- mGWAS：SNP 块（两列彩色竖块 + 虚线配对）在 Manhattan 上方；Manhattan **必须重绘**
+  （规范见 §5.1），用户原图 `custom/references/manhattan-plot-reference*` 只作样式校准，
+  不得直接贴图。
 - 肠壁：4 个上皮细胞 + 微绒毛 + 紧密连接 + 基底膜；
   id `custom/figures/gut-wall-epithelium`。
 - 人群：男 / 女 / 儿童三个剪影，不要三个相同女性；
   ids `custom/figures/human-male|human-female|human-child`。
 - 宿主基因组：蓝色 DNA 双螺旋；id `custom/figures/dna-double-helix-blue`。
 - 禁止 AI 生图；照片级素材从 catalog / SciDraw 找，或明确告知需外部素材。
+
+### 5.1 GWAS Manhattan 图（2026-11 定稿，硬规范）
+
+用户原话：“GWAS 的曼哈顿图一定要是这种哈，**不止是散点**哦。”
+判定标准不是“画了一堆点”，而是读者一眼能看出**基因组分段、显著性阈值、哪些峰显著**。
+以下 7 条缺一不可：
+
+1. **x 轴 = 染色体累加位置**，不是 BP 原值；每条染色体一段，段内点随机抖动，段间留 0 间隙
+   （R: `axisdf$cumulative` 累加做法）。
+2. **y 轴 = −log₁₀(P)**，只标 0 / 4 / 8 三档；y 上限比最高峰高 0.4 左右，别把峰顶压到框上。
+3. **奇偶染色体交替配色**（R 标准 `rep(c("grey","skyblue"),22)`）。本预设用
+   `#3f7099` / `#a8c2d6` 深浅蓝；单色图可用 `#5b6b7a` / `#aebdc9`。
+4. **两条阈值线都要有**，缺一条读者无法判断显著性：
+   - genome-wide `P = 1e-6` → y = 6 **实线**，深灰 `#3b4a57`，线宽约 0.65 pt；
+   - suggestive `P = 1e-4` → y = 4 **虚线**，浅灰 `#9fb0be`；
+   - 两线都压在其他点下面（zorder 最低），只穿过点云、不压文字。
+5. **峰点高亮**：y ≥ 6 的点改**红** `#c0392b`（主峰），4 ≤ y < 6 的点改**绿** `#2f9e44`
+   （次级/提示性峰）；其余点保持染色体色。红绿只用于“显著”，不要拿来做分类色。
+6. **x 轴刻度落在每段中心**，标签只写染色体号 `1…22 / X / Y`，轴名 `Chr` 放最左；
+   **不要**写 “Chromosome position (Mb)”。
+7. **尺寸分档**：面板宽 ≥25 mm 才写染色体刻度；<25 mm 时保留“分色 + 双阈值线 + 红绿峰点”，
+   删掉全部刻度文字。宁可无标签，不许出现 3–4 pt 字。
+
+实现与数据：
+
+- **优先直接调用库函数**：`from routekit import miniplot as mp` →
+  `cv.plot(box, mp.manhattan(cv.p, nchr=10, n_per_chr=110))`。该函数已把下面 7 条规则
+  全部写死（分色 / 双阈值 / 红绿峰 / 刻度 / serif 字体 / 窄面板 `labels=False`），
+  并支持 `data={染色体: [p 值]}` 传真实数据。下面的自写版本是**等价参考实现**，
+  只在新画布需要特殊比例（例如 3:1 超宽条）时改它。
+- 一律 **matplotlib 经 `cv.plot(b, draw, dpi=600)`** 生成（真数据点上千个，用原生形状会撑爆
+  pptx）。600 dpi 位图内嵌于矢量图是期刊通行做法；整图 PDF 仍是矢量 + 内嵌点阵插图。
+- 字体必须跟图一致：`mpl.rcParams["font.family"]="serif"`、`font.serif=["Cambria"]`，
+  刻度 `labelsize=5.0`；字体不一致会被审稿人一眼看出是“贴进来的图”。
+- **数据不许编**：有真实 GWAS 就用真实 p 值；没有就生成示意值（指数分布 + 在若干染色体上
+  叠加高斯峰把峰顶抬到 6.3–8.0），并在图注写 “schematic”。
+- 一处以上复用（mGWAS 框架 + 人群复现列）时，同一个函数不同参数（`nchr / n_per_chr /
+  labels`）出两张，保证风格统一。
+
+参考实现（routekit 构建脚本内，已实测 0 error；`INK2` = 调色板 `ink2` 灰 `#455766`）：
+
+```python
+def manhattan(b, *, nchr=12, seed=11, yticks=True, xlabels=True,
+              pts=150, name="mh", dpi=600):
+    import numpy as np
+
+    def draw(fig):
+        import matplotlib as mpl
+        mpl.rcParams["font.family"] = "serif"
+        mpl.rcParams["font.serif"] = ["Cambria"]
+        rng = np.random.default_rng(seed)
+        ax = fig.add_axes((0.115, 0.17, 0.875, 0.78))
+        lo, hi = "#3f7099", "#a8c2d6"          # 奇 / 偶染色体
+        peaks = {2, 5, 8}                       # 示意：哪几条染色体上放显著峰
+        pos = 0.0
+        tick_pos, tick_lab = [], []
+        for c in range(nchr):
+            n = pts
+            x = pos + (np.arange(n) + rng.random(n)) / n * 0.92
+            y = rng.exponential(0.62, n)
+            if c in peaks:                      # 高斯峰抬到 6.3–8.0
+                k = rng.integers(int(n * 0.3), int(n * 0.7))
+                bump = np.exp(-((np.arange(n) - k) ** 2) / (2 * (n * 0.022) ** 2))
+                y = np.maximum(y, bump * rng.uniform(6.3, 8.0))
+            col = np.where(y >= 6.0, "#c0392b",
+                           np.where(y >= 4.0, "#2f9e44",
+                                    lo if c % 2 == 0 else hi))
+            ax.scatter(x, y, s=1.1, color=col, linewidths=0, zorder=2, alpha=0.9)
+            tick_pos.append(pos + 0.47)
+            tick_lab.append(str(c + 1 if c < 10 else "X" if c == 10 else "Y"))
+            pos += 1.0
+        ax.axhline(6.0, color="#3b4a57", lw=0.65, zorder=1)
+        ax.axhline(4.0, color="#9fb0be", lw=0.55, ls=(0, (2.2, 1.8)), zorder=1)
+        ax.set_xlim(0, nchr)
+        ax.set_ylim(0, 8.4)
+        ax.set_yticks([0, 4, 8] if yticks else [])
+        if xlabels:
+            ax.set_xticks(tick_pos)
+            ax.set_xticklabels(tick_lab)
+        else:
+            ax.set_xticks([])
+        ax.tick_params(labelsize=5.0, colors=INK2, width=0.5, length=1.6, pad=1.0)
+        for s in ("top", "right"):
+            ax.spines[s].set_visible(False)
+        for s in ("left", "bottom"):
+            ax.spines[s].set_color("#9aa7b2")
+            ax.spines[s].set_linewidth(0.55)
+
+    cv.plot(b, draw, dpi=dpi, name=name)
+```
+
+用法（同一张图里两处）——**首选库函数**：
+
+```python
+cv.plot(Box(xa, y, 26, 18.6), mp.manhattan(cv.p, nchr=10, n_per_chr=110))       # 有刻度
+cv.plot(Box(x7, y, 23, 15.4),
+        mp.manhattan(cv.p, nchr=10, n_per_chr=70, labels=False))               # 无刻度
+
+# 有真实数据时（p 值，非 −log10）：
+cv.plot(Box(xa, y, 26, 18.6), mp.manhattan(cv.p, nchr=19, data={1: p1, 2: p2, ...}))
+```
+
+自写版本（仅在需要非标比例时改写）：
+
+反面清单（见到就判错）：只有一色散点、没有阈值线、阈值只有一条、x 轴写 Mb 坐标、
+峰点不高亮、刻度用 3 pt、把用户截图直接贴进图里、图和正文的字体不是同一套。
 
 ## 6. 交付与自检
 
