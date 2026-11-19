@@ -283,6 +283,25 @@ class Canvas:
         return pic
 
     # ------------------------------------------------------------ motifs
+    def picture(self, b: Box, path, *, pad: float = 0.0, name: str = ""):
+        """Place a local raster file (rendered 3D inset, photo, external PNG) into `b`.
+
+        Aspect-preserved and centred. Unlike `icon`, no catalogue lookup happens —
+        useful for `render3d.export()` output or any image outside `assets/`.
+        """
+        from PIL import Image
+
+        path = Path(path)
+        with Image.open(path) as im:
+            iw, ih = im.size
+        iw, ih = _icons.fit_box(iw, ih, b.w, b.h, pad=pad)
+        x = b.x + (b.w - iw) / 2
+        y = b.y + (b.h - ih) / 2
+        pic = self.slide.shapes.add_picture(str(path), Mm(x), Mm(y), Mm(iw), Mm(ih))
+        pic.name = name or path.stem
+        self.notes.append(Note("icon", Box(x, y, iw, ih), str(path), 0, pic))
+        return pic
+
     def chip(self, b: Box, s: str, *, acc: int = 0, size: float | None = None,
              mode: str = "fill", bold: bool = False, radius: float | None = None):
         fill = line = None
