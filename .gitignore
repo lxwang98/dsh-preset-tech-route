@@ -16,3 +16,6 @@ assets/remote/reactome.json
 .routekit_plots/
 skills/tech-route-atlas/scripts/.routekit_plots/
 
+
+# 云端总览的中间 pptx（成品只要 png/pdf，96 张图会让 pptx 到 3.7 MB）
+assets/remote/sheets/*.pptx

@@ -50,10 +50,14 @@ python -m routekit.remote sync bioicons reactome      # 重建目录（联网）
 | `people.png` | 人物 | 查体、采血、输液、超声、老年/儿童 |
 | `clinical.png` | 临床场景 | X 光、安瓿、采血、输液、听诊、心电、药品 |
 
-重建（加了筛选闸后）：
+`overview.png` 是六张页的 **A3 总览**（96 件缩略、无 id），挂在 README 顶部当视觉索引；
+**查 id 一定回单页**，总览上的字看不清。
+
+重建：
 
 ```bash
-python tools/build_cloud_sheets.py
+python tools/build_cloud_sheets.py      # 六张目录页（带 id / 类别 / 许可）
+python tools/build_cloud_overview.py    # A3 总览（picks() 与上面同源，不会漂移）
 ```
 
 ## 四、三道质量闸（v1 踩过的坑）

@@ -3,6 +3,11 @@
 一个 DeepSeek Harness Agent 预设：把论文的研究设计、实验流程、多组学整合、机制假说、人群验证
 画成**期刊级多面板技术路线图 / 图形摘要**，输出可编辑 `.pptx` + 600 dpi `.png` + 矢量 `.pdf`。
 
+![云端素材库六类主题总览](assets/remote/sheets/overview.png)
+
+> 上面这张是**云端素材库的视觉索引**（A3，96 件缩略）：脏器、细胞、仪器、微生物、人物、临床六大类，
+> 共 4978 件带许可的矢量素材，按需下载、不占本地。挑中哪件，把 id 写进代码即可。
+
 ```
 tech-route/
 ├─ cordis.patch.yml          # 预设组合（persona + 5 个技能 + 完整标准能力）
@@ -56,6 +61,10 @@ SciDraw 来自 <https://scidraw.io>（CC BY 4.0 / CC0，逐条保留作者、DOI
 仓库只带 2.2 MB 目录，图上用到哪张才下载哪张（缓存到 `assets/.remote/`，附许可文件）。
 六张主题目录页（器官/细胞/仪器/微生物/人物/临床）在 `assets/remote/sheets/`，
 挑素材前先翻一遍；细读 `skills/sciglyph-catalog/references/cloud.md`。
+
+| 临床场景 `sheets/clinical.png` | 器官组织 `sheets/organs.png` |
+|---|---|
+| ![临床](assets/remote/sheets/clinical.png) | ![器官](assets/remote/sheets/organs.png) |
 
 ```powershell
 python -m routekit.remote search "心脏" -k 8 --sheet out\cardiac.png

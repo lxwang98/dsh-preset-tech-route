@@ -36,8 +36,8 @@ KW_THEMES = [
     ("lab", ["microscope", "centrifuge", "incubator", "spectrophotometer", "beaker",
              "flask", "pipette", "gel-electrophoresis", "microplate", "pcr",
              "flow-cytometer", "bunsen", "balance", "water-bath", "shaker", "autoclave"]),
-    ("microbes", ["bacterium", "virus", "fungus", "yeast", "bacteriophage",
-                  "parasite", "protozoa", "spore", "plasmid", "biofilm"]),
+    ("microbes", ["bacterium", "virus", "coccus", "yeast", "bacteriophage",
+                  "parasite", "toxoplasma", "fungus", "protozoa", "biofilm"]),
 ]
 
 # 人工白名单：(collection, stem 前缀) —— 这些是看图确认过能用的
@@ -46,8 +46,7 @@ CURATED = {
         ("dbcls", "Examination_Man"), ("dbcls", "Examination_Woman"),
         ("dbcls", "Examination_child"), ("dbcls", "taking-blood-sample"),
         ("dbcls", "drip_iv_treatment"), ("dbcls", "ultrasonic-examination"),
-        ("servier", "old-man"), ("servier", "oede"), ("servier", "desk-job"),
-        ("servier", "patient"), ("servier", "human-male"), ("servier", "human-female"),
+        ("servier", "desk-job"), ("servier", "patient"),
     ],
     "clinical": [
         ("dbcls", "X-ray_Male"), ("dbcls", "X-ray_Female"),
@@ -56,8 +55,7 @@ CURATED = {
         ("servier", "syringe"), ("servier", "infusion-bag-blue"),
         ("servier", "infusion-bag-green"), ("servier", "electrocardiogram-ecg"),
         ("servier", "drug-tablet"), ("servier", "drug-capsule"),
-        ("servier", "drug-blister"), ("servier", "bottle-drug"),
-        ("servier", "stethoscope"), ("servier", "wheelchair"),
+        ("servier", "bottle-drug"), ("servier", "stethoscope"),
     ],
 }
 
@@ -88,11 +86,17 @@ def keep(rec, seen_fam: dict, *, check_lum=True) -> bool:
     return True
 
 
-def by_keywords(kws):
+DENY = ('plasmid', 'plaque', 'assay', 'titer', 'root', 'shoot', 'seed', 'leaf')
+
+
+def by_keywords(kws, *, max_pref: int = 4):
+    """按关键词收候选。max_pref 默认 4：把 Reactome（纯扁平通路图标）
+    挡在主题页之外——它的"圆环通路图"放到微生物/仪器格里完全是误认。"""
     cands = {}
     for kw in kws:
         for r in remote.search(kw, k=4):
-            cands.setdefault(r.id, r)
+            if PREF.get(r.collection, 5) <= max_pref and not any(d in r.stem.lower() for d in DENY):
+                cands.setdefault(r.id, r)
     return sorted(cands.values(), key=lambda r: (PREF.get(r.collection, 5), len(r.stem)))
 
 
@@ -127,3 +131,4 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+
