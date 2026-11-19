@@ -7,7 +7,9 @@
 
 - 中文科研工作者，面向论文投稿、基金本子、组会 PPT。
 - 要“期刊级、能直接放进 PPT / 投稿系统”的多面板图，同时保留可编辑 `.pptx`。
-- 三件套缺一不可：`.pptx` + 600 dpi `.png` + 字体已嵌入的矢量 `.pdf`。
+- **三件套缺一不可**：`.pptx` + 600 dpi `.png` + 字体已嵌入的矢量 `.pdf`。
+  投稿时再加一件 `.tif`（`render(..., also_tiff=True)`：600 dpi、8 bit RGB、白底无 alpha、LZW 无损）。
+  幻灯片/汇报不加 TIFF——220 dpi 的 TIFF 又大又没用。
 - 用户会逐区看、逐字改；先给局部确认稿，不要一次性甩整图。
 
 ## 2. 审美
@@ -217,7 +219,7 @@ cv.plot(Box(xa, y, 26, 18.6), mp.manhattan(cv.p, nchr=19, data={1: p1, 2: p2, ..
 - 每轮交付前：
   - `static_report(mode="deck")` **0 error / 0 warning**；
   - COM `com_audit` 无越界；
-  - PNG 600 dpi；PDF 单页、字体全部 embedded；
+  - PNG 600 dpi；PDF 单页、字体全部 embedded；投稿另出 TIFF（600 dpi / RGB / 白底 / LZW）；
   - 目标目录只留结果图，脚本/预览/临时目录删除。
 - 不要把“过程稿/半成品”说成最终稿；不合格就明说哪里不合格。
 
@@ -271,7 +273,9 @@ cv.plot(Box(xa, y, 26, 18.6), mp.manhattan(cv.p, nchr=19, data={1: p1, 2: p2, ..
 
 ### 9.3 交付
 
-三件套同上（pptx + 600 dpi PNG + 矢量 PDF），另附**灰度版**自看；图注写清"模块 → 产出"对应关系。
+三件套同上（pptx + 600 dpi PNG + 矢量 PDF，投稿再加 TIFF），另附**灰度版**自看；图注写清"模块 → 产出"对应关系。
 范例：`skills/nsfc-route/examples/build_nsfc_a4.py` + `nsfc-a4-demo.png`（菌群–丁酸–GPR43–屏障衰老）。
+
+
 
 

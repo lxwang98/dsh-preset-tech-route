@@ -198,11 +198,18 @@ issues = static_report(cv, mode="print"|"deck")
 print(format_report(issues, limit=40))
 design_check(cv, cv.p)
 
-render(pptx, out_dir, dpi=600, stem=None, slide=1, also_pdf=True)  # -> {"png":…, "pdf":…}
+render(pptx, out_dir, dpi=600, stem=None, slide=1, also_pdf=True,
+       also_tiff=False, tiff_dpi=None)   # -> {"png":…, "pdf":…, "tiff":…}
 to_png(pptx, png, dpi=300, width_px=None, slide=1)
 to_pdf(pptx, pdf, slide=1); to_svg(pptx, svg, slide=1)
+to_tiff(png, tif, dpi=600, compression="tiff_lzw")   # 白底 RGB + dpi 标签
 com_audit(pptx, tol_pt=0.6)   # TextFrame2 真实文本边界 vs 形状框
 ```
+
+**TIFF 只在投稿时加**（`also_tiff=True`）：600 dpi A4 单页约 3.5 MB（LZW 无损）；
+幻灯片用的图别加，220 dpi 的 TIFF 又大又没意义。
+多数期刊要 8 bit RGB、白底、无 alpha、≥600 ppi —— 这正是 `to_tiff` 的处理；
+**不要**让 PIL 转 CMYK（会偏色），要 CMYK 只能在 Photoshop 里转。
 
 `static_report` 的 code：`off-canvas` `trim` `small-text` `text-overflow`
 `label-collision` `icon-missing` `no-icons` `dense` `empty`。

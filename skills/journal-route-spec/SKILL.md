@@ -79,7 +79,7 @@ Elsevier 双栏 190 mm，单栏 90 mm；中文核心（如《营养学报》）�
 ## 五、投稿合规检查
 
 - [ ] 宽度 180 mm（双栏）或 90 mm（单栏），高度 ≤235 mm
-- [ ] 位图 ≥300 dpi（推荐 600），矢量优先（PDF/EPS）
+- [ ] 位图 ≥300 dpi（推荐 600），投稿要位图时出 TIFF（8 bit RGB、白底、LZW）；矢量优先（PDF/EPS）
 - [ ] 全部字体嵌入；不含系统缺失字体
 - [ ] 最小字号 ≥5 pt（印刷后实测）
 - [ ] 不用纯红/纯绿区分数据；色盲模拟下仍可辨
@@ -99,8 +99,9 @@ Elsevier 双栏 190 mm，单栏 90 mm；中文核心（如《营养学报》）�
 | 信息量 | 全量（方法细节、n、缩写） | 保留主线 + 3–5 个关键数字 |
 | 配色 | nature / cell（低饱和） | biorender / cell（高对比） |
 | 动画 | 无 | 可按 zone 分步出现（PPT 里对形状分组） |
-| 文件 | PDF + 600 dpi PNG | PNG 220 dpi + 可编辑 PPTX |
+| 文件 | PDF + 600 dpi PNG（投稿加 TIFF） | PNG 220 dpi + 可编辑 PPTX |
 
 做法：把 `build_demo.py` 里的 `W, H = CANVAS.slide_16x9` 换成 `CANVAS.double_column`，
 字号表整体乘 0.72，删掉次要注释——同一份代码出两版，别手工重画。
+
 

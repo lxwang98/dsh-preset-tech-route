@@ -1,7 +1,7 @@
 # 科研技术路线绘制模式（tech-route）
 
 一个 DeepSeek Harness Agent 预设：把论文的研究设计、实验流程、多组学整合、机制假说、人群验证
-画成**期刊级多面板技术路线图 / 图形摘要**，输出可编辑 `.pptx` + 600 dpi `.png` + 矢量 `.pdf`。
+画成**期刊级多面板技术路线图 / 图形摘要**，输出可编辑 `.pptx` + 600 dpi `.png` + 矢量 `.pdf`（投稿再加 600 dpi `.tif`）。
 
 ![云端素材库六类主题总览](assets/remote/sheets/overview.png)
 
@@ -104,6 +104,12 @@ cv.export("D:/out", dpi=600)          # → route.png / route.pdf
 print(format_report(static_report(cv, mode="deck")))
 ```
 
+投稿系统要位图时再加一件 TIFF（600 dpi / 8 bit RGB / 白底无 alpha / LZW 无损）：
+
+```powershell
+python -c "from routekit.export import render; render(r'D:/out/route.pptx', r'D:/out', dpi=600, also_tiff=True)"
+```
+
 ![示范图：全谷物黑米经肠道菌群–SCFA–炎症轴延长小鼠健康寿命](skills/tech-route-atlas/examples/black-rice-route.png)
 
 ## 三种场景，三条入口
@@ -191,6 +197,7 @@ Microsoft PowerPoint（仅作渲染/导出/审计引擎，无需人工打开）�
   下载时同时落一份 `.license.txt`；**CC BY-SA 件不用于投稿图**。
 - BioRender 素材**不在本库**：其许可只允许在自家编辑器内使用，禁止提取与再分发。
 - 对外交付图件请附 `docs/ATTRIBUTION.md` 中的署名片段。详见 `docs/SOURCES.md`。
+
 
 
 

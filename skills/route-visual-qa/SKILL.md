@@ -1,7 +1,7 @@
 ---
 name: route-visual-qa
 description: 技术路线图/框架图/图形摘要的视觉质检与导出：用 PowerPoint COM 把 pptx 渲染成 600 dpi PNG 与矢量 PDF，用真实文本边界审计溢出/越界/字号地板/标签碰撞，再按"一眼看过去能不能直接投稿"的清单做人工复核与修订。交付前必走。也用于批量导出、改图后回归检查。
-whenToUse: 图已经画完要交付；或用户反馈"字挤了/框图错位/导出糊/颜色不对"；或要一次导出 PNG+PDF+SVG 多个格式。
+whenToUse: 图已经画完要交付；或用户反馈"字挤了/框图错位/导出糊/颜色不对"；或要一次导出 PNG+PDF+TIFF/SVG 多个格式。
 ---
 
 # 视觉质检与导出
@@ -21,7 +21,8 @@ print(format_report(issues))
 design_check(cv, cv.p)                          # 对比度/配色自检
 
 pptx = cv.save("out/fig.pptx")
-paths = render(pptx, "out", dpi=600, stem="fig")   # -> {"png":…, "pdf":…}
+paths = render(pptx, "out", dpi=600, stem="fig")               # -> {"png":…, "pdf":…}
+paths = render(pptx, "out", dpi=600, stem="fig", also_tiff=True)  # 投稿再加 .tif
 print(com_audit(pptx, tol_pt=0.6))                # 真实文本 vs 形状框
 ```
 
@@ -74,7 +75,7 @@ print(com_audit(pptx, tol_pt=0.6))                # 真实文本 vs 形状框
 | 用途 | 格式 | 参数 |
 |---|---|---|
 | 投稿（矢量） | PDF | `render(..., also_pdf=True)`；字体已内嵌 |
-| 投稿（位图要求） | PNG/TIFF | `dpi=600`，宽 ≥3000 px |
+| 投稿（位图要求） | TIFF（首选）/ PNG | `dpi=600`、8 bit RGB、白底无 alpha、LZW；`also_tiff=True` |
 | 汇报 PPT | PNG | `dpi=220`（16:9 全屏 ≈ 2200 px 宽） |
 | 网页/预印本 | PNG | `dpi=150` |
 | 二次编辑 | PPTX / SVG | `to_svg(pptx, "out/fig.svg")`（PowerPoint 导出 SVG） |
@@ -85,3 +86,4 @@ print(com_audit(pptx, tol_pt=0.6))                # 真实文本 vs 形状框
 "已导出 `fig.pptx`（可编辑）/ `fig.png`（600 dpi，6000×3376）/ `fig.pdf`（矢量）。
 审计 0 error、5 warning（均为 5.2–5.3 pt 图注小字）；已按 25% 缩略与眯眼测试复核，
 分区层级与箭头拓扑清晰。素材署名见 `ATTRIBUTION.md`。"
+

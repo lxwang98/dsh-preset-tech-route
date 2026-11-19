@@ -86,10 +86,35 @@ def to_svg(pptx: str | Path, svg: str | Path, *, slide: int = 1) -> Path:
     return svg
 
 
+def to_tiff(png: str | Path, tiff: str | Path, *, dpi: int = 600,
+            compression: str = "tiff_lzw") -> Path:
+    """PNG → TIFF for journal submission.
+
+    - 合到白底（多数期刊拒收带 alpha 的 TIFF）
+    - 8 bit RGB（不做 CMYK；真要 CMYK 得在 Photoshop 里转，PIL 转出来偏色）
+    - `tiff_lzw` 无损压缩，文件约为未压缩的 1/2–1/3
+    - dpi 写进 TIFF 标签，审稿系统都读这个
+    """
+    from PIL import Image
+
+    png, tiff = Path(png), Path(tiff)
+    tiff.parent.mkdir(parents=True, exist_ok=True)
+    with Image.open(png) as im:
+        im = im.convert("RGBA")
+        flat = Image.new("RGB", im.size, (255, 255, 255))
+        flat.paste(im, mask=im.split()[-1])
+        flat.save(tiff, format="TIFF", dpi=(dpi, dpi), compression=compression)
+    return tiff
+
+
 def render(pptx: str | Path, out_dir: str | Path, *, dpi: int = 600,
            stem: str | None = None, slide: int = 1,
-           also_pdf: bool = True) -> dict[str, Path]:
-    """PNG (+ PDF) of one slide in a single PowerPoint session."""
+           also_pdf: bool = True, also_tiff: bool = False,
+           tiff_dpi: int | None = None) -> dict[str, Path]:
+    """PNG (+ PDF, + TIFF) of one slide in a single PowerPoint session.
+
+    TIFF 默认沿用 PNG 的 dpi；投稿用 600，幻灯片用 220 就够（文件小一个量级）。
+    """
     pptx = Path(pptx)
     out = Path(out_dir)
     out.mkdir(parents=True, exist_ok=True)
@@ -114,6 +139,9 @@ def render(pptx: str | Path, out_dir: str | Path, *, dpi: int = 600,
             pres.Close()
         finally:
             app.Quit()
+
+    if also_tiff:
+        got["tiff"] = to_tiff(png, out / f"{stem}.tif", dpi=tiff_dpi or dpi)
     return got
 
 
