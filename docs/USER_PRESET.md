@@ -94,6 +94,14 @@
   参考图只用来"看风格"，要复现就照比例重画；用户原图只进
   `assets/custom/references/` 并在索引标 `user-supplied-reference`，**不进正式图**。
 - 禁止 AI 生图；照片级素材从 catalog / SciDraw 找，或明确告知需外部素材。
+- **云端库优先于自制**：脏器、细胞、细菌病毒、常见仪器（显微镜/离心机/培养箱/电泳）、
+  人物场景（查体/采血/输液/超声）先查云端 4978 件（Servier 画质最好），
+  别自己画；只有云端补不上的（病房、医护团队、输液整套、采血管、病历、CT 机架、
+  可读队列人群、带细胞培养皿）才用 custom/figures/ 里那套自制件。
+  六张主题目录页在 ssets/remote/sheets/，挑之前先翻，比搜关键词快。
+  云端缺什么的对照表在 skills/sciglyph-catalog/references/cloud.md。
+- **BioRender 素材不进来**：许可只允许在其编辑器内使用。有订阅就出整图当参考锚点，
+  由我按等价矢量重画；禁止提取/拆分其素材。
 
 ### 5.1 GWAS Manhattan 图（2026-11 定稿，硬规范）
 
@@ -265,4 +273,5 @@ cv.plot(Box(xa, y, 26, 18.6), mp.manhattan(cv.p, nchr=19, data={1: p1, 2: p2, ..
 
 三件套同上（pptx + 600 dpi PNG + 矢量 PDF），另附**灰度版**自看；图注写清"模块 → 产出"对应关系。
 范例：`skills/nsfc-route/examples/build_nsfc_a4.py` + `nsfc-a4-demo.png`（菌群–丁酸–GPR43–屏障衰老）。
+
 
