@@ -1909,6 +1909,24 @@
 "attribution": "Original schematic drawn for this project (2026); no source data."
 },
 {
+"id": "custom/figures/cohort-people-4",
+"svg": "custom/figures/cohort-people-4.svg",
+"zh": "",
+"en": "Cohort people 4",
+"tags": [
+"cohort",
+"people",
+"4"
+],
+"cat": "Custom",
+"subdir": "figures",
+"series": "custom",
+"format": "illustration",
+"license": "CC0-1.0",
+"license_uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+"attribution": "Original schematic drawn for this project (2026); no source data."
+},
+{
 "id": "custom/figures/dna-double-helix-blue",
 "svg": "custom/figures/dna-double-helix-blue.svg",
 "zh": "蓝色DNA双螺旋",
@@ -2137,6 +2155,24 @@
 "tags": [
 "medical",
 "record"
+],
+"cat": "Custom",
+"subdir": "figures",
+"series": "custom",
+"format": "illustration",
+"license": "CC0-1.0",
+"license_uri": "https://creativecommons.org/publicdomain/zero/1.0/",
+"attribution": "Original schematic drawn for this project (2026); no source data."
+},
+{
+"id": "custom/figures/petri-dish-cells",
+"svg": "custom/figures/petri-dish-cells.svg",
+"zh": "",
+"en": "Petri dish cells",
+"tags": [
+"petri",
+"dish",
+"cells"
 ],
 "cat": "Custom",
 "subdir": "figures",

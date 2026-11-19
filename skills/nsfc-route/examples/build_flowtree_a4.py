@@ -85,9 +85,7 @@ cv.text(Box(M, 15.4, CW, 4.4),
         size=8.6, colour=INK3, align="l")
 
 # ------------------------------------------------------------------ L0 入口
-for i, aid in enumerate(["custom/figures/human-male", "custom/figures/human-female",
-                         "custom/figures/human-child"]):
-    cv.icon(Box(W / 2 - 16 + i * 11.5, 22.0, 9.0, 12.0), aid)
+cv.icon(Box(W / 2 - 24, 18.6, 48.0, 17.0), "custom/figures/cohort-people-4")
 entry = card(W / 2 - 48, 37.0, 96, 9.0, "临床 KPLA 病例（肺炎克雷伯菌肝脓肿）",
              CLIN, size=9.2, bold=True)
 
@@ -124,8 +122,7 @@ rv = card(126.0, L4Y, 74, L4H, "体内动物实验", VIVO, size=10.0, bold=True)
 bus((lv.cx + rv.cx) / 2, L3Y + 12.0, [(lv.cx, L4Y), (rv.cx, L4Y)], L4Y - 4.0, lw=1.1)
 
 # ---- 左臂：培养皿 → 4 个干预盒 → 3 个读数盒
-cv.icon(Box(lv.cx - 8, 134.0, 16.0, 12.0),
-        "sciglyph/07-glassware-consumables/general-labware/044-petri-dish-3")
+cv.icon(Box(lv.cx - 13, 131.4, 26.0, 15.6), "custom/figures/petri-dish-cells")
 cv.text(Box(M + 2, 147.0, 84, 6.0), "KP 诱导 NETs 形成细胞模型", size=9.0,
         colour=VITRO[2], bold=True)
 cv.route([(lv.cx, L4Y + L4H), (lv.cx, 133.5)], colour=LINE, lw=0.9, head="none")
@@ -211,3 +208,4 @@ for b in (c1, c2, c3):
 print(format_report(static_report(cv, mode="print")))
 pptx = cv.save(os.path.join(OUTDIR, "nsfc-flowtree-demo.pptx"))
 print(export.render(pptx, OUTDIR, dpi=600, also_pdf=True))
+
