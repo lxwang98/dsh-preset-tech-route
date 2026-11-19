@@ -70,7 +70,15 @@
   id `custom/figures/gut-wall-epithelium`。
 - 人群：男 / 女 / 儿童三个剪影，不要三个相同女性；
   ids `custom/figures/human-male|human-female|human-child`。
+  队列/病例组用 4 人站立组图（含一位裙装，臂腿分开、肩宽>髋宽，缩到 12 mm 仍可读）：
+  id `custom/figures/cohort-people-4`。
+- 体外细胞实验：带细胞的培养皿（3/4 俯视，盘径:盘高≈2.7:1，皿内 7 个大细胞带同色系描边，
+  互不重叠）；id `custom/figures/petri-dish-cells`。线稿版 `044-petri-dish-3` 只在 ≥30 mm 用。
 - 宿主基因组：蓝色 DNA 双螺旋；id `custom/figures/dna-double-helix-blue`。
+- **素材必须清晰：一律纯矢量（SVG 自绘或带许可的矢量件），禁止把参考图截图/抠图塞进去。**
+  判定：600 dpi 出图后放大 4 倍，边缘不许有锯齿、白边、原图底色残留。
+  参考图只用来"看风格"，要复现就照比例重画；用户原图只进
+  `assets/custom/references/` 并在索引标 `user-supplied-reference`，**不进正式图**。
 - 禁止 AI 生图；照片级素材从 catalog / SciDraw 找，或明确告知需外部素材。
 
 ### 5.1 GWAS Manhattan 图（2026-11 定稿，硬规范）

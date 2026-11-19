@@ -1,9 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="300" height="240" viewBox="0 0 300 240">
-<!-- 培养皿（3/4 视角）+ 贴壁细胞：体外细胞实验通用图元，CC0 -->
-<ellipse cx="150" cy="152" rx="126" ry="50" fill="#dde8f1" stroke="#a5bdd2" stroke-width="3"/>
-<ellipse cx="150" cy="146" rx="118" ry="44" fill="#eff5fa" stroke="#b7ccdc" stroke-width="2"/>
-<ellipse cx="150" cy="146" rx="101" ry="35" fill="#f5f0fa" stroke="#d5c9e6" stroke-width="1.5"/>
-<g transform="translate(217.0,147.9) rotate(21.6)"><ellipse rx="22.6" ry="14.3" fill="#7b93c7"/><ellipse rx="9.0" ry="5.4" cx="2.7" cy="-0.9" fill="#cbbfe9" opacity="0.92"/></g><g transform="translate(164.4,151.5) rotate(13.4)"><ellipse rx="20.3" ry="12.8" fill="#8d79c1"/><ellipse rx="8.1" ry="4.9" cx="2.4" cy="-0.8" fill="#cbbfe9" opacity="0.92"/></g><g transform="translate(153.9,154.9) rotate(3.9)"><ellipse rx="20.3" ry="10.8" fill="#8d79c1"/><ellipse rx="8.1" ry="4.1" cx="2.4" cy="-0.7" fill="#cbbfe9" opacity="0.92"/></g><g transform="translate(145.8,152.7) rotate(37.5)"><ellipse rx="18.5" ry="10.0" fill="#7b93c7"/><ellipse rx="7.4" ry="3.8" cx="2.2" cy="-0.6" fill="#cbbfe9" opacity="0.92"/></g><g transform="translate(125.3,152.2) rotate(10.6)"><ellipse rx="22.6" ry="11.7" fill="#8d79c1"/><ellipse rx="9.0" ry="4.5" cx="2.7" cy="-0.7" fill="#cbbfe9" opacity="0.92"/></g><g transform="translate(132.5,149.5) rotate(-25.6)"><ellipse rx="23.1" ry="12.2" fill="#8d79c1"/><ellipse rx="9.2" ry="4.6" cx="2.8" cy="-0.7" fill="#cbbfe9" opacity="0.92"/></g><g transform="translate(89.7,131.9) rotate(3.5)"><ellipse rx="19.0" ry="12.1" fill="#7b93c7"/><ellipse rx="7.6" ry="4.6" cx="2.3" cy="-0.7" fill="#cbbfe9" opacity="0.92"/></g><g transform="translate(131.0,136.9) rotate(42.0)"><ellipse rx="23.6" ry="14.1" fill="#8d79c1"/><ellipse rx="9.4" ry="5.3" cx="2.8" cy="-0.8" fill="#cbbfe9" opacity="0.92"/></g><g transform="translate(155.7,133.2) rotate(-31.9)"><ellipse rx="19.5" ry="10.2" fill="#8d79c1"/><ellipse rx="7.8" ry="3.9" cx="2.3" cy="-0.6" fill="#cbbfe9" opacity="0.92"/></g><g transform="translate(154.7,133.2) rotate(16.0)"><ellipse rx="21.2" ry="10.6" fill="#7b93c7"/><ellipse rx="8.5" ry="4.0" cx="2.5" cy="-0.6" fill="#cbbfe9" opacity="0.92"/></g><g transform="translate(181.8,137.7) rotate(-16.6)"><ellipse rx="22.7" ry="12.9" fill="#8d79c1"/><ellipse rx="9.1" ry="4.9" cx="2.7" cy="-0.8" fill="#cbbfe9" opacity="0.92"/></g>
-<path d="M44 134 q106 -52 212 0" fill="none" stroke="#ffffff" stroke-width="4.5" opacity="0.8"/>
-<path d="M26 162 q124 62 248 0" fill="none" stroke="#c6d7e5" stroke-width="3" opacity="0.85"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="200" viewBox="0 0 320 200">
+<!-- 培养皿（3/4 俯视）+ 贴壁细胞：体外细胞实验通用图元，CC0，纯矢量 -->
+<ellipse cx="160" cy="122" rx="150" ry="54" fill="#dbe7f1" stroke="#a3bcd2" stroke-width="3"/>
+<ellipse cx="160" cy="116" rx="142" ry="49" fill="#edf4fa" stroke="#b8cddd" stroke-width="2"/>
+<ellipse cx="160" cy="118" rx="118" ry="40" fill="#f7f2fb" stroke="#d9ccea" stroke-width="1.6"/>
+<g transform="translate(108.7,104.2) rotate(-18)"><ellipse rx="19" ry="12" fill="#8d79c1" stroke="#6d5aa6" stroke-width="1.4"/><ellipse rx="7.2" ry="4.8" cx="-2.3" cy="-1.2" fill="#d7cdec"/></g>
+<g transform="translate(193.6,96.9) rotate(24)"><ellipse rx="17" ry="11" fill="#7b93c7" stroke="#6d5aa6" stroke-width="1.4"/><ellipse rx="6.5" ry="4.4" cx="-2.0" cy="-1.1" fill="#d7cdec"/></g>
+<g transform="translate(211.0,116.0) rotate(8)"><ellipse rx="18" ry="11" fill="#8d79c1" stroke="#6d5aa6" stroke-width="1.4"/><ellipse rx="6.8" ry="4.4" cx="-2.2" cy="-1.1" fill="#d7cdec"/></g>
+<g transform="translate(184.6,138.1) rotate(-30)"><ellipse rx="16" ry="10" fill="#7b93c7" stroke="#6d5aa6" stroke-width="1.4"/><ellipse rx="6.1" ry="4.0" cx="-1.9" cy="-1.0" fill="#d7cdec"/></g>
+<g transform="translate(114.1,131.0) rotate(16)"><ellipse rx="20" ry="12" fill="#8d79c1" stroke="#6d5aa6" stroke-width="1.4"/><ellipse rx="7.6" ry="4.8" cx="-2.4" cy="-1.2" fill="#d7cdec"/></g>
+<g transform="translate(83.5,116.9) rotate(-8)"><ellipse rx="15" ry="10" fill="#8d79c1" stroke="#6d5aa6" stroke-width="1.4"/><ellipse rx="5.7" ry="4.0" cx="-1.8" cy="-1.0" fill="#d7cdec"/></g>
+<g transform="translate(134.6,93.1) rotate(34)"><ellipse rx="17" ry="11" fill="#7b93c7" stroke="#6d5aa6" stroke-width="1.4"/><ellipse rx="6.5" ry="4.4" cx="-2.0" cy="-1.1" fill="#d7cdec"/></g>
+<path d="M34 104 q126 -44 252 0" fill="none" stroke="#ffffff" stroke-width="5" opacity="0.85"/>
+<path d="M20 134 q140 52 280 0" fill="none" stroke="#c3d5e4" stroke-width="3" opacity="0.9"/>
 </svg>
