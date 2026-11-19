@@ -123,7 +123,7 @@ def iso_block(cv, x: float, y: float, *, w: float, d: float, h: float,
 def iso_layers(cv, x: float, y: float, *, w: float, d: float,
                layers: Iterable[tuple[float, str]], k: float | None = None,
                levels: tuple[float, float, float] = (0.78, 0.56, 0.38),
-               line: bool = True, lw: float = 0.35):
+               line: bool = True, lw: float = 0.35, mode: str = "oblique"):
     """自下而上堆叠分层（土壤剖面 / 含水层 / 沉积）。``layers`` = [(厚度 mm, 颜色), ...]
 
     只有最顶层的顶面会被绘制；返回最顶层顶面的四个顶点（便于往上放作物、建筑等）。
@@ -134,7 +134,7 @@ def iso_layers(cv, x: float, y: float, *, w: float, d: float,
     for i, (hh, acc) in enumerate(seq):
         top_pts, _f, _s = iso_block(cv, x, yy, w=w, d=d, h=hh, acc=acc, k=k,
                                     levels=levels, line=line, lw=lw,
-                                    top=(i == len(seq) - 1))
+                                    top=(i == len(seq) - 1), mode=mode)
         yy -= hh
     return top_pts
 
@@ -148,8 +148,8 @@ def iso_plane(cv, x: float, y: float, *, w: float, d: float, k: float | None = N
     """
     if mode == "iso":
         pts = [(x, y), (x + w * DEPTH_X, y + w * DEPTH_Y),
-               (x + w * DEPTH_X - d * DEPTH_X, y + w * DEPTH_Y - d * DEPTH_Y),
-               (x - d * DEPTH_X, y - d * DEPTH_Y)]
+               (x + w * DEPTH_X - d * DEPTH_X, y + w * DEPTH_Y + d * DEPTH_Y),
+               (x - d * DEPTH_X, y + d * DEPTH_Y)]
     else:
         dx, dy = depth_vec(d, k)
         pts = [(x, y), (x + w, y), (x + w + dx, y + dy), (x + dx, y + dy)]
@@ -196,4 +196,6 @@ def iso_arrow(cv, p0: tuple[float, float], p1: tuple[float, float], *,
               colour: str = "#455766", lw: float = 0.9, head: float = 1.6):
     """等距平面上的箭头（用 cv.arrow 即可，这里只是语义化封装）。"""
     return cv.arrow(p0, p1, colour=colour, lw=lw, head="triangle", shrink=head * 0.5)
+
+
 
