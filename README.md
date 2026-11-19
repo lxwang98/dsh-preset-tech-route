@@ -5,7 +5,7 @@
 
 ```
 tech-route/
-├─ cordis.patch.yml          # 预设组合（persona + 4 个技能 + 完整标准能力）
+├─ cordis.patch.yml          # 预设组合（persona + 5 个技能 + 完整标准能力）
 ├─ package.json              # @local/dsh-preset-tech-route
 ├─ assets/
 │  ├─ sciglyph/              # 2830 个矢量图元（CC BY 4.0，12 大类 5 种画风）
@@ -26,6 +26,10 @@ tech-route/
 │  │  ├─ references/remote.md    # 远程素材库（Servier / DBCLS）用法与许可
 │  │  └─ examples/               # build_demo.py + pptx/png/pdf 成品
 │  ├─ sciglyph-catalog/      # 素材检索/预览/许可与格式规则（本机 + 远程）
+│  ├─ nsfc-route/            # 国自然 A4 竖版技术路线图（评审视角 + 五种构型 + 送审自查）
+│  │  ├─ references/archetypes.md  # 五种获批构型的骨架与坐标
+│  │  ├─ references/checklist.md   # 送审前 20 条自查 + 与期刊图差异对照
+│  │  └─ examples/                 # build_nsfc_a4.py + A4 竖版成品
 │  ├─ route-visual-qa/       # 渲染、审计、10 点人工复查
 │  └─ journal-route-spec/    # 期刊画布/字号/配色/图注规范与双输出
 ├─ docs/SOURCES.md           # 素材来源与许可
@@ -77,6 +81,22 @@ print(format_report(static_report(cv, mode="deck")))
 
 ![示范图：全谷物黑米经肠道菌群–SCFA–炎症轴延长小鼠健康寿命](skills/tech-route-atlas/examples/black-rice-route.png)
 
+## 两种场景，两个入
+
+| 场景 | 技能 | 画布 | 关键约束 |
+|---|---|---|---|
+| 期刊投稿 / 图形摘要 / 论文插图 | `tech-route-atlas` + `journal-route-spec` | 254×142.9、300×189.5 横版 | 字号 ≥5.5 pt，KaiTi + Cambria |
+| **国自然 / 中文基金标书** | `nsfc-route` | **A4 竖版 210×297** | 单页不跨页，SimHei，**字号 ≥8 pt**，模块必须有可验证产出 |
+
+国自然那条线的范例（可直接改文案用）：
+
+```powershell
+cd skills\nsfc-route\examples
+python build_nsfc_a4.py            # → out/nsfc-a4-demo.pptx / .png(600dpi) / .pdf
+```
+
+![示范图：国自然 A4 竖版技术路线图（菌群–丁酸–GPR43–屏障衰老）](skills/nsfc-route/examples/nsfc-a4-demo.png)
+
 ## 安装到 DeepSeek Harness
 
 ```powershell
@@ -111,3 +131,4 @@ Microsoft PowerPoint（仅作渲染/导出/审计引擎，无需人工打开）�
 - SciGlyph：CC BY 4.0（署名 ZengZichao）；Bioicons：逐文件 CC0 / CC BY 3.0 / CC BY 4.0；
   SciDraw：逐文件 CC BY 4.0 / CC0，保留作者、DOI 与来源。
 - 对外交付图件请附 `docs/ATTRIBUTION.md` 中的署名片段。详见 `docs/SOURCES.md`。
+

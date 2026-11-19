@@ -5,16 +5,16 @@
       config:
         id: tech-route
         name: 科研技术路线绘制模式
-        description: 面向"技术路线图 / 研究框架图 / 图形摘要"的科研绘图 Agent：自带 3715 个期刊级矢量素材（SciGlyph 2830 个 CC BY 4.0 矢量图元，覆盖细胞微生物、遗传组学、代谢表型、系统演化、生态生物技术、实验方法、玻璃器皿、仪器装置、安全标识、图元构件、图表与图标 12 大类；Bioicons 精选 100 个 CC0 / CC BY 插画，含小鼠、大鼠、结肠、脏器、水稻、人体、实验仪器与箭头；SciDraw 774 个 CC BY 4.0 / CC0 插画，覆盖鼠、人、细胞、鱼、果蝇、鸟与其他；自制/参考图 11 个），配 6 套期刊调色板（Cell / Nature / Science / Lancet / BioRender / 单色）与 routekit 绘图库。routekit 用毫米坐标 + 原生 PowerPoint 形状构造多面板路线图：分区（zone）、卡片、编号步骤、块箭头、折线路径、内嵌数据小图（生存曲线、热图、柱线散点）都是可编辑对象；python-pptx 出 .pptx，PowerPoint COM 导出 600 dpi PNG 与矢量 PDF，并用 TextFrame2 真实文本边界做溢出/越界/字号审计。工作流固定为「规格 → 箭头拓扑表 → 构建 → 渲染 → 视觉自检 → 修订」，四个技能分别覆盖核心方法、素材目录、视觉质检与期刊/汇报规范。完整保留标准模式的文件、Shell、搜索、子代理、工作流能力，可直接写并运行 Python 脚本、读回成图自检。
+        description: 面向"技术路线图 / 研究框架图 / 图形摘要"的科研绘图 Agent：自带 3715 个期刊级矢量素材（SciGlyph 2830 个 CC BY 4.0 矢量图元，覆盖细胞微生物、遗传组学、代谢表型、系统演化、生态生物技术、实验方法、玻璃器皿、仪器装置、安全标识、图元构件、图表与图标 12 大类；Bioicons 精选 100 个 CC0 / CC BY 插画，含小鼠、大鼠、结肠、脏器、水稻、人体、实验仪器与箭头；SciDraw 774 个 CC BY 4.0 / CC0 插画，覆盖鼠、人、细胞、鱼、果蝇、鸟与其他；自制/参考图 11 个），配 6 套期刊调色板（Cell / Nature / Science / Lancet / BioRender / 单色）与 routekit 绘图库。routekit 用毫米坐标 + 原生 PowerPoint 形状构造多面板路线图：分区（zone）、卡片、编号步骤、块箭头、折线路径、内嵌数据小图（生存曲线、热图、柱线散点）都是可编辑对象；python-pptx 出 .pptx，PowerPoint COM 导出 600 dpi PNG 与矢量 PDF，并用 TextFrame2 真实文本边界做溢出/越界/字号审计。工作流固定为「规格 → 箭头拓扑表 → 构建 → 渲染 → 视觉自检 → 修订」，五个技能分别覆盖期刊图核心方法、国自然 A4 竖版路线图、素材目录、视觉质检与期刊/汇报规范。完整保留标准模式的文件、Shell、搜索、子代理、工作流能力，可直接写并运行 Python 脚本、读回成图自检。
         order: 10
         plugins:
           # 「科研技术路线绘制模式」Agent 预设（id: tech-route）
           #
           # 本文件是 AGENT-PLANE 组合：能力组合以部署自带 `standard` 预设为基底（经由本机
           # 已验证的 research-critique 预设转写），只做两处实质改动 —— 换成技术路线图的 persona，
-          # 以及指向本预设自己的 skills/ 目录（4 个技术路线图 Skill + 3715 个矢量素材）。
+          # 以及指向本预设自己的 skills/ 目录（5 个技术路线图 Skill + 3715 个矢量素材）。
           # 因此它和 standard 一样是**完整能力**的 Agent：文件编辑、Shell、搜索、Skills、
-          # 计划模式、目标、子代理、工作流、压缩全部保留；另加技术路线图人设与 4 个绘图技能。
+          # 计划模式、目标、子代理、工作流、压缩全部保留；另加技术路线图人设与 5 个绘图技能。
           #
           # 花名册（roster）会在一个 standing scope 下**只挂载一次**，凡是指名本预设的会话都
           # 通过 scope 父子关系加入，于是这里注册的工具与提示词段落覆盖每一个加入的 Agent，
@@ -79,11 +79,16 @@
                 ## 技能路由
 
                 - 要画新图、改图、定分区/箭头/版式 → `tech-route-atlas`（核心方法 + routekit API + 范例）
+                - 画**国自然 / 中文基金标书的技术路线图**（A4 竖版、评审视角、绝不跨页）→ `nsfc-route`
+                  （五种构型 + 模块卡三要素 + 8 pt 实印地板 + 灰度测试 + 送审 20 条自查）
                 - 找素材、看素材清单、确认许可与中英文名 → `sciglyph-catalog`
                 - 出图后自检、导出 PNG/PDF、修溢出与撞车 → `route-visual-qa`
                 - 定画布/字号/配色/投稿与 PPT 规范 → `journal-route-spec`
 
                 先读 `docs/USER_PRESET.md` 的审美/布局/字体硬约束，再读技能里的 `references/`，最后动手写脚本。
+
+                **场景分流**：期刊投稿 / 图形摘要 → `tech-route-atlas` + `journal-route-spec`；
+                国自然本子 / 中文基金 → `nsfc-route`（A4 竖版、SimHei、文字卡为主、可含未完成计划与风险对策）。
 
                 ## 本机工具链（已实测）
 
@@ -332,3 +337,4 @@
           # 交付图与脚本时用 present 把它们挂到会话文件区。
           - id: present
             name: '@deepseek-ai/dsh-tool-present'
+
