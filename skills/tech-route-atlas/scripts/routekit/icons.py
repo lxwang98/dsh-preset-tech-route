@@ -223,6 +223,12 @@ def png(asset_id, px: int = 900, *, tint: str | None = None,
     aid, svg = resolve(asset_id, cat)
     CACHE.mkdir(parents=True, exist_ok=True)
     key = aid.replace("/", "__") + (f"__t{tint.lstrip('#')}" if tint else "")
+    # mtime in the key: redrawing an SVG in place must invalidate the cache,
+    # otherwise an edited asset silently keeps rendering as its old self.
+    try:
+        key += f"__m{int(svg.stat().st_mtime)}"
+    except OSError:
+        pass
     out = CACHE / f"{key}@{px}.png"
     if out.exists() and out.stat().st_size > 0:
         return out

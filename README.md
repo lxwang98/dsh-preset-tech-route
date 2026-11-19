@@ -11,7 +11,7 @@ tech-route/
 │  ├─ sciglyph/              # 2830 个矢量图元（CC BY 4.0，12 大类 5 种画风）
 │  ├─ bioicons/              # 100 个精选插画（CC0 / CC BY，离线可用）
 │  ├─ custom/                # 14 个自制/参考素材 + SciDraw 774 个插画
-│  ├─ index.json             # 3718 条本机素材索引（中英名、标签、风格、许可、署名）
+│  ├─ index.json             # 3724 条本机素材索引（中英名、标签、风格、许可、署名）
 │  ├─ glossary.json          # 中英术语，供中文检索用
 │  └─ remote/index.json      # 2829 条远程素材目录（元数据 1.4 MB，按需下载）
 ├─ tools/
@@ -26,7 +26,7 @@ tech-route/
 │  │  ├─ references/remote.md    # 远程素材库（Servier / DBCLS）用法与许可
 │  │  └─ examples/               # build_demo.py + pptx/png/pdf 成品
 │  ├─ sciglyph-catalog/      # 素材检索/预览/许可与格式规则（本机 + 远程）
-│  ├─ nsfc-route/            # 国自然 A4 竖版技术路线图（评审视角 + 五种构型 + 送审自查）
+│  ├─ nsfc-route/            # 国自然 A4 竖版技术路线图（评审视角 + 五种构型 + 临床分册 + 送审自查）
 │  │  ├─ references/archetypes.md  # 五种获批构型的骨架与坐标
 │  │  ├─ references/checklist.md   # 送审前 20 条自查 + 与期刊图差异对照
 │  │  └─ examples/                 # build_nsfc_a4.py + A4 竖版成品
@@ -37,9 +37,9 @@ tech-route/
 └─ docs/USER_PRESET.md       # 用户审美 / 七区布局 / 字体与交付硬约束
 ```
 
-## 素材：本机 3718 + 联网 2829
+## 素材：本机 3724 + 联网 2829
 
-本机 3718 件开箱即用（离线）：SciGlyph 2830、Bioicons 精选 100、SciDraw 774、自制/参考 14。
+本机 3724 件开箱即用（离线）：SciGlyph 2830、Bioicons 精选 100、SciDraw 774、自制/参考 20（含临床口：医护团队、病房、输液、采血管、病历、影像机架、人群队列、问卷、样本库）。
 SciDraw 来自 <https://scidraw.io>（CC BY 4.0 / CC0，逐条保留作者、DOI 与许可）。要 BioRender 那种彩色写实插画，用**远程库**——
 Bioicons 全库 2829 件，其中 **Servier Medical Art 1374 件**（CC BY 3.0）与
 **DBCLS 634 件**（CC BY 4.0）是人工绘制的彩色插画，脏器、小鼠、菌群、仪器都有。
@@ -92,10 +92,13 @@ print(format_report(static_report(cv, mode="deck")))
 
 ```powershell
 cd skills\nsfc-route\examples
-python build_nsfc_a4.py            # → out/nsfc-a4-demo.pptx / .png(600dpi) / .pdf
+python build_nsfc_a4.py            # 基础研究口 → out/nsfc-a4-demo.pptx / .png(600dpi) / .pdf
+python build_clinical_a4.py        # 临床研究口（队列+RCT+森林图）→ out/nsfc-clinical-demo.*
 ```
 
 ![示范图：国自然 A4 竖版技术路线图（菌群–丁酸–GPR43–屏障衰老）](skills/nsfc-route/examples/nsfc-a4-demo.png)
+
+![示范图：临床研究口技术路线图（前瞻队列 + 随机分层干预，内嵌森林图）](skills/nsfc-route/examples/nsfc-clinical-demo.png)
 
 ## 安装到 DeepSeek Harness
 

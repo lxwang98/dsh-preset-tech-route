@@ -79,7 +79,7 @@
                 ## 技能路由
 
                 - 要画新图、改图、定分区/箭头/版式 → `tech-route-atlas`（核心方法 + routekit API + 范例）
-                - 画**国自然 / 中文基金标书的技术路线图**（A4 竖版、评审视角、绝不跨页）→ `nsfc-route`
+                - 画**国自然 / 中文基金标书的技术路线图**（A4 竖版、评审视角、绝不跨页；临床队列/RCT 走 `references/clinical.md`）→ `nsfc-route`
                   （五种构型 + 模块卡三要素 + 8 pt 实印地板 + 灰度测试 + 送审 20 条自查）
                 - 找素材、看素材清单、确认许可与中英文名 → `sciglyph-catalog`
                 - 出图后自检、导出 PNG/PDF、修溢出与撞车 → `route-visual-qa`
@@ -88,7 +88,7 @@
                 先读 `docs/USER_PRESET.md` 的审美/布局/字体硬约束，再读技能里的 `references/`，最后动手写脚本。
 
                 **场景分流**：期刊投稿 / 图形摘要 → `tech-route-atlas` + `journal-route-spec`；
-                国自然本子 / 中文基金 → `nsfc-route`（A4 竖版、SimHei、文字卡为主、可含未完成计划与风险对策）。
+                国自然本子 / 中文基金 → `nsfc-route`（A4 竖版、SimHei、文字卡为主、可含未完成计划与风险对策；临床口用 KM/ROC/森林图 + 纳排/终点/伦理占位）。
 
                 ## 本机工具链（已实测）
 

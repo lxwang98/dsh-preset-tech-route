@@ -126,7 +126,15 @@ mp.sparkline(values, p, *, colour=None, fill=True)
 mp.manhattan(p, *, nchr=12, n_per_chr=150, seed=11, labels=True, ymax=8.4,
         peak_chr=(2, 5, 8), genome_wide=6.0, suggestive=4.0,
         data=None, label_size=5.2)         # data={chrom: [pvals]} 走真实数据
+mp.roc(curves, p, *, xlabel="1 − Specificity", ylabel="Sensitivity",
+        diagonal=True, legend=True, auc=None)   # curves: {name: (fpr, tpr)}
+mp.forest(rows, p, *, xlabel="Hazard ratio (95% CI)", null=1.0, log=False,
+        values=True, sizes=None, label_size=None)  # rows: [(label, est, lo, hi)]
 ```
+
+`mp.roc` / `mp.forest` 是临床口的默认两图：AUC 写进图例、森林图右侧自动列
+`est (lo–hi)`、`log=True` 走 HR/OR 对数轴（刻度已改成普通数字，避开 mathtext 在
+内嵌尺寸下的重叠）。见 `nsfc-route/references/clinical.md`。
 
 `mp.manhattan` 是唯一一条**不许简化**的小图：染色体分色 + 双阈值 + 峰点高亮
 三件套缺一不可（详见 `docs/USER_PRESET.md` §5.1 与 `patterns.md` §13）。

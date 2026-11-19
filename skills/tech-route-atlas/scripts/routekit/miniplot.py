@@ -324,4 +324,96 @@ def manhattan(p: Palette, *, nchr: int = 12, n_per_chr: int = 150, seed: int = 1
     return draw
 
 
-__all__ = ["bars", "lines", "survival", "heat", "scatter", "sparkline", "manhattan"]
+__all__ = ["bars", "lines", "survival", "heat", "scatter", "sparkline", "manhattan",
+           "roc", "forest"]
+
+
+# ------------------------------------------------------------------ roc
+
+def roc(curves: dict[str, tuple[list[float], list[float]]], p: Palette, *,
+        xlabel: str = "1 − Specificity", ylabel: str = "Sensitivity",
+        diagonal: bool = True, legend: bool = True,
+        auc: dict[str, float] | None = None):
+    """ROC 曲线：`curves = {"Model": (fpr, tpr), ...}`，两轴均 0-1。
+
+    `auc={"Model": 0.86}` 给了就把 AUC 写进图例，比单独标文字省地方；
+    临床诊断/预测模型图里 AUC 是硬指标，别省略。
+    """
+
+    def draw(fig):
+        ax = _apply(fig, p)
+        if diagonal:
+            ax.plot([0, 1], [0, 1], ls=(0, (2.2, 1.8)), lw=0.7, color=p.ink3, zorder=1)
+        for i, (name, (fpr, tpr)) in enumerate(curves.items()):
+            lab = name
+            if auc and name in auc:
+                lab = f"{name}  AUC {auc[name]:.2f}"
+            ax.plot(fpr, tpr, color=p.accent(i), lw=1.25, label=lab, zorder=3,
+                    solid_capstyle="round")
+        ax.set_xlim(0, 1.0)
+        ax.set_ylim(0, 1.03)
+        ax.set_xticks([0, 0.5, 1])
+        ax.set_yticks([0, 0.5, 1])
+        ax.set_xticklabels(["0", "0.5", "1"])
+        ax.set_yticklabels(["0", "0.5", "1"])
+        ax.set_xlabel(xlabel, fontsize=T.micro, color=p.ink2, labelpad=1.5)
+        ax.set_ylabel(ylabel, fontsize=T.micro, color=p.ink2, labelpad=1.5)
+        if legend:
+            _legend(ax, p, loc="lower right", size=T.micro - 0.6)
+        return ax
+
+    return draw
+
+
+# ------------------------------------------------------------------ forest
+
+def forest(rows, p: Palette, *, xlabel: str = "Hazard ratio (95% CI)",
+           null: float = 1.0, log: bool = False, values: bool = True,
+           sizes: list[float] | None = None, label_size: float | None = None):
+    """森林图：`rows = [(label, est, lo, hi), ...]`，自上而下按给定顺序画。
+
+    点估计方块 + 95% CI 横线 + 无效线（HR/OR 为 1，均值差为 0）。
+    `values=True` 时在图右侧空列写 `est (lo–hi)`，投稿图的标准做法。
+    """
+
+    def draw(fig):
+        ax = _apply(fig, p)
+        n = len(rows)
+        ys = list(range(n))[::-1]
+        for i, r in enumerate(rows):
+            y = ys[i]
+            est, lo, hi = float(r[1]), float(r[2]), float(r[3])
+            ax.plot([lo, hi], [y, y], color=p.ink3, lw=1.0,
+                    solid_capstyle="butt", zorder=2)
+            ms = (sizes[i] / 22.0) if (sizes and i < len(sizes)) else 3.2
+            ax.plot([est], [y], marker="s", ms=max(2.2, min(ms, 6.0)),
+                    color=p.accent(0), zorder=3, mew=0)
+            if values:
+                txt = f"{est:.2f} ({lo:.2f}–{hi:.2f})"
+                ax.text(1.03, y, txt, transform=ax.get_yaxis_transform(),
+                        ha="left", va="center", fontsize=(label_size or T.micro) - 0.4,
+                        color=p.ink2, clip_on=False)
+        if null is not None:
+            ax.axvline(null, color=p.ink3, lw=0.7, ls=(0, (2.2, 1.8)), zorder=1)
+        if log:
+            from matplotlib.ticker import NullLocator
+            ax.set_xscale("log")
+            # matplotlib's default log labels are mathtext (4×10⁻¹) and collide
+            # at inset size; force plain decade-ish ticks inside the data range.
+            lo_r = min(float(r[2]) for r in rows)
+            hi_r = max(float(r[3]) for r in rows)
+            cand = [0.1, 0.2, 0.5, 1.0, 2.0, 5.0, 10.0, 20.0]
+            ticks = [c for c in cand if lo_r * 0.85 <= c <= hi_r * 1.15] or [null]
+            ax.set_xticks(ticks)
+            ax.set_xticklabels([f"{t:g}" for t in ticks])
+            ax.xaxis.set_minor_locator(NullLocator())
+        ax.set_ylim(-0.7, n - 0.3)
+        ax.set_yticks(ys)
+        ax.set_yticklabels([str(r[0]) for r in rows], fontsize=label_size or T.micro)
+        ax.tick_params(axis="y", length=0, pad=2)
+        for side in ("left", "top", "right"):
+            ax.spines[side].set_visible(False)
+        ax.set_xlabel(xlabel, fontsize=T.micro, color=p.ink2, labelpad=1.5)
+        return ax
+
+    return draw

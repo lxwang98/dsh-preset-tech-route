@@ -133,19 +133,20 @@ def bioicons() -> list[dict]:
 
 
 def custom() -> list[dict]:
-    """Keep hand-curated assets already in the index.
+    """手绘图元：保留旧索引里的策展记录，并自动收编新落盘的 SVG。
 
-    The custom records carry Chinese names, tags and attribution that cannot
-    be inferred from a bare file, so they are read back from the previous
-    index instead of being regenerated.
+    旧记录带中文名、标签与署名（无法从裸文件推断），所以原样保留；
+    `assets/custom/figures/**.svg` 里尚未登记的新文件用文件名派生最小记录，
+    之后可在 index.json 里补 zh / tags 精修（下次重建会沿用旧记录）。
     """
-    if not INDEX.exists():
-        return []
-    try:
-        old = json.loads(INDEX.read_text(encoding="utf-8"))
-    except Exception:
-        return []
+    old: list[dict] = []
+    if INDEX.exists():
+        try:
+            old = json.loads(INDEX.read_text(encoding="utf-8"))
+        except Exception:
+            old = []
     out = []
+    seen = set()
     for r in old:
         pid = r.get("id", "")
         if not pid.startswith("custom/"):
@@ -153,6 +154,27 @@ def custom() -> list[dict]:
         p = r.get("svg")
         if p and (ASSETS / p).exists():
             out.append(r)
+            seen.add(p.replace("\\", "/"))
+    # --- 自动收编尚未登记的新文件 ---
+    for svg in sorted((ASSETS / "custom" / "figures").rglob("*.svg")):
+        rel = svg.relative_to(ASSETS).as_posix()
+        if rel in seen:
+            continue
+        stem = svg.stem
+        out.append(dict(
+            id=rel[:-4],
+            svg=rel,
+            zh="",
+            en=stem.replace("-", " ").replace("_", " ").capitalize(),
+            tags=[t for t in stem.replace("_", "-").split("-") if t],
+            cat="Custom",
+            subdir=svg.parent.name,
+            series="custom",
+            format="illustration",
+            license="CC0-1.0",
+            license_uri="https://creativecommons.org/publicdomain/zero/1.0/",
+            attribution="Original schematic drawn for this project (2026); no source data.",
+        ))
     return out
 
 
@@ -236,3 +258,4 @@ def main(argv: list[str]) -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main(sys.argv[1:]))
+

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="240" viewBox="0 0 400 240">
+<g>
+  <circle cx="96" cy="65.32" r="19.3" fill="#4A5B6B" stroke="#2C4E70" stroke-width="3.5"/>
+  <path d="M70.2 90.6 q0-7.4 25.8-7.4
+           q25.8 0 25.8 7.4
+           v79.1 h-51.5 z"
+        fill="#EEF4F9" stroke="#2C4E70" stroke-width="3.5" stroke-linejoin="round"/>
+  <path d="M82.2 90.6 L96.0 115.9
+           L109.8 90.6" fill="none" stroke="#2C4E70" stroke-width="3"/>
+  <path d="M89.6 92.6 h12.9 v18.4 h-12.9 z"
+        fill="#2E7D8F" stroke="none"/>
+  <path d="M90.5 132.5 h11.0" stroke="#2C4E70" stroke-width="3"
+        stroke-linecap="round"/>
+  <circle cx="300" cy="65.32" r="19.3" fill="#5E4A45" stroke="#2C4E70" stroke-width="3.5"/>
+  <path d="M274.2 90.6 q0-7.4 25.8-7.4
+           q25.8 0 25.8 7.4
+           v79.1 h-51.5 z"
+        fill="#EEF4F9" stroke="#2C4E70" stroke-width="3.5" stroke-linejoin="round"/>
+  <path d="M286.2 90.6 L300.0 115.9
+           L313.8 90.6" fill="none" stroke="#2C4E70" stroke-width="3"/>
+  <path d="M293.6 92.6 h12.9 v18.4 h-12.9 z"
+        fill="#2E7D8F" stroke="none"/>
+  <path d="M294.5 132.5 h11.0" stroke="#2C4E70" stroke-width="3"
+        stroke-linecap="round"/>
+  <circle cx="198" cy="51.0" r="21.0" fill="#3C4A57" stroke="#2C4E70" stroke-width="3.5"/>
+  <path d="M170.0 78.0 q0-8.0 28.0-8.0
+           q28.0 0 28.0 8.0
+           v86.0 h-56.0 z"
+        fill="#FFFFFF" stroke="#2C4E70" stroke-width="3.5" stroke-linejoin="round"/>
+  <path d="M183.0 78.0 L198.0 106.0
+           L213.0 78.0" fill="none" stroke="#2C4E70" stroke-width="3"/>
+  <path d="M191.0 80.0 h14.0 v20.0 h-14.0 z"
+        fill="#4F7FA8" stroke="none"/>
+  <path d="M192.0 124.0 h12.0" stroke="#2C4E70" stroke-width="3"
+        stroke-linecap="round"/>
+  <path d="M176 112 q0 34 22 34 q22 0 22-34" fill="none" stroke="#2C4E70" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="220" cy="150" r="7" fill="#2C4E70"/>
+  <rect x="30" y="214" width="340" height="8" rx="4" fill="#4F7FA8" stroke="none"/></svg>

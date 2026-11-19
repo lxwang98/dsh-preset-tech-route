@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="240" viewBox="0 0 400 240">
+<!-- 静脉输液 iv drip: 输液架 + 输液袋 + 滴壶 + 管路 + 针头 -->
+<path d="M286 34 V206" stroke="#2C4E70" stroke-width="6" stroke-linecap="round"/>
+<path d="M254 212 H318" stroke="#2C4E70" stroke-width="6" stroke-linecap="round"/>
+<path d="M188 34 H292" stroke="#2C4E70" stroke-width="6" stroke-linecap="round"/>
+<path d="M196 34 v12" stroke="#2C4E70" stroke-width="5"/>
+<rect x="152" y="46" width="88" height="104" rx="16" fill="#E4EEF6" stroke="#4F7FA8" stroke-width="5"/>
+<rect x="152" y="84" width="88" height="62" rx="12" fill="#DCE8F2" stroke="none"/>
+<path d="M196 150 v8" stroke="#4F7FA8" stroke-width="5"/>
+<rect x="182" y="158" width="28" height="36" rx="9" fill="#FFFFFF" stroke="#4F7FA8" stroke-width="4"/>
+<path d="M192 168 q4 8 8 0 q4 -8 8 0 q4 8 8 0" fill="none" stroke="#2E7D8F" stroke-width="3.5"/>
+<path d="M196 194 v6 q0 8 8 8 h112" fill="none" stroke="#4F7FA8" stroke-width="5"
+      stroke-linecap="round"/>
+<rect x="310" y="196" width="10" height="18" rx="4" fill="#C46A7A" stroke="none"/>
+<path d="M306 214 l9 18 l9 -18 z" fill="#2C4E70" stroke="none"/>
+</svg>
+
