@@ -97,7 +97,7 @@ print(format_report(static_report(cv, mode="deck")))
 
 ![示范图：全谷物黑米经肠道菌群–SCFA–炎症轴延长小鼠健康寿命](skills/tech-route-atlas/examples/black-rice-route.png)
 
-## 两种场景，两个入
+## 三种场景，三条入口
 
 | 场景 | 技能 | 画布 | 关键约束 |
 |---|---|---|---|
@@ -182,6 +182,7 @@ Microsoft PowerPoint（仅作渲染/导出/审计引擎，无需人工打开）�
   下载时同时落一份 `.license.txt`；**CC BY-SA 件不用于投稿图**。
 - BioRender 素材**不在本库**：其许可只允许在自家编辑器内使用，禁止提取与再分发。
 - 对外交付图件请附 `docs/ATTRIBUTION.md` 中的署名片段。详见 `docs/SOURCES.md`。
+
 
 
 
