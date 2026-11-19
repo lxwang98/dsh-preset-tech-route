@@ -121,7 +121,12 @@ mp.survival(curves, p, *, xlabel="Age (months)", ylabel="Survival (%)",
         xticks=None, legend=True)          # 阶梯 post，纵轴 0–100
 mp.heat(matrix, p, *, row_labels=None, col_labels=None, cmap="Blues",
         vmin=None, vmax=None, cbar=False, center=None)
-mp.scatter(points, p, *, xlabel="", ylabel="", size=None, fit=False, legend=True)
+mp.scatter(points, p, *, xlabel="", ylabel="", size=None, fit=False,
+        ci=None, legend=True, stats=False)  # ci=0.95 画 95% 回归置信带；
+                                            # stats=True 叠 Pearson r / P
+mp.volcano(rows, p, *, xlabel="log$_2$ fold change", ylabel="$-$$log$_{10}$ P",
+        fc_cut=1.0, p_cut=0.05, label_size=None, n_label=0,
+        up_colour="#b03a48", down_colour="#2e6e9e")   # rows: [(log2FC, P)]
 mp.sparkline(values, p, *, colour=None, fill=True)
 mp.manhattan(p, *, nchr=12, n_per_chr=150, seed=11, labels=True, ymax=8.4,
         peak_chr=(2, 5, 8), genome_wide=6.0, suggestive=4.0,
@@ -135,6 +140,15 @@ mp.forest(rows, p, *, xlabel="Hazard ratio (95% CI)", null=1.0, log=False,
 `mp.roc` / `mp.forest` 是临床口的默认两图：AUC 写进图例、森林图右侧自动列
 `est (lo–hi)`、`log=True` 走 HR/OR 对数轴（刻度已改成普通数字，避开 mathtext 在
 内嵌尺寸下的重叠）。见 `nsfc-route/references/clinical.md`。
+
+`mp.volcano` 的着色是**学科惯例，不是语义色**：上调（log2FC ≥ +cut）红
+`#b03a48`、下调蓝 `#2e6e9e`，别反过来；两侧阈值都画虚线；`n_label>0` 时标注
+自动放点外侧并上下错开（同一坐标附近两条不叠）。
+
+`mp.scatter(ci=0.95)` 画的是**回归拟合的 95% 置信带**（不是预测带，也不是
+数据 CI）：`1.96·s·sqrt(1/n + (x−x̄)²/Sxx)`；要误差棒请在数据里给 CI 自己画。
+静态素材（`sciglyph/.../087-chart-volcano`、`012-scatter-with-trendline`）只是
+骨架示意，**正式图一律走生成器**，否则改一次数据就得重画。
 
 `mp.manhattan` 是唯一一条**不许简化**的小图：染色体分色 + 双阈值 + 峰点高亮
 三件套缺一不可（详见 `docs/USER_PRESET.md` §5.1 与 `patterns.md` §13）。

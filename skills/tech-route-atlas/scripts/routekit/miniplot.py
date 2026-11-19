@@ -195,7 +195,8 @@ def heat(matrix: list[list[float]], p: Palette, *, row_labels: list[str] | None 
 
 def scatter(points: list[tuple[float, float, str]], p: Palette, *,
             xlabel: str = "", ylabel: str = "", size: float = 14.0,
-            fit: bool = False, legend: bool = True):
+            fit: bool = False, ci: float | None = None, legend: bool = True,
+            stats: bool = False):
     def draw(fig):
         ax = _apply(fig, p, grid=False)
         groups: dict[str, list[tuple[float, float]]] = {}
@@ -215,12 +216,79 @@ def scatter(points: list[tuple[float, float, str]], p: Palette, *,
                 grid = np.linspace(xs.min(), xs.max(), 50)
                 ax.plot(grid, k * grid + b, color=p.ink3, lw=0.7, ls=(0, (3, 2)),
                         zorder=2)
+                if ci:                                     # 回归置信带
+                    n = len(xs)
+                    resid = ys - (k * xs + b)
+                    dof = max(n - 2, 1)
+                    s = float(np.sqrt((resid ** 2).sum() / dof))
+                    xbar = xs.mean()
+                    sxx = float(((xs - xbar) ** 2).sum()) or 1e-9
+                    half = 1.96 * s * np.sqrt(1.0 / n + (grid - xbar) ** 2 / sxx)
+                    ax.fill_between(grid, k * grid + b - half, k * grid + b + half,
+                                    color=p.ink3, alpha=0.16, lw=0, zorder=1)
+                if stats:
+                    from scipy import stats as _st
+                    r, pv = _st.pearsonr(xs, ys)
+                    ax.text(0.03, 0.95, f"r = {r:.2f}\nP = {pv:.2g}",
+                            transform=ax.transAxes, va="top", ha="left",
+                            fontsize=T.micro, color=p.ink2)
         if xlabel:
             ax.set_xlabel(xlabel, fontsize=T.micro, color=p.ink2, labelpad=2)
         if ylabel:
             ax.set_ylabel(ylabel, fontsize=T.micro, color=p.ink2, labelpad=2)
         if legend and len(groups) > 1:
             _legend(ax, p)
+
+    return draw
+
+
+def volcano(rows: list[tuple[float, float]], p: Palette, *,
+            xlabel: str = "log$_2$ fold change", ylabel: str = "$-$log$_{10}$ P",
+            fc_cut: float = 1.0, p_cut: float = 0.05, label_size=None,
+            n_label: int = 0, up_colour: str = "#b03a48",
+            down_colour: str = "#2e6e9e"):
+    """火山图。rows = [(log2FC, P)]。
+
+    四象限着色：|FC|≥fc_cut 且 P<p_cut → 上调（红）/ 下调（绿）；
+    只有一边达标 → 中性灰；都不达标 → 更浅的灰。
+    阈值线：竖虚线 ±fc_cut，横虚线 −log10(p_cut)。
+    """
+    import math
+
+    def draw(fig):
+        ax = _apply(fig, p, grid=False)
+        thr = -math.log10(max(p_cut, 1e-300))
+        xs = [max(min(r[0], 12.0), -12.0) for r in rows]
+        ys = [-math.log10(max(r[1], 1e-300)) for r in rows]
+        for x, y in zip(xs, ys):
+            if y >= thr and x >= fc_cut:
+                c, a, s = up_colour, 0.95, 16.0
+            elif y >= thr and x <= -fc_cut:
+                c, a, s = down_colour, 0.95, 16.0
+            elif y >= thr or abs(x) >= fc_cut:
+                c, a, s = p.ink3, 0.55, 9.0
+            else:
+                c, a, s = p.rule, 0.75, 7.0
+            ax.scatter([x], [y], s=s, color=c, edgecolor="none", alpha=a, zorder=3)
+
+        ax.axhline(thr, color=p.ink3, lw=0.6, ls=(0, (4, 3)), zorder=1)
+        for xv in (fc_cut, -fc_cut):
+            ax.axvline(xv, color=p.ink3, lw=0.6, ls=(0, (4, 3)), zorder=1)
+
+        if n_label:
+            # 只标真正显著的，左右分侧放标注，天然避开互相压
+            cand = [i for i in range(len(ys)) if ys[i] >= thr and abs(xs[i]) >= fc_cut]
+            for k, i in enumerate(sorted(cand, key=lambda i: -ys[i])[:n_label]):
+                right = xs[i] >= 0
+                # 相邻标注上下错开，避免同一点附近的两个标签叠在一起
+                ax.annotate(f"g{i + 1}", (xs[i], ys[i]),
+                            fontsize=(label_size or T.micro * 0.9), color=p.ink2,
+                            xytext=(4 if right else -4, 2 + (k % 2) * 8),
+                            textcoords="offset points",
+                            ha="left" if right else "right", zorder=4)
+
+        ax.set_xlabel(xlabel, fontsize=T.micro, color=p.ink2, labelpad=2)
+        ax.set_ylabel(ylabel, fontsize=T.micro, color=p.ink2, labelpad=2)
 
     return draw
 
@@ -324,8 +392,8 @@ def manhattan(p: Palette, *, nchr: int = 12, n_per_chr: int = 150, seed: int = 1
     return draw
 
 
-__all__ = ["bars", "lines", "survival", "heat", "scatter", "sparkline", "manhattan",
-           "roc", "forest"]
+__all__ = ["bars", "lines", "survival", "heat", "scatter", "volcano",
+           "sparkline", "manhattan", "roc", "forest"]
 
 
 # ------------------------------------------------------------------ roc
@@ -417,3 +485,6 @@ def forest(rows, p: Palette, *, xlabel: str = "Hazard ratio (95% CI)",
         return ax
 
     return draw
+
+
+
