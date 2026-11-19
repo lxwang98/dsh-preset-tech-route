@@ -1,17 +1,17 @@
 ---
 name: sciglyph-catalog
-description: 检索、预览、挑选素材——本机 3726 个矢量图元（SciGlyph 12 大类 + Bioicons 精选 + SciDraw 774 + 自制/参考 22），外加 2829 个联网取用的 Bioicons 全库（Servier Medical Art 1374 件、DBCLS 634 件，彩色写实插画）；按中英文关键词搜索、生成缩略图对照表、判断 format/series/尺寸适配与许可证。
+description: 检索、预览、挑选素材——本机 3726 个矢量图元（SciGlyph 12 大类 + Bioicons 精选 + SciDraw 774 + 自制/参考 22），外加 4978 个联网取用的云端库（Servier Medical Art 1374、DBCLS 634、Reactome 2149 等，按需下载、不占本地）；按中英文关键词搜索、生成缩略图对照表、判断 format/series/尺寸适配与许可证。
 whenToUse: 需要给路线图挑图标（细胞、菌群、脏器、小鼠、仪器、玻璃器皿、箭头、图表），或本机素材画风不够像 BioRender 时，改从远程库按需下载。
 ---
 
-# 素材目录：本机 3726 + 联网 2829
+# 素材目录：本机 3726 + 云端 4978
 
 两套索引，一个取用接口：
 
 | 索引 | 规模 | 位置 | 取用 |
 |---|---|---|---|
 | 本机 | 3726 | `assets\index.json`，文件在 `assets\sciglyph\…`、`assets\bioicons\…`、`assets\custom\…` | 拷入即用，离线可用 |
-| 远程 | 2829 | `assets\remote\index.json`（仅元数据 1.4 MB） | 首次使用时下载到 `assets\.remote\`，之后走缓存 |
+| 远程 | 4978 | `assets\remote\index.json`（仅元数据 2.2 MB） | 首次使用时下载到 `assets\.remote\`，之后走缓存 |
 
 远程库 = Bioicons 全库（`duerrsimon/bioicons`，上游 428 MB），其中 **Servier Medical Art 1374 件**
 （CC BY 3.0）与 **DBCLS / Togo picture gallery 634 件**（CC BY 4.0）是彩色写实插画，
@@ -55,6 +55,9 @@ remote.sheet(remote.search("mouse", k=8), "out/sheet-mouse.png")
 `remote.get(id)` 找记录，`remote.fetch(rec)` 下载原始 SVG 并写同目录 `.license.txt`；
 日常直接写 id 即可，`Canvas.icon(box, "bioicons/servier/Human_physiology/colon")`
 会在第一次用到时自动下载——本机找不到的 id 会自动转去远程库。
+
+云端库怎么挑、六张主题目录页在哪、三道质量闸、缺什么用自制件补、许可怎么记账 →
+`references/cloud.md`（**动手挑云端素材前先读**）。
 
 ## 12 大类（SciGlyph，CC BY 4.0）
 
@@ -117,6 +120,7 @@ cv.icon(box, colon_id, px=1400)                            # 大图提高栅格�
 - 没有期刊 logo、没有具体仪器品牌外形 → 用通用仪器图标。
 - 需要新素材时：先在 `11-diagrams-charts`、`10-figure-elements` 找可组合构件，
   再考虑用 `Canvas.rect/arrow` 自绘；**不要**去网上抓未授权图片。
+
 
 
 

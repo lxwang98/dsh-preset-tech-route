@@ -240,7 +240,11 @@ def bioicons_records(refresh: bool = False) -> list[Remote]:
 
 
 def reactome_records(refresh: bool = False) -> list[Remote]:
-    """Reactome icon library — flat pathway glyphs, CC BY 4.0."""
+    """Reactome icon library — flat pathway glyphs, CC BY 4.0.
+
+    每个分类页只渲染 28 个图标，必须翻页（``?page=n``）直到没有新 id；
+    只抓第一页会漏掉 80% 以上（实测 cell_type 共 5 页 116 个）。
+    """
     cache = ASSETS / "remote" / "reactome.json"
     if cache.exists() and not refresh:
         return [Remote.from_json(d) for d in json.loads(cache.read_text(encoding="utf-8"))]
@@ -249,32 +253,39 @@ def reactome_records(refresh: bool = False) -> list[Remote]:
             "human_tissue", "protein", "receptor", "therapeutic", "transporter"]
     seen: dict[str, Remote] = {}
     for cat in cats:
-        try:
-            html = _http(f"https://reactome.org/icon-lib/{cat}")
-        except Exception:
-            continue
-        for m in re.finditer(r"/icon/(R-ICO-\d+)\.svg", html):
-            rid = m.group(1)
-            if rid in seen:
-                continue
-            seen[rid] = Remote(
-                id=f"reactome/{cat}/{rid}",
-                provider="reactome",
-                collection="reactome",
-                stem=rid,
-                name=f"{cat.replace('_', ' ').title()} {rid.replace('R-ICO-', '')}",
-                zh="",
-                cat=cat.replace("_", " "),
-                author="Reactome",
-                license="CC-BY-4.0",
-                attribution="Reactome Icon Library (https://reactome.org/icon-lib)",
-                url=f"https://reactome.org/icon/{rid}.svg",
-                tags=[w for w in cat.split("_")],
-            )
+        for page in range(1, 41):
+            try:
+                html = _http(f"https://reactome.org/icon-lib/{cat}?page={page}")
+            except Exception:
+                break
+            fresh = 0
+            for m in re.finditer(r"R-ICO-\d+", html):
+                rid = m.group(0)
+                key = f"{cat}/{rid}"
+                if key in seen:
+                    continue
+                seen[key] = Remote(
+                    id=f"reactome/{cat}/{rid}",
+                    provider="reactome",
+                    collection="reactome",
+                    stem=rid,
+                    name=f"{cat.replace('_', ' ').title()} {rid.replace('R-ICO-', '')}",
+                    zh="",
+                    cat=cat.replace("_", " "),
+                    author="Reactome",
+                    license="CC-BY-4.0",
+                    attribution="Reactome Icon Library (https://reactome.org/icon-lib)",
+                    url=f"https://reactome.org/icon/{rid}.svg",
+                    tags=[w for w in cat.split("_")],
+                )
+                fresh += 1
+            if not fresh:
+                break
     recs = list(seen.values())
     cache.parent.mkdir(parents=True, exist_ok=True)
     cache.write_text(json.dumps([r.to_json() for r in recs], ensure_ascii=False), encoding="utf-8")
     return recs
+
 
 
 PROVIDERS = {"bioicons": bioicons_records, "reactome": reactome_records}

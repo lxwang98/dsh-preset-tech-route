@@ -37,13 +37,15 @@ tech-route/
 └─ docs/USER_PRESET.md       # 用户审美 / 七区布局 / 字体与交付硬约束
 ```
 
-## 素材：本机 3726 + 联网 2829
+## 素材：本机 3726 + 云端 4978
 
 本机 3726 件开箱即用（离线）：SciGlyph 2830、Bioicons 精选 100、SciDraw 774、自制/参考 22（含临床口：医护团队、病房、输液、采血管、病历、影像机架、人群队列、问卷、样本库）。
-SciDraw 来自 <https://scidraw.io>（CC BY 4.0 / CC0，逐条保留作者、DOI 与许可）。要 BioRender 那种彩色写实插画，用**远程库**——
-Bioicons 全库 2829 件，其中 **Servier Medical Art 1374 件**（CC BY 3.0）与
-**DBCLS 634 件**（CC BY 4.0）是人工绘制的彩色插画，脏器、小鼠、菌群、仪器都有。
-仓库只带 1.4 MB 目录，图上用到哪张才下载哪张（缓存到 `assets/.remote/`，附许可文件）：
+SciDraw 来自 <https://scidraw.io>（CC BY 4.0 / CC0，逐条保留作者、DOI 与许可）。要 BioRender 那种彩色写实插画，用**云端库**——
+共 4978 件，其中 **Servier Medical Art 1374 件**（CC BY 3.0）、**DBCLS 634 件**（CC BY 4.0）、
+**Reactome 2149 件**（CC BY 4.0）——前两者是人工绘制的彩色插画，脏器、小鼠、菌群、仪器都有。
+仓库只带 2.2 MB 目录，图上用到哪张才下载哪张（缓存到 `assets/.remote/`，附许可文件）。
+六张主题目录页（器官/细胞/仪器/微生物/人物/临床）在 `assets/remote/sheets/`，
+挑素材前先翻一遍；细读 `skills/sciglyph-catalog/references/cloud.md`。
 
 ```powershell
 python -m routekit.remote search "心脏" -k 8 --sheet out\cardiac.png
