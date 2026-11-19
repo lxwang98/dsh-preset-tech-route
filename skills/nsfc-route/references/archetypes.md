@@ -138,6 +138,14 @@ def bus(cv, src, targets, y_bus, colour, lw=0.9, head="triangle"):
 （39 个盒子、三层明度、左臂 3 干预 + 3 读数 + 7 指标两列、右臂模型链 + 药物干预，audit 0 error）——
 要复刻别人的既有图时，照这个改字最快。
 
+**★ 直接开工用模板：`templates/flowtree_template.py`。**
+它就是上面那张 kpla-replica 的"参数化版"：几何全写死、内容全在顶部 `BRIEF` 字典里（20 来行），
+改字 → `python flowtree_template.py` → 同目录 `out/flowtree.{pptx,png,pdf}`。
+`BRIEF` 里每一项都标了字数上限，超了 audit 会报 text-overflow，按上限砍字、别缩字号。
+数量是硬约束（`assert` 会拦住）：findings 5、steps 3、reads 3、signals [4,3]、
+genotypes 2、model_cells 4、concl 3+2。要改数量 = 换构型，不要在这份模板上硬掰。
+
+
 ## 不推荐（正文里别用）
 
 | 构型 | 为什么别用 |

@@ -147,7 +147,10 @@ cv = Canvas(W, H, palette="cell", cjk_font="SimHei")
 - `references/checklist.md` — 送审前 20 条自查 + 与期刊图的差异对照
 - `references/clinical.md` — **临床口分册**：队列/干预/RCT 三种构型、CONSORT 骨架、伦理与注册占位、统计图选择（KM/ROC/森林图）、临床图元清单、退回原因
 - `references/prompt-template.md` — **让用户照抄的提示词模板**（三行最小版 / 标准版 / 验收清单 / 反例）
+- `templates/flowtree_template.py` — **★ 直接开工的模板**：树状汇流式 A4，几何写死、内容全在顶部 `BRIEF`
+  字典里；改字即出图（pptx + 600 dpi PNG + 矢量 PDF），`assert` 拦住数量错配
 - `examples/build_nsfc_a4.py` + `examples/nsfc-a4-demo.png` — A4 竖版完整范例（菌群–丁酸–GPR43–屏障衰老）
 - `examples/build_flowtree_a4.py` + `examples/out/nsfc-flowtree-demo.png` — 树状汇流式范例（临床 KPLA：扇出—汇流—双臂—总结论）
+- `examples/build_kpla_replica_a4.py` + `examples/out/kpla-replica.pdf` — **复刻基准图**：39 个盒子、三层明度、
+  左臂 3 干预 + 3 读数 + 7 指标、右臂模型链；用户说"按这张来"时以它为锚点，`flowtree_template.py` 是它的参数化版
 - `examples/build_clinical_a4.py` + `examples/out/nsfc-clinical-demo.png` — 临床队列口范例（纳排/终点/伦理占位 + 森林图）
-- `examples/build_clinical_a4.py` + `examples/nsfc-clinical-demo.png` — 临床口范例（回顾/前瞻队列 + RCT，内嵌森林图与伦理注册占位）
