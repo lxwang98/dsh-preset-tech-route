@@ -7,9 +7,13 @@
 
 - 中文科研工作者，面向论文投稿、基金本子、组会 PPT。
 - 要“期刊级、能直接放进 PPT / 投稿系统”的多面板图，同时保留可编辑 `.pptx`。
-- **三件套缺一不可**：`.pptx` + 600 dpi `.png` + 字体已嵌入的矢量 `.pdf`。
-  投稿时再加一件 `.tif`（`render(..., also_tiff=True)`：600 dpi、8 bit RGB、白底无 alpha、LZW 无损）。
-  幻灯片/汇报不加 TIFF——220 dpi 的 TIFF 又大又没用。
+- **技术路线图默认四件套**（缺一不可）：可编辑 ``.pptx`` + 600 dpi ``.png`` +
+  600 dpi ``.tif``（8 bit RGB、白底无 alpha、LZW 无损）+ 字体已嵌入的矢量 ``.pdf``。
+  一条命令出齐：``from routekit.export import deliver; deliver(pptx, out, dpi=600)``。
+- **唯一例外是"只上屏幕"的图**（组会/答辩 PPT）：``dpi=220``、不出 TIFF —— 
+  220 dpi 的 TIFF 又大又没用。除此之外不要自作主张降 dpi。
+- dpi 是元数据，真正的判据是 **px/mm**（600 dpi = 23.62 px/mm）。A4 竖版 600 dpi = 4960×7015 px，
+  300 mm 宽的横图 = 7087 px 宽。期刊要 1200 dpi 线条图时把 ``dpi=1200`` 传进去即可，不用改代码。
 - 用户会逐区看、逐字改；先给局部确认稿，不要一次性甩整图。
 
 ## 2. 审美
@@ -275,6 +279,7 @@ cv.plot(Box(xa, y, 26, 18.6), mp.manhattan(cv.p, nchr=19, data={1: p1, 2: p2, ..
 
 三件套同上（pptx + 600 dpi PNG + 矢量 PDF，投稿再加 TIFF），另附**灰度版**自看；图注写清"模块 → 产出"对应关系。
 范例：`skills/nsfc-route/examples/build_nsfc_a4.py` + `nsfc-a4-demo.png`（菌群–丁酸–GPR43–屏障衰老）。
+
 
 
 

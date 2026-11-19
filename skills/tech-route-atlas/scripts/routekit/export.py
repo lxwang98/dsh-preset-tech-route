@@ -107,6 +107,18 @@ def to_tiff(png: str | Path, tiff: str | Path, *, dpi: int = 600,
     return tiff
 
 
+def deliver(pptx: str | Path, out_dir: str | Path, *, dpi: int = 600,
+            stem: str | None = None, slide: int = 1,
+            tiff_dpi: int | None = None) -> dict[str, Path]:
+    """技术路线图的标准交付：PNG(600) + PDF(矢量) + TIFF(600)，一次会话出齐。
+
+    默认值即投稿规格；组会/PPT 场景显式传 `dpi=220` 并自行跳过 TIFF
+    （用 `render(..., also_tiff=False)`）。
+    """
+    return render(pptx, out_dir, dpi=dpi, stem=stem, slide=slide,
+                  also_pdf=True, also_tiff=True, tiff_dpi=tiff_dpi)
+
+
 def render(pptx: str | Path, out_dir: str | Path, *, dpi: int = 600,
            stem: str | None = None, slide: int = 1,
            also_pdf: bool = True, also_tiff: bool = False,

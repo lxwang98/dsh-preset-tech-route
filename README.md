@@ -104,10 +104,10 @@ cv.export("D:/out", dpi=600)          # → route.png / route.pdf
 print(format_report(static_report(cv, mode="deck")))
 ```
 
-投稿系统要位图时再加一件 TIFF（600 dpi / 8 bit RGB / 白底无 alpha / LZW 无损）：
+标准交付是**四件套**（pptx + 600 dpi png + 600 dpi tif + 矢量 pdf），一条命令出齐：
 
 ```powershell
-python -c "from routekit.export import render; render(r'D:/out/route.pptx', r'D:/out', dpi=600, also_tiff=True)"
+python -c "from routekit.export import deliver; deliver(r'D:/out/route.pptx', r'D:/out', dpi=600)"
 ```
 
 ![示范图：全谷物黑米经肠道菌群–SCFA–炎症轴延长小鼠健康寿命](skills/tech-route-atlas/examples/black-rice-route.png)
@@ -197,6 +197,7 @@ Microsoft PowerPoint（仅作渲染/导出/审计引擎，无需人工打开）�
   下载时同时落一份 `.license.txt`；**CC BY-SA 件不用于投稿图**。
 - BioRender 素材**不在本库**：其许可只允许在自家编辑器内使用，禁止提取与再分发。
 - 对外交付图件请附 `docs/ATTRIBUTION.md` 中的署名片段。详见 `docs/SOURCES.md`。
+
 
 
 

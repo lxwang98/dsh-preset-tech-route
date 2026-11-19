@@ -198,6 +198,7 @@ issues = static_report(cv, mode="print"|"deck")
 print(format_report(issues, limit=40))
 design_check(cv, cv.p)
 
+deliver(pptx, out_dir, dpi=600, stem=None, slide=1)   # 四件套：png + pdf + tif
 render(pptx, out_dir, dpi=600, stem=None, slide=1, also_pdf=True,
        also_tiff=False, tiff_dpi=None)   # -> {"png":…, "pdf":…, "tiff":…}
 to_png(pptx, png, dpi=300, width_px=None, slide=1)
@@ -214,3 +215,4 @@ com_audit(pptx, tol_pt=0.6)   # TextFrame2 真实文本边界 vs 形状框
 `static_report` 的 code：`off-canvas` `trim` `small-text` `text-overflow`
 `label-collision` `icon-missing` `no-icons` `dense` `empty`。
 error 必须清零；warning 只允许"说明性小字"存在（并在图注里交代）。
+
