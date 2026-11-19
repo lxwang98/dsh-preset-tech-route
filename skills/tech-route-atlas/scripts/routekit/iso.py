@@ -65,14 +65,33 @@ def _poly(cv, pts: Sequence[tuple[float, float]], fill, line=None, lw: float = 0
     return shp
 
 
-def iso_faces(x: float, y: float, w: float, d: float, h: float, k: float | None = None):
-    """返回 (top, front, side, back) 四条闭合多边形顶点表。``(x, y)`` 为前下左角。"""
+def iso_faces(x: float, y: float, w: float, d: float, h: float, k: float | None = None,
+              mode: str = "oblique"):
+    """返回 (top, front, side, back) 四条闭合多边形顶点表。
+
+    ``mode="oblique"``：``(x, y)`` = 前下左角，正面是矩形（斜投影 / cabinet），
+    适合"剖面 + 分层"这类需要正对读者的图。
+    ``mode="iso"``：``(x, y)`` = **近角**，宽沿右上 30°、进深沿左上 30°，
+    三面都是平行四边形（真等距），适合地形/场景/多体块。
+    """
+    up = (0.0, -h)
+    if mode == "iso":
+        u = (w * DEPTH_X, w * DEPTH_Y)      # 右上
+        v = (-d * DEPTH_X, d * DEPTH_Y)     # 左上
+        n = (x, y)
+        pu = (n[0] + u[0], n[1] + u[1])
+        pv = (n[0] + v[0], n[1] + v[1])
+        pf = (n[0] + u[0] + v[0], n[1] + u[1] + v[1])
+        top = [(n[0] + up[0], n[1] + up[1]), (pu[0] + up[0], pu[1] + up[1]),
+               (pf[0] + up[0], pf[1] + up[1]), (pv[0] + up[0], pv[1] + up[1])]
+        right = [n, pu, (pu[0] + up[0], pu[1] + up[1]), (n[0] + up[0], n[1] + up[1])]
+        left = [n, pv, (pv[0] + up[0], pv[1] + up[1]), (n[0] + up[0], n[1] + up[1])]
+        return top, right, left, None
     dx, dy = depth_vec(d, k)
     p0 = (x, y)
     p1 = (x + w, y)
     p2 = (x + w + dx, y + dy)
     p3 = (x + dx, y + dy)
-    up = (0.0, -h)
     top = [(p0[0] + up[0], p0[1] + up[1]), (p1[0] + up[0], p1[1] + up[1]),
            (p2[0] + up[0], p2[1] + up[1]), (p3[0] + up[0], p3[1] + up[1])]
     front = [p0, p1, (p1[0] + up[0], p1[1] + up[1]), (p0[0] + up[0], p0[1] + up[1])]
@@ -83,26 +102,27 @@ def iso_faces(x: float, y: float, w: float, d: float, h: float, k: float | None 
 
 def iso_block(cv, x: float, y: float, *, w: float, d: float, h: float,
               acc: str, k: float | None = None,
-              levels: tuple[float, float, float] = (0.86, 0.62, 0.42),
-              line: bool = True, lw: float = 0.35, top: bool = True):
-    """画一个等距长方体。返回 (top, front, side) 三个顶点表，便于后续贴图元。
+              levels: tuple[float, float, float] = (0.78, 0.56, 0.38),
+              line: bool = True, lw: float = 0.35, top: bool = True,
+              mode: str = "oblique"):
+    """画一个等距长方体。返回 (top, face1, face2) 三个顶点表，便于后续贴图元。
 
     ``top=False`` 时不画顶面——堆叠剖面的中间层用它，否则每层顶面都会露出来，
     整摞看起来像"被切片并炸开"，而不是一整块岩芯。
     """
-    top_pts, front, side, back = iso_faces(x, y, w, d, h, k)
-    if line:
+    top_pts, f1, f2, back = iso_faces(x, y, w, d, h, k, mode=mode)
+    if line and back is not None:
         _poly(cv, back, tint(acc, 0.30), shade(acc, 0.62), lw)
-    _poly(cv, front, tint(acc, levels[1]), shade(acc, 0.62) if line else None, lw)
-    _poly(cv, side, tint(acc, levels[2]), shade(acc, 0.62) if line else None, lw)
+    _poly(cv, f1, tint(acc, levels[1]), shade(acc, 0.62) if line else None, lw)
+    _poly(cv, f2, tint(acc, levels[2]), shade(acc, 0.62) if line else None, lw)
     if top:
         _poly(cv, top_pts, tint(acc, levels[0]), shade(acc, 0.62) if line else None, lw)
-    return top_pts, front, side
+    return top_pts, f1, f2
 
 
 def iso_layers(cv, x: float, y: float, *, w: float, d: float,
                layers: Iterable[tuple[float, str]], k: float | None = None,
-               levels: tuple[float, float, float] = (0.86, 0.62, 0.42),
+               levels: tuple[float, float, float] = (0.78, 0.56, 0.38),
                line: bool = True, lw: float = 0.35):
     """自下而上堆叠分层（土壤剖面 / 含水层 / 沉积）。``layers`` = [(厚度 mm, 颜色), ...]
 
@@ -120,15 +140,60 @@ def iso_layers(cv, x: float, y: float, *, w: float, d: float,
 
 
 def iso_plane(cv, x: float, y: float, *, w: float, d: float, k: float | None = None,
-              fill: str = "#ffffff", line: str | None = None, lw: float = 0.35):
-    """单个等距平行四边形（地表、水面、田块）。返回顶点表。"""
-    dx, dy = depth_vec(d, k)
-    pts = [(x, y), (x + w, y), (x + w + dx, y + dy), (x + dx, y + dy)]
+              fill: str = "#ffffff", line: str | None = None, lw: float = 0.35,
+              mode: str = "oblique"):
+    """单个等距平行四边形（地表、水面、田块）。返回顶点表。
+
+    ``mode="iso"`` 时 ``(x, y)`` 是**近角**，宽沿右上 30°、进深沿左上 30°（真等距）。
+    """
+    if mode == "iso":
+        pts = [(x, y), (x + w * DEPTH_X, y + w * DEPTH_Y),
+               (x + w * DEPTH_X - d * DEPTH_X, y + w * DEPTH_Y - d * DEPTH_Y),
+               (x - d * DEPTH_X, y - d * DEPTH_Y)]
+    else:
+        dx, dy = depth_vec(d, k)
+        pts = [(x, y), (x + w, y), (x + w + dx, y + dy), (x + dx, y + dy)]
     _poly(cv, pts, fill, line, lw)
     return pts
+
+
+def iso_depth(x: float, y: float, w: float, d: float, *, mode: str = "iso") -> float:
+    """绘画顺序键：**值小 = 更远 = 先画**。
+
+    多个体块互相遮挡时必须先按它排序再画（PPTX 没有 z-buffer，后画的盖住先画的）。
+    ``iso``：用远角的屏幕 y（越小越靠后）；``oblique``：用进深 d。
+    """
+    if mode == "iso":
+        return y - (w + d) * 0.5
+    return -d
+
+
+def iso_scene(cv, items, *, mode: str = "iso", levels: tuple[float, float, float] = (0.78, 0.56, 0.38),
+              line: bool = True, lw: float = 0.35):
+    """按由远到近的次序画一组体块/平面，自动处理遮挡。
+
+    ``items`` = ``[dict(kind="block"|"plane", x=, y=, w=, d=, h=0, acc=..., **kw)]``
+    """
+    def key(it):
+        return iso_depth(it["x"], it["y"], it["w"], it["d"], mode=mode)
+
+    out = []
+    for it in sorted(items, key=key):
+        kind = it.pop("kind", "block")
+        if kind == "plane":
+            out.append(iso_plane(cv, it["x"], it["y"], w=it["w"], d=it["d"], k=it.get("k"),
+                                 fill=it.get("fill", "#ffffff"), line=it.get("line"),
+                                 lw=it.get("lw", lw), mode=mode))
+        else:
+            out.append(iso_block(cv, it["x"], it["y"], w=it["w"], d=it["d"], h=it["h"],
+                                 acc=it["acc"], k=it.get("k"), levels=it.get("levels", levels),
+                                 line=line, lw=lw, top=it.get("top", True), mode=mode))
+    return out
+
 
 
 def iso_arrow(cv, p0: tuple[float, float], p1: tuple[float, float], *,
               colour: str = "#455766", lw: float = 0.9, head: float = 1.6):
     """等距平面上的箭头（用 cv.arrow 即可，这里只是语义化封装）。"""
     return cv.arrow(p0, p1, colour=colour, lw=lw, head="triangle", shrink=head * 0.5)
+

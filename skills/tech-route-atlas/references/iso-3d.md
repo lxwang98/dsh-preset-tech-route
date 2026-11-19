@@ -102,11 +102,46 @@ iso.iso_block(cv, 118, 44, w=13, d=9, h=11, acc="#6c5aa0")
 产物仍是 PPTX 自由形状：在 PowerPoint 里可以直接拖点改形状、改填充。示例图见
 `examples/iso-demo.png`。
 
-## 七、外部素材与许可
+## 七、外部素材与许可（2026-11 调研结论：不整包引入）
 
-等距**场景**素材（地形、厂区、流域）在现有 3726 件里是系统性缺口，需要外部获取。
-引入任何外部 3D/等距素材前，按 `docs/USER_PRESET.md` §5 记账：只收 CC0 / CC BY，
-逐条记名称、URL、许可、作者；NC / ND / "仅限个人使用"一律不收。
+**结论：没有可整包下载的 CC0/CC BY「等距科学 SVG 库」。** 实测：
+Wikimedia Commons 的 `Category:Isometric_illustrations` 是空的（API 返回 0）；SVG Repo 的
+isometric 只有约 20 个通用立方体，且其许可禁止再分发；BioRender / KEGG / NIH 3D 许可不干净
+（NC、付费、逐件自选）。所以等距**场景**只能"造"，而不是"下载"——这正是 `routekit.iso` 存在的理由。
+
+被评估过、但**决定不引入**的主要来源（留档，免得以后再调研一遍）：
+
+| 来源 | 许可 | 为什么不用 |
+|---|---|---|
+| game-icons/icons（4239 SVG, 6.7 MB） | CC BY 3.0 | 线稿偏游戏风，与现有平涂插画混排会花；且 4239 件会稀释检索质量 |
+| Reactome Icon Library（~2500 SVG） | CC BY 4.0（官网与仓库 LICENSE 打架：Apache-2.0 vs CC BY 4.0） | 图标质量最高、最接近 BioRender，但整包 ~70 MB；按需取单个更划算 |
+| Kenney isometric / 3D kits | CC0 | 卡通低多边形，需重新配色才能进期刊图；zip 在捐赠弹窗后不可脚本化 |
+| RCSB PDB | CC0 1.0 | 分子几何权威，但需要渲染器；**若要做分子图，从这里取坐标喂 `render3d`** |
+| Poly Haven | CC0 | 照片级道具，无科学内容；ToS 禁抓站（只许走公开 API） |
+| Sketchfab / Smithsonian / publicdomainvectors | 逐模型 / 403 | 要登录或对脚本 403，不可自动化，标注不可靠 |
+
+要点：**素材库的短板不是"少"，而是"风格会散"**。每套外部 3D 素材的光源、色温、线宽都不同，
+拼在一页反而脏。稳的做法是 `iso` 提供骨架 + 现有统一风格的平面图元"立"在体块上——
+BioRender 的 3D 场景也是这么做的（底块 + 图标，不是全套 3D 模型）。
+
+确需外部素材时才按 `docs/USER_PRESET.md` §5 记账：只收 CC0 / CC BY，逐条记名称、URL、许可、作者；
+NC / ND / "仅限个人使用"一律不收。
+
+## 七之二、模式与遮挡（`mode=` 与 `iso_scene`）
+
+```python
+iso.iso_block(cv, x, y, w=.., d=.., h=.., acc=.., mode="oblique")  # 默认：正面是矩形（斜投影）
+iso.iso_block(cv, x, y, w=.., d=.., h=.., acc=.., mode="iso")      # 真等距：三面都是平行四边形
+iso.iso_scene(cv, [dict(kind="block", x=.., y=.., w=.., d=.., h=.., acc=..), ...], mode="iso")
+```
+
+- `oblique`：宽沿屏幕水平、进深沿右上 30°。适合**剖面**（土壤/含水层/屏障），读者正对切面。
+- `iso`：宽沿右上 30°、进深沿左上 30°，`(x, y)` 是**近角**。适合**场景**（地形、厂区、多体块）。
+- 多体块互相遮挡时**必须**用 `iso_scene`（内部按 `iso_depth` 由远到近排序）；PPTX 没有 z-buffer，
+  画序错了就是"近的被远的盖住"。
+- 明度档 `levels=(顶, 左, 右)` 默认 `(0.78, 0.56, 0.38)`（`tint` 语义：0=原色，1=白）。
+  再配 0.35 pt 描边 `shade(acc, 0.62)`——**是小尺寸下这条描边让它读成 3D，不是渐变**。
+
 
 ## 八、B 档（物体级 3D）现在能做
 
@@ -120,4 +155,5 @@ r3.export(fig, "cell.png", scale=3)                        # ≈ 600 dpi
 
 适合：病毒颗粒、细胞/细胞器、纳米颗粒、分子球棍（**必须用真实 PDB/PubChem 坐标**）。
 不合适：整幅场景（用 `iso`）、需要可编辑（用 `iso`）、需要期刊级写实渲染（需外部素材）。
+
 

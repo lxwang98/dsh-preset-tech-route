@@ -150,19 +150,23 @@ mp.forest(rows, p, *, xlabel="Hazard ratio (95% CI)", null=1.0, log=False,
 ```python
 from routekit import iso
 
-iso.iso_block(cv, x, y, *, w, d, h, acc, k=None,
-              levels=(0.86, 0.62, 0.42), line=True, lw=0.35, top=True)
-        # (x, y) = 前下左角；w 沿屏幕 +x，d 沿右上深轴，h 向上
-        # 返回 (top, front, side) 三个顶点表，便于往上贴图元
+iso.iso_block(cv, x, y, *, w, d, h, acc, k=None, mode="oblique",
+              levels=(0.78, 0.56, 0.38), line=True, lw=0.35, top=True)
+        # (x, y) = 前下左角（oblique）或近角（iso）；返回 (top, face1, face2)
 iso.iso_layers(cv, x, y, *, w, d, layers=[(厚 mm, 色), ...], k=None, levels=…)
         # 自下而上堆叠（土壤 / 含水层 / 沉积）；只有顶层画顶面；返回顶层顶点
-iso.iso_plane(cv, x, y, *, w, d, k=None, fill, line, lw)
+iso.iso_plane(cv, x, y, *, w, d, k=None, fill, line, lw, mode="oblique")
         # 单个平行四边形：地表、水面、田块
+iso.iso_scene(cv, items, *, mode="iso", levels=…)
+        # 多体块按由远到近自动排序；items=[dict(kind="block"|"plane", x,y,w,d,h,acc,…)]
+iso.iso_depth(x, y, w, d, *, mode="iso")   # 绘画顺序键：值小 = 更远 = 先画
 iso.depth_vec(d, k=None)      # 进深向量；k=None 真等距 (0.866,−0.5)，k=0.5 → 2:1
 ```
 
-- `k=None` 真等距 30°，用于"场景剖面"；`k=0.5` 2:1 俯视，更矮更稳，用于"平面地块/田块"。
-- 同一张图**只许用一种 k**，混用会立刻露出破绽。
+- `mode="oblique"`（默认）：宽沿屏幕水平、进深沿右上 30°，正面是矩形 → 剖面图（土壤/屏障/含水层）。
+  `mode="iso"`：宽沿右上、进深沿左上，三面皆平行四边形，`(x, y)` 为近角 → 场景图（地形/厂区/多体块）。
+- 同一张图**只许用一种 mode / 一种 k**，混用会立刻露出破绽。
+- 多体块遮挡**必须**走 `iso_scene`（PPTX 无 z-buffer，画序错了就是近的被远的盖住）。
 - 等距平面里的文字需要斜切，PPTX 只有旋转没有 shear → **标签一律水平放在体块外**，
   用 0.5 pt 引线指过去；这是硬约束，不是风格选择。
 - 分层剖面务必让中间层 `top=False`（`iso_layers` 已自动处理），否则整摞像"被切片炸开"。
