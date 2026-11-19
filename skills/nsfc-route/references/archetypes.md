@@ -130,8 +130,13 @@ def bus(cv, src, targets, y_bus, colour, lw=0.9, head="triangle"):
 
 配色语义按"证据来源"分，别按美观分：临床=浅粉、机制条=朱红、体外=蓝绿、体内=紫、
 检测/读数=灰蓝、结论/期望=浅黄。这样评审扫一眼就知道"哪些是已经有的病人数据"。
+同时按**明度**分三级（见 USER_PRESET §2）：入口 / 机制条 / 两臂标题 / 总结论用深底白字（一级，≤5 块），
+研究内容与收口用中色底（二级），干预手段与指标用浅底（三级）；深色块要能连成主干。
 
 范例：`examples/build_flowtree_a4.py` + `out/nsfc-flowtree-demo.png`（临床病例 → 5 项检测 → 双臂机制 → 总结论，A4 竖版）。
+更贴近真实标书的密排版：`examples/build_kpla_replica_a4.py` + `out/kpla-replica.png`
+（39 个盒子、三层明度、左臂 3 干预 + 3 读数 + 7 指标两列、右臂模型链 + 药物干预，audit 0 error）——
+要复刻别人的既有图时，照这个改字最快。
 
 ## 不推荐（正文里别用）
 
