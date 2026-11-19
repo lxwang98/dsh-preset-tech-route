@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="240" viewBox="0 0 400 240">
+<!-- 人群队列 cohort: 5 简化人形（后排 2 浅、前排 3 深）+ 基线 -->
+<g fill="#C9DBEA" stroke="#7A98B4" stroke-width="3">
+  <circle cx="120" cy="62" r="24"/>
+  <path d="M84 132 q0-46 36-46 q36 0 36 46 z"/>
+  <circle cx="280" cy="62" r="24"/>
+  <path d="M244 132 q0-46 36-46 q36 0 36 46 z"/>
+</g>
+<g fill="#4F7FA8" stroke="#2C4E70" stroke-width="3">
+  <circle cx="70" cy="96" r="28"/>
+  <path d="M28 190 q0-58 42-58 q42 0 42 58 z"/>
+  <circle cx="200" cy="96" r="28"/>
+  <path d="M158 190 q0-58 42-58 q42 0 42 58 z"/>
+  <circle cx="330" cy="96" r="28"/>
+  <path d="M288 190 q0-58 42-58 q42 0 42 58 z"/>
+</g>
+<rect x="20" y="196" width="360" height="8" rx="4" fill="#7A98B4" stroke="none"/>
+</svg>

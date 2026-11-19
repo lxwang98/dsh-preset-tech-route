@@ -10,8 +10,8 @@ tech-route/
 ├─ assets/
 │  ├─ sciglyph/              # 2830 个矢量图元（CC BY 4.0，12 大类 5 种画风）
 │  ├─ bioicons/              # 100 个精选插画（CC0 / CC BY，离线可用）
-│  ├─ custom/                # 11 个自制/参考素材 + SciDraw 774 个插画
-│  ├─ index.json             # 3715 条本机素材索引（中英名、标签、风格、许可、署名）
+│  ├─ custom/                # 14 个自制/参考素材 + SciDraw 774 个插画
+│  ├─ index.json             # 3718 条本机素材索引（中英名、标签、风格、许可、署名）
 │  ├─ glossary.json          # 中英术语，供中文检索用
 │  └─ remote/index.json      # 2829 条远程素材目录（元数据 1.4 MB，按需下载）
 ├─ tools/
@@ -37,9 +37,9 @@ tech-route/
 └─ docs/USER_PRESET.md       # 用户审美 / 七区布局 / 字体与交付硬约束
 ```
 
-## 素材：本机 3715 + 联网 2829
+## 素材：本机 3718 + 联网 2829
 
-本机 3715 件开箱即用（离线）：SciGlyph 2830、Bioicons 精选 100、SciDraw 774、自制/参考 11。
+本机 3718 件开箱即用（离线）：SciGlyph 2830、Bioicons 精选 100、SciDraw 774、自制/参考 14。
 SciDraw 来自 <https://scidraw.io>（CC BY 4.0 / CC0，逐条保留作者、DOI 与许可）。要 BioRender 那种彩色写实插画，用**远程库**——
 Bioicons 全库 2829 件，其中 **Servier Medical Art 1374 件**（CC BY 3.0）与
 **DBCLS 634 件**（CC BY 4.0）是人工绘制的彩色插画，脏器、小鼠、菌群、仪器都有。
@@ -131,4 +131,5 @@ Microsoft PowerPoint（仅作渲染/导出/审计引擎，无需人工打开）�
 - SciGlyph：CC BY 4.0（署名 ZengZichao）；Bioicons：逐文件 CC0 / CC BY 3.0 / CC BY 4.0；
   SciDraw：逐文件 CC BY 4.0 / CC0，保留作者、DOI 与来源。
 - 对外交付图件请附 `docs/ATTRIBUTION.md` 中的署名片段。详见 `docs/SOURCES.md`。
+
 

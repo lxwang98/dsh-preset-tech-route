@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="240" viewBox="0 0 400 240">
+<!-- 问卷 questionnaire: 板夹 + 4 行 + 2 个勾选框（其一已勾） -->
+<rect x="88" y="24" width="224" height="196" rx="12" fill="#FFFFFF" stroke="#5B7C99" stroke-width="4"/>
+<rect x="88" y="24" width="224" height="34" rx="12" fill="#DCE8F2" stroke="#5B7C99" stroke-width="4"/>
+<rect x="168" y="10" width="64" height="28" rx="10" fill="#4F7FA8" stroke="#2C4E70" stroke-width="4"/>
+<g stroke="#5B7C99" stroke-width="6" stroke-linecap="round">
+  <path d="M148 88 H288"/>
+  <path d="M148 122 H288"/>
+  <path d="M148 156 H250"/>
+</g>
+<g fill="#FFFFFF" stroke="#4F7FA8" stroke-width="4">
+  <rect x="108" y="76" width="24" height="24" rx="5"/>
+  <rect x="108" y="110" width="24" height="24" rx="5"/>
+  <rect x="108" y="144" width="24" height="24" rx="5"/>
+</g>
+<g stroke="#2E9D50" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none">
+  <path d="M112 88 l7 8 l14 -18"/>
+  <path d="M112 122 l7 8 l14 -18"/>
+</g>
+</svg>

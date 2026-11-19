@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="240" viewBox="0 0 400 240">
+<!-- 生物样本库 biobank: 样本盒（俯视 3×8 孔）+ 右侧 2 支立管 -->
+<rect x="16" y="70" width="268" height="150" rx="14" fill="#E4EEF6" stroke="#4F7FA8" stroke-width="5"/>
+<rect x="16" y="70" width="268" height="34" rx="14" fill="#BBD2E4" stroke="#4F7FA8" stroke-width="5"/>
+<g fill="#4F7FA8" stroke="#2C4E70" stroke-width="2.5">
+  <circle cx="50" cy="140" r="13"/><circle cx="86" cy="140" r="13"/><circle cx="122" cy="140" r="13"/>
+  <circle cx="158" cy="140" r="13"/><circle cx="194" cy="140" r="13"/><circle cx="230" cy="140" r="13"/>
+  <circle cx="50" cy="184" r="13"/><circle cx="86" cy="184" r="13"/><circle cx="122" cy="184" r="13"/>
+  <circle cx="158" cy="184" r="13"/><circle cx="194" cy="184" r="13"/><circle cx="230" cy="184" r="13"/>
+</g>
+<g stroke="none">
+  <rect x="300" y="60" width="26" height="146" rx="9" fill="#EAF3FA" stroke="#4F7FA8" stroke-width="4"/>
+  <rect x="300" y="44" width="26" height="26" rx="8" fill="#C46A7A"/>
+  <rect x="300" y="118" width="26" height="52" fill="#F2C9A0"/>
+  <rect x="344" y="60" width="26" height="146" rx="9" fill="#EAF3FA" stroke="#4F7FA8" stroke-width="4"/>
+  <rect x="344" y="44" width="26" height="26" rx="8" fill="#4F7FA8"/>
+  <rect x="344" y="126" width="26" height="44" fill="#F2C9A0"/>
+</g>
+</svg>

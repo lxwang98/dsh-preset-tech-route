@@ -7,7 +7,7 @@ whenToUse: 用户要画或改一张技术路线图 / 框架图 / 图形摘要；
 # 技术路线图绘制（routekit 主流程）
 
 一张合格的路线图 = **分区骨架 + 箭头拓扑 + 图标语义 + 期刊排版**。
-routekit 把前两件事变成可计算的毫米坐标，把第三件事接到 3715 个矢量素材上，第四件事交给 6 套调色板。
+routekit 把前两件事变成可计算的毫米坐标，把第三件事接到 3718 个矢量素材上，第四件事交给 6 套调色板。
 
 ## 先写规格，再写代码
 
@@ -117,3 +117,4 @@ cv.export("out", dpi=600)          # → demo.png (600 dpi) + demo.pdf
 - `references/patterns.md` — 12 种分区骨架的坐标写法
 - `references/arrows.md` — 箭头拓扑、折线、避让、图注约定
 - `examples/build_demo.py` + `examples/black-rice-route.png/.pptx` — 7 分区完整范例
+
