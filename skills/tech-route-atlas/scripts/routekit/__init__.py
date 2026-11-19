@@ -11,6 +11,8 @@ The kit is deliberately small: five modules and no exotic dependencies.
     export    PowerPoint -> PNG / PDF / SVG, plus COM text-bound audit
     audit     static pre-flight (overflow, collisions, margins, density)
     miniplot  matplotlib insets themed to the active palette
+    iso      isometric primitives (block / layers / plane) as editable polygons
+    render3d plotly+kaleido offline 3D objects (sphere / cylinder / ball-and-stick) -> 600 dpi PNG
 
 Typical script::
 
@@ -24,6 +26,7 @@ Typical script::
 from __future__ import annotations
 
 from .audit import Issue, design_check, format_report, static_report
+from . import iso, render3d
 from .canvas import Canvas, Note
 from .layout import (Box, center_in, even_slots, grid, ladder, radial,
                      stack_left, stack_top)
@@ -52,3 +55,5 @@ def _export(self, out_dir, *, dpi: int = 600, stem: str | None = None, **kw):
 from pathlib import Path  # noqa: E402  (used by the helper above)
 
 Canvas.export = _export  # type: ignore[attr-defined]
+
+

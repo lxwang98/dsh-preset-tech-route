@@ -116,5 +116,6 @@ cv.export("out", dpi=600)          # → demo.png (600 dpi) + demo.pdf
 - `references/api.md` — Canvas / Box / palette / miniplot 全量签名与语义
 - `references/patterns.md` — 12 种分区骨架的坐标写法
 - `references/arrows.md` — 箭头拓扑、折线、避让、图注约定
+- `references/iso-3d.md` — 要不要"立体"、等距几何与明度约定、文字不能斜切的硬约束；`routekit.iso` 用法，范例 `examples/iso-demo.*`
 - `examples/build_demo.py` + `examples/black-rice-route.png/.pptx` — 7 分区完整范例
 

@@ -142,6 +142,51 @@ mp.forest(rows, p, *, xlabel="Hazard ratio (95% CI)", null=1.0, log=False,
 
 全部返回 `draw(fig)` 回调，交给 `cv.plot(box, draw)` 落地成图片（b 决定图幅与纵横比）。
 
+## iso（等距体块：不渲染，只画三个多边形）
+
+本机没有 Blender / OpenGL，且交付物要可编辑，所以"立体"一律用**等距投影 + 三面明度**实现：
+顶面最亮、正面居中、侧面最暗，三面同色系。产物是 PPTX 自由形状，可在 PowerPoint 里改。
+
+```python
+from routekit import iso
+
+iso.iso_block(cv, x, y, *, w, d, h, acc, k=None,
+              levels=(0.86, 0.62, 0.42), line=True, lw=0.35, top=True)
+        # (x, y) = 前下左角；w 沿屏幕 +x，d 沿右上深轴，h 向上
+        # 返回 (top, front, side) 三个顶点表，便于往上贴图元
+iso.iso_layers(cv, x, y, *, w, d, layers=[(厚 mm, 色), ...], k=None, levels=…)
+        # 自下而上堆叠（土壤 / 含水层 / 沉积）；只有顶层画顶面；返回顶层顶点
+iso.iso_plane(cv, x, y, *, w, d, k=None, fill, line, lw)
+        # 单个平行四边形：地表、水面、田块
+iso.depth_vec(d, k=None)      # 进深向量；k=None 真等距 (0.866,−0.5)，k=0.5 → 2:1
+```
+
+- `k=None` 真等距 30°，用于"场景剖面"；`k=0.5` 2:1 俯视，更矮更稳，用于"平面地块/田块"。
+- 同一张图**只许用一种 k**，混用会立刻露出破绽。
+- 等距平面里的文字需要斜切，PPTX 只有旋转没有 shear → **标签一律水平放在体块外**，
+  用 0.5 pt 引线指过去；这是硬约束，不是风格选择。
+- 分层剖面务必让中间层 `top=False`（`iso_layers` 已自动处理），否则整摞像"被切片炸开"。
+
+## render3d（物体级 3D：plotly + kaleido 离线出图）
+
+`iso` 解决"空间关系"，`render3d` 解决"这个东西长什么样"（病毒、细胞、纳米颗粒、分子球棍）。
+plotly 7.1 + kaleido 1.5 本机实测可用（自带 Chromium，**不需要 GPU / OpenGL**）。
+
+```python
+from routekit import render3d as r3
+
+s  = r3.sphere((x, y, z), r, "#8fb4d2", n=28)        # Mesh3d
+cy = r3.cylinder((x0,y0,z0), (x1,y1,z1), r, "#9aa7b4")  # 两点圆柱（化学键、菌毛）
+fig = r3.ball_stick(atoms, bonds, width=760, height=620)
+        # atoms: [(x, y, z, r, colour)]；bonds: [(i, j)]，键半径 = min(r_i,r_j)*0.28
+r3.export(fig, "cell.png", scale=3)   # scale=3 ≈ 900×3 = 2700 px，放 11 cm 宽即 600 dpi
+```
+
+- 输出是**位图**，在 PPTX 里是图片，不可编辑；需要可编辑的立体感请用 `iso`。
+- 光照固定为单向 matte，禁加镜面高光 / 天空盒 / 地面阴影（与"纯色平涂"预设冲突）。
+- **分子必须喂真实坐标**（PDB / PubChem 导出），`ball_stick` 只负责画，不负责编结构。
+- `Mesh3d` 只接受一维数组：`sphere()` 内部已做展平 + 三角化，自己写时别传二维 `meshgrid`。
+
 ## audit / export
 
 ```python
